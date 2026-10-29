@@ -4,6 +4,7 @@
   try{mode=localStorage.getItem('rplace-theme')||'light';}catch(_){}
   function applyTheme(){document.documentElement.dataset.theme=mode;if(theme)theme.textContent=`Theme: ${mode}`;}
   applyTheme();if(theme)theme.onclick=()=>{mode=['light','dark','system'][(['light','dark','system'].indexOf(mode)+1)%3];try{localStorage.setItem('rplace-theme',mode);}catch(_){}applyTheme();};
+  const menu=document.querySelector('header .menu'),here=menu&&menu.querySelector('[aria-current]');const showHere=()=>{if(here&&menu.scrollWidth>menu.clientWidth)menu.scrollLeft+=here.getBoundingClientRect().left-menu.getBoundingClientRect().left-16;};(document.fonts?document.fonts.ready:Promise.resolve()).then(showHere);
   document.querySelectorAll('.page-run pre.text code, .page-run pre code.language-text').forEach(code=>{
     const copy=document.createElement('button');copy.type='button';copy.textContent='Copy prompt';
     copy.onclick=async()=>{try{await navigator.clipboard.writeText(code.textContent);copy.textContent='Copied';}catch(_){copy.textContent='Select and copy the prompt above';}};code.parentElement.after(copy);
