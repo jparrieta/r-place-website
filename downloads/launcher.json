@@ -1,0 +1,8 @@
+{
+  "filename": "rplace-interviews.zip",
+  "sha256": "ab14b2546ab706de39ce0d19ff90b708b49cb656a94811691196eef380395626",
+  "bytes": 43590667,
+  "files": 78,
+  "python": "3.11 or newer",
+  "bootstrap_sha256": "5c13d44966d610225f01f6403dd45afe202cb7d033fa6d4d36feab49a04a667e"
+}

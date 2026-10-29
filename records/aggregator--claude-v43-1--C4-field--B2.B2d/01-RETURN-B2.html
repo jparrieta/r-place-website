@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RETURN-B2.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/RETURN-B2.md</h1><p class="notice">Saved at <a href="../aggregator--claude-v43-1--C4-field--B2.B2d.html">B2.B2d: gold and stability check</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/c82b05eeae32436cc621ef87dbad3b0c5a362f029ea804c2f2b485b170ba679f.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/986c0bf4891c41b2ae985402d2763fec937b6a7e"><code>986c0bf4891c</code></a>, 2026-10-12T16:09:56+02:00. Saved-state date: 2026-10-12T14:09:45Z. Catalogue close receipt Commit date and saved-state date are distinct.</p></div><p><a href="https://github.com/jparrieta/r-place/blob/986c0bf4891c41b2ae985402d2763fec937b6a7e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/RETURN-B2.md">Original GitHub file</a>. Original SHA-256: <code>c82b05eeae32436cc621ef87dbad3b0c5a362f029ea804c2f2b485b170ba679f</code>. Reading-copy SHA-256: <code>c82b05eeae32436cc621ef87dbad3b0c5a362f029ea804c2f2b485b170ba679f</code>.</p><section class="record-copy"><h1
+id="return-b2-the-return-specification-for-the-stage-b2-pilot">RETURN-B2:
+the return specification for the stage B2 pilot</h1>
+<p>Frozen with the stage file. The packet builder serves it, the brief
+cites it, and the validator's schema is read from it.</p>
+<h2 id="rule-0-in-the-contracts-words">Rule 0, in the contract's
+words</h2>
+<p>Rule 0. <strong>Single placement, exception on the record.</strong> A
+second-order theme carries one third-order theme: the one whose gate its
+material satisfies best; where more than one gate is satisfied, the
+theme's <code>decide_when_both</code> field decides. A second placement
+only where one cannot carry the material, and never silently: it needs
+its own distinct supporting concept, a written <code>why_not_one</code>
+in terms of what the single placement would fail to carry, a named
+dispensable one, and a line in <code>multiplacement_log.jsonl</code>.
+Three at most; beyond three, place one and record
+<code>item-is-a-bag</code>. An unjustified extra is a defect. The log is
+a measurement: recurring <code>(primary, additional)</code> pairs are
+boundaries the scheme has not drawn, and stage C1 reads that table
+first.</p>
+<h2 id="what-you-return">What you return</h2>
+<p>One JSON line per item in the packet, in packet order, and nothing
+else between the lines. Read the index page whole first. Open a family's
+page before you place anything into it, and list the families you opened
+in <code>families_opened</code>.</p>
+<ul>
+<li><code>sub</code>, <code>theme_id</code>: the item's heading,
+<code>&lt;sub&gt;/&lt;theme_id&gt;</code>, copied exactly: the room's
+name, then the item's id (<code>T2-</code> and five digits, such as
+<code>T2-08479</code>).</li>
+<li><code>batch</code>: the packet name (the name on the packet's title
+line, such as <code>P03-r3-1</code>). <code>agent</code>: your reader id
+as given to you. <code>replicate</code>: 1. <code>position</code>: the
+item's number in the packet.</li>
+<li><code>third_order</code>: the theme ids you place the item on,
+primary first. One id, unless rule 0's exception holds; never more than
+three.</li>
+<li><code>multi</code>: true when <code>third_order</code> holds more
+than one id.</li>
+<li><code>why</code>: for each id in <code>third_order</code>, what
+about THIS item put it there rather than its nearest neighbour.</li>
+<li><code>confidence</code>: <code>clear</code> or
+<code>arguable</code>.</li>
+<li><code>read</code>: <code>whole</code> (you read the label, the note
+and every concept) or <code>theme-block</code> (the label and note, and
+the concepts in part).</li>
+<li><code>exemplar_read</code>: null. No exemplar is served at this
+stage.</li>
+<li><code>families_opened</code>: the family ids whose pages you opened
+for this item.</li>
+<li><code>t_start</code>, <code>t</code>: when you began and finished
+the item (ISO time, as you can tell it).</li>
+<li><code>support</code>: the concept ids your placement rests on,
+copied exactly from the item's own concept lines (<code>C</code> and
+seven digits, such as <code>C0781518</code>). Cite only concepts listed
+under the item you are placing; an id from another item, or one you do
+not see in the packet, is an error.</li>
+<li><code>multiplacement_log</code>: null when <code>multi</code> is
+false. When <code>multi</code> is true, this is the line rule 0 owes to
+<code>multiplacement_log.jsonl</code>:
+<code>{"primary": "T3-…", "additional": ["T3-…"], "codes": ["C…"], "why_not_one": "what the single placement would fail to carry", "dispensable": "T3-…"}</code>.
+The check leg copies it into the pilot's record. It never enters the
+run's own <code>multiplacement_log.jsonl</code> from stage B1.</li>
+<li><code>item_is_a_bag</code>: true only when more than three themes
+would be needed and at least one theme beyond the one placed has three
+concepts of its own. Then <code>third_order</code> holds one id and
+<code>why</code> names the others. A bag with no other theme at the
+three-concept floor is not flagged a bag: <code>item_is_a_bag</code>
+false, <code>also_present</code> <code>{}</code>.</li>
+<li><code>also_present</code>: <code>{}</code> unless
+<code>item_is_a_bag</code> is true. For a bag, the themes beyond the one
+placed that have at least three concepts of its own, twenty themes at
+most, each with those concept ids:
+<code>{"T3-…": ["C…", "C…", "C…"]}</code>. Twenty is a bound, not a
+goal: name only the themes you find at the floor; you need not reach
+twenty. A theme with fewer than three concepts of its own is not listed.
+<code>support</code> holds the concepts behind the placed theme; a theme
+in <code>also_present</code> never repeats the placed one.</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;sub&quot;</span><span class="fu">:</span> <span class="st">&quot;...&quot;</span><span class="fu">,</span> <span class="dt">&quot;theme_id&quot;</span><span class="fu">:</span> <span class="st">&quot;T2-.....&quot;</span><span class="fu">,</span> <span class="dt">&quot;batch&quot;</span><span class="fu">:</span> <span class="st">&quot;P03-r3-1&quot;</span><span class="fu">,</span> <span class="dt">&quot;agent&quot;</span><span class="fu">:</span> <span class="st">&quot;...&quot;</span><span class="fu">,</span> <span class="dt">&quot;replicate&quot;</span><span class="fu">:</span> <span class="dv">1</span><span class="fu">,</span> <span class="dt">&quot;position&quot;</span><span class="fu">:</span> <span class="dv">23</span><span class="fu">,</span> <span class="dt">&quot;third_order&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;T3-007&quot;</span><span class="ot">]</span><span class="fu">,</span> <span class="dt">&quot;multi&quot;</span><span class="fu">:</span> <span class="kw">false</span><span class="fu">,</span> <span class="dt">&quot;why&quot;</span><span class="fu">:</span> <span class="fu">{</span><span class="dt">&quot;T3-007&quot;</span><span class="fu">:</span> <span class="st">&quot;what about THIS theme put it here rather than its nearest neighbour&quot;</span><span class="fu">},</span> <span class="dt">&quot;confidence&quot;</span><span class="fu">:</span> <span class="st">&quot;clear|arguable&quot;</span><span class="fu">,</span> <span class="dt">&quot;read&quot;</span><span class="fu">:</span> <span class="st">&quot;whole|theme-block&quot;</span><span class="fu">,</span> <span class="dt">&quot;exemplar_read&quot;</span><span class="fu">:</span> <span class="kw">null</span><span class="fu">,</span> <span class="dt">&quot;families_opened&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;G03&quot;</span><span class="ot">,</span> <span class="st">&quot;G09&quot;</span><span class="ot">]</span><span class="fu">,</span> <span class="dt">&quot;t_start&quot;</span><span class="fu">:</span> <span class="st">&quot;...&quot;</span><span class="fu">,</span> <span class="dt">&quot;t&quot;</span><span class="fu">:</span> <span class="st">&quot;...&quot;</span><span class="fu">,</span> <span class="dt">&quot;support&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;C0781518&quot;</span><span class="ot">]</span><span class="fu">,</span> <span class="dt">&quot;multiplacement_log&quot;</span><span class="fu">:</span> <span class="kw">null</span><span class="fu">,</span> <span class="dt">&quot;item_is_a_bag&quot;</span><span class="fu">:</span> <span class="kw">false</span><span class="fu">,</span> <span class="dt">&quot;also_present&quot;</span><span class="fu">:</span> <span class="fu">{}}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="er">END-OF-RETURN</span></span></code></pre></div>
+<p>After your last line, write the end marker <code>END-OF-RETURN</code>
+on a line of its own. Confirm that you reached the end of the packet by
+writing that marker; a return without it is a partial return and is
+reissued.</p>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

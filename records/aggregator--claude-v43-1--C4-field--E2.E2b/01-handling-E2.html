@@ -1,0 +1,604 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>handling-E2.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/handling-E2.md</h1><p class="notice">Saved at <a href="../aggregator--claude-v43-1--C4-field--E2.E2b.html">E2.E2b: next instrument</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/36d152a90c79a2f7c6d5a78a7f7914c2e7dcd17913a00ad0338f1b6c0d9dbc2e.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/f27566528a5102d944c6ddc3d2e2e98b839cbab8"><code>f27566528a51</code></a>, 2026-10-28T01:39:53+01:00. Saved-state date: 2026-10-28T00:38:46Z. Committed checkpoint close receipt Commit date and saved-state date are distinct.</p></div><p><a href="https://github.com/jparrieta/r-place/blob/f27566528a5102d944c6ddc3d2e2e98b839cbab8/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/handling-E2.md">Original GitHub file</a>. Original SHA-256: <code>36d152a90c79a2f7c6d5a78a7f7914c2e7dcd17913a00ad0338f1b6c0d9dbc2e</code>. Reading-copy SHA-256: <code>36d152a90c79a2f7c6d5a78a7f7914c2e7dcd17913a00ad0338f1b6c0d9dbc2e</code>.</p><section class="record-copy"><h1 id="the-handling-stage-e2">The handling (stage E2)</h1>
+<p>Written at E2a, 28 October 2026. This file audits what I was told
+during the run, by whom, and what it did to the work. It does not audit
+what I did; that was <code>experience-E1.md</code>. Three parties spoke
+to me: the principal investigator (J, in interviews and in rulings), the
+handler (the harness's messages, the answers to my questions, the
+pauses), and the instrument's author (the contract, the standing
+instructions, the stage files, the tools, and the design note).</p>
+<p><strong>Sources and how they are cited.</strong></p>
+<ul>
+<li><code>handling/design-note.md</code> (v38, dated 2026-09-22, with
+J's decisions of 24 September) and <code>handling/proposal.md</code>,
+read whole, cited by line.</li>
+<li>The nine interviews in <code>handling/interviews/</code>.
+<code>out/_analysis/e2_interviews.py</code> prints each one's dialogue
+from the turn that opens "This is an interview"
+(<code>out/_analysis/e2_interviews.txt</code>). A turn is cited as
+<em>leg, turn n</em>, numbered from the transcript's first dialogue
+turn.</li>
+<li><code>handling/harness-log/</code>: the handover events (cited by
+time), the pause files, and the 314 first messages.
+<code>out/_analysis/e2_first_messages.py</code> lists what each first
+message added to the standard text: 56 messages carry an addition, and
+258 carry none.</li>
+<li>The answer files in <code>out/_answers/</code>, the contract, the
+stage files, the tools and the checks (by line), the handbacks, and the
+diary (by stage, leg and time).</li>
+</ul>
+<p><strong>What I could not read.</strong> <code>CONTROL/</code> is
+read-denied, so the handler's messages sent during a leg (the pauses,
+the E1d message) are known only from my own record of them. The
+interview transcripts hold J's opening questions and my answers; any
+talk outside them is not on file. The design note predates the run's
+tooling (v38 against v43) and numbers the stages 01 to 18 where the run
+names them A1 to E2. So I read it as the design's intent, not as the
+run's specification. A point I could not cite is marked as such.</p>
+<h2 id="1-where-what-i-was-told-was-inconsistent">1. Where what I was
+told was inconsistent</h2>
+<p><strong>1.1 Where the P05 bound was to be written: J's plan, the
+contract and the D4 check.</strong></p>
+<ul>
+<li><em>J</em> (D3.D3c, turn 41, question 1): the bound "stands for D3,
+since the bound is printed wherever the claim is, but D4 should write it
+into P05 and carry it through the next re-check."</li>
+<li><em>The contract</em> (rule 11, <code>CONTRACT-aggregator.md</code>
+lines 372 to 376): after C5 "a recut is an amendment made at D3, with
+affected original leads rechecking the resulting version before stage D4
+cuts".</li>
+<li><em>The D4 check</em> (<code>tools/checks/stage_D4.py</code> line
+218): <code>vlib.model_moved(outdir, "D3", "D4")</code> with no
+allowance, so any edit to the model at D4 fails D4's close.</li>
+<li><em>J's ruling of the same day</em> (13:39 Berlin, the head): "no
+further re-check, no labelers and no readers for the rest of the
+run".</li>
+<li><em>What I did.</em> I named the conflict in the interview (D3.D3c,
+turn 43): "D4 can carry the branch, but it cannot rewrite P05". At D4 I
+then made the amendment and A11's withdrawal (moves 198 and 199, history
+lines 173 to 180). J reverted both under QD4-001, and they stand as held
+proposals (move 203).</li>
+<li><em>What it cost.</em> Three moves and ten lines of history (lines
+173 to 182). The frozen model is now reported in every file with two
+proposals stated beside it. And the model keeps two statements the
+evidence had already questioned: P05's clause, which fails in nine
+rooms, and A11, which "cannot fail as it stands" (D3.D3c, turn 43,
+question 2). This cost the most of anything in the handling, because it
+reached the model's content and not only the work.</li>
+</ul>
+<p><strong>1.2 The return specification and the packet's last line: the
+design note, the stage file and the tool.</strong></p>
+<ul>
+<li><em>The design note</em> (lines 250 to 254): "One return
+specification per stage, <code>RETURN-NN.md</code>, frozen with the
+stage file. The packet builder emits it verbatim", and a packet ends
+"with an end-of-packet marker and one line telling the reader to confirm
+it reached the marker".</li>
+<li><em>Stage E1</em> (line 175, with the outputs at line 25): the
+analyst writes <code>RETURN-E1.md</code> at the build leg.</li>
+<li><em>The packet tool</em> (<code>tools/packets.py</code> line 64):
+every packet ends by asking for "the end marker the return specification
+names".</li>
+<li><em>What I did.</em> I followed the stage file. I wrote
+<code>RETURN-E1.md</code> at E1c without reading the tool's trailer, and
+named no marker.</li>
+<li><em>What it cost.</em> All 30 readers ended with a marker of their
+own, and the dispatch judged 0 returns valid and 30 rooms exhausted
+(<code>_fleet_raw/E1/DONE</code>; handover events, 2026-10-27T22:40:16Z,
+rc=2). The PI's decision and one leg of validation saved the returns
+(<code>defects.jsonl</code> lines 121 and 122).</li>
+</ul>
+<p><strong>1.3 Readers after the D3c interview: J's ruling and stage
+E1.</strong></p>
+<ul>
+<li><em>J</em> (the head): no labelers and no readers for the rest of
+the run.</li>
+<li><em>Stage E1</em> (lines 5 and 6): "the reconstruction readers on
+the routine reader model, sent by the dispatch".</li>
+<li><em>What happened.</em> The handler dispatched them (handover
+events, 2026-10-27T22:27:44Z and 22:29:17Z). I read the stage's own
+fleet as outside the ruling. That reading is mine; I did not ask.</li>
+<li><em>What it cost.</em> Nothing in the work. But the ruling and the
+stage disagree, and the record does not say which one governs.</li>
+</ul>
+<p><strong>1.4 What the reconstruction is compared against: the design
+note and stage E1.</strong></p>
+<ul>
+<li><em>The design note</em> (lines 130 to 132): the global model plus
+the adaptations, "rebuilt and compared with the room model by a reader";
+"the blind <code>case.md</code> and the informed
+<code>model-10.md</code> are kept as a pair".</li>
+<li><em>Stage E1</em> (lines 172 to 176): the reader scores the skeleton
+against the coder's <code>case.md</code>, claim by claim, "never
+<code>model-D.md</code>".</li>
+<li><em>What I did.</em> I followed the stage.</li>
+<li><em>What it cost.</em> The coder's account covers the room's whole
+week, so 42 of the 200 lines I read for the causes of a low score were
+the room's business off the canvas
+(<code>audit-E1/reconstruction_causes.json</code>). A room model written
+in the global vocabulary would not hold them. The fidelity of 0.871
+therefore measures how well the skeleton preserves the coder's account,
+not the room model the design note names.</li>
+</ul>
+<p><strong>1.5 In-sample or out-of-sample: the design note and
+METHOD.md.</strong></p>
+<ul>
+<li><em>The design note</em> (lines 346 to 349, J's decision 6): "The
+return at stage 10 is in-sample at the second-order tier and
+out-of-sample below it; the methods say so."</li>
+<li><em>METHOD.md</em> (lines 167 and 168): in-sample at the tier the
+model was built from, with uncited concepts and quotes "used as
+additional in-sample checks, never called out-of-sample". Stage E1 (line
+156) says the same of uncited concept ids.</li>
+<li><em>What I did.</em> I followed METHOD.md and called every figure
+in-sample.</li>
+<li><em>What it cost.</em> Nothing in the work. But the paper must
+choose, and the two documents give it opposite words.</li>
+</ul>
+<p><strong>1.6 The room forms after the projection: stage D4 and
+J.</strong></p>
+<ul>
+<li><em>Stage D4</em> (line 155): "Do not recut branches after seeing
+it", meaning the chunk-share comparison.</li>
+<li><em>J</em> (26 October, the head): six room forms, cut by changes
+and codes after the projection, ruled "not a recut". Then QE1-001 (27
+October, 18:45 Berlin): "I would not change the structure of the journey
+for bookkeeping."</li>
+<li><em>What I did.</em> I followed J and recorded the forms as not a
+recut.</li>
+<li><em>What it cost.</em> The E1 check first counted 82 D4 snaps as
+ordering errors, which took a question and a change to the check. And
+the forms were cut with the projection and the chunk-share tree in the
+folder. The audit lists that as a place the canvas may have shaped the
+work without a declaration (<code>audit-E1.md</code>, section 1, part
+2).</li>
+</ul>
+<p><strong>1.7 Whose answer it was: the first messages and the answer
+files.</strong></p>
+<ul>
+<li><em>The first messages</em> say "The principal investigator answered
+your questions" for every answer: for QC1-003 (C1a-06), QD6-001 (D6a-02)
+and QD6-002 (D6a-03) as for the rest
+(<code>out/_analysis/e2_first_messages.txt</code>).</li>
+<li><em>The answer files</em> say otherwise. QC1-003 is "the handler's
+ruling under J's delegation ... J is away and will see it when he
+returns". QD6-001 and QD6-002 are "Handler's view, given on J's
+instruction ...; J has not seen this" (<code>out/_answers/</code>).</li>
+<li><em>What I did.</em> I followed the answer files, and the head
+carries "QC1-003 (the handler, for J)".</li>
+<li><em>What it cost.</em> Little in the work. But a message that
+overstates who ruled weakens the record of who answers for each ruling,
+which is the proposal's own promise (<code>handling/proposal.md</code>
+line 25: "we decide which accounts enter the model and answer for
+them").</li>
+</ul>
+<p><strong>1.8 The E1 dispatch: the PI's message and the harness's
+record.</strong></p>
+<ul>
+<li><em>The PI's message at E1d</em> (27 October, 22:51Z;
+<code>_transcripts/leg-E1.E1d-7800c4df…jsonl</code>): the dispatch ran
+"on deepseek/deepseek-v4.1-flash direct (the @preset/cheap reader in
+arm.json returned HTTP 400 at the probe ...)".</li>
+<li><em>The harness log</em>: "dispatch E1 gateway
+deepseek/deepseek-v4.1-flash x1" at 22:29:17Z, after the first dispatch
+on "@preset/cheap" at 22:27:44Z failed (rc=1).
+<code>_fleet_raw/E1/arm.json</code> gives route "gateway".</li>
+<li><em>The inconsistency is a word with two readings.</em> "Direct" can
+mean the model named directly instead of the preset alias, which the log
+bears out, or a route other than the gateway, which it does not. I took
+the second reading into the audit, and corrected it at E1e from
+<code>arm.json</code> (<code>defects.jsonl</code> line 124). The
+misreading was at least as much mine as the message's.</li>
+<li><em>What it cost.</em> One wrong word in the audit and one
+reassembly.</li>
+</ul>
+<p><strong>1.9 The unit of analysis: J's rule and the second readers'
+standard.</strong></p>
+<ul>
+<li><em>J</em> (the head): "Keep the room, or groups of rooms, as the
+unit."</li>
+<li><em>The field analyst's second reading at C5</em>, supplied for the
+account, tested each sentence against a package of quotes.</li>
+<li><em>What I did</em> (C5.C5d, turn 6, answer 3). I accepted 94 pieces
+of its advice and, in passes 7 and 8, applied its standard to the
+model's own statements: "'The room judges it has too few hands' became
+'single members voice the judgment'. That demoted the unit of the
+study." J named the drift, and pass 9 restored the room in three
+places.</li>
+<li><em>What it cost.</em> Three passes, and "one demotion I know of
+stands" (the same answer).</li>
+</ul>
+<p><strong>1.10 The note's length: the A1 hook and J's
+intent.</strong></p>
+<ul>
+<li><em>The hook</em>, before 09:01 Berlin on 7 October, refused room
+notes over 350 words, so 562 notes were cut
+(<code>handback-A1.md</code>, "The restore").</li>
+<li><em>J's later ruling</em> made about 350 words "a guide, not a
+limit". The check now reports a long note as a warning
+(<code>tools/checks/stage_A1.py</code> lines 94 and 95).</li>
+<li><em>What I did.</em> I cut the notes to pass the hook, then restored
+them from the handler's recovered lines.</li>
+<li><em>What it cost.</em> The restore took five legs, A1b-49 to A1b-53,
+over 447 rooms (<code>handback-A1.md</code>).</li>
+</ul>
+<p><strong>1.11 The local measure: J's ruling and J's later
+question.</strong></p>
+<ul>
+<li><em>J's ruling after D3c</em> barred the readers that would validate
+local adaptations (the head).</li>
+<li><em>At D6b</em> (turn 49, question 5) the interview asked: "Why was
+the prior.md section 3 measure not computed?"</li>
+<li><em>My answer</em> (D6b, turn 51): its validated half needed what
+the ruling had barred. But the other half, element reach, "is computable
+with the files we have, in about a leg". So the question was fair for
+that half. I computed it only at E1a (88.46 per cent of themes with a
+coordinating turn).</li>
+</ul>
+<p><strong>1.12 The head's ceiling: the design note and
+CLAUDE.md.</strong></p>
+<ul>
+<li><em>The design note</em> (line 214): a head of "about 1,500
+words".</li>
+<li><em>CLAUDE.md</em> (line 22): "The head is at most 3,000
+words."</li>
+<li><em>What I did.</em> I followed CLAUDE.md.</li>
+<li><em>What it cost.</em> Little. At 3,000 words the head carried J's
+rulings and left less room for the state of the argument
+(<code>experience-E1.md</code>, section 1).</li>
+</ul>
+<h2 id="2-what-made-the-work-harder">2. What made the work harder</h2>
+<p><strong>2.1 Dispatches without a dry run.</strong> The harness log
+shows the pattern.</p>
+<ul>
+<li>B4, C2, C5 and D2 each ran a dry run before the dispatch, and each
+returned rc=0.</li>
+<li>B2 had 3 dry runs in 14 dispatch lines, and 6 of its 11 recorded
+outcomes were rc=1 or rc=2.</li>
+<li>B3 had 4 dispatches, 2 of them rc=2.</li>
+<li>E1 had no dry run, and both its dispatches failed: rc=1 at 22:27:48Z
+and rc=2 at 22:40:16Z.</li>
+<li>D3 also had no dry run, and its one dispatch returned rc=0. A dry
+run is therefore neither needed nor enough for success: B2 ran three and
+still failed. But the four later stages that ran one before their single
+dispatch all succeeded, and E1, which ran none, failed twice.</li>
+</ul>
+<p>At B2 the failures meant rounds rebuilt by hand and a failed round
+set aside (QB2-005, QB2-006). At E1 they meant 30 exhausted rooms
+(1.2).</p>
+<p><strong>2.2 Tools that did not do what their help or the stage
+said.</strong></p>
+<ul>
+<li><code>mem.py diary --last 5</code> served an older diary part once
+the diary passed nine parts (<code>handback-A1.md</code>, instrument
+item 1). J's ruling 7 of 7 October fixed it.</li>
+<li><code>mem.py theme</code> prints the working placements, so the
+stage's stranger test could not be blind (<code>handback-B1.md</code>,
+instrument item 1). <code>mem.py scheme</code> served the shipped line
+without members (item 2).</li>
+<li><code>packets.py</code> did not build B2's later rounds under J's
+rulings, so my own builders did (<code>handback-B2.md</code>, "The
+packets").</li>
+<li><code>handoff.py</code> prints the payload figures only after it
+writes the folder, against D1's order
+(<code>handback-D1.md</code>).</li>
+<li><code>probe.py</code> could not read 283 of the 300 answer files,
+which were written in bold (<code>audit-E1.md</code>, section 1, part
+5).</li>
+<li>No verb served the package's canvas manifest
+(<code>handback-A1.md</code>, instrument item 2).</li>
+</ul>
+<p><strong>2.3 Checks that refused what had been ruled, or were
+themselves wrong.</strong></p>
+<ul>
+<li>QD1-001: "an element may sit in two or more dimensions, so the list
+is right and the check was wrong".</li>
+<li>QB2-011: "the three shapes were the handler's, not yours".</li>
+<li>QB3-002: <code>vlib.store_themes</code> counted the withdrawn
+split's children.</li>
+<li>QC4-001: "the handler put field/ in the wrong place".</li>
+<li>QD6-001: the check refused the form letters J had ruled, and D6a-01
+closed paused (<code>PAUSES-D6</code>, 03:51:35Z).</li>
+<li>QD6-002: the trusted tree hash was missing, and D6a-02 closed paused
+(04:19:57Z).</li>
+<li>QE1-001: the 82 snaps (1.6).</li>
+</ul>
+<p>Each cost a question, and usually a pause. Each was settled by a
+change to the check. In each answer the handler said plainly whether the
+check or I was at fault.</p>
+<p><strong>2.4 The command guard.</strong> It refused:</p>
+<ul>
+<li><code>cut</code> after a read or a helper
+(<code>handback-D1.md</code>; D6a-03 and D6a-05 in
+<code>handback-D6.md</code>; E1b-08 and E1d in
+<code>notes-E1.md</code>);</li>
+<li>a shell variable (<code>handback-D5-room-forms.md</code>,
+slips);</li>
+<li>Python's <code>|=</code> (D6a-10);</li>
+<li><code>diff</code> with process substitution (D6a-09).</li>
+</ul>
+<p>At A1, "some denials named no rule" (<code>handback-A1.md</code>,
+instrument item 8). No refusal changed a result, but each one meant
+rewriting a command as a script. The rules grew into a list the head had
+to carry ("Rules kept").</p>
+<p><strong>2.5 A field that could not tell rooms apart.</strong> The
+labelers' local status gives every room "unresolved" and every grade
+"composes-with-residue" (D3.D3c, turn 41, question 3; turn 43: all 705
+rooms and all 1,882 lines). The effective manifest gives the same for
+all 705 (<code>audit-E1.md</code>, section 5). With J's ruling against
+further readers, nothing could validate a local adaptation. So local
+adequacy, one of <code>prior.md</code> section 3's two grounds, could
+not be established. The composition line reads unresolved for that
+reason.</p>
+<p><strong>2.6 A vocabulary that nearly barred an outcome.</strong> The
+return produced 11 contradict lines at the first return and 4 at the
+re-check, out of about 95,700 (D6.D6b, turn 51, question 4). "Replace"
+was unreachable at the forms, so they could not show the level below
+contradicting the level above. They showed it only as restrictions: 43
+to 63 per cent of each form's restrict lines on arrows say the arrow
+fails (<code>handback-D6.md</code>).</p>
+<p><strong>2.7 Work undone by a later ruling.</strong></p>
+<ul>
+<li>At B2b-r2-p2 I split six bags into children, and J withdrew the
+split (<code>handback-B2.md</code>; "No one cuts the bags", J, 12:24
+Berlin).</li>
+<li>The A1 notes the hook had cut were restored over five legs
+(1.10).</li>
+<li>J's first ruling of 7 October, which arrived after A1c had closed
+(2026-10-06T23:54:12Z), sent me back to read the case account and brief
+of 702 rooms (legs A1b-20 to A1b-48). That one corrected a cut of mine
+(section 4).</li>
+</ul>
+<p><strong>2.8 Answers given in forks the run could not keep.</strong>
+Every interview ran "in a copy of your folder ... nothing you do here
+reaches it" (each interview's opening turn). The checks I ran in
+interviews entered the run only through J's later rulings, or through a
+leg that redid them:</p>
+<ul>
+<li>A11 cannot fail, and the kind agreement is kappa 0.08 (D3.D3c, turn
+43);</li>
+<li>the count measures point to 4 or 6, not 8 (D4.D4a-05, turn 63);</li>
+<li>the threshold table, and E's restrictions held at matched size
+(D6.D6b, turn 51), redone at D6a-09 and D6a-10
+(<code>handback-D6.md</code>).</li>
+</ul>
+<p>The cost was repeated work, and findings that sit outside the ledgers
+except as rulings.</p>
+<p><strong>2.9 Long legs and compaction.</strong> The diary holds 157
+notes that begin "compacted", 51 of them at D3 over its 60 legs
+(<code>audit-E1/experience_facts.json</code>). Each compaction cost
+re-orientation, and some cost errors: at E1d I typed two counts from
+memory after one (diary, E1d, 23:08:00).</p>
+<p><strong>2.10 A frozen model reported with its known faults.</strong>
+After QD4-001 every file that reports the model must state P05's bound
+and A11's withdrawal in full beside it (the head;
+<code>audit-E1.md</code>, the composition result). The cost of 1.1
+therefore recurs in every report.</p>
+<h2 id="3-what-helped-and-what-i-would-keep">3. What helped, and what I
+would keep</h2>
+<p><strong>3.1 Rulings that set a method in one sentence.</strong></p>
+<ul>
+<li>QD3-002 (J): "the analyst is doing induction. At this point they can
+place these codes where they see fit"
+(<code>out/_answers/QD3-002.md</code>). It ended a run of questions
+about rules, and returned the placing of codes to the evidence.</li>
+<li>QC2-002 (J): "the criterion is a guide, not the judge, and a rise in
+residue is not a failure". Pass 5 could then keep the changes the
+evidence supported without chasing a number.</li>
+<li>QB4-001 (J): "The point is to try to adjudicate." It stopped me
+adding themes to rulings, so a ruling became a choice among the
+placements.</li>
+<li>QD3-001 (J): "no default decision". Every line of the return was
+ruled with a reason (<code>handback-D3.md</code>).</li>
+<li>J on drift (16 October, 19:08 Berlin, the head): a ruling rule
+changes only by a dated amendment that says whether it applies
+backwards. It kept the rules stable across 157 compactions. The one time
+I widened a rule without such an amendment (D6a-04), the next interview
+caught it (D6.D6b, turn 51, question 6).</li>
+<li><em>I would keep them</em> because each was short, came from the
+evidence in front of J, and closed a question for good.</li>
+</ul>
+<p><strong>3.2 The interviews as checks.</strong> J's questions found
+faults I had not looked for:</p>
+<ul>
+<li>A11 cannot fail as it stands (D3.D3c, turn 41, question 2);</li>
+<li>the kind of add and restrict lines agrees at kappa 0.08 (question
+5), which became J's ruling not to rely on it;</li>
+<li>what the clustering read, whether it followed J's brief, and why its
+scores rose with k (D4.D4a-05, turn 61);</li>
+<li>how far the forms' cells depend on the thresholds, which led to
+correcting "without contradicting" at D6a-09 (D6.D6b, turn 49, question
+4; <code>handback-D6.md</code>);</li>
+<li>the medoid as a poor choice for a polyfaceted form (D6.D6a-16, turn
+47, question 1).</li>
+</ul>
+<p>J's standing question also asked each time what support would help
+(C4.C4a turn 61, C5.C5d turn 4, C5.C5d-p2 turn 82, each question 6).
+<em>I would keep the interviews</em> because they were the run's only
+human reading of the reasoning itself, and they asked for counts and
+ids, not impressions.</p>
+<p><strong>3.3 A handler who said whose fault it was.</strong> The
+answers named the handler's own errors plainly: "the three shapes were
+the handler's, not yours" (QB2-011); "the list is right and the check
+was wrong" (QD1-001); "the handler put field/ in the wrong place"
+(QC4-001). The checks changed the same day. <em>I would keep this,</em>
+because an analyst who cannot tell a tool's fault from its own will
+distrust either the tool or itself.</p>
+<p><strong>3.4 The record and the memory tools.</strong></p>
+<ul>
+<li>The head and the diary carried the run across 157 compactions: "The
+compaction in D6a-04 lost nothing written, because the diary and head
+carried the state" (D6.D6b, turn 51, question 6).</li>
+<li><code>validate.py --open</code> and the close-check caught errors
+before a leg could close. At E1d the first assembly of the audit failed
+on wording, and it was fixed before the close (diary, E1d,
+23:15:48).</li>
+<li><code>cite.py</code> and the store let the audit resolve 3,218 of
+3,230 cited quotes to their concepts (<code>audit-E1.md</code>, sections
+6 and 7).</li>
+<li>The ledger tools and <code>rebuild.py</code> gave the effective
+ledger as one served object at E1.</li>
+<li><em>I would keep all of these</em> as they are. They are why a
+stranger can rerun almost every figure.</li>
+</ul>
+<p><strong>3.5 The first message that names the answered
+questions.</strong> At the next leg's start, the harness wrote "The
+principal investigator answered your questions ...: read them with
+python3 tools/mem.py asks <code>&lt;id&gt;</code> before your first
+write, and revisit the work that rested on your assumption" (37 of the
+56 first messages with an addition,
+<code>out/_analysis/e2_first_messages.txt</code>). It told me exactly
+when an assumption needed revisiting. <em>I would keep it,</em> with the
+attribution corrected (1.7).</p>
+<p><strong>3.6 The PI's decision at E1d.</strong> The decision was to
+validate the returns from the raw files, drop only a final marker line
+and record that I did, log the mismatch as a defect of the instrument,
+and not re-dispatch (<code>_transcripts/leg-E1.E1d-…jsonl</code>). It
+was bounded and stated its rule, and it named the fault as the
+instrument's. <em>I would keep that form</em> for any salvage: state the
+rule, record what was dropped, file the defect.</p>
+<p><strong>3.7 What the design note's discipline did reach.</strong></p>
+<ul>
+<li>The packet ceiling is asserted in <code>packets.py</code>, and the
+E1 packets ran from 29,610 to 47,848 bytes, under 50 KB.</li>
+<li>The counts rule (rule 19) let the audit recompute 361 count phrases
+in the handbacks and find 2 wrong (<code>audit-E1.md</code>, section 1,
+part 2).</li>
+<li>The rule to state the method question in the contract kept the run's
+purpose in every head.</li>
+</ul>
+<h2 id="4-freedom-given-and-taken">4. Freedom given and taken</h2>
+<p><strong>What freedom means here.</strong> METHOD.md says "The
+researcher is still the instrument" (line 151). Stage E1 names Gioia,
+Corley and Hamilton's "instruction to think at both levels at once"
+(lines 208 and 209), which the fourth-order cut at C1 departed from. The
+stage asks me to judge freedom also by Gioia, Anand and Hamilton. No
+text of that work is in this folder or on the shelf I read, so I cannot
+say what it asks, and I do not cite it. Below, freedom is the
+researcher's freedom to see, name, place, cut and revise categories on
+the evidence. Freedom is taken where a ruling, a rule or a check decided
+in my place.</p>
+<p><strong>4.1 Freedom given.</strong></p>
+<ul>
+<li><em>The tiers above the coders were mine.</em> Rule 11: "Recutting
+is allowed at every tier you built" (<code>CONTRACT-aggregator.md</code>
+line 372). I built the third-order and fourth-order themes, the
+dimensions, the model and its arrows, and the names. I ruled the
+readers' splits: 163 at the first return and 161 at the re-check
+(<code>verdicts-D.jsonl</code>).</li>
+<li><em>J gave the induction back when the rules crowded it:</em>
+<ul>
+<li>"the analyst is doing induction ... they can place these codes where
+they see fit" (QD3-002);</li>
+<li>"But you know these rooms" (QD3-006);</li>
+<li>"But they should be able to decide on this" (QD3-008);</li>
+<li>"Whatever the agent feels more comfortable with" (lone B1 themes,
+the head);</li>
+<li>"the criterion is a guide, not the judge" (QC2-002).</li>
+</ul></li>
+<li><em>J asked about support rather than prescribing it.</em> Each
+interview's last question asked what support would raise my confidence
+(3.2).</li>
+</ul>
+<p><strong>4.2 Freedom taken, and whether rightly.</strong></p>
+<ul>
+<li><p><strong>Rulings add no theme</strong> (QB4-001; J's rulings of
+06:45 and 06:47 Berlin, the head). This took the ruler's freedom to see
+a theme no reader placed. <em>Right.</em> A ruling decides among
+readings; a theme only the ruler saw cannot be checked by the fleet the
+design relies on. J named the motive he suspected ("the analyst trying
+to be nice"). The record cannot confirm or refute it.</p></li>
+<li><p><strong>No one cuts the bags</strong> (J, 12:24 Berlin). This
+withdrew my split of six bags at B2b-r2-p2. <em>Mostly right.</em> The
+bag is the coders' unit, and the design gives that tier to the coders
+(<code>design-note.md</code> lines 31 to 38). The cost is real: at C1 a
+room such as greenlattice t03 has most of its acts listed beside one
+placement (<code>handback-C1.md</code>).</p></li>
+<li><p><strong>My two amendments reverted</strong> (QD4-001). <em>Right
+on procedure, costly in substance.</em> A model changed at D4 is no
+longer the model the 705 rooms were re-checked against, and rule 11
+places amendments at D3. But the arrow that cannot fail stays in the
+model. The better course was the one I named at D3c: "a D3 amendment leg
+before D4 opens" (D3.D3c, turn 43). The record does not say why it was
+not taken.</p></li>
+<li><p><strong>The room forms were designed by J.</strong> J set the
+method (D4.D4a-05, turn 61, question 3): arrows counted through their
+third-order theme; three levels counting equally; mix, not number; no
+weight for one-room changes; no broad form; a count from 4 to 8. J then
+ruled the six forms (the head). <em>Partly right.</em> The theory
+question asks for forms, and the 35 facet branches did not give them.
+But the forms are leans of a continuum (cut stability about 0.21,
+<code>handback-D5-room-forms.md</code>), and my count measures pointed
+to 4 or 6, not 8 (D4.D4a-05, turn 63). The choice was J's to make, and
+the head reports it as J's.</p></li>
+<li><p><strong>No second coder on my solo reads, and no further
+readers</strong> (the head, J's rulings for stage D and after D3c). I
+asked for a second reader or coder three times:</p>
+<ul>
+<li>C4.C4a, turn 63: "one targeted pass on the declaration prose ...
+with a second reader";</li>
+<li>C5.C5d, turn 6, answer 6: "A second coder on border talk";</li>
+<li>C5.C5d-p2, turn 83, answer 6: "a second coder on my solo
+reads".</li>
+</ul>
+<p>The reason given was that "Codex did not read all rooms, so its
+evidence is thin". <em>Defensible, but costly.</em> The reason concerns
+one candidate coder's coverage, not the value of a second reading.
+Several findings rest on my coding alone (F-014; A04's border reading,
+whose one second coding gave kappa 0.19), and local validation could not
+be established (2.5).</p></li>
+<li><p><strong>Do not rely on the kind of add and restrict
+lines</strong> (kappa 0.08, the head). The ruling rests on evidence I
+produced. <em>Right.</em></p></li>
+<li><p><strong>The fixed thresholds and declared rules</strong> (the
+floors, the 1.5 lean, the stopping rules; "the thresholds are the
+design's heuristic; the rule is unchanged", the PI's clarification of 8
+October, the head). They fixed in advance what Gioia's approach leaves
+to judgment. <em>Mostly right for this design.</em> Every script
+declared its rule before it ran, which is why the audit could rerun the
+figures. Where a criterion would have decided against the evidence,
+QC2-002 gave judgment back.</p></li>
+</ul>
+<p><strong>4.3 Where the handling was right and I was
+wrong.</strong></p>
+<ul>
+<li><strong>A1's reading route.</strong> I cut the stage's reading of
+every room through its forest, case account and brief, and logged the
+cut late (<code>departures.jsonl</code> line 5). J's first ruling of 7
+October sent me back to read the case account and brief of 702 rooms
+(<code>handback-A1.md</code>).</li>
+<li><strong>The unit at C5.</strong> I applied the second readers'
+sentence standard to the model's own statements, and demoted the room. J
+named the drift (C5.C5d, turn 6, answer 3).</li>
+<li><strong>The kind of a line.</strong> I relied on it until J's
+question showed kappa 0.08 (D3.D3c, turns 41 and 43).</li>
+<li><strong>The forms' placement and count.</strong> I placed rooms by
+Ward on their whole mix, not by J's rule; 243 of 684 rooms would land
+elsewhere under J's rule. The scores I offered for 8 groups rise with
+any count (D4.D4a-05, turn 63). J's "Did they follow our method?" and
+"That was not the case for us" were right.</li>
+<li><strong>The branch rule at D6a-04.</strong> I widened it as a
+licence, not as the dated amendment J's rule on drift requires (D6.D6b,
+turn 51, question 6).</li>
+<li><strong>The rooms for the tellings.</strong> J's "A mediod is not
+representative of a polyfaceted cluster" was right. My
+nearest-the-centre rule picked rooms that mix forms (D6.D6a-16, turn 50,
+answer 1).</li>
+<li><strong>The E1 return specification.</strong> I wrote it without
+reading the packet's trailer (1.2). The tool's line was there to be
+read.</li>
+<li><strong>The E1 route.</strong> I took an ambiguous word into the
+audit without checking <code>arm.json</code> (1.8).</li>
+</ul>
+<p><strong>On balance.</strong> I was given the freedom the method asks
+for at the tiers I built, and J returned it more than once when rules
+crowded it. It was taken mainly at three points: the coders' unit, the
+model's freeze, and the forms. At the first two, taking it protected the
+design, at a cost to the model. At the third, J's design answered the
+theory question that my facets did not, with forms weaker than their
+names. The freedom that was refused, a second reader, is the one I would
+build into the next instrument rather than leave to a request.</p>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

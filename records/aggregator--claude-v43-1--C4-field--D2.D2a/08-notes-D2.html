@@ -1,0 +1,521 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>notes-D2.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/notes-D2.md</h1><p class="notice">Saved at <a href="../aggregator--claude-v43-1--C4-field--D2.D2a.html">D2.D2a: check</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/7be1424b81b0f8362899fdfc047a88a24f2e4aea7abd4f7448f0bc4e28184ac6.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/dd33cc4e4ec37de6bbe510233188ef62179f84f8"><code>dd33cc4e4ec3</code></a>, 2026-10-16T12:22:04+02:00. Saved-state date: 2026-10-16T10:21:24Z. Catalogue close receipt Commit date and saved-state date are distinct.</p><p class="notice">The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model. <a href="../../guides/history.html#models-and-lineage">Models and lineage</a>.</p></div><p><a href="https://github.com/jparrieta/r-place/blob/dd33cc4e4ec37de6bbe510233188ef62179f84f8/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-D2.md">Original GitHub file</a>. Original SHA-256: <code>7be1424b81b0f8362899fdfc047a88a24f2e4aea7abd4f7448f0bc4e28184ac6</code>. Reading-copy SHA-256: <code>7be1424b81b0f8362899fdfc047a88a24f2e4aea7abd4f7448f0bc4e28184ac6</code>.</p><section class="record-copy"><h1 id="notes-stage-d2-the-return-the-check-leg">Notes, stage D2 (the
+return: the check leg)</h1>
+<p>The labelers and the verdict readers returned against the model
+frozen at pass 15
+(e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd).
+<code>ingest.py D</code> compiled the ledger and the verdicts at 08:53
+UTC on 16 October. I adjudicate nothing here, edit no return, and run no
+labeler or reader. QD1-001 (J: an element may sit in two or more
+dimensions) was settled at D1a, and nothing here rests on it.</p>
+<p>Scripts, all read-only over the returns:
+<code>_analysis/d2_ingest.py</code> (§1),
+<code>_analysis/d2_verdicts.py</code> (§2; the split rooms in
+<code>_analysis/d2_verdict_rooms.json</code>),
+<code>_analysis/d2_sample.py</code> (§3; the draw in
+<code>_analysis/d2_sample.json</code>). The ledger was read by count
+only.</p>
+<h2 id="1-what-ingest-did">1. What ingest did</h2>
+<p><strong>Rooms.</strong> 705 rooms returned and were accepted. None
+was rejected, none is unreturned, and <code>RUN.json</code> says none
+was reissued. The counts agree across <code>ingest-D.md</code>,
+<code>RUN.json</code> (<code>D2</code>: accepted 705, reissued 0,
+unreturned 0), <code>DROPS/D/DONE</code> (returned 705, unreturned 0),
+<code>UNRETURNED.tsv</code> (header only) and the ledger (705
+rooms).</p>
+<p><strong>Reissues.</strong> <code>ingest.py</code> counts a room as
+reissued when its <code>run.json</code> records more than one attempt.
+Every room records one. The handler's recap says 378 rooms needed one to
+four repairs of attempt 1 in the same session. Those repairs, and the
+rules they fixed, are in no file this stage may read.</p>
+<p><strong>Lines.</strong> 42,243 lines. Per room: min 21, p10 52,
+quartiles 57, 60 and 64, p90 68, max 91.</p>
+<table>
+<thead>
+<tr>
+<th>op</th>
+<th>lines</th>
+<th>share</th>
+<th>rooms holding it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>instantiate</td>
+<td>17,648</td>
+<td>41.8%</td>
+<td>705</td>
+</tr>
+<tr>
+<td>absent</td>
+<td>14,675</td>
+<td>34.7%</td>
+<td>705</td>
+</tr>
+<tr>
+<td>restrict</td>
+<td>4,406</td>
+<td>10.4%</td>
+<td>633</td>
+</tr>
+<tr>
+<td>add-step</td>
+<td>1,889</td>
+<td>4.5%</td>
+<td>654</td>
+</tr>
+<tr>
+<td>add-condition</td>
+<td>1,408</td>
+<td>3.3%</td>
+<td>511</td>
+</tr>
+<tr>
+<td>propose</td>
+<td>1,362</td>
+<td>3.2%</td>
+<td>543</td>
+</tr>
+<tr>
+<td>link</td>
+<td>844</td>
+<td>2.0%</td>
+<td>484</td>
+</tr>
+<tr>
+<td>contradict</td>
+<td>11</td>
+<td>0.03%</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>By kind, as ingest stamps it:</strong> specification 32,323
+(76.5%), correction 4,417 (10.5%), elaboration 4,141 (9.8%), proposal
+1,362 (3.2%).</li>
+<li><strong>The absent lines split by evidence.</strong> Only 67 of
+14,675 are evidenced: observed-absent 36, not-needed 31. The rest mark
+limits of the evidence: unobserved 7,806 and not-testable 6,802. The
+schema says those support neither specification nor correction, but
+ingest stamps every absent line as specification. Read without the
+split, the kind counts overstate what the rooms specify by 14,608 lines.
+A room holds between 1 and 50 absent lines, median 19.</li>
+<li><strong>Contradict</strong> (11 lines, one room each): P13 5, P10 3,
+A10 1, A04 1, A07 1.</li>
+<li><strong>Propose:</strong> 1,362 lines in 543 rooms. None names an
+element.</li>
+</ul>
+<p><strong>Flagged lines.</strong> Ingest rejects a room whole when any
+line fails rules 1 to 4 or 6. It keeps a line that fails portability
+(rule 5) with <code>portable: false</code>. So portability is the only
+flag left in the ledger, and it is the rule that flagged most lines: 763
+lines (1.81%) in 356 rooms. By op: instantiate 484, absent 185, restrict
+31, propose 19, add-step 17, add-condition 15, link 10, contradict 2.
+169 of them name the room itself.</p>
+<p><strong>None rooms.</strong> 0. Every room returned lines.</p>
+<p><strong>Unplaced source themes</strong> (the lines D3 may mint from).
+134 of 27,571 sourced lines (0.5%) have a source theme placed nowhere.
+They sit in 98 rooms: propose 61, instantiate 32, restrict 19, add-step
+16, add-condition 5, link 1. Every source is a second-order theme.</p>
+<p><strong>Candidates and tentative entries.</strong> The labelers
+answer the five candidates often, as <code>MODEL.md</code> allows. Rooms
+with at least one line on the entry other than absent:</p>
+<table>
+<thead>
+<tr>
+<th>entry</th>
+<th>status</th>
+<th>rooms</th>
+<th>instantiate lines</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P06</td>
+<td>candidate</td>
+<td>564</td>
+<td>600</td>
+</tr>
+<tr>
+<td>K04</td>
+<td>candidate</td>
+<td>530</td>
+<td>584</td>
+</tr>
+<tr>
+<td>R02</td>
+<td>candidate</td>
+<td>500</td>
+<td>493</td>
+</tr>
+<tr>
+<td>P19</td>
+<td>candidate</td>
+<td>240</td>
+<td>217</td>
+</tr>
+<tr>
+<td>K03</td>
+<td>candidate</td>
+<td>124</td>
+<td>118</td>
+</tr>
+<tr>
+<td>P22</td>
+<td>tentative</td>
+<td>191</td>
+<td>158</td>
+</tr>
+<tr>
+<td>P21</td>
+<td>tentative</td>
+<td>128</td>
+<td>80</td>
+</tr>
+<tr>
+<td>A21</td>
+<td>tentative</td>
+<td>101</td>
+<td>37</td>
+</tr>
+</tbody>
+</table>
+<p>D3 rules on these. I report the counts only.</p>
+<p><strong>The labelers.</strong> All 705 <code>run.json</code> copies
+record <code>gpt-6.1-sol</code>, resumed with <code>gpt-5.6-sol</code>,
+one attempt. Every line is <code>origin: labeler</code>,
+<code>decision: pending</code>, at one model version.</p>
+<h2 id="2-the-verdicts">2. The verdicts</h2>
+<p><strong>The fleet.</strong></p>
+<ul>
+<li><strong>Model:</strong> <code>deepseek/deepseek-v4.1-flash</code>,
+verified, on the gateway route at medium effort; two readers per room,
+reissue limit 2.</li>
+<li><strong>Attempts:</strong> 1,442. 1,410 were valid and 32 invalid;
+among the invalid, 24 lacked <code>served</code> and 6 lacked the end
+marker. Each invalid attempt was reissued, and none was exhausted. The
+fleet cost USD 13.03.</li>
+<li><strong><code>verdicts-D.jsonl</code>:</strong> one line per room,
+705 lines, with two reader lines each (r1 686, r2 693, 31 from reissued
+readers) and the labeler's grade beside them.</li>
+</ul>
+<p><strong>Reader verdicts</strong> (1,410): composes-with-residue 927
+(65.7%), composes 432 (30.6%), cannot-tell 49 (3.5%), does-not-compose 2
+(0.1%).</p>
+<p><strong>Room verdicts.</strong> The two readers agree in 542
+rooms:</p>
+<ul>
+<li>composes-with-residue: 387;</li>
+<li>composes: 140;</li>
+<li>cannot-tell: 14;</li>
+<li>does-not-compose: 1 (picturegame).</li>
+</ul>
+<p>They differ in 163 rooms, <strong>a disagreement rate of
+23.1%</strong>. By pair:</p>
+<ul>
+<li>composes against composes-with-residue: 142 rooms (20.1% of all
+rooms);</li>
+<li>cannot-tell against composes-with-residue: 11 (1.6%);</li>
+<li>cannot-tell against composes: 10 (1.4%).</li>
+</ul>
+<p>No split involves does-not-compose. Within each value, the share of
+rooms where one reader chose it and the other did too is: with-residue
+72% (387 of 540), composes 48% (140 of 292), cannot-tell 40% (14 of
+35).</p>
+<p>The disagreement rate bounds whether the written criterion decides a
+room, not whether the model is right (FLEET §2). Most splits fall on one
+line: whether a room's unused concepts carry organizing the model lacks.
+The 163 split rooms are listed at the end of these notes for D3, which
+rules on each with the criterion in front of it.</p>
+<p><strong>Cannot-tell, by threshold.</strong> 49 reader lines:
+coded-share 39, off-platform 10, both 0. The lines carry no counts, so I
+checked each against the room's figures in <code>rooms.jsonl</code>,
+which each packet stated, and against <code>prior.md</code> §8. All 39
+coded-share lines fall in rooms below the concept floor of 10. All 10
+off-platform lines fall in rooms past the off-platform threshold.
+<strong>The numbers support every cannot-tell line, so none goes to D3
+as unsupported.</strong> The thresholds are review prompts, not rules,
+so the converse also holds: readers judged most rooms below the floor or
+past the threshold.</p>
+<ul>
+<li><strong>The 42 rooms below the floor:</strong> composes 14,
+cannot-tell 13, split 13, with-residue 2.</li>
+<li><strong>The 68 rooms past the threshold:</strong> with-residue 47,
+split 16, composes 4, cannot-tell 1.</li>
+</ul>
+<p><strong>Residue.</strong> A with-residue reader line names a median
+of four themes or concepts as residue.</p>
+<p><strong>The labeler's grade beside the verdict.</strong> Every one of
+the 705 <code>model-D.md</code> files grades composes-with-residue, and
+every one says <code>local_status: unresolved</code>. The cross-table
+has one row:</p>
+<table>
+<thead>
+<tr>
+<th>labeler grade</th>
+<th>composes</th>
+<th>composes-with-residue</th>
+<th>does-not-compose</th>
+<th>cannot-tell</th>
+<th>split</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>composes-with-residue</td>
+<td>140</td>
+<td>387</td>
+<td>1</td>
+<td>14</td>
+<td>163</td>
+</tr>
+</tbody>
+</table>
+<p>By reader line, the row reads: composes-with-residue 927, composes
+432, cannot-tell 49, does-not-compose 2. The grade does not vary, so it
+cannot be set against the verdict. It sits beside the verdict and never
+replaces it. The cause goes to the handback.</p>
+<p><strong>The return lines.</strong></p>
+<ul>
+<li><strong><code>served</code>:</strong> each packet states a value for
+the reader to copy. 1,409 of 1,410 lines copy it exactly; one (ducks,
+r1) drops two characters.</li>
+<li><strong><code>sub</code>:</strong> 225 reader lines write the room's
+name another way. 185 add <code>r/</code>, 16 change the case, and 24
+write another name, such as a sister sub or the words one community.
+Ingest takes the room from the dispatch folder, so no verdict changed
+rooms.</li>
+<li><strong>Extra field:</strong> three lines carry an extra field,
+<code>agent</code> (daftpunk, kuwait, ssbpm).</li>
+</ul>
+<p><strong>The story-miss rooms</strong> (C2's last story told these 19
+with a residue). By room verdict:</p>
+<ul>
+<li><strong>composes-with-residue (14):</strong> bih, catalunya,
+epublica, greenlattice, orderofthebluecorner, purplecorner, scp, sweden,
+thebluecorner, totallynotrobots, parahumans, TheAdventuresofTintin,
+shishamo, luciomains;</li>
+<li><strong>composes (4):</strong> placeDE, starcitizen, texans,
+hunterxhunter;</li>
+<li><strong>split (1):</strong> smashbros.</li>
+</ul>
+<p>D3 counts how they fared. I compare them with no prediction here.</p>
+<h2 id="3-ten-room-models-drawn-by-seed">3. Ten room models, drawn by
+seed</h2>
+<p><strong>The rule</strong> (logged before the draw):</p>
+<ul>
+<li><strong>Seed:</strong> 20261016, with
+<code>random.Random(seed).sample</code> over each stratum's sorted
+rooms.</li>
+<li><strong>Strata:</strong> the room verdict: composes, with-residue,
+does-not-compose and cannot-tell when both readers agree, and split when
+they differ.</li>
+<li><strong>Allocation:</strong> two rooms per stratum, or all of a
+smaller one; the remainder goes to the largest.</li>
+</ul>
+<p>The strata held 140, 387, 1, 14 and 163 rooms. The draw: cannot-tell
+Lugarix and wario; composes uva and signal; composes-with-residue
+quebec, flashtv and minnesotavikings; does-not-compose picturegame;
+split aggies and thetreesnetwork. I checked each file by script and then
+read it whole.</p>
+<p><strong>What all ten share.</strong></p>
+<ul>
+<li><strong>Form:</strong> each file has a section per dimension (D01 to
+D08) and names all 51 elements and arrows, either cited or marked
+<code>[absent &lt;id&gt;]</code> with its evidence state.</li>
+<li><strong>Citations:</strong> every paragraph and bullet before Local
+exceptions carries a concept citation, and every citation is one of the
+room's own codes. Every element the room's ledger lines adapt is named
+in the file.</li>
+<li><strong>Grade:</strong> every file ends with
+<code>local_status: unresolved</code> and the grade
+composes-with-residue. The grade's sentence names a few of the ledger's
+elements. In the thinner files it reads as a formula: the account
+explains what was visible, and the rest is unresolved.</li>
+<li><strong>The model's terms:</strong> the prose reads as the room's
+organizing in the model's words, not as a summary of the model. In the
+rich rooms it gives forest transitions with their minutes, and it
+changes an element only where the room's turns show a different
+order.</li>
+</ul>
+<p><strong>Wario</strong> (cannot-tell; one concept). A single title
+shows a call and a design (P01, P02, R01, P09). Every other entry is
+unobserved or not testable, with the reason. The labeler restricts P09:
+the attack reading needs the target shown as another party's work.</p>
+<p><strong>Lugarix</strong> (cannot-tell). Announcement titles and one
+approving reply carry P11. The labeler challenges a placement, because
+the in-joke theme claims a history the quote does not show, and keeps
+the joke as an add-step inside P11. It also settles a P15 boundary
+locally: approving an announcement is not answering a call.</p>
+<p><strong>Signal</strong> (composes). Call, building, guidance, design
+critique and credit (P01, P03, P04, P02, P11, P12). The one
+<code>[new: …]</code>, a member's reply to a bot, is not organizing.
+Some D08 lines sit under Local exceptions.</p>
+<p><strong>Uva</strong> (composes).</p>
+<ul>
+<li><strong>The order:</strong> a rich room, read turn by turn. The
+labeler restricts A11, because the template was posted before the
+disagreement ended. It restricts A05, because the agreement recognised
+an intention already held: "I had no plans to continue them below that
+border. maybe others did" (uva/c0021). It also restricts A21.</li>
+<li><strong>Additions:</strong> a step inside P03, finding a second
+mark. It uses P06, R02 and K04 as candidates.</li>
+<li><strong>Grade:</strong> the readers say composes; the labeler grades
+with-residue on these local changes.</li>
+</ul>
+<p><strong>Quebec</strong> (composes-with-residue).</p>
+<ul>
+<li><strong>Restrictions:</strong> A11 (scripts defended a design the
+room had dropped), A12 (a bare refusal), A05 (restraint for a memorial)
+and A09.</li>
+<li><strong>C01 locally:</strong> a vote and a declared strategy that
+the room did not obey throughout.</li>
+<li><strong><code>[new: …]</code>:</strong> of its six markers, two are
+practices (moving deliberation into live chat; returning political
+questions to the room). Two are residue tags.</li>
+</ul>
+<p><strong>Flashtv</strong> (composes-with-residue). Loss and restart,
+restraint toward kindred fans, and a host's closure prank. The labeler
+restricts A11, A01, A02, A10 and A05. Of its eight <code>[new: …]</code>
+markers, three are organizing (reusing pixels while relocating;
+rebuilding after a move; learning a neighbour's design to stop a
+mistaken repair). Two are not (summoning a conversational bot; sympathy
+in a joke thread).</p>
+<p><strong>Minnesotavikings</strong> (composes-with-residue).</p>
+<ul>
+<li><strong>The tentative entries:</strong> it instantiates P21 in a
+bounded form, from "We can't force people to do anything"
+(minnesotavikings/c0254), and A21.</li>
+<li><strong>C01 locally:</strong> a division of work and a vote on the
+bot.</li>
+<li><strong>Restrictions:</strong> A11 and A05.</li>
+<li><strong><code>[new: …]</code>:</strong> five practices, all of them
+organizing, such as decisions relayed through chat to the member who
+sets the script.</li>
+<li><strong>Its own case account:</strong> it corrects the attribution
+of one complaint there.</li>
+</ul>
+<p><strong>Picturegame</strong> (does-not-compose; the only such room).
+A guessing-game sub whose one canvas link is a proposed emoji. The
+labeler keeps the room inside the model's terms: K01 (an April Fools
+sound round) and P13 (the proposal), with every canvas element
+unobserved. Its <code>[new: carrying on ordinary sub talk]</code>
+repeats T3-017, which the vocabulary holds. The readers judged that the
+room's organizing is not canvas organizing; the labeler graded
+with-residue.</p>
+<p><strong>Aggies</strong> (split).</p>
+<ul>
+<li><strong>Restrictions:</strong> the labeler folds the start and the
+call into one act (A02), and restricts A11 and A08 (a screenshot
+requested before completion).</li>
+<li><strong>Conditions added:</strong> on P14 (an honor code against
+scripts), and on A13 and A19 (help bought from former attackers).</li>
+<li><strong>C01 locally:</strong> an organiser decides and defers.</li>
+<li><strong>Candidates:</strong> K03, K04 and R02.</li>
+</ul>
+<p><strong>Thetreesnetwork</strong> (split). The labeler instantiates
+the candidates P06 (tracing who placed a pixel) and K04 (an insider's
+membership claim), and restricts P06's reading that the placer meant
+well. It keeps a personal inscription and a thank-you to the host as
+<code>[new: …]</code>, and conditions P15 on what a bare reply
+approves.</p>
+<p><strong>Across the sample.</strong></p>
+<ul>
+<li><strong>Recurring changes:</strong> five of the ten labelers
+restrict A11 (a posted template did not settle the design). Four fold
+the start and the call into one act (A02). Four make restraint (A05)
+depend on something other than an agreement.</li>
+<li><strong>Candidates and tentative entries:</strong> they come back as
+instantiated lines. The labelers name the candidates as candidates.</li>
+<li><strong><code>[new: …]</code>:</strong> used for practices no
+element covers, but also for conduct that is not organizing, as a
+residue tag, and once for a theme the vocabulary holds.</li>
+</ul>
+<p>These are D3's to rule on. I report them as the sample showed
+them.</p>
+<h2 id="4-verbal-before-numeric">4. Verbal before numeric</h2>
+<p>I revisited no verdict and no line because of a count. Four facts
+stand as facts, and D3 judges them against <code>prior.md</code>:</p>
+<ul>
+<li>composes-with-residue dominates the verdicts;</li>
+<li>contradict is rare (11 lines);</li>
+<li>the labeler's grade never varies;</li>
+<li>absent lines are a third of the ledger, mostly marking limits of the
+evidence.</li>
+</ul>
+<p>Neither the many repairs nor the absent lines establish failure or
+success.</p>
+<h2 id="defects-sent-to-the-handback">Defects sent to the handback</h2>
+<ol type="1">
+<li><p><strong>The labeler's grade does not vary</strong> (task template
+and return specification).</p></li>
+<li><p><strong>Ingest stamps every absent line as
+specification,</strong> whatever its evidence state.</p></li>
+<li><p><strong>The 378 same-session repairs appear in no file.</strong>
+<code>RUN.json</code> counts 0 reissued.</p></li>
+<li><p><strong>The verdict return line:</strong> <code>served</code>
+records copying, <code>sub</code> is unreliable, and the line carries no
+count.</p></li>
+<li><p><strong><code>[new: …]</code> is used for more than
+organizing</strong> (minor).</p></li>
+<li><p><strong>Eight ledger lines name a dimension as their element
+outside <code>link</code></strong> (QD2-001, answered). In 121 ledger
+lines the element is a dimension id; 113 are <code>link</code>, which
+SCHEMA §3 allows. The other 8 are not:</p>
+<ul>
+<li>restrict D02: 4chan-013, SquareSpiral-014;</li>
+<li>add-condition D02: borussiadortmund-013;</li>
+<li>add-condition D01: cowchop-030, spain-058, torontoraptors-009;</li>
+<li>restrict D01: ucf-004;</li>
+<li>add-step D02: vermont-011.</li>
+</ul>
+<p><code>ingest.py</code> accepts a dimension for any op, while
+<code>validate.py D2</code> accepts one only for <code>link</code>. So
+the first close-check failed on these 8 lines alone. I edited no
+line.</p>
+<p><strong>J's answer (option 1):</strong> the check now accepts a
+dimension as the element of restrict, add-condition and add-step as well
+as link. D3 rules on the 8 lines as they stand.</p></li>
+</ol>
+<h2
+id="the-split-rooms-for-d3-163-generated-from-_analysisd2_verdict_roomsjson">The
+split rooms, for D3 (163; generated from
+<code>_analysis/d2_verdict_rooms.json</code>)</h2>
+<pre><code>&lt;!-- split rooms, generated --&gt;
+</code></pre>
+<p><strong>composes against composes-with-residue</strong> (142): 49ers,
+achievement_hunter, afip, aggies, AmericanFlaginPlace, auburn,
+australia, bdsm, bindingofisaac, bisexual, blackmirror, bostonbruins,
+btc, buffalowizards, bulgaria, cgpgrey, chile, Clannad, clashroyale,
+cmu, coldplay, criticalrole, czech, danganronpa, DestinyTheGame,
+detroitlions, drawhelix, drugs, drumcorps, dwarffortress, eagles,
+earthbound, edboxes, edmontonoilers, eesti, egypt, ElderScrolls,
+elitedangerous, england, falcons, Fez, FlaggyFlag, floridagators, foxes,
+fxKorea, gatech, geometrydash, germany, giantbomb, globaloffensive,
+GranColombia, gravityfalls, guatemala, GuildWars2, h3h3productions,
+hawks, heroesofthestorm, hoodr, hyperlightdrifter, ice_poseidon,
+iceland, india, jerma985, kamenrider, katawashoujo, kirby, kpop,
+kurdistan, latvia, lifeisstrange, lofihiphop, magictcg, mamamoo,
+ManningPlace, marvel, mexico, miamidolphins, mizzou, MMA, MonkeyIsland,
+monstercat, mordhau, morrowind, muse, mylittlepony, mysterydungeon,
+nascar, necrodancer, neu, nin, notredame, ohio, patriots, pepe,
+PinkVomitMonster, pitt, placehfarts, placetardis, pokemon, poland,
+polandball, popheads, PORTUGALCARALHO, puzzleanddragons, qotsa, re_zero,
+redpandas, roosterteeth, rush, rust, rutgers, sakuragakuin, seahawks,
+snsd, sooners, spain, spongebob, ss13, ssbpm, starcraft, strangerthings,
+telegram, teslamotors, texastech, thailand, thenetherlands, thepointing,
+thesimpsons, thetreesnetwork, tinytardis, TsundereSharks, twitch, udub,
+ukraine, uofm, UPenn, uwaterloo, vim, weezer, wholesomememes, yuyuyu,
+zelda.</p>
+<p><strong>cannot-tell against composes-with-residue</strong> (11):
+azores, crusaderkings, de, paladins, reddevils, serbia, smashbros,
+THE_R, TransFlagPlace, trees, UNLincoln.</p>
+<p><strong>cannot-tell against composes</strong> (10): austriahungary,
+bannedfromanime_irl, Bravenewbies, littlebusters, NovaScotia, oltp,
+polyamory, Redox, tenma, TheID.</p>
+<p>Unsupported cannot-tell lines: 0.</p>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

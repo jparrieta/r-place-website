@@ -1,0 +1,184 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>position-B3.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/position-B3.md</h1><p class="notice">Saved at <a href="../aggregator--claude-v43-1--C4-field--B3.B3b.html">B3.B3b: check</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/57cd3884066a58b043928b6ee1faa08b766b12203d8bb0108fa59bf32a330456.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/25b2a8e4a1230d6e83347074c3650cce003eb117"><code>25b2a8e4a123</code></a>, 2026-10-12T23:18:58+02:00. Saved-state date: 2026-10-12T21:18:42Z. Catalogue close receipt Commit date and saved-state date are distinct.</p></div><p><a href="https://github.com/jparrieta/r-place/blob/25b2a8e4a1230d6e83347074c3650cce003eb117/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/position-B3.md">Original GitHub file</a>. Original SHA-256: <code>57cd3884066a58b043928b6ee1faa08b766b12203d8bb0108fa59bf32a330456</code>. Reading-copy SHA-256: <code>57cd3884066a58b043928b6ee1faa08b766b12203d8bb0108fa59bf32a330456</code>.</p><section class="record-copy"><h1 id="the-position-curve-stage-b3">The position curve, stage B3</h1>
+<p><strong>Basis: the assembly of record.</strong>
+<code>tools/assemble.py B3 --supersede --accept-sub-label --families out/families.jsonl</code>
+on 1,212 accepted returns (the four halves of B0192 and B0927 in fleet
+ids, J at QB3-003), figures by
+<code>out/_analysis/b3_check.py --tag record</code>. The trial versions
+written while QB3-003 was open are kept under superseded names.</p>
+<p>Pooled across the fleet, pass 1, corpus copies with both replicates
+returned. Three outcomes per line: agreement (Jaccard with the other
+replicate's line on the same item), multi (more than one theme) and
+arguable (confidence "arguable"). Each is regressed on position within
+the batch with batch fixed effects; standard errors are clustered by
+batch, and one reader holds each batch. Declared before fitting: a
+tolerable change of 0.10 in each outcome across a 15-position batch (14
+steps); the sensitivity is the change over 14 steps detected with 80%
+power at two-sided 5%, 2.80 × SE × 14.</p>
+<p>The next table gives the slope per position, the change it implies
+across 14 positions with its interval, and the sensitivity.</p>
+<table>
+<thead>
+<tr>
+<th>outcome</th>
+<th>slope per position</th>
+<th>SE</th>
+<th>change over 14</th>
+<th>95% interval</th>
+<th>sensitivity over 14</th>
+<th>within the tolerance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agreement</td>
+<td>0.0002</td>
+<td>0.0007</td>
+<td>+0.003</td>
+<td>-0.015 to +0.022</td>
+<td>0.027</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>multi rate</td>
+<td>0.0012</td>
+<td>0.0007</td>
+<td>+0.017</td>
+<td>-0.001 to +0.035</td>
+<td>0.026</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>arguable rate</td>
+<td>0.0029</td>
+<td>0.0008</td>
+<td>+0.040</td>
+<td>+0.017 to +0.063</td>
+<td>0.033</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+<p>The next table gives each outcome by decile of relative position, (p
+− 1) ÷ (n − 1).</p>
+<table>
+<thead>
+<tr>
+<th>decile</th>
+<th>lines</th>
+<th>agreement</th>
+<th>multi</th>
+<th>arguable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2317</td>
+<td>0.798</td>
+<td>0.145</td>
+<td>0.412</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1155</td>
+<td>0.777</td>
+<td>0.149</td>
+<td>0.438</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1858</td>
+<td>0.772</td>
+<td>0.162</td>
+<td>0.452</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1569</td>
+<td>0.791</td>
+<td>0.159</td>
+<td>0.441</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1110</td>
+<td>0.784</td>
+<td>0.152</td>
+<td>0.443</td>
+</tr>
+<tr>
+<td>6</td>
+<td>1737</td>
+<td>0.776</td>
+<td>0.174</td>
+<td>0.458</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1463</td>
+<td>0.785</td>
+<td>0.151</td>
+<td>0.447</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1606</td>
+<td>0.804</td>
+<td>0.154</td>
+<td>0.446</td>
+</tr>
+<tr>
+<td>9</td>
+<td>972</td>
+<td>0.785</td>
+<td>0.150</td>
+<td>0.438</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1901</td>
+<td>0.787</td>
+<td>0.173</td>
+<td>0.467</td>
+</tr>
+</tbody>
+</table>
+<p><strong>What it shows.</strong> Agreement does not move with
+position: +0.003 over 14 positions, interval -0.015 to +0.022, and the
+fit would have caught a change of 0.027. The multi rate's interval also
+sits inside the tolerance. The arguable rate rises: +0.040 over 14
+positions (+0.017 to +0.063). That is inside the declared tolerance of
+0.10, but it is not zero, so it goes into <code>defects.jsonl</code> as
+an unresolved diagnostic with the evidence that would separate its
+causes (harder items late, context length, earlier answers). A position
+effect is a diagnostic of changing responses, not an identified
+cause.</p>
+<p><strong>The multi rate over readers</strong> (quantiles 0, 10, 25,
+50, 75, 90, 100%, over 1212 readers): 0.00, 0.00, 0.00, 0.15, 0.23,
+0.38, 0.85.</p>
+<h2 id="beside-the-curve">Beside the curve</h2>
+<p><strong>Pass 1 to pass 2.</strong> Over 15688 corpus lines, 0.01%
+changed their set or primary in pass 2, and 0.03% carry
+<code>changed: true</code>. 0.2% of readers revised anything. The second
+pass is close to a copy of the first, so it measures within-batch
+formation weakly.</p>
+<p><strong>Formation per reader</strong>, first five positions against
+last five, in the 1204 batches of ten or more: arguable 0.431 then
+0.451; agreement with the other replicate 0.784 then 0.792. 367 readers
+lost more than 0.10 in agreement from first to last, and 406 gained more
+than that, so the per-reader movement is spread both ways.</p>
+<p><strong>The duplicate.</strong> 1210 batches returned both copies.
+The two copies agree on every one (Jaccard 1.000, disagreement 0.000),
+against a between-reader exact-set disagreement of 0.297. The readers
+recognised the repeat: 911 second copies repeat the first copy's
+<code>why</code> word for word, and 186 say it is a repeat (median gap 7
+positions). So the duplicate measures recall of an earlier answer in the
+same context, not fresh within-reader instability.</p>
+<p><strong>What these figures license.</strong> The readers share an
+architecture with me and with each other, so a figure here bounds
+whether the instrument decides, not whether it is right.</p>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

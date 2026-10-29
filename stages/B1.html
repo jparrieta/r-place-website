@@ -1,0 +1,88 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B1: Coding: third-order scheme | r/place</title><link rel="stylesheet" href="../assets/site.css"><script defer src="../assets/local-setup.js"></script><script defer src="../assets/site.js"></script><script defer src="../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../index.html">The organism</a><a  href="../results.html">Results</a><a  href="../conditions.html">Common conditions</a><a  href="../event.html">The whole event</a><a aria-current=location href="../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../instrument.html">The instrument</a><a  href="../run.html">Run the study</a><a  href="../interviews.html">Checkpoint interviews</a><a  href="../reference.html">Full reference</a><a  href="../agents.html">For agents</a><a data-reviewer-entry href="../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-instrument" data-layer="Stage guide"><nav class="breadcrumbs" aria-label="Reading level"><a href="../index.html">Overview</a><span aria-hidden="true">/</span><a href="../instrument.html">The instrument</a><span aria-hidden="true">/</span><span aria-current="page">Stage guide</span></nav><article class="stage-explanation"><h1 id="b1-build-a-shared-set-of-categories">B1: Build a shared set of
+categories</h1>
+<p>B1 asks which kinds of organizing recur across communities. Its task
+is to turn many local descriptions into a common coding scheme without
+erasing differences that matter.</p>
+<h2 id="where-this-stage-starts">Where this stage starts</h2>
+<p><a href="A1.html">A1</a> has read the communities and recorded their
+context. Each community already has local themes, meaning groups of
+concepts from that case. B1 compares these themes across cases. The
+common categories it builds are called “third-order themes”: one level
+above the themes made within communities.</p>
+<h2 id="what-the-analyst-does">What the analyst does</h2>
+<p>The analyst writes expectations and stopping rules before building
+categories, then works through communities in a recorded order. A useful
+category identifies a specific kind of action or pattern. It needs a
+name, examples, a rule for what belongs, and a rule for what does not.
+Where two categories look alike, the scheme must explain how to choose
+between them.</p>
+<p>For example, a label as broad as “coordination” would leave a later
+reader guessing which acts it includes. The scheme needs distinctions
+that readers can apply to the underlying participant evidence, rather
+than simply matching the words in a local theme’s title.</p>
+<p>The analyst records when new kinds appear, rereads selected uncertain
+material, and checks whether further reading keeps changing the scheme.
+Rare patterns stay visible instead of being forced into common
+categories. Categories supported across communities are distinguished
+from those with limited support. Two communities describing the same
+joint episode do not automatically provide two independent examples.</p>
+<p>This stage organizes description. It does not yet explain how all the
+parts form an organizational model. Its category boundaries remain
+provisional until <a href="B2.html">B2</a> tests whether other readers
+can use them.</p>
+<h2 id="what-the-next-stage-receives">What the next stage receives</h2>
+<p>B2 receives a written scheme, membership rules, examples and known
+trouble spots. It can test whether another reader understands the
+distinctions the author intended. A long category list alone would not
+provide that testable starting point.</p>
+<section class="stage-outputs" aria-labelledby="stage-outputs-title"><h2 id="stage-outputs-title">What the output files contain</h2><p>Open a file group for its purpose. These are descriptions of the stage’s outputs. Markdown files hold prose; JSONL files hold one structured record per line.</p><details class="stage-output"><summary><span class="output-purpose">The categories and their membership rules</span><span class="output-filenames"><code>scheme.md</code>, <code>scheme.jsonl</code>, <code>scheme/scheme_current.jsonl</code>, <code>families.jsonl</code></span></summary><div class="output-description"><p><code>scheme.md</code> explains the categories for people;
+<code>scheme.jsonl</code> records them for tools.
+<code>scheme/scheme_current.jsonl</code> holds the working categories
+and members during development. <code>families.jsonl</code> groups
+categories for navigation, not as an extra theoretical level.</p>
+</div></details><details class="stage-output"><summary><span class="output-purpose">Expectations and likely confusions</span><span class="output-filenames"><code>prior.md</code>, <code>confusions.md</code>, <code>ideas-B1.jsonl</code></span></summary><div class="output-description"><p><code>prior.md</code> records expectations and decision rules.
+<code>confusions.md</code> names categories readers may confuse and
+material that can test the distinction. <code>ideas-B1.jsonl</code>
+preserves ideas before they become categories.</p>
+</div></details><details class="stage-output"><summary><span class="output-purpose">Evidence for continuing or stopping</span><span class="output-filenames"><code>theme_discovery.jsonl</code>, <code>kinds-B1.jsonl</code>, <code>saturation-B1.md</code>, <code>stopping-B1.md</code>, <code>stopping-B1-decision.jsonl</code></span></summary><div class="output-description"><p><code>theme_discovery.jsonl</code> records when categories first
+appeared. <code>kinds-B1.jsonl</code> supplies the discovery counts.
+<code>saturation-B1.md</code> and <code>stopping-B1.md</code> explain
+what further reading changed and how the stopping rule was assessed.
+<code>stopping-B1-decision.jsonl</code> records the investigator’s
+decision to continue or stop.</p>
+</div></details><details class="stage-output"><summary><span class="output-purpose">The second reading and material left aside</span><span class="output-filenames"><code>pass2-chosen-B1.txt</code>, <code>pass2-B1.jsonl</code>, <code>episodes-B1.jsonl</code>, <code>unplaced-B1.jsonl</code></span></summary><div class="output-description"><p><code>pass2-chosen-B1.txt</code> names communities selected for
+rereading; <code>pass2-B1.jsonl</code> records that pass.
+<code>episodes-B1.jsonl</code> identifies linked accounts of the same
+episode. <code>unplaced-B1.jsonl</code> preserves local themes that have
+not found a category.</p>
+</div></details><details class="stage-output"><summary><span class="output-purpose">Changes and reasons</span><span class="output-filenames"><code>tier_history.jsonl</code>, <code>findings.jsonl</code>, <code>notes-B1.md</code></span></summary><div class="output-description"><p><code>tier_history.jsonl</code> records changes to the category
+structure. <code>findings.jsonl</code> records claims with their
+evidence. <code>notes-B1.md</code> explains choices, uncertainty and
+what the pilot should examine.</p>
+</div></details></section><section class="stage-reference" aria-labelledby="stage-reference-title"><h2 id="stage-reference-title"><a href="../sources/stage-B1.html">Full stage description</a></h2><p>Read the complete technical card for exact tasks, reading boundaries, checks and closing rules. The explanation above is a guide; the card holds the instructions.</p><details><summary>How the stage is divided into legs</summary><ul>
+<li><code>B1a</code>: prior. Repeats: no. Interview point: -.</li>
+<li><code>B1b</code>: getting lost. Repeats: yes. Interview point:
+-.</li>
+<li><code>B1c</code>: saturation test. Repeats: no. Interview point:
+-.</li>
+<li><code>B1d</code>: second pass. Repeats: yes. Interview point:
+-.</li>
+<li><code>B1e</code>: scheme standing. Repeats: no. Interview point:
+end.</li>
+</ul>
+</details><details><summary>Changes recorded for this run</summary><h2 id="historical-instructions-and-settings">Historical instructions
+and settings</h2>
+<p>The three shared B1 checkpoints retain the earlier card. B1e closed
+at 14:49Z on 11 October, before decision row 75 at 15:51Z. The gate and
+member-recheck amendment was sent at 16:25Z for the next B2 leg. Do not
+apply those later checks retroactively to B1. Saved card SHA-256:
+<code>246c890d13c93007d92a27d29c76be7814281d946bc014c23dc96496e0819f97</code>.
+Current canonical card SHA-256:
+<code>a2b733dded3046ba611c65e979beb597ef8ef26e8b625dea28469a254219f8a0</code>.</p>
+<p><a href="../guides/history.md">Historical context and
+evidence</a>.</p>
+</details><p><a href="../sources/manifest.json">Source versions and hashes</a> identify the exact technical documents reproduced here.</p></section></article><div class="actions chat-actions"><button type="button" class="talk-action talk-local" data-local-checkpoint="aggregator--claude-v43-1--C4-field--B1.B1e" aria-expanded="false" aria-controls="local-setup-aggregator--claude-v43-1--C4-field--B1.B1e">Chat Locally</button><a class="talk-action" href="../online-chat.html?checkpoint=aggregator--claude-v43-1--C4-field--B1.B1e" target="_blank" rel="noopener" aria-label="Chat Online at B1.B1e, opens in a new tab">Chat Online</a></div><section id="local-setup-aggregator--claude-v43-1--C4-field--B1.B1e" class="local-setup" hidden></section><noscript><p><a href="../guides/interviews.html#open-an-interview-on-your-computer">Local setup instructions</a></p></noscript><nav class="stage-navigation" aria-label="Stage navigation"><a class="stage-neighbour" rel="prev" href="A1.html" aria-label="Previous stage: A1"><span>Previous stage</span><strong>A1</strong></a><a class="stage-all" href="../guides/aggregator.html#stage-map">See all stages</a><a class="stage-neighbour" rel="next" href="B2.html" aria-label="Next stage: B2"><span>Next stage</span><strong>B2</strong></a></nav><aside class="stage-agent-key" aria-labelledby="stage-agent-key-title"><h2 id="stage-agent-key-title">For an agent running this stage</h2><p><a href="../agents/B1.html">Open the agent reading key</a> for the required reading order. <a href="../agents/B1.md">Download that key as Markdown</a>, or <a href="../sources/stage-B1.md">download the full stage card as Markdown</a>.</p><p><a href="../guides/agent-roles.html">Agents and their roles</a> explains who does each part of the work.</p></aside></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../agents.html">For agents</a> · <a href="../reference.html">Full reference</a> · <a href="../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

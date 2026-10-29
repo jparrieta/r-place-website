@@ -1,0 +1,221 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>handback-B3.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/handback-B3.md</h1><p class="notice">Saved at <a href="../aggregator--claude-v43-1--C4-field--B3.B3b.html">B3.B3b: check</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/855ed2b1c5b28ca876b0236ed9281ed6652fd34d674c8531ffc4d8e102026cc2.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/25b2a8e4a1230d6e83347074c3650cce003eb117"><code>25b2a8e4a123</code></a>, 2026-10-12T23:18:58+02:00. Saved-state date: 2026-10-12T21:18:42Z. Catalogue close receipt Commit date and saved-state date are distinct.</p></div><p><a href="https://github.com/jparrieta/r-place/blob/25b2a8e4a1230d6e83347074c3650cce003eb117/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/handback-B3.md">Original GitHub file</a>. Original SHA-256: <code>855ed2b1c5b28ca876b0236ed9281ed6652fd34d674c8531ffc4d8e102026cc2</code>. Reading-copy SHA-256: <code>855ed2b1c5b28ca876b0236ed9281ed6652fd34d674c8531ffc4d8e102026cc2</code>.</p><section class="record-copy"><h1 id="handback-stage-b3-the-fleet">Handback, stage B3: the fleet</h1>
+<p>Written at B3b, 2026-10-12. Figures come from the assembly of record
+(<code>tools/assemble.py B3 --supersede --accept-sub-label --families out/families.jsonl</code>)
+and <code>out/_analysis/b3_check_record.json</code>. The reports are
+<code>fidelity-B3.md</code>, <code>position-B3.md</code>,
+<code>multiplacement_register-B3.md</code> and
+<code>agent_report-B3.md</code>; the record of every step is
+<code>notes-B3.md</code>.</p>
+<p><strong>What these figures license.</strong> The readers share an
+architecture with me and with each other, so a figure here bounds
+whether the instrument decides, not whether it is right.</p>
+<h2 id="the-fleet-as-built-and-run">The fleet as built and run</h2>
+<ul>
+<li><strong>Allocation.</strong> Seed 20261015 (under
+<code>:redraw2</code>; the connectivity gate forced 2 redraws). The cap
+is 15 positions and 180,000 bytes of item text a packet (J, QB3-001). R
+= 2. No exemplars were served, and the warm-up stayed in reserve.</li>
+<li><strong>Batches and readers.</strong> The allocator computed 1,210
+batches, one reader each. B0192 and B0927 failed six tries each. The
+handler split them into halves in room ids; under J at QB3-003 I rebuilt
+the halves in fleet ids as B0192c, B0192d, B0927c and B0927d. The record
+holds 1,212 batches and 1,212 readers, and the room-batch graph is one
+component on what the fleet returned.</li>
+<li><strong>Coverage, from the batches.</strong> Every one of the 705
+rooms and 7,844 second-order themes of the analysed set has two returns,
+one per replicate. There are 17,653 pass-1 lines: 15,688 corpus
+readings, 1,210 duplicate copies and 755 gold copies. No item is
+unreturned.</li>
+<li><strong>Replies.</strong> The dispatch logged 1,303 replies. 87
+failed and were sent again, 72 of them because they cited a concept from
+another item. Of the 454 off-item concepts in failed replies, 453 belong
+to a neighbouring item of the same packet, mostly in
+<code>also_present</code>. No accepted line cites a concept outside its
+item. Cost was 33.75 USD over the five dispatch records.</li>
+</ul>
+<h2 id="gold-against-stage-b2-and-the-floor">Gold, against stage B2 and
+the floor</h2>
+<p>All 755 gold copies came back. The next table compares them with B2's
+nine frozen-scheme readings of the same items.</p>
+<table>
+<thead>
+<tr>
+<th>set</th>
+<th>copies</th>
+<th>fidelity</th>
+<th>primary</th>
+<th>B2 fidelity, same copies</th>
+<th>B2 primary, same copies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>group 1</td>
+<td>72</td>
+<td>0.637</td>
+<td>0.833</td>
+<td>0.625</td>
+<td>0.812</td>
+</tr>
+<tr>
+<td>group 2</td>
+<td>683</td>
+<td>0.646</td>
+<td>0.814</td>
+<td>0.632</td>
+<td>0.800</td>
+</tr>
+<tr>
+<td>whole fleet</td>
+<td>755</td>
+<td>0.645</td>
+<td>0.816</td>
+<td>0.631</td>
+<td>0.801</td>
+</tr>
+</tbody>
+</table>
+<p>The fall in fidelity is −0.014 (95% interval −0.031 to +0.003). The
+floor is 0.193, from <code>stability-B2.md</code>. Gold did not fall,
+and no gold item's own fall reaches the floor. Per batch and per reader:
+<code>fidelity-B3.md</code>.</p>
+<h2 id="agreement">Agreement</h2>
+<p>Agreement is between the two replicates over all 7,844 items, as
+<code>notes-B2.md</code> defines it: Jaccard on placement sets, so
+<code>["T3-004"]</code> against <code>["T3-004","T3-011"]</code> scores
+0.5. Alpha uses distance 1 − Jaccard.</p>
+<table>
+<thead>
+<tr>
+<th>Jaccard</th>
+<th>exact set</th>
+<th>primary</th>
+<th>alpha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.786</td>
+<td>0.703</td>
+<td>0.838</td>
+<td>0.782</td>
+</tr>
+</tbody>
+</table>
+<p>Corpus-wide Jaccard sits at the stability floor (0.807): most of what
+the readers split on is the arm's own variation. The family that
+disagreed most is G18, politics, history and hate symbols (Jaccard 0.552
+over 99 items), then G15, pacts and envoys between rooms (0.582). Per
+family and per theme, with presence agreement and kappa:
+<code>agent_report-B3.md</code>.</p>
+<h2 id="the-position-curve-and-the-second-pass">The position curve and
+the second pass</h2>
+<p>The next table gives each outcome's change across 14 positions, its
+interval and the fit's sensitivity. The tolerance, declared before
+fitting, is 0.10.</p>
+<table>
+<thead>
+<tr>
+<th>outcome</th>
+<th>change over 14</th>
+<th>95% interval</th>
+<th>sensitivity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agreement</td>
+<td>+0.003</td>
+<td>−0.015 to +0.022</td>
+<td>0.027</td>
+</tr>
+<tr>
+<td>multi rate</td>
+<td>+0.017</td>
+<td>−0.001 to +0.035</td>
+<td>0.026</td>
+</tr>
+<tr>
+<td>arguable rate</td>
+<td>+0.040</td>
+<td>+0.017 to +0.063</td>
+<td>0.033</td>
+</tr>
+</tbody>
+</table>
+<p>Agreement holds across the batch. The arguable rate rises, inside the
+tolerance; it is in <code>defects.jsonl</code> as an unresolved
+diagnostic.</p>
+<p>The second pass changed 0.01% of lines. All 1,210 duplicates agree
+with their first copy, because the readers recognised the repeat: 911
+copy the first <code>why</code> word for word. So the duplicate measured
+recall here, not within-reader instability.</p>
+<h2 id="multiplacement">Multiplacement</h2>
+<p>The multi rate is 0.158 over corpus lines. Per reader it is 0 for at
+least a quarter of readers, 0.15 at the median, 0.23 at the 75th
+percentile, 0.38 at the 90th and 0.85 at most. 88 readers sit above the
+funnel limits and none below. They held longer items (41,185 bytes
+against 34,056), called more lines arguable (0.55 against 0.44) and took
+longer. Their items also drew more second placements from the other
+replicate's readers (0.287 against 0.158), so part of the excess is in
+the items. Room and reader variance components are both small beside the
+residual, and the reader component is larger (multi: reader 0.012, room
+0.007, residual 0.114).</p>
+<p>The three most frequent (primary, additional) pairs:</p>
+<ul>
+<li><strong>T3-009 celebrating the finished work + T3-043 crediting who
+made the work</strong> (114 lines, 112 readers, 83 rooms).
+Close-of-event threads mix "we did it" with thanks to named makers. The
+scheme separates the acts, but the material holds both, so this pair is
+a boundary rather than a confusion.</li>
+<li><strong>T3-005 defending the work against attackers + T3-021
+watching and repairing the work</strong> (114, and 59 in the other
+order). The pair <code>confusions.md</code> predicted hardest. Readers
+keep both when a stretch holds both quiet repair and a called defence,
+and the primaries split on 38 items.</li>
+<li><strong>T3-001 staging April Fools fake news + T3-032 objecting to
+April Fools posts</strong> (48). A sub's prank and its members'
+objections sit in one theme.</li>
+</ul>
+<p>T3-089 (switching off stale scripts) and T3-152 (announcing what the
+chat decided) are placed far more often as an addition than alone (30 to
+6, 41 to 15). Stage C1 should read their designation rules.</p>
+<p>Justifications: 40 <code>why_not_one</code> texts were read, one per
+reader. All 40 name material that one theme leaves out, and none
+restates the gates.</p>
+<h2 id="readers-predictions">Readers' predictions</h2>
+<p>1,180 of 1,212 returns carry a prediction; J waived the 32 without
+one (QB3-004). 539 readers predicted one of the 19 pairs of
+<code>confusions.md</code>, 245 of them T3-005/T3-021. One pair split
+the readers' primaries often but was rarely predicted: T3-017 carrying
+on ordinary sub talk against T3-031 playing the room's in-jokes (29
+splits, 4 readers predicted it, not in <code>confusions.md</code>).</p>
+<h2 id="what-i-reduced-and-what-stage-b4-inherits">What I reduced, and
+what stage B4 inherits</h2>
+<ul>
+<li><strong>Reductions.</strong> I reduced no placement to its primary.
+No line reads <code>label-only</code>, and every multi line has its
+records and a non-empty <code>why_not_one</code>.</li>
+<li><strong>Record slips (QB3-005).</strong> The close-check refuses 22
+readers' record slips: 10 loose multiplacement records, 8 multi lines
+whose <code>support</code> lists only the primary's concepts, and 4
+single-theme lines with no <code>multi</code> field. Each added theme
+has a concept of its own. They are in <code>defects.jsonl</code>, kept
+as given, and J waived them by name (QB3-005;
+<code>return_waivers.jsonl</code>, keyed by batch and position).</li>
+<li><strong>The disagreement inventory.</strong> 5,443 items placed
+alike and 2,401 split: 1,200 on the primary, 1,132 on an additional
+theme only, 69 on order only. 2,472 corpus lines place more than one
+theme, and 680 are flagged bags. The assembler's classes: 1, 2,566; 2,
+1,990 (these stand); 3, 2,393; 4, 837; 5, 58 (these go to B4, 3,288
+items).</li>
+<li><strong>The theme the fleet handled worst.</strong> T3-152,
+announcing what the chat decided. Both readers name it on 33% of the 42
+items where either does (kappa 0.50). It lives as an addition to T3-014,
+moving planning into a chat.</li>
+</ul>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

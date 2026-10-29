@@ -1,0 +1,161 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>figure-C5.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script><link rel="stylesheet" href="../../assets/figures.css"><script defer src="../../assets/vendor/mermaid-12.2.0.min.js"></script><script defer src="../../assets/figures.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/figure-C5.md</h1><p class="notice">Saved at <a href="../community--sweden--R6.html">r/sweden: 6.1 local model, R6</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/545f46f9ffb6ff4d17d070f97c270cbf7c36070ab05b537be33d6f1f846af1aa.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e"><code>c070d990be88</code></a>, 2026-10-23T12:38:38+02:00. Saved-state date: not recorded. Not recorded in the catalogue; source commit date is not a close date. Commit date and saved-state date are distinct.</p></div><p><a href="https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--sweden--R6.tar.gz">Declared saved-state supplement</a>. Member: <code>workspace/out/figure-C5.md</code>. Original SHA-256: <code>545f46f9ffb6ff4d17d070f97c270cbf7c36070ab05b537be33d6f1f846af1aa</code>. Reading-copy SHA-256: <code>9c73bfa3f22de7a7917db64e815326163c21069d4cee358b2d3e849d3c706086</code>.</p><section class="record-copy"><h1 id="model-figure-and-source-specification">Model figure and source
+specification</h1>
+<p>Target length: under 1,800 words, excluding the diagrams and quoted
+evidence.</p>
+<h2 id="source-bound-drawing">Source-bound drawing</h2>
+<p>The controller generated model.png and data-structure.html from
+render version
+1062a2d4df1f8fefda86ffffb3abff325b5cb1babea132aa26c16b06c91b6e69. I
+inspected the native PNG and read the table source through the gateway.
+The PNG shows the standing nodes, tagged arrows and disconnected objects
+correctly. Its layout groups unconnected objects to the left; position
+alone has no causal meaning.</p>
+<p><a href="#unavailable-link">Source-bound model</a></p>
+<p>The native renderer exposes one image, with the retained conjectural
+relation dashed. It does not annotate hour 73. The textual figure
+specifications below add that external annotation and define both views.
+They do not add a model element, arrow or analytical pass. The native
+PNG alone is therefore incomplete as a clock-annotated figure; read it
+with this source specification.</p>
+<h2 id="without-the-conjectural-relation">Without the conjectural
+relation</h2>
+<p>This view removes <code>A03</code> because <code>N03</code> rests
+wholly on a reading-alone interpretation. It does not withdraw the
+standing local interpretation from the model. All standing elements stay
+visible, including disconnected ones. <code>A06</code> is absent because
+it has no supporting route-to-pixel instance.</p>
+<pre class="mermaid"><code>flowchart LR
+  P01[&quot;P01: Proposing and revising a shared undertaking&quot;]
+  P02[&quot;P02: Specifying, soliciting and scheduling contributions to an undertaking&quot;]
+  P03[&quot;P03: Explaining which disputed marks belong to an intended build&quot;]
+  P04[&quot;P04: Redirecting one&#39;s pixel contribution after a corrected reading&quot;]
+  P05[&quot;P05: Making accommodation or protection conditional on reciprocal help&quot;]
+  P06[&quot;P06: Pledging or reporting upkeep for another party&quot;]
+  P07[&quot;P07: Routing event discussion to a designated venue&quot;]
+  P08[&quot;P08: Recounting and preserving collective work and its disputed meaning&quot;]
+  P09[&quot;P09: Cancelling an undertaking for a stated feasibility limit&quot;]
+  K01[&quot;K01: Intended new marks are treated as damage during maintenance&quot;]
+  K02[&quot;K02: The author judges the proposed design unusable with the available colours&quot;]
+  K03[&quot;K03: A recognised project remains disputed on placement or competing priorities&quot;]
+  P10[&quot;P10: Claiming, granting or refusing a right to remain in shared space&quot;]
+  stop73[&quot;External constraint: placement stopped at hour 73; no arrow claimed&quot;]
+  P01 -- &quot;A01 / N01&quot; --&gt; P02
+  K01 -- &quot;A02 / N02&quot; --&gt; P03
+  P05 -- &quot;A04 / N04&quot; --&gt; P06
+  K02 -- &quot;A05 / N05&quot; --&gt; P09</code></pre>
+<h2 id="with-the-retained-conjectural-relation">With the retained
+conjectural relation</h2>
+<p>The dashed <code>A03</code> joins the explanation attempt to the
+local reported switch; it is not an established effect of a particular
+message. <code>N06</code> states the excluded <code>A06</code>
+hypothesis in propositions.jsonl, but it remains undrawn in both views
+because no instance supports it.</p>
+<pre class="mermaid"><code>flowchart LR
+  P01[&quot;P01: Proposing and revising a shared undertaking&quot;]
+  P02[&quot;P02: Specifying, soliciting and scheduling contributions to an undertaking&quot;]
+  P03[&quot;P03: Explaining which disputed marks belong to an intended build&quot;]
+  P04[&quot;P04: Redirecting one&#39;s pixel contribution after a corrected reading&quot;]
+  P05[&quot;P05: Making accommodation or protection conditional on reciprocal help&quot;]
+  P06[&quot;P06: Pledging or reporting upkeep for another party&quot;]
+  P07[&quot;P07: Routing event discussion to a designated venue&quot;]
+  P08[&quot;P08: Recounting and preserving collective work and its disputed meaning&quot;]
+  P09[&quot;P09: Cancelling an undertaking for a stated feasibility limit&quot;]
+  K01[&quot;K01: Intended new marks are treated as damage during maintenance&quot;]
+  K02[&quot;K02: The author judges the proposed design unusable with the available colours&quot;]
+  K03[&quot;K03: A recognised project remains disputed on placement or competing priorities&quot;]
+  P10[&quot;P10: Claiming, granting or refusing a right to remain in shared space&quot;]
+  stop73[&quot;External constraint: placement stopped at hour 73; no arrow claimed&quot;]
+  P01 -- &quot;A01 / N01&quot; --&gt; P02
+  K01 -- &quot;A02 / N02&quot; --&gt; P03
+  P03 -. &quot;A03 / N03&quot; .-&gt; P04
+  P05 -- &quot;A04 / N04&quot; --&gt; P06
+  K02 -- &quot;A05 / N05&quot; --&gt; P09</code></pre>
+<h2 id="boxes-paths-and-source-instances">Boxes, paths and source
+instances</h2>
+<p>The node statements come verbatim from model/elements.jsonl.
+<code>P01</code> and <code>P02</code> concern undertaking and
+contribution specification. <code>K01</code>, <code>P03</code> and
+<code>P04</code> distinguish mistaken maintenance, explanation and local
+reported redirection. <code>K03</code> preserves deliberate dissent
+beside that path. The accommodation path is <code>P05</code> to
+<code>P06</code>; the feasibility path is <code>K02</code> to
+<code>P09</code>. Permission <code>P10</code>, discussion routing
+<code>P07</code> and event accounting <code>P08</code> have no invented
+effects.</p>
+<p><code>A01</code> / <code>N01</code>: <code>P01</code> to
+<code>P02</code>, order, codes-read, fair. The specified time gives a
+contributor a definite promise to make. Primary call "OPERATION LILLA
+BÄLT - VI SLÅR TILL KLOCKAN 16" (<code>c0144</code>,
+A82cS84xihPyp633kXbBVezOPIg=, hour 19.795, item <code>62s8z5</code>,
+thread <code>62s8z5</code>, offsets 0:46; cite 9662) and response "Klart
+man ställer upp! Sätter alarm strax innan 16:00!" (<code>c0146</code>,
+PMTSUaECngOCtW7asKKEqX7do7U=, hour 20.03472222222222, item
+<code>dfotweb</code>, thread <code>62s8z5</code>, offsets 0:54; cite
+9664) are distinct speakers. No execution effect is drawn.</p>
+<p><code>A02</code> / <code>N02</code>: <code>K01</code> to
+<code>P03</code>, order, codes-read, fair. The report "Folk håller på
+att ta bort." (<code>c0702</code>, qRhBg6YkZPC35/sSCSxMlStdX8o=, hour
+68.13388888888889, item <code>dfrmdw6</code>, thread
+<code>636a8n</code>, offsets 0:27; cite 9694) meets the advocate's
+stated reason "Därför detta delades till Sweddit så att så många som
+möjligt ser." (<code>c0703</code>, bpRX1cjAPncuHeF3DACQ8OhcGWU=, hour
+68.14888888888889, item <code>dfrmesy</code>, thread
+<code>636a8n</code>, offsets 0:66; cite 9696) This is an explanation
+attempt, with no exposure or agreement claim.</p>
+<p><code>A03</code> / <code>N03</code>: <code>P03</code> to
+<code>P04</code>, transition, reading-alone, fair in the standing model,
+conjectural as a proposition. The local report is "Började bygga blått
+på det där, hjälper till nu istället!" (<code>c0709</code>,
+3bfpkAVUXTH6WuKOgZcSzmKKny8=, hour 68.29, item <code>dfrmo45</code>,
+thread <code>636a8n</code>, offsets 0:57; cite 9702) The exact message
+is unknown. Arch's reported decision with continued removal
+(<code>c0403</code>) and horse objections (<code>c0707</code>,
+<code>c0713</code>) prevent generalising this path to
+approval-to-compliance.</p>
+<p><code>A04</code> / <code>N04</code>: <code>P05</code> to
+<code>P06</code>, order, codes-read, fair. The terms "We needed some
+loyal allies from their timezone to help us repair when we are asleep,
+so we let the Maryland flag stay on ours for protection if they help
+repair our flag." (<code>c0588</code>, fPYLXGntqtV9TX/gkL2GpUdrrsE=,
+hour 54.550555555555555, item <code>dfqty7u</code>, thread
+<code>631vz6</code>, offsets 0:171; cite 9753) are followed by
+"Reporting from r/Maryland here- will devote my pixels to defending
+r/Sweden during the dark hours! Sverige !!!" (<code>c0589</code>,
++43IMXXoPoJtcQFa6bfYrbGTbrY=, hour 54.75333333333333, item
+<code>dfquj36</code>, thread <code>631vz6</code>, offsets 0:110; cite
+9686) A further report <code>c0590</code> describes current cleaning in
+<code>631vz6</code>. These are statements of obligation and work, not
+independent observation of performance.</p>
+<p><code>A05</code> / <code>N05</code>: <code>K02</code> to
+<code>P09</code>, transition, codes-read, thin. The single edited
+statement supplies both judged limit and cancellation: "Jag gjorde fel
+på ritningen med antalet färger. Kan inte få det snyggt med dom färger
+som finns. Lika bra att avbryta. Förlåt alla, misslyckades totalt här."
+(<code>c0436</code>, ut241QgoFq54FMpzwUgOcT3v/Pc=, hour
+45.38388888888889, item <code>dfq6cku</code>, thread
+<code>62zhrg</code>, offsets 145:301; cite 9678) Its edit time is
+unknown. No interval is inferred from the creation timestamp.</p>
+<p>All instances are from r/sweden. There is no arrow frequency
+estimate, community denominator or measured baseline result. The
+registered episode samples concern the limits of each relation, not
+counts of communities solving a problem.</p>
+<h2 id="external-boundary-and-omissions">External boundary and
+omissions</h2>
+<p>The hour-73 box is an imposed platform constraint, with no causal
+arrow. Placement becomes unavailable then; later <code>P01</code> and
+<code>P02</code> can concern room artifacts while <code>P08</code>
+recounts the event. The diagram supplies no gratitude-to-new-work link,
+no completed feedback cycle and no <code>P10</code>
+permission-to-compliance link. The speculative venue link remains
+outside both drawn views.</p>
+<p>The drawing does not show every code, ordinary room activity,
+unresolved fragments, silent labour or off-platform decisions. It cannot
+portray the compact calls, martial register and uneven presumed
+knowledge that form_pass.md keeps at turn level. The structure table
+preserves all coder parents and the ungrouped <code>T4-005</code>; no
+missing line should be supplied merely to connect the graph.</p>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

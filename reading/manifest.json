@@ -1,0 +1,554 @@
+{
+  "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+  "sources": [
+    {
+      "key": "data-README",
+      "path": "data/README.md",
+      "sha256": "f9dc5427c2d96a786379eee2e8f80ab8420bef84dadae12fd38fe86759e02a6a",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [
+        {
+          "original": "pixels/README.md",
+          "repository_path": "data/pixels/README.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/pixels/README.md",
+          "status": "pinned"
+        },
+        {
+          "original": "atlas/README.md",
+          "repository_path": "data/atlas/README.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/atlas/README.md",
+          "status": "pinned"
+        },
+        {
+          "original": "users/README.md",
+          "repository_path": "data/users/README.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/users/README.md",
+          "status": "pinned"
+        },
+        {
+          "original": "venues-placers/README.md",
+          "repository_path": "data/venues-placers/README.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/venues-placers/README.md",
+          "status": "pinned"
+        },
+        {
+          "original": "raw24/README.md",
+          "repository_path": "data/raw24/README.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/raw24/README.md",
+          "status": "pinned"
+        },
+        {
+          "original": "pixels-hourly/README.md",
+          "repository_path": "data/pixels-hourly/README.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/pixels-hourly/README.md",
+          "status": "pinned"
+        },
+        {
+          "original": "pixels-per-artwork/README.md",
+          "repository_path": "data/pixels-per-artwork/README.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/pixels-per-artwork/README.md",
+          "status": "pinned"
+        },
+        {
+          "original": "_lib/rplace_window.py",
+          "repository_path": "data/_lib/rplace_window.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/_lib/rplace_window.py",
+          "status": "pinned"
+        },
+        {
+          "original": "../Manual/data-and-collection.md#terms-of-use",
+          "repository_path": "Manual/data-and-collection.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/Manual/data-and-collection.md#terms-of-use",
+          "status": "pinned"
+        }
+      ],
+      "reading_sha256": "7e548ca889d30818bf8ac033a878d4e8fd927f18eec17133374e00782f6f28d6"
+    },
+    {
+      "key": "coder-README",
+      "path": "coder/README.md",
+      "sha256": "4db02db5a8c7206e575f9b2a404082b1a8447b285d746876b0a35faa15762488",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [
+        {
+          "original": "census/README.md",
+          "repository_path": "coder/census/README.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/census/README.md",
+          "status": "pinned"
+        },
+        {
+          "original": "../Manual/census.md",
+          "repository_path": "Manual/census.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/Manual/census.md",
+          "status": "pinned"
+        },
+        {
+          "original": "handler/CHECKPOINTS.md",
+          "repository_path": "coder/handler/CHECKPOINTS.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/handler/CHECKPOINTS.md",
+          "status": "pinned"
+        }
+      ],
+      "reading_sha256": "5b26b81958f7dded2501bf60e1684bde2e8f00eddd793442969202fd512796eb"
+    },
+    {
+      "key": "coder-contract",
+      "path": "coder/instrument/v32/CONTRACT.v32.md",
+      "sha256": "986f8b520bce808eebe5b93c317f73e60f747b8bfab34f8ad51e600ae48218e1",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "a82b5f5e506fddac049f42025af2da87d6d460529993da6af90e14ad81a79d6a"
+    },
+    {
+      "key": "case-lead",
+      "path": "coder/instrument/v32/CONTRACT-case-lead.v32.md",
+      "sha256": "7b84da1d4ca2a5f3375bdefbb0881a9d738e5273480eecc2cddb8b1c77e16974",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "208bebb172425a37388dc1225aefeabbfcab6af03f246d346e00c2946e7831c4"
+    },
+    {
+      "key": "fleet-coder",
+      "path": "coder/instrument/v32/CONTRACT-fleet-coder.v32.md",
+      "sha256": "79c8ad2f723af36a296601fe9ea63b9c5b679e20e83bd66c2387ba1e9be42af3",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "e7ebd7ba5faa3b55714fb2ffa907e3cc7b07b453d23a9163b3136729e9f3562f"
+    },
+    {
+      "key": "scheduler",
+      "path": "coder/handler/CONTRACT-scheduler.md",
+      "sha256": "7e5fbadee821e22351543d42546d0663a9b2b0fcdad58ad220739a47d7f63a56",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [
+        {
+          "original": "../instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md",
+          "repository_path": "coder/instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md",
+          "status": "pinned"
+        }
+      ],
+      "reading_sha256": "ce45dff7ff8ae3dec3d4d5c8d4ce571417bf4e4551a9de7e25df98e3c29d86fe"
+    },
+    {
+      "key": "handler",
+      "path": "aggregator/handler/HANDLER.md",
+      "sha256": "0aa8f43ae8886a9b4d99ec1300c74c8cc819919207905cf3562210118c281b62",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [
+        {
+          "original": "claude-adapter/LEGS.md",
+          "repository_path": "aggregator/handler/claude-adapter/LEGS.md",
+          "target": "legs.md",
+          "status": "pinned"
+        },
+        {
+          "original": "claude/READ-ME-FIRST.md",
+          "repository_path": "aggregator/handler/claude/READ-ME-FIRST.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/claude/READ-ME-FIRST.md",
+          "status": "pinned"
+        },
+        {
+          "original": "../../coder/handler/CONTRACT-scheduler.md",
+          "repository_path": "coder/handler/CONTRACT-scheduler.md",
+          "target": "scheduler.md",
+          "status": "pinned"
+        },
+        {
+          "original": "../../Manual/files/coder/yard-structure.md",
+          "repository_path": "Manual/files/coder/yard-structure.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/Manual/files/coder/yard-structure.md",
+          "status": "pinned"
+        },
+        {
+          "original": "../instrument/tools/version_log.py",
+          "repository_path": "aggregator/instrument/tools/version_log.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/instrument/tools/version_log.py",
+          "status": "pinned"
+        },
+        {
+          "original": "paths.py",
+          "repository_path": "aggregator/handler/paths.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/paths.py",
+          "status": "pinned"
+        },
+        {
+          "original": "import_rooms.py",
+          "repository_path": "aggregator/handler/import_rooms.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/import_rooms.py",
+          "status": "pinned"
+        },
+        {
+          "original": "extract_legacy.py",
+          "repository_path": "aggregator/handler/extract_legacy.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/extract_legacy.py",
+          "status": "pinned"
+        },
+        {
+          "original": "build_outcome.py",
+          "repository_path": "aggregator/handler/build_outcome.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/build_outcome.py",
+          "status": "pinned"
+        },
+        {
+          "original": "build_canvas.py",
+          "repository_path": "aggregator/handler/build_canvas.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/build_canvas.py",
+          "status": "pinned"
+        },
+        {
+          "original": "../instrument/tools/build_shelves.py",
+          "repository_path": "aggregator/instrument/tools/build_shelves.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/instrument/tools/build_shelves.py",
+          "status": "pinned"
+        },
+        {
+          "original": "../instrument/shelves/make_meta.py",
+          "repository_path": "aggregator/instrument/shelves/make_meta.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/instrument/shelves/make_meta.py",
+          "status": "pinned"
+        },
+        {
+          "original": "claude/build.sh",
+          "repository_path": "aggregator/handler/claude/build.sh",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/claude/build.sh",
+          "status": "pinned"
+        },
+        {
+          "original": "claude/acceptance.sh",
+          "repository_path": "aggregator/handler/claude/acceptance.sh",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/claude/acceptance.sh",
+          "status": "pinned"
+        },
+        {
+          "original": "claude-adapter/probe_lifecycle.py",
+          "repository_path": "aggregator/handler/claude-adapter/probe_lifecycle.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/claude-adapter/probe_lifecycle.py",
+          "status": "pinned"
+        },
+        {
+          "original": "claude-adapter/LEGS.md",
+          "repository_path": "aggregator/handler/claude-adapter/LEGS.md",
+          "target": "legs.md",
+          "status": "pinned"
+        },
+        {
+          "original": "build_raw_record.py",
+          "repository_path": "aggregator/handler/build_raw_record.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/build_raw_record.py",
+          "status": "pinned"
+        },
+        {
+          "original": "check_quotes.py",
+          "repository_path": "aggregator/handler/check_quotes.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/check_quotes.py",
+          "status": "pinned"
+        },
+        {
+          "original": "gather_collection.py",
+          "repository_path": "aggregator/handler/gather_collection.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/gather_collection.py",
+          "status": "pinned"
+        },
+        {
+          "original": "bundle_history.py",
+          "repository_path": "aggregator/handler/bundle_history.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/bundle_history.py",
+          "status": "pinned"
+        },
+        {
+          "original": "claude-adapter/LEGS.md",
+          "repository_path": "aggregator/handler/claude-adapter/LEGS.md",
+          "target": "legs.md",
+          "status": "pinned"
+        },
+        {
+          "original": "paths.py",
+          "repository_path": "aggregator/handler/paths.py",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/paths.py",
+          "status": "pinned"
+        },
+        {
+          "original": "paths.example.json",
+          "repository_path": "aggregator/handler/paths.example.json",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/paths.example.json",
+          "status": "pinned"
+        }
+      ],
+      "reading_sha256": "30848549e22cf07f4345755a59b9c469f38d6da8fea631ea34d83ac57b4c3781"
+    },
+    {
+      "key": "legs",
+      "path": "aggregator/handler/claude-adapter/LEGS.md",
+      "sha256": "9bac7939c271749d66513149ff0b2f8b5b9c1d2d14c5fa8d237a99af041a5d10",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "00b3fbec093ebc4ee0bf0ee90122bd8ce7e29298db462745d363f7b5aabb6092"
+    },
+    {
+      "key": "codex",
+      "path": "OPENAI.md",
+      "sha256": "551b4a33f76745967d0883dd50f5512e11b62f7cd77579119bb2881320d51242",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [
+        {
+          "original": "aggregator/handler/codex/BLOCKS.md",
+          "repository_path": "aggregator/handler/codex/BLOCKS.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/BLOCKS.md",
+          "status": "pinned"
+        },
+        {
+          "original": "aggregator/handler/codex/REMOTE.md",
+          "repository_path": "aggregator/handler/codex/REMOTE.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/REMOTE.md",
+          "status": "pinned"
+        },
+        {
+          "original": "aggregator/handler/codex/BRANCHES.md",
+          "repository_path": "aggregator/handler/codex/BRANCHES.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/BRANCHES.md",
+          "status": "pinned"
+        },
+        {
+          "original": "aggregator/handler/codex/HANDLER-CHAT.md",
+          "repository_path": "aggregator/handler/codex/HANDLER-CHAT.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/HANDLER-CHAT.md",
+          "status": "pinned"
+        },
+        {
+          "original": "FLEET-ARMS.md",
+          "repository_path": "FLEET-ARMS.md",
+          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/FLEET-ARMS.md",
+          "status": "pinned"
+        },
+        {
+          "original": "aggregator/instrument/PLATFORM-codex.md",
+          "repository_path": "aggregator/instrument/PLATFORM-codex.md",
+          "target": "platform-codex.md",
+          "status": "pinned"
+        },
+        {
+          "original": "aggregator/instrument/stages/STAGE-A1-reading-room-notes.md",
+          "repository_path": "aggregator/instrument/stages/STAGE-A1-reading-room-notes.md",
+          "target": "stage-A1.md",
+          "status": "pinned"
+        },
+        {
+          "original": "aggregator/instrument/METHOD.md",
+          "repository_path": "aggregator/instrument/METHOD.md",
+          "target": "method.md",
+          "status": "pinned"
+        }
+      ],
+      "reading_sha256": "aef13c04901d45d32199cbd604e09cba5a6b1dd6cd7ac07ba61c33362f762801"
+    },
+    {
+      "key": "contract",
+      "path": "aggregator/instrument/CONTRACT-aggregator.md",
+      "sha256": "ec92317becd24b53eecf35faa87b629893b0649a6037a59020ddea9dd9d929ef",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "52dee5824f64df621d244e5ce88809a7b7f651e62c4000e72be24ef04837ab07"
+    },
+    {
+      "key": "method",
+      "path": "aggregator/instrument/METHOD.md",
+      "sha256": "5daaeb2319f61a54cfa4d9acbcd077e3a1405edd470795005fb0e152e27fc415",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "d5bcde476df43b7215aafea317113d0b8305b05c69964462cb004b750c7c9f42"
+    },
+    {
+      "key": "writing",
+      "path": "aggregator/instrument/WRITING.md",
+      "sha256": "df6718d74c3a296de39288f338541dad1126651255b573ee3e5de6681ff5026d",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "ea509ba58d14de40ce13e39261832a0499b3ec5077ea23d3337cd38461f9e2a9"
+    },
+    {
+      "key": "standing",
+      "path": "aggregator/instrument/STANDING-INSTRUCTIONS.md",
+      "sha256": "ccd2b0839511624273133f66466c7721a361e45b69e60617a131d44a0a7c8ecb",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "dbe5c8393030ddf8f402c92b2545f9af4f5382c716778e50fbb28e5cc8cdf7c5"
+    },
+    {
+      "key": "how-to-run",
+      "path": "aggregator/instrument/HOW-TO-RUN.md",
+      "sha256": "d505880783e8d13966e29e64d4b91fc94823f3d4135461af0d7338dfcaeabd2b",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "1dbdd6b64aa86b1f9f254788523f37cae1ea529d6efe2a8e7971056a306e8408"
+    },
+    {
+      "key": "platform-claude",
+      "path": "aggregator/instrument/PLATFORM-claude.md",
+      "sha256": "c7b542f7e4578bcf4856a852e16c5e0feb55f3dcd3cdd10e0e91a98038bb09d1",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "217ac91952551f96797fa3b035db89d02f33e1486b028f1e17a7b8e6e2b171aa"
+    },
+    {
+      "key": "platform-codex",
+      "path": "aggregator/instrument/PLATFORM-codex.md",
+      "sha256": "184d65e91d1886d9cd89403f73cba5fd9d5ef9baa09897971c4d421f3f8103ac",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "ec3e1e02f03f1d1e5bd4a6bc3648ad7fb654ca8c2505089b95d556cf509640de"
+    },
+    {
+      "key": "adaptations",
+      "path": "aggregator/instrument/SCHEMA-adaptations.md",
+      "sha256": "88aac5a1b16141f3914a3994b2d881a8274b012f050e8ccd6cc47e319c514914",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "e04875ff003403b1a3db45cb4441132c63a34398b7d116ad2ecf92079375b170"
+    },
+    {
+      "key": "stage-A1",
+      "path": "aggregator/instrument/stages/STAGE-A1-reading-room-notes.md",
+      "sha256": "9a8ba05c6754cf316fd0fad43bedf08701a067a872c4cfad5809d3ff01653a76",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "7c2883aa5ff105149a04ad141650765eaaab07cd11838b12ee5141cf601522df"
+    },
+    {
+      "key": "stage-B1",
+      "path": "aggregator/instrument/stages/STAGE-B1-coding-third-order-scheme.md",
+      "sha256": "a2b733dded3046ba611c65e979beb597ef8ef26e8b625dea28469a254219f8a0",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "1cffa7d593d904426fc5a0c3e34b1b6568b6d30b3bc0d68baccfce87feace09d"
+    },
+    {
+      "key": "stage-B2",
+      "path": "aggregator/instrument/stages/STAGE-B2-coding-pilot.md",
+      "sha256": "79c92744bb7b7b26941cf7738a849cf64f121caae77e8a940af97c0e570c8808",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "e1e93ec80d1fb6ea1723c8a61bcb467de215cc365ddbe98b24a3ad9df766054a"
+    },
+    {
+      "key": "stage-B3",
+      "path": "aggregator/instrument/stages/STAGE-B3-coding-fleet.md",
+      "sha256": "31fd906762e1d2ebf478bcf621410fad82d17a1432defed958a75cb8c07adcc7",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "5d79c84741ea7b892a7ea31f4e200a38dbcd7f5cb424109245b35f218928b6a7"
+    },
+    {
+      "key": "stage-B4",
+      "path": "aggregator/instrument/stages/STAGE-B4-coding-adjudication-and-freeze.md",
+      "sha256": "7fb68adfcd6a1dab15368728559d3eb3c91162c555a8a69b26a53571dfd16ebe",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "9d6e1201f4a4a75da7d9df0868fa5c1e23fb7e6c7a2aedcd36cae61ed130b6a2"
+    },
+    {
+      "key": "stage-C1",
+      "path": "aggregator/instrument/stages/STAGE-C1-model-structuring.md",
+      "sha256": "04bfb71195594cbaa2dd500b592419c539c2ea7afdde92d2db2de7ec25183b58",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "2b6d4d9a4f89105ae1579ec4c7e894222a7b77ea1995056a7cae976a647ab5db"
+    },
+    {
+      "key": "stage-C2",
+      "path": "aggregator/instrument/stages/STAGE-C2-model-the-loop.md",
+      "sha256": "e9a2ee259d281a421640230c300d693a7f07d3081ec1549bfa097202269ecd17",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "60d38302a4060cc7c1a1d801cfbb0142099f371e4bdf3c94f01b2832166fb027"
+    },
+    {
+      "key": "stage-C3",
+      "path": "aggregator/instrument/stages/STAGE-C3-model-literature.md",
+      "sha256": "9232e37ea6cda07a6eb28bef367ce7202231b37cc3121dfa051d82a5b3cf2641",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "421157a4174c3da5127fa7027e5fa884b4a48e31498fdc731b637b2b57e6935e"
+    },
+    {
+      "key": "stage-C4",
+      "path": "aggregator/instrument/stages/STAGE-C4-model-the-field.md",
+      "sha256": "dec5968155f6420e1b758384681cf0d20406c7680217e1ece452270212c43f7f",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "b9a2a9e31383e47a83c9f3fc48e40a24d342edebcb1467624ae9bfbde9954b44"
+    },
+    {
+      "key": "stage-C5",
+      "path": "aggregator/instrument/stages/STAGE-C5-model-account.md",
+      "sha256": "c0904fc40910da0b2d37fa801159ea39d85b84df09263c343aec2c36104756c4",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "f3a9375c2a71793ee12adf7c4f47cee900d29f4badf38bc2b8ffdc9d10e46e47"
+    },
+    {
+      "key": "stage-D1",
+      "path": "aggregator/instrument/stages/STAGE-D1-adaptation-return-build.md",
+      "sha256": "e7f7a3da33a3603708b1c320337ce205f55d4ae6500807d4558c3a94853fdc4d",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "f710d6e2641faf8b5fecd25a9df365f6c6481266c1cd88d102d0e372829fd85a"
+    },
+    {
+      "key": "stage-D2",
+      "path": "aggregator/instrument/stages/STAGE-D2-adaptation-labelers-and-verdicts.md",
+      "sha256": "2fe159d9d0967d09e425785ecba74e0e07f9220e4d4fed63ddaa8f622c3f81de",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "87b74f2b00f572b75d07bad7b6d2770bc18b20054fbcb4a4313c52d78b135c76"
+    },
+    {
+      "key": "stage-D3",
+      "path": "aggregator/instrument/stages/STAGE-D3-adaptation-adjudication.md",
+      "sha256": "3dc71c70120dae278ea87958a4b45f2ac02b44eacbd1a2ba2e3534884b623338",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "9451b32fdaf166a89572c8ffc6ce9efe293c3d1d363737e20700b1754410c04d"
+    },
+    {
+      "key": "stage-D4",
+      "path": "aggregator/instrument/stages/STAGE-D4-forming-the-tree.md",
+      "sha256": "a28da602661375431d68a7fdf90920ef62bca59fddfe37fde9462a8f891cb3c9",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "2647136d9a04c7f09aa61a06985babb8a1d539eea8599cad5b59ff29afb69396"
+    },
+    {
+      "key": "stage-D5",
+      "path": "aggregator/instrument/stages/STAGE-D5-forming-branch-accounts.md",
+      "sha256": "d00fff0cabc3825eb40949f2e19c0421140116c13b0b17b5fa33d3c875cf1640",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "9cb80ac795b77a18b4303a91773df70b8fcaea071ac66233073c740507768a75"
+    },
+    {
+      "key": "stage-D6",
+      "path": "aggregator/instrument/stages/STAGE-D6-forming-the-retelling.md",
+      "sha256": "b82b0af634ba86053b074d7f0ddedab99830e4fe324fcd079ded914b0d0d2485",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "f9607129d0e5bfb675d64a99e4a6cc7ce384c2e5896564b9a5beba2abfa1c613"
+    },
+    {
+      "key": "stage-E1",
+      "path": "aggregator/instrument/stages/STAGE-E1-formalizing-audit.md",
+      "sha256": "7c5d45ab13dbdde7e28373dcbc2a6c26447da0c060e1b54acee1a08460173bc3",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "617f7170e1e460380ae6fec0276ebf3afdcf5456ebefdc658ecdcb0677eef4dc"
+    },
+    {
+      "key": "stage-E2",
+      "path": "aggregator/instrument/stages/STAGE-E2-formalizing-feedback.md",
+      "sha256": "19de4da8d6adc78bb837a997065744d5f3ba5ef6b8a8e10144d7a3cd051a4501",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "b458e65ac7cb9edcdc55c5a73c566142cd6ebce094487cc9d5fa5ce95f4b4a9c"
+    }
+  ]
+}

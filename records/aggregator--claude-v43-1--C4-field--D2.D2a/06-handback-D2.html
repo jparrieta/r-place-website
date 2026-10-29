@@ -1,0 +1,327 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>handback-D2.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/handback-D2.md</h1><p class="notice">Saved at <a href="../aggregator--claude-v43-1--C4-field--D2.D2a.html">D2.D2a: check</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/452724eba1d604b60c1d3738e8fcac0198e94b75ee0bf06a41a50a7f85d4ac84.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/dd33cc4e4ec37de6bbe510233188ef62179f84f8"><code>dd33cc4e4ec3</code></a>, 2026-10-16T12:22:04+02:00. Saved-state date: 2026-10-16T10:21:24Z. Catalogue close receipt Commit date and saved-state date are distinct.</p><p class="notice">The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model. <a href="../../guides/history.html#models-and-lineage">Models and lineage</a>.</p></div><p><a href="https://github.com/jparrieta/r-place/blob/dd33cc4e4ec37de6bbe510233188ef62179f84f8/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/handback-D2.md">Original GitHub file</a>. Original SHA-256: <code>452724eba1d604b60c1d3738e8fcac0198e94b75ee0bf06a41a50a7f85d4ac84</code>. Reading-copy SHA-256: <code>452724eba1d604b60c1d3738e8fcac0198e94b75ee0bf06a41a50a7f85d4ac84</code>.</p><section class="record-copy"><h1 id="handback-stage-d2-the-return-checked">Handback, stage D2: the
+return, checked</h1>
+<p>Leg D2a, 16 October 2026. The labelers returned all 705 rooms and the
+verdict fleet returned two readers for each, against the model frozen at
+pass 15
+(e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd). I
+checked what <code>ingest.py D</code> compiled. I ruled on nothing,
+edited no return, and re-ran no labeler or reader. The detail and the
+scripts are in <code>notes-D2.md</code>.</p>
+<h2 id="the-return-value">The return value</h2>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rooms returned and accepted</td>
+<td>705</td>
+</tr>
+<tr>
+<td>Rooms reissued (<code>RUN.json</code>)</td>
+<td>0. Every <code>run.json</code> records one attempt; the handler's
+recap reports same-session repairs in 378 rooms</td>
+</tr>
+<tr>
+<td>Rooms unreturned</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Lines accepted</td>
+<td>42,243</td>
+</tr>
+<tr>
+<td>Lines flagged, by rule</td>
+<td>portability (rule 5): 763. Rules 1 to 4 and 6 reject a room whole,
+and no room was rejected</td>
+</tr>
+<tr>
+<td>Lines per room</td>
+<td>min 21, median 60, p90 68, max 91</td>
+</tr>
+<tr>
+<td>Ops</td>
+<td>instantiate 17,648; absent 14,675; restrict 4,406; add-step 1,889;
+add-condition 1,408; propose 1,362; link 844; contradict 11</td>
+</tr>
+<tr>
+<td>Ops by kind (as ingest stamps them)</td>
+<td>specification 32,323; correction 4,417; elaboration 4,141; proposal
+1,362</td>
+</tr>
+<tr>
+<td>Absent lines by evidence</td>
+<td>evidenced 67 (observed-absent 36, not-needed 31); evidence limits
+14,608 (unobserved 7,806, not-testable 6,802)</td>
+</tr>
+<tr>
+<td><code>none</code> rooms</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Non-portable share</td>
+<td>1.81% of lines (763), in 356 rooms</td>
+</tr>
+<tr>
+<td>Unplaced-source share</td>
+<td>0.5% of sourced lines (134 of 27,571), 0.3% of all lines, in 98
+rooms</td>
+</tr>
+<tr>
+<td>Reader verdicts (1,410)</td>
+<td>composes-with-residue 927; composes 432; cannot-tell 49;
+does-not-compose 2</td>
+</tr>
+<tr>
+<td>Room verdicts</td>
+<td>agreed in 542 rooms (with-residue 387, composes 140, cannot-tell 14,
+does-not-compose 1); split in 163</td>
+</tr>
+<tr>
+<td>Disagreement rate</td>
+<td>23.1% of rooms: composes against with-residue 142; cannot-tell
+against with-residue 11; cannot-tell against composes 10</td>
+</tr>
+<tr>
+<td>Cannot-tell, by threshold</td>
+<td>coded-share 39; off-platform 10; both 0. All 49 supported by the
+room's numbers; none listed as unsupported</td>
+</tr>
+<tr>
+<td>Labelers' model (manifest)</td>
+<td><code>gpt-6.1-sol</code> in all 705 rooms, resumed with
+<code>gpt-5.6-sol</code>, at medium effort (the recap)</td>
+</tr>
+<tr>
+<td>Readers' model (manifest)</td>
+<td><code>deepseek/deepseek-v4.1-flash</code>, verified, medium effort,
+two per room</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The labeler's grade against the fleet's verdict:</strong></p>
+<table>
+<thead>
+<tr>
+<th>labeler grade</th>
+<th>composes</th>
+<th>composes-with-residue</th>
+<th>does-not-compose</th>
+<th>cannot-tell</th>
+<th>split</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>composes-with-residue</td>
+<td>140</td>
+<td>387</td>
+<td>1</td>
+<td>14</td>
+<td>163</td>
+</tr>
+</tbody>
+</table>
+<p>The disagreement rate bounds whether the written criterion decides a
+room, not whether the model is right.</p>
+<h2 id="defects-for-the-operator">Defects for the operator</h2>
+<p>I edited none of these mid-return.</p>
+<ol type="1">
+<li><p><strong>The labeler's grade does not vary (task template and
+return specification).</strong></p>
+<ul>
+<li>All 705 <code>model-D.md</code> files grade composes-with-residue,
+and all 705 say <code>local_status: unresolved</code>.</li>
+<li><strong>The cause:</strong> <code>RETURN-D.md</code> asks the
+labeler not to assert exact fit while evidence remains unresolved, and
+to list each unresolved claim. Every room's record leaves some element
+unobserved, so <code>composes</code> and <code>validated</code> are out
+of reach.</li>
+<li><strong>The effect:</strong> the cross-table of grade against
+verdict has one row, so E1 cannot use it. The grade's sentence often
+reads as a formula.</li>
+<li><strong>What would make the grade vary:</strong> separate the claims
+the room bears on from the elements its record cannot show, and grade
+fit on the first.</li>
+</ul></li>
+<li><p><strong>Ingest stamps every absent line as
+specification.</strong></p>
+<ul>
+<li><code>SCHEMA</code> §2 counts only <code>observed-absent</code> and
+<code>not-needed</code> as evidenced. <code>unobserved</code> and
+<code>not-testable</code> support neither specification nor
+correction.</li>
+<li>14,608 of the 14,675 absent lines mark limits of the evidence.
+<code>ingest-D.md</code>'s kind counts therefore overstate evidenced
+specification by those lines.</li>
+<li>D3 and E1 should split absent lines by
+<code>observation</code>.</li>
+</ul></li>
+<li><p><strong>The repairs are not in the run's record.</strong></p>
+<ul>
+<li><code>RUN.json</code> says 0 rooms reissued, because ingest counts
+attempts above one, and every <code>run.json</code> records one
+attempt.</li>
+<li>The handler's recap reports one to four same-session repairs in 378
+rooms. No file this stage may read records them, or the rules they
+fixed. So ingest's flags cover only portability.</li>
+<li>D4's reconciliation should know the repairs exist.</li>
+</ul></li>
+<li><p><strong>The verdict return line
+(<code>RETURN-D2v</code>).</strong></p>
+<ul>
+<li><strong><code>served</code>:</strong> it asks the reader to copy a
+value the packet states. 1,409 of 1,410 lines copied it exactly; one
+(ducks, r1) dropped two characters, and 24 of the 32 invalid attempts
+lacked the field. <code>fleet.py</code>'s meta files hold the packet's
+digest independently, so <code>served</code> records copying, not what
+was served.</li>
+<li><strong><code>sub</code>:</strong> 225 reader lines wrote the room's
+name another way, 24 of them as another name. No verdict changed rooms,
+because ingest takes the room from the dispatch folder.</li>
+<li><strong>No count:</strong> the line carries no concept count or
+pointer count, though contract §5 says every verdict carries the count.
+My check used the figures in <code>rooms.jsonl</code>, which each packet
+stated.</li>
+</ul></li>
+<li><p><strong><code>[new: …]</code> is used for more than organizing
+(task template, minor).</strong></p>
+<ul>
+<li>The template does not limit <code>[new: …]</code> to organizing that
+no element covers.</li>
+<li>In the sample, most markers name such practices. Others name conduct
+that is not organizing (replying to a bot, sympathy in a joke thread),
+serve as a residue tag, or once repeat a theme the vocabulary holds
+(T3-017).</li>
+</ul></li>
+<li><p><strong>A dimension as the element outside <code>link</code>
+(QD2-001, answered; the check is repaired).</strong></p>
+<ul>
+<li>121 ledger lines name a dimension as their element. 113 are
+<code>link</code>, which SCHEMA §3 allows.</li>
+<li>Eight are restrict, add-condition or add-step lines: 4chan-013,
+SquareSpiral-014, borussiadortmund-013, cowchop-030, spain-058,
+torontoraptors-009, ucf-004 and vermont-011.</li>
+<li><code>ingest.py</code>'s rule 2 (line 186) accepts a dimension for
+any op. The stage check (<code>stage_D2.py</code>, line 273) accepts one
+only for <code>link</code>. So <code>validate.py D2</code> fails on
+these eight lines alone.</li>
+<li>I may not edit a return or re-run ingest. I asked the PI whether the
+check should accept them, so that D3 rules on them as they stand, or
+whether ingest should be tightened and the eight rooms returned to their
+labelers.</li>
+<li><strong>J's answer (option 1):</strong> the check accepts a
+dimension for these ops, and D3 rules on the eight lines as they stand.
+The handler changed <code>stage_D2.py</code>; I changed no line, tool or
+return.</li>
+<li><code>ingest.py</code>'s rule 2 still admits a dimension for every
+op, including instantiate, absent and contradict. The operator may want
+ingest and the check to name the same ops.</li>
+</ul></li>
+</ol>
+<h2 id="for-d3-facts-not-rulings">For D3: facts, not rulings</h2>
+<ul>
+<li><p><strong>The split rooms.</strong> All 163 are listed in
+<code>notes-D2.md</code>, by pair. D3 rules on each with the criterion
+in front of it.</p></li>
+<li><p><strong>Picturegame,</strong> a guessing-game sub, is the only
+room both readers judged does-not-compose.</p></li>
+<li><p><strong>Candidates and tentative entries.</strong> These rooms
+hold a line other than absent on each entry:</p>
+<table>
+<thead>
+<tr>
+<th>entry</th>
+<th>status</th>
+<th>rooms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P06</td>
+<td>candidate</td>
+<td>564</td>
+</tr>
+<tr>
+<td>K04</td>
+<td>candidate</td>
+<td>530</td>
+</tr>
+<tr>
+<td>R02</td>
+<td>candidate</td>
+<td>500</td>
+</tr>
+<tr>
+<td>P19</td>
+<td>candidate</td>
+<td>240</td>
+</tr>
+<tr>
+<td>K03</td>
+<td>candidate</td>
+<td>124</td>
+</tr>
+<tr>
+<td>P22</td>
+<td>tentative</td>
+<td>191</td>
+</tr>
+<tr>
+<td>P21</td>
+<td>tentative</td>
+<td>128</td>
+</tr>
+<tr>
+<td>A21</td>
+<td>tentative</td>
+<td>101</td>
+</tr>
+</tbody>
+</table>
+<p>The labelers name the candidates as candidates.</p></li>
+<li><p><strong>The sample of ten room models</strong> (seed 20261016,
+stratified on the room verdict).</p>
+<ul>
+<li><strong>Every file</strong> follows the dimensions, cites a
+resolving concept on every claim, and names every adapted element.</li>
+<li><strong>The prose</strong> reads as the room's organizing in the
+model's words.</li>
+<li><strong>Recurring changes:</strong> five labelers restrict A11 (a
+posted template did not settle the design). Four fold the start and the
+call into one act (A02). Four make restraint (A05) depend on something
+other than an agreement.</li>
+</ul></li>
+<li><p><strong>The story-miss rooms by room verdict:</strong>
+composes-with-residue 14, composes 4, split 1.</p></li>
+<li><p><strong>Contradict:</strong> 11 lines (P13 5, P10 3, A10, A04 and
+A07 one each).</p></li>
+</ul>
+<h2 id="what-i-did-not-do">What I did not do</h2>
+<ul>
+<li>I read the ledger by count and through the views, never as a
+list.</li>
+<li>I did not read <code>EXPECTATIONS.jsonl</code>.</li>
+<li>In <code>DROPS/D/</code> I read <code>DONE</code> and
+<code>UNRETURNED.tsv</code>, and I listed the folder's room names
+once.</li>
+</ul>
+<h2 id="slips">Slips</h2>
+<ul>
+<li><strong>A miscounted figure.</strong> I first wrote the story-miss
+rooms judged composes-with-residue as 13, from reading a printed list
+rather than a count. A script gives 14, and the notes and this handback
+carry 14; the correction is logged.</li>
+<li><strong>A wrong comparison, corrected before anything was
+written.</strong> My first comparison of <code>served</code> used the
+packet file's hash rather than the value the packet states. I found the
+cause, fixed the script, and reported the corrected count.</li>
+</ul>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

@@ -1,0 +1,198 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>expectations-E1.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/expectations-E1.md</h1><p class="notice">Saved at <a href="../aggregator--claude-v43-1--C4-field--E1.E1b-08.html">E1.E1b-08: audit section</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/f7851595adc8a0b41b546aee99d641c312de4c0c1af1678f342736fcdb2a24c9.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/0aeb7c4c0c2ea05123a0eb78bf12ce71788aee82"><code>0aeb7c4c0c2e</code></a>, 2026-10-27T22:46:07+01:00. Saved-state date: 2026-10-27T21:45:02Z. Committed checkpoint close receipt Commit date and saved-state date are distinct.</p></div><p><a href="https://github.com/jparrieta/r-place/blob/0aeb7c4c0c2ea05123a0eb78bf12ce71788aee82/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/expectations-E1.md">Original GitHub file</a>. Original SHA-256: <code>f7851595adc8a0b41b546aee99d641c312de4c0c1af1678f342736fcdb2a24c9</code>. Reading-copy SHA-256: <code>f7851595adc8a0b41b546aee99d641c312de4c0c1af1678f342736fcdb2a24c9</code>.</p><section class="record-copy"><h1
+id="expectations-against-the-ledger-and-the-verdicts-stage-e1">Expectations
+against the ledger and the verdicts (stage E1)</h1>
+<p>Written at E1b-07, 27 October 2026, from
+<code>audit-E1/expectations.py</code> and its output,
+<code>expectations.json</code>. <code>sealed/EXPECTATIONS.jsonl</code>
+holds one line per analysed room (705). Each line names the elements and
+arrows the room was expected to instantiate and those expected to be
+absent, with the source of each expectation (the implications of C5, the
+propositions and the placements).</p>
+<p>A room's evidence on an element is its accepted return lines on that
+element, from the first return and the re-check, with the last ruling of
+each line:</p>
+<ul>
+<li><strong>Taken up:</strong> an accepted instantiate, restrict,
+add-condition, add-step or link line.</li>
+<li><strong>Contradicted:</strong> an accepted contradict line.</li>
+<li><strong>Absent:</strong> only an accepted absent line.</li>
+<li><strong>Untested:</strong> no line.</li>
+</ul>
+<p>The score is <strong>in-sample throughout</strong>: the expectations
+were written from the same rooms whose return scores them, and the
+uncited concept ids are computed by script, not held out.</p>
+<h2 id="the-replication-score">The replication score</h2>
+<table>
+<thead>
+<tr>
+<th>outcome</th>
+<th>expectations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>met</td>
+<td>8,034</td>
+</tr>
+<tr>
+<td>failed: absent where it was expected</td>
+<td>575</td>
+</tr>
+<tr>
+<td>failed: taken up where absence was expected</td>
+<td>87</td>
+</tr>
+<tr>
+<td>untested: no line</td>
+<td>944</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The replication score is 0.924</strong> (8,034 met of 8,696
+met or failed).</p>
+<p><strong>By verdict</strong>, the first return's (both readers
+agreeing, else split):</p>
+<table>
+<thead>
+<tr>
+<th>verdict</th>
+<th>score</th>
+<th>met</th>
+<th>failed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>composes</td>
+<td>0.933</td>
+<td>1,443</td>
+<td>104</td>
+</tr>
+<tr>
+<td>composes with residue</td>
+<td>0.917</td>
+<td>4,703</td>
+<td>425</td>
+</tr>
+<tr>
+<td>split</td>
+<td>0.933</td>
+<td>1,846</td>
+<td>133</td>
+</tr>
+<tr>
+<td>cannot tell</td>
+<td>1.0</td>
+<td>40</td>
+<td>0</td>
+</tr>
+<tr>
+<td>does not compose</td>
+<td>1.0</td>
+<td>2</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>By branch</strong>, the score runs from 0.887 (F16) to 0.964
+(F04). The 229 rooms in no branch score 0.919. Every branch's score is
+in <code>expectations.json</code>.</p>
+<p><strong>The two failures, by element.</strong></p>
+<ul>
+<li><strong>Expected absent, taken up:</strong> C01, decided order, in
+81 rooms. This is the largest single failure. The return finds decided
+order in many rooms the coding did not.</li>
+<li><strong>Expected present, absent:</strong> A04 (62), A08 (61), A06
+(59), A13 (52) and A19 (48). In those rooms, the return's only accepted
+word on the arrow is that it is absent.</li>
+</ul>
+<p><strong>Stage D5's survival figures per branch</strong>, from the
+record and never from the canvas, are in <code>survival-D5.md</code> and
+<code>branches-D5.jsonl</code> (<code>work_remained</code> re-read for
+the 476 rooms in a branch, agreeing with the field in 248). They stand
+beside these scores. D5's reading of <code>work_remained</code> is an
+open defect (line 100), so no score here is set against survival.</p>
+<h2 id="the-fields-entries">The field's entries</h2>
+<p>The field model handed over three entries at C4a
+(<code>sealed/FIELD.jsonl</code>). Over the 705 rooms:</p>
+<table>
+<thead>
+<tr>
+<th>entry</th>
+<th>taken up</th>
+<th>contradicted</th>
+<th>absent</th>
+<th>no line</th>
+<th>D3's ruling</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P21 (members say an agreement cannot bind every placer)</td>
+<td>166</td>
+<td>0</td>
+<td>490</td>
+<td>49</td>
+<td>standing (D3a-26, rule 11): shown in the rooms' own lines</td>
+</tr>
+<tr>
+<td>P22 (rooms contest which version of the work is kept)</td>
+<td>223</td>
+<td>0</td>
+<td>463</td>
+<td>19</td>
+<td>standing (D3a-06, rule 11): shown in the rooms' own lines</td>
+</tr>
+<tr>
+<td>A21 (an agreement, or the making of terms, brings the
+disclaimer)</td>
+<td>112</td>
+<td>0</td>
+<td>567</td>
+<td>26</td>
+<td>standing with a bound (D3a-27, rule 11): counted in the rooms' own
+lines</td>
+</tr>
+<tr>
+<td>the model's other 48 standing elements and arrows, mean per
+element</td>
+<td>382.6</td>
+<td>0.1</td>
+<td>235.3</td>
+<td>87.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The tentative mark drew answers, but fewer than the model's other
+elements. All three were taken up in 112 to 223 rooms, and none was
+contradicted. Each is absent in more rooms than the mean element, so the
+return speaks of them less often.</p>
+<h2 id="the-onset-contrast">The onset contrast</h2>
+<p><code>contrast.md</code> (A1, recomputed at A1b-20) sets two sides:
+131 early rooms and 61 late, with a held-size comparison of 41 early and
+12 late. Stage C2 recorded each arrow's <code>early_late</code>
+counts.</p>
+<p><strong>Rule 6, the denominators before any gap:</strong></p>
+<ul>
+<li>19 arrows carry the counts. The late side holds 0 to 15 rooms per
+arrow (95 over all 19), and the early side 4 to 93 (818).</li>
+<li>No arrow's late side is large enough to read a gap. The pooled
+figures (578 of 818 early, 54 of 95 late) are not independent, because
+the same rooms recur across arrows. So no gap is read.</li>
+</ul>
+<p><strong>A1's expectations:</strong></p>
+<ul>
+<li><em>Late rooms organize around finding room; their organizing lives
+are shorter; early rooms name rivals more; the held-size comparison
+keeps the first difference and loses the third.</em></li>
+<li>They are <strong>untested</strong> by these counts. They are neither
+held nor failed.</li>
+<li>The contrast is a boundary condition that the model's terms could
+not test on this record, not a covariate.</li>
+</ul>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

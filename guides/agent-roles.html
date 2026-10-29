@@ -1,0 +1,172 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agents and their roles | r/place</title><link rel="stylesheet" href="../assets/site.css"><script defer src="../assets/local-setup.js"></script><script defer src="../assets/site.js"></script><script defer src="../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../index.html">The organism</a><a  href="../results.html">Results</a><a  href="../conditions.html">Common conditions</a><a  href="../event.html">The whole event</a><a aria-current=location href="../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../instrument.html">The instrument</a><a  href="../run.html">Run the study</a><a  href="../interviews.html">Checkpoint interviews</a><a  href="../reference.html">Full reference</a><a  href="../agents.html">For agents</a><a data-reviewer-entry href="../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-instrument" data-layer="Guide"><nav class="breadcrumbs" aria-label="Reading level"><a href="../index.html">Overview</a><span aria-hidden="true">/</span><a href="../instrument.html">The instrument</a><span aria-hidden="true">/</span><span aria-current="page">Guide</span></nav><h1 id="agents-and-their-roles">Agents and their roles</h1>
+<p>The work is divided so that preparing evidence, interpreting it and
+checking an interpretation are distinct jobs. A handler manages the
+process. A lead owns an account. A reader answers a bounded question
+from specified evidence. The researcher sets the study’s scope and
+remains responsible for its claims.</p>
+<p>An agent is a model conversation with a task and permitted files.
+These are roles, not model brands. Checkpoint records identify the model
+and saved state used at a particular point.</p>
+<p><a href="#prepare-the-record">Prepare the record</a> · <a
+href="#understand-a-community">Understand a community</a> · <a
+href="#build-the-shared-model">Build the shared model</a> · <a
+href="#return-and-audit">Return and audit</a> · <a
+href="#interview-a-saved-agent">Interview a saved agent</a></p>
+<h2 id="ai-use-in-v43">AI use in v43</h2>
+<p>The paper reports this division of work. Exact settings, changes of
+model and fork boundaries belong to each saved checkpoint; this summary
+does not replace that history.</p>
+<table>
+<thead>
+<tr>
+<th>Work</th>
+<th>Model and environment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Community coding</td>
+<td>GPT-5.6 Sol in Codex.</td>
+</tr>
+<tr>
+<td>Community returns to the population model</td>
+<td>GPT-6.1 Sol in Codex.</td>
+</tr>
+<tr>
+<td>Population analysis</td>
+<td>Claude Opus 5.5 in Claude Code.</td>
+</tr>
+<tr>
+<td>Routine reading checks and classification fleet</td>
+<td>DeepSeek V4.1 Flash.</td>
+</tr>
+</tbody>
+</table>
+<p>The authors designed the instrument and ruled on questions during the
+run. The agents code and compose descriptions; the authors judge the
+theoretical contribution and answer for the claims. Claude and Codex
+also helped edit the paper and build the figures and website. <a
+href="history.html#models-and-lineage">Inspect recorded model settings
+and lineage</a>.</p>
+<h2 id="prepare-the-record">Prepare the record</h2>
+<h3 id="collection-handler">Collection handler</h3>
+<p>Obtains the selected pixel, Reddit and atlas data through the
+repository’s download routes, checks what arrived and records gaps. Its
+handoff gives the coding handler verified input paths and versions. It
+does not choose new research categories or interpret communities. <a
+href="../agents/collection.html">Collection brief</a>.</p>
+<h3 id="community-brief-writer">Community brief writer</h3>
+<p>Reads the community’s record from before the event and writes a
+background brief. This gives the coding lead context about the community
+without supplying an interpretation of its later r/place activity. The
+brief and its quotations are checked before coding begins. <a
+href="../Manual-html/files/coder/contract-brief-writer.html">Brief
+writer’s role</a>.</p>
+<h2 id="understand-a-community">Understand a community</h2>
+<h3 id="coding-handler-also-called-the-scheduler">Coding handler, also
+called the scheduler</h3>
+<p>Prepares each community’s working folder, launches its agents, checks
+their outputs and keeps the progress record. It manages failed jobs and
+preserves completed work. It does not decide what a quotation means or
+rewrite an analyst’s answer to make a check pass. <a
+href="../sources/scheduler.html">Scheduler contract</a>.</p>
+<h3 id="community-reader-or-fleet-coder">Community reader, or fleet
+coder</h3>
+<p>Reads an assigned part of one community’s record and develops codes
+tied to participants’ words. In a large community, readers receive
+slices of whole threads. Their work passes to the case lead. This
+community-coding fleet is different from the aggregator’s later
+classification readers. <a href="../sources/fleet-coder.html">Reader
+contract</a>.</p>
+<h3 id="case-lead">Case lead</h3>
+<p>Owns the community’s whole account. It reads a small room itself; for
+a larger room it assembles the fleet’s work, groups codes into local
+themes and writes the case narrative. Its saved conversation and
+matching files support later continuation and interviews. <a
+href="../sources/case-lead.html">Case-lead contract</a>.</p>
+<h3 id="standalone-community-analyst">Standalone community analyst</h3>
+<p>Develops a model of organizing within one community, using its coded
+evidence. The recorded R6 close is a later milestone than the initial
+coding close. It belongs to a separate local-model workflow, not an
+extra step silently added to the coding scheduler. Compare <a
+href="../records/community--PlaceNL--coding-close.html">PlaceNL after
+coding</a> with <a href="../records/community--PlaceNL--R6.html">its R6
+model</a>.</p>
+<h2 id="build-the-shared-model">Build the shared model</h2>
+<h3 id="aggregator-handler">Aggregator handler</h3>
+<p>Builds the population-level run, opens and closes its legs, supplies
+permitted inputs and dispatches reader jobs. It records checks,
+preserves checkpoints and brings research decisions to the investigator.
+Passing its file checks does not establish that an explanation is true.
+<a href="../sources/handler.html">Handler protocol</a>.</p>
+<h3 id="aggregator-analyst">Aggregator analyst</h3>
+<p>Reads across communities, builds common categories, develops the
+population model, assesses returns and explains organizational forms.
+Stages divide this work into inspectable steps. A new stage or leg does
+not by itself mean a fresh analyst: saved conversation, files and
+recorded lineage carry the work forward. <a
+href="aggregator.html#stage-map">Follow the stages</a>.</p>
+<h3 id="classification-readers">Classification readers</h3>
+<p>Use the common scheme to assign local themes to categories. They test
+the rules in <a href="../stages/B2.html">B2</a>, apply them across the
+collection in <a href="../stages/B3.html">B3</a>, and check settled
+placements in <a href="../stages/B4.html">B4</a>. Separate readings
+expose disagreement. They do not settle it by vote; the aggregator
+returns to the evidence.</p>
+<h3 id="critical-readers">Critical readers</h3>
+<p>Challenge a developing explanation rather than build the whole model
+themselves. The <a href="../stages/C2.html">C2</a> reader examines the
+model; <a href="../stages/C5.html">C5</a> readers test claims in the
+integrated account against cases. Their replies remain alongside the
+analyst’s responses, including criticism that remains unresolved.</p>
+<h3 id="field-analyst-and-its-separate-workflow">Field analyst and its
+separate workflow</h3>
+<p>Studies the central r/place forum, where communities recruit,
+negotiate and discuss the event. It supplied an interim reading and
+comments at <a href="../stages/C4.html">C4</a> while its own analysis
+remained unfinished. A comparison with its completed model is still
+pending. Its role is to offer a view between communities. This website
+does not yet supply a standalone Field launch guide.</p>
+<h2 id="return-and-audit">Return and audit</h2>
+<h3 id="adaptation-handler">Adaptation handler</h3>
+<p>Delivers the fixed population model to each matching saved community
+lead, checks returns and routes required repairs back to that lead. It
+keeps local histories separate and records missing returns. It does not
+summarize the model for the lead or decide which corrections the
+aggregator should accept. <a href="../stages/D1.html">Return
+preparation</a>.</p>
+<h3 id="returning-community-lead">Returning community lead</h3>
+<p>The saved case agent reads the population model against its own
+community and writes a local account in the model’s terms. It records
+needed detail, conditions, contradictions or missing ideas. If the model
+changes, affected leads return for the <a href="../stages/D3.html">D3
+recheck</a>. These are model-to-record comparisons, not interviews with
+the original participants.</p>
+<h3 id="verdict-readers">Verdict readers</h3>
+<p>Independently judge how well the model accounts for each community
+from specified evidence. Their reasons can disagree with each other or
+with the returning lead. <a href="../stages/D2.html">D2</a> preserves
+these judgments; D3 assesses disputed ones. A verdict is not permission
+to change the model.</p>
+<h3 id="reconstruction-readers">Reconstruction readers</h3>
+<p>In <a href="../stages/E1.html">E1</a>, check whether the shared model
+plus supported local adaptations can account for claims in a sample of
+community narratives. They help reveal missing links between population
+explanations and local evidence. Their bounded test does not certify
+every claim in the study.</p>
+<h2 id="interview-a-saved-agent">Interview a saved agent</h2>
+<p>A checkpoint interview opens a disposable fork of a saved analyst
+with its matching historical files. It is the analyst at a chosen point,
+not a new agent asked to imitate it from a summary. Its answers are new
+interview responses; they do not alter or become part of the original
+analysis.</p>
+<p>The <a href="../interviews.html">interview catalogue</a>
+distinguishes available community and aggregator checkpoints. It does
+not promise a conversational checkpoint for every brief writer or fleet
+reader. <a href="../agents.html">Reading keys for agents</a> provide the
+operational instructions; this page explains the division of work.</p>
+<p class="deeper"><a href="../reference.html">Full reference</a> · <a href="../agents.html">For agents</a></p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../agents.html">For agents</a> · <a href="../reference.html">Full reference</a> · <a href="../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

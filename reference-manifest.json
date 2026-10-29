@@ -1,0 +1,982 @@
+[
+  {
+    "source": "Manual/1-introduction.md",
+    "target": "Manual-html/1-introduction.html"
+  },
+  {
+    "source": "Manual/10-for-reviewers.md",
+    "target": "Manual-html/10-for-reviewers.html"
+  },
+  {
+    "source": "Manual/2-rplace.md",
+    "target": "Manual-html/2-rplace.html"
+  },
+  {
+    "source": "Manual/3-how-it-was-built.md",
+    "target": "Manual-html/3-how-it-was-built.html"
+  },
+  {
+    "source": "Manual/4-the-coder.md",
+    "target": "Manual-html/4-the-coder.html"
+  },
+  {
+    "source": "Manual/5-the-aggregator.md",
+    "target": "Manual-html/5-the-aggregator.html"
+  },
+  {
+    "source": "Manual/6-the-handlers.md",
+    "target": "Manual-html/6-the-handlers.html"
+  },
+  {
+    "source": "Manual/7-tool-usage.md",
+    "target": "Manual-html/7-tool-usage.html"
+  },
+  {
+    "source": "Manual/8-the-v37-run.md",
+    "target": "Manual-html/8-the-v37-run.html"
+  },
+  {
+    "source": "Manual/9-resuming.md",
+    "target": "Manual-html/9-resuming.html"
+  },
+  {
+    "source": "Manual/INSTRUMENT-v43.md",
+    "target": "Manual-html/INSTRUMENT-v43.html"
+  },
+  {
+    "source": "Manual/OPENAI-MODELS.md",
+    "target": "Manual-html/OPENAI-MODELS.html"
+  },
+  {
+    "source": "Manual/README.md",
+    "target": "Manual-html/index.html"
+  },
+  {
+    "source": "Manual/artworks-outside-the-population.md",
+    "target": "Manual-html/artworks-outside-the-population.html"
+  },
+  {
+    "source": "Manual/census.md",
+    "target": "Manual-html/census.html"
+  },
+  {
+    "source": "Manual/data-and-collection.md",
+    "target": "Manual-html/data-and-collection.html"
+  },
+  {
+    "source": "Manual/files/README.md",
+    "target": "Manual-html/files/index.html"
+  },
+  {
+    "source": "Manual/files/aggregator/README.md",
+    "target": "Manual-html/files/aggregator/index.html"
+  },
+  {
+    "source": "Manual/files/aggregator/agent-md.md",
+    "target": "Manual-html/files/aggregator/agent-md.html"
+  },
+  {
+    "source": "Manual/files/aggregator/claude-md.md",
+    "target": "Manual-html/files/aggregator/claude-md.html"
+  },
+  {
+    "source": "Manual/files/aggregator/claude-settings-json.md",
+    "target": "Manual-html/files/aggregator/claude-settings-json.html"
+  },
+  {
+    "source": "Manual/files/aggregator/contract-aggregator.md",
+    "target": "Manual-html/files/aggregator/contract-aggregator.html"
+  },
+  {
+    "source": "Manual/files/aggregator/fleet.md",
+    "target": "Manual-html/files/aggregator/fleet.html"
+  },
+  {
+    "source": "Manual/files/aggregator/handoff-templates.md",
+    "target": "Manual-html/files/aggregator/handoff-templates.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-acceptance-sh.md",
+    "target": "Manual-html/files/aggregator/harness-acceptance-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-after-compact-sh.md",
+    "target": "Manual-html/files/aggregator/harness-after-compact-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-arm-json.md",
+    "target": "Manual-html/files/aggregator/harness-arm-json.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-build-sh.md",
+    "target": "Manual-html/files/aggregator/harness-build-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-close-sh.md",
+    "target": "Manual-html/files/aggregator/harness-close-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-dispatch-sh.md",
+    "target": "Manual-html/files/aggregator/harness-dispatch-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-gen-manual-py.md",
+    "target": "Manual-html/files/aggregator/harness-gen-manual-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-interview-sh.md",
+    "target": "Manual-html/files/aggregator/harness-interview-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-launch-sh.md",
+    "target": "Manual-html/files/aggregator/harness-launch-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-pause-sh.md",
+    "target": "Manual-html/files/aggregator/harness-pause-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-pretool-guard-py.md",
+    "target": "Manual-html/files/aggregator/harness-pretool-guard-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-protocol-guard-py.md",
+    "target": "Manual-html/files/aggregator/harness-protocol-guard-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-publish-sh.md",
+    "target": "Manual-html/files/aggregator/harness-publish-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-read-me-first.md",
+    "target": "Manual-html/files/aggregator/harness-read-me-first.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-stage-cards-py.md",
+    "target": "Manual-html/files/aggregator/harness-stage-cards-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/harness-step-sh.md",
+    "target": "Manual-html/files/aggregator/harness-step-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/how-to-run.md",
+    "target": "Manual-html/files/aggregator/how-to-run.html"
+  },
+  {
+    "source": "Manual/files/aggregator/method.md",
+    "target": "Manual-html/files/aggregator/method.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-diary.md",
+    "target": "Manual-html/files/aggregator/out-diary.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-folder.md",
+    "target": "Manual-html/files/aggregator/out-folder.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-head-md.md",
+    "target": "Manual-html/files/aggregator/out-head-md.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-probe.md",
+    "target": "Manual-html/files/aggregator/out-probe.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-read-logs.md",
+    "target": "Manual-html/files/aggregator/out-read-logs.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-rooms-notes.md",
+    "target": "Manual-html/files/aggregator/out-rooms-notes.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-snap.md",
+    "target": "Manual-html/files/aggregator/out-snap.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-transcripts.md",
+    "target": "Manual-html/files/aggregator/out-transcripts.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-views.md",
+    "target": "Manual-html/files/aggregator/out-views.html"
+  },
+  {
+    "source": "Manual/files/aggregator/out-wiki.md",
+    "target": "Manual-html/files/aggregator/out-wiki.html"
+  },
+  {
+    "source": "Manual/files/aggregator/package-canvas-artworks.md",
+    "target": "Manual-html/files/aggregator/package-canvas-artworks.html"
+  },
+  {
+    "source": "Manual/files/aggregator/package-case-facts-outcome.md",
+    "target": "Manual-html/files/aggregator/package-case-facts-outcome.html"
+  },
+  {
+    "source": "Manual/files/aggregator/package-data-manifest-canvas.md",
+    "target": "Manual-html/files/aggregator/package-data-manifest-canvas.html"
+  },
+  {
+    "source": "Manual/files/aggregator/package-forest-jsonl.md",
+    "target": "Manual-html/files/aggregator/package-forest-jsonl.html"
+  },
+  {
+    "source": "Manual/files/aggregator/package-frame-md.md",
+    "target": "Manual-html/files/aggregator/package-frame-md.html"
+  },
+  {
+    "source": "Manual/files/aggregator/package-pixels-csv.md",
+    "target": "Manual-html/files/aggregator/package-pixels-csv.html"
+  },
+  {
+    "source": "Manual/files/aggregator/package-tree-index-json.md",
+    "target": "Manual-html/files/aggregator/package-tree-index-json.html"
+  },
+  {
+    "source": "Manual/files/aggregator/prior-template.md",
+    "target": "Manual-html/files/aggregator/prior-template.html"
+  },
+  {
+    "source": "Manual/files/aggregator/room-brief-md.md",
+    "target": "Manual-html/files/aggregator/room-brief-md.html"
+  },
+  {
+    "source": "Manual/files/aggregator/room-case-md.md",
+    "target": "Manual-html/files/aggregator/room-case-md.html"
+  },
+  {
+    "source": "Manual/files/aggregator/room-codes-jsonl.md",
+    "target": "Manual-html/files/aggregator/room-codes-jsonl.html"
+  },
+  {
+    "source": "Manual/files/aggregator/room-pointers-jsonl.md",
+    "target": "Manual-html/files/aggregator/room-pointers-jsonl.html"
+  },
+  {
+    "source": "Manual/files/aggregator/room-themes-jsonl.md",
+    "target": "Manual-html/files/aggregator/room-themes-jsonl.html"
+  },
+  {
+    "source": "Manual/files/aggregator/room-threads-jsonl.md",
+    "target": "Manual-html/files/aggregator/room-threads-jsonl.html"
+  },
+  {
+    "source": "Manual/files/aggregator/schema-adaptations.md",
+    "target": "Manual-html/files/aggregator/schema-adaptations.html"
+  },
+  {
+    "source": "Manual/files/aggregator/shelves-folder.md",
+    "target": "Manual-html/files/aggregator/shelves-folder.html"
+  },
+  {
+    "source": "Manual/files/aggregator/stages-folder.md",
+    "target": "Manual-html/files/aggregator/stages-folder.html"
+  },
+  {
+    "source": "Manual/files/aggregator/standing-instructions.md",
+    "target": "Manual-html/files/aggregator/standing-instructions.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-build-json.md",
+    "target": "Manual-html/files/aggregator/store-build-json.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-codes.md",
+    "target": "Manual-html/files/aggregator/store-codes.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-items.md",
+    "target": "Manual-html/files/aggregator/store-items.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-neighbours.md",
+    "target": "Manual-html/files/aggregator/store-neighbours.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-pointers.md",
+    "target": "Manual-html/files/aggregator/store-pointers.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-readme-neighbours.md",
+    "target": "Manual-html/files/aggregator/store-readme-neighbours.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-readme-relations.md",
+    "target": "Manual-html/files/aggregator/store-readme-relations.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-readme-transitions.md",
+    "target": "Manual-html/files/aggregator/store-readme-transitions.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-readme.md",
+    "target": "Manual-html/files/aggregator/store-readme.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-relations.md",
+    "target": "Manual-html/files/aggregator/store-relations.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-retracted.md",
+    "target": "Manual-html/files/aggregator/store-retracted.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-rooms.md",
+    "target": "Manual-html/files/aggregator/store-rooms.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-themes.md",
+    "target": "Manual-html/files/aggregator/store-themes.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-threads.md",
+    "target": "Manual-html/files/aggregator/store-threads.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-transitions.md",
+    "target": "Manual-html/files/aggregator/store-transitions.html"
+  },
+  {
+    "source": "Manual/files/aggregator/store-unjoined.md",
+    "target": "Manual-html/files/aggregator/store-unjoined.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-build-neighbours-py.md",
+    "target": "Manual-html/files/aggregator/tool-build-neighbours-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-build-store-py.md",
+    "target": "Manual-html/files/aggregator/tool-build-store-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-checks.md",
+    "target": "Manual-html/files/aggregator/tool-checks.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-cite-py.md",
+    "target": "Manual-html/files/aggregator/tool-cite-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-counts-py.md",
+    "target": "Manual-html/files/aggregator/tool-counts-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-distance-py.md",
+    "target": "Manual-html/files/aggregator/tool-distance-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-done-sh.md",
+    "target": "Manual-html/files/aggregator/tool-done-sh.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-dreturn-py.md",
+    "target": "Manual-html/files/aggregator/tool-dreturn-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-fleet-py.md",
+    "target": "Manual-html/files/aggregator/tool-fleet-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-gen-views-py.md",
+    "target": "Manual-html/files/aggregator/tool-gen-views-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-handoff-py.md",
+    "target": "Manual-html/files/aggregator/tool-handoff-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-ingest-py.md",
+    "target": "Manual-html/files/aggregator/tool-ingest-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-links-py.md",
+    "target": "Manual-html/files/aggregator/tool-links-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-mem-py.md",
+    "target": "Manual-html/files/aggregator/tool-mem-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-new-verbs-md.md",
+    "target": "Manual-html/files/aggregator/tool-new-verbs-md.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-packets-py.md",
+    "target": "Manual-html/files/aggregator/tool-packets-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-probe-py.md",
+    "target": "Manual-html/files/aggregator/tool-probe-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-projections-py.md",
+    "target": "Manual-html/files/aggregator/tool-projections-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-rebuild-py.md",
+    "target": "Manual-html/files/aggregator/tool-rebuild-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-relations-py.md",
+    "target": "Manual-html/files/aggregator/tool-relations-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-saturation-py.md",
+    "target": "Manual-html/files/aggregator/tool-saturation-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-snap-py.md",
+    "target": "Manual-html/files/aggregator/tool-snap-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-steps-py.md",
+    "target": "Manual-html/files/aggregator/tool-steps-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-steps-tsv.md",
+    "target": "Manual-html/files/aggregator/tool-steps-tsv.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-tools-version.md",
+    "target": "Manual-html/files/aggregator/tool-tools-version.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-transitions-py.md",
+    "target": "Manual-html/files/aggregator/tool-transitions-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-validate-py.md",
+    "target": "Manual-html/files/aggregator/tool-validate-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/tool-vlib-py.md",
+    "target": "Manual-html/files/aggregator/tool-vlib-py.html"
+  },
+  {
+    "source": "Manual/files/aggregator/trees-room-md.md",
+    "target": "Manual-html/files/aggregator/trees-room-md.html"
+  },
+  {
+    "source": "Manual/files/coder/README.md",
+    "target": "Manual-html/files/coder/index.html"
+  },
+  {
+    "source": "Manual/files/coder/agent-md.md",
+    "target": "Manual-html/files/coder/agent-md.html"
+  },
+  {
+    "source": "Manual/files/coder/audit-fleet-py.md",
+    "target": "Manual-html/files/coder/audit-fleet-py.html"
+  },
+  {
+    "source": "Manual/files/coder/brief-outputs.md",
+    "target": "Manual-html/files/coder/brief-outputs.html"
+  },
+  {
+    "source": "Manual/files/coder/case-lead-prompt.md",
+    "target": "Manual-html/files/coder/case-lead-prompt.html"
+  },
+  {
+    "source": "Manual/files/coder/changelog.md",
+    "target": "Manual-html/files/coder/changelog.html"
+  },
+  {
+    "source": "Manual/files/coder/checkpoints.md",
+    "target": "Manual-html/files/coder/checkpoints.html"
+  },
+  {
+    "source": "Manual/files/coder/cite-py.md",
+    "target": "Manual-html/files/coder/cite-py.html"
+  },
+  {
+    "source": "Manual/files/coder/close-run-py.md",
+    "target": "Manual-html/files/coder/close-run-py.html"
+  },
+  {
+    "source": "Manual/files/coder/codex-lead-py.md",
+    "target": "Manual-html/files/coder/codex-lead-py.html"
+  },
+  {
+    "source": "Manual/files/coder/coding-queue-py.md",
+    "target": "Manual-html/files/coder/coding-queue-py.html"
+  },
+  {
+    "source": "Manual/files/coder/contract-brief-writer.md",
+    "target": "Manual-html/files/coder/contract-brief-writer.html"
+  },
+  {
+    "source": "Manual/files/coder/contract-case-lead.md",
+    "target": "Manual-html/files/coder/contract-case-lead.html"
+  },
+  {
+    "source": "Manual/files/coder/contract-fleet-coder.md",
+    "target": "Manual-html/files/coder/contract-fleet-coder.html"
+  },
+  {
+    "source": "Manual/files/coder/contract-scheduler.md",
+    "target": "Manual-html/files/coder/contract-scheduler.html"
+  },
+  {
+    "source": "Manual/files/coder/contract.md",
+    "target": "Manual-html/files/coder/contract.html"
+  },
+  {
+    "source": "Manual/files/coder/corpus-files.md",
+    "target": "Manual-html/files/coder/corpus-files.html"
+  },
+  {
+    "source": "Manual/files/coder/cut-window.md",
+    "target": "Manual-html/files/coder/cut-window.html"
+  },
+  {
+    "source": "Manual/files/coder/emit-py.md",
+    "target": "Manual-html/files/coder/emit-py.html"
+  },
+  {
+    "source": "Manual/files/coder/fleet-batch.md",
+    "target": "Manual-html/files/coder/fleet-batch.html"
+  },
+  {
+    "source": "Manual/files/coder/fleet-py.md",
+    "target": "Manual-html/files/coder/fleet-py.html"
+  },
+  {
+    "source": "Manual/files/coder/lead-archive-py.md",
+    "target": "Manual-html/files/coder/lead-archive-py.html"
+  },
+  {
+    "source": "Manual/files/coder/lead-session-archive.md",
+    "target": "Manual-html/files/coder/lead-session-archive.html"
+  },
+  {
+    "source": "Manual/files/coder/materials-archive.md",
+    "target": "Manual-html/files/coder/materials-archive.html"
+  },
+  {
+    "source": "Manual/files/coder/newbrief-py.md",
+    "target": "Manual-html/files/coder/newbrief-py.html"
+  },
+  {
+    "source": "Manual/files/coder/newrun-py.md",
+    "target": "Manual-html/files/coder/newrun-py.html"
+  },
+  {
+    "source": "Manual/files/coder/package.md",
+    "target": "Manual-html/files/coder/package.html"
+  },
+  {
+    "source": "Manual/files/coder/read-brief-py.md",
+    "target": "Manual-html/files/coder/read-brief-py.html"
+  },
+  {
+    "source": "Manual/files/coder/read-py.md",
+    "target": "Manual-html/files/coder/read-py.html"
+  },
+  {
+    "source": "Manual/files/coder/record-files.md",
+    "target": "Manual-html/files/coder/record-files.html"
+  },
+  {
+    "source": "Manual/files/coder/render-corpus.md",
+    "target": "Manual-html/files/coder/render-corpus.html"
+  },
+  {
+    "source": "Manual/files/coder/render-openings.md",
+    "target": "Manual-html/files/coder/render-openings.html"
+  },
+  {
+    "source": "Manual/files/coder/room-md.md",
+    "target": "Manual-html/files/coder/room-md.html"
+  },
+  {
+    "source": "Manual/files/coder/room-py.md",
+    "target": "Manual-html/files/coder/room-py.html"
+  },
+  {
+    "source": "Manual/files/coder/run-archive.md",
+    "target": "Manual-html/files/coder/run-archive.html"
+  },
+  {
+    "source": "Manual/files/coder/start-yard-lead-py.md",
+    "target": "Manual-html/files/coder/start-yard-lead-py.html"
+  },
+  {
+    "source": "Manual/files/coder/state-json.md",
+    "target": "Manual-html/files/coder/state-json.html"
+  },
+  {
+    "source": "Manual/files/coder/tools-spec.md",
+    "target": "Manual-html/files/coder/tools-spec.html"
+  },
+  {
+    "source": "Manual/files/coder/tree-builder-py.md",
+    "target": "Manual-html/files/coder/tree-builder-py.html"
+  },
+  {
+    "source": "Manual/files/coder/validation.md",
+    "target": "Manual-html/files/coder/validation.html"
+  },
+  {
+    "source": "Manual/files/coder/yard-structure.md",
+    "target": "Manual-html/files/coder/yard-structure.html"
+  },
+  {
+    "source": "Manual/files/handler/README.md",
+    "target": "Manual-html/files/handler/index.html"
+  },
+  {
+    "source": "Manual/glossary.md",
+    "target": "Manual-html/glossary.html"
+  },
+  {
+    "source": "Manual/memory/aggregator.md",
+    "target": "Manual-html/memory/aggregator.html"
+  },
+  {
+    "source": "Manual/memory/coder-lead.md",
+    "target": "Manual-html/memory/coder-lead.html"
+  },
+  {
+    "source": "Manual/numbers.md",
+    "target": "Manual-html/numbers.html"
+  },
+  {
+    "source": "Manual/openai-stages/A1.md",
+    "target": "Manual/openai-stages/A1.md"
+  },
+  {
+    "source": "Manual/openai-stages/B1.md",
+    "target": "Manual/openai-stages/B1.md"
+  },
+  {
+    "source": "Manual/openai-stages/B2.md",
+    "target": "Manual/openai-stages/B2.md"
+  },
+  {
+    "source": "Manual/openai-stages/B3.md",
+    "target": "Manual/openai-stages/B3.md"
+  },
+  {
+    "source": "Manual/openai-stages/B4.md",
+    "target": "Manual/openai-stages/B4.md"
+  },
+  {
+    "source": "Manual/openai-stages/C1.md",
+    "target": "Manual/openai-stages/C1.md"
+  },
+  {
+    "source": "Manual/openai-stages/C2.md",
+    "target": "Manual/openai-stages/C2.md"
+  },
+  {
+    "source": "Manual/openai-stages/C3.md",
+    "target": "Manual/openai-stages/C3.md"
+  },
+  {
+    "source": "Manual/openai-stages/C4.md",
+    "target": "Manual/openai-stages/C4.md"
+  },
+  {
+    "source": "Manual/openai-stages/C5.md",
+    "target": "Manual/openai-stages/C5.md"
+  },
+  {
+    "source": "Manual/openai-stages/D1.md",
+    "target": "Manual/openai-stages/D1.md"
+  },
+  {
+    "source": "Manual/openai-stages/D2.md",
+    "target": "Manual/openai-stages/D2.md"
+  },
+  {
+    "source": "Manual/openai-stages/D3.md",
+    "target": "Manual/openai-stages/D3.md"
+  },
+  {
+    "source": "Manual/openai-stages/D4.md",
+    "target": "Manual/openai-stages/D4.md"
+  },
+  {
+    "source": "Manual/openai-stages/D5.md",
+    "target": "Manual/openai-stages/D5.md"
+  },
+  {
+    "source": "Manual/openai-stages/D6.md",
+    "target": "Manual/openai-stages/D6.md"
+  },
+  {
+    "source": "Manual/openai-stages/E1.md",
+    "target": "Manual/openai-stages/E1.md"
+  },
+  {
+    "source": "Manual/openai-stages/E2.md",
+    "target": "Manual/openai-stages/E2.md"
+  },
+  {
+    "source": "Manual/requirements-and-data.md",
+    "target": "Manual-html/requirements-and-data.html"
+  },
+  {
+    "source": "Manual/stages/A1.md",
+    "target": "Manual-html/stages/A1.html"
+  },
+  {
+    "source": "Manual/stages/B1.md",
+    "target": "Manual-html/stages/B1.html"
+  },
+  {
+    "source": "Manual/stages/B2.md",
+    "target": "Manual-html/stages/B2.html"
+  },
+  {
+    "source": "Manual/stages/B3.md",
+    "target": "Manual-html/stages/B3.html"
+  },
+  {
+    "source": "Manual/stages/B4.md",
+    "target": "Manual-html/stages/B4.html"
+  },
+  {
+    "source": "Manual/stages/C1.md",
+    "target": "Manual-html/stages/C1.html"
+  },
+  {
+    "source": "Manual/stages/C2.md",
+    "target": "Manual-html/stages/C2.html"
+  },
+  {
+    "source": "Manual/stages/C3.md",
+    "target": "Manual-html/stages/C3.html"
+  },
+  {
+    "source": "Manual/stages/C4.md",
+    "target": "Manual-html/stages/C4.html"
+  },
+  {
+    "source": "Manual/stages/C5.md",
+    "target": "Manual-html/stages/C5.html"
+  },
+  {
+    "source": "Manual/stages/D1.md",
+    "target": "Manual-html/stages/D1.html"
+  },
+  {
+    "source": "Manual/stages/D2.md",
+    "target": "Manual-html/stages/D2.html"
+  },
+  {
+    "source": "Manual/stages/D3.md",
+    "target": "Manual-html/stages/D3.html"
+  },
+  {
+    "source": "Manual/stages/D4.md",
+    "target": "Manual-html/stages/D4.html"
+  },
+  {
+    "source": "Manual/stages/D5.md",
+    "target": "Manual-html/stages/D5.html"
+  },
+  {
+    "source": "Manual/stages/D6.md",
+    "target": "Manual-html/stages/D6.html"
+  },
+  {
+    "source": "Manual/stages/E1.md",
+    "target": "Manual-html/stages/E1.html"
+  },
+  {
+    "source": "Manual/stages/E2.md",
+    "target": "Manual-html/stages/E2.html"
+  },
+  {
+    "source": "Manual/trace-a-claim.md",
+    "target": "Manual-html/trace-a-claim.html"
+  },
+  {
+    "source": "Manual-html/FLEET-ARMS.html",
+    "target": "Manual-html/FLEET-ARMS.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-A1.html",
+    "target": "Manual-html/OPENAI-A1.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-B1.html",
+    "target": "Manual-html/OPENAI-B1.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-B2.html",
+    "target": "Manual-html/OPENAI-B2.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-B3.html",
+    "target": "Manual-html/OPENAI-B3.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-B4.html",
+    "target": "Manual-html/OPENAI-B4.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-C1.html",
+    "target": "Manual-html/OPENAI-C1.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-C2.html",
+    "target": "Manual-html/OPENAI-C2.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-C3.html",
+    "target": "Manual-html/OPENAI-C3.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-C4.html",
+    "target": "Manual-html/OPENAI-C4.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-C5.html",
+    "target": "Manual-html/OPENAI-C5.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-D1.html",
+    "target": "Manual-html/OPENAI-D1.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-D2.html",
+    "target": "Manual-html/OPENAI-D2.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-D3.html",
+    "target": "Manual-html/OPENAI-D3.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-D4.html",
+    "target": "Manual-html/OPENAI-D4.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-D5.html",
+    "target": "Manual-html/OPENAI-D5.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-D6.html",
+    "target": "Manual-html/OPENAI-D6.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-E1.html",
+    "target": "Manual-html/OPENAI-E1.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-E2.html",
+    "target": "Manual-html/OPENAI-E2.html"
+  },
+  {
+    "source": "Manual-html/OPENAI-LIVE.html",
+    "target": "Manual-html/OPENAI-LIVE.html"
+  },
+  {
+    "source": "Manual-html/OPENAI.html",
+    "target": "Manual-html/OPENAI.html"
+  },
+  {
+    "source": "Manual-html/V43-CONTRACT-aggregator.html",
+    "target": "Manual-html/V43-CONTRACT-aggregator.html"
+  },
+  {
+    "source": "Manual-html/V43-HOW-TO-RUN.html",
+    "target": "Manual-html/V43-HOW-TO-RUN.html"
+  },
+  {
+    "source": "Manual-html/V43-METHOD.html",
+    "target": "Manual-html/V43-METHOD.html"
+  },
+  {
+    "source": "Manual-html/V43-OPENAI-RUNTIME.html",
+    "target": "Manual-html/V43-OPENAI-RUNTIME.html"
+  },
+  {
+    "source": "Manual-html/V43-PRIOR-template.html",
+    "target": "Manual-html/V43-PRIOR-template.html"
+  },
+  {
+    "source": "Manual-html/V43-SCHEMA-adaptations.html",
+    "target": "Manual-html/V43-SCHEMA-adaptations.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-A1-reading-room-notes.html",
+    "target": "Manual-html/V43-STAGE-A1-reading-room-notes.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-B1-coding-third-order-scheme.html",
+    "target": "Manual-html/V43-STAGE-B1-coding-third-order-scheme.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-B2-coding-pilot.html",
+    "target": "Manual-html/V43-STAGE-B2-coding-pilot.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-B3-coding-fleet.html",
+    "target": "Manual-html/V43-STAGE-B3-coding-fleet.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-B4-coding-adjudication-and-freeze.html",
+    "target": "Manual-html/V43-STAGE-B4-coding-adjudication-and-freeze.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-C1-model-structuring.html",
+    "target": "Manual-html/V43-STAGE-C1-model-structuring.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-C2-model-the-loop.html",
+    "target": "Manual-html/V43-STAGE-C2-model-the-loop.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-C3-model-literature.html",
+    "target": "Manual-html/V43-STAGE-C3-model-literature.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-C4-model-the-field.html",
+    "target": "Manual-html/V43-STAGE-C4-model-the-field.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-C5-model-account.html",
+    "target": "Manual-html/V43-STAGE-C5-model-account.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-D1-adaptation-return-build.html",
+    "target": "Manual-html/V43-STAGE-D1-adaptation-return-build.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-D2-adaptation-labelers-and-verdicts.html",
+    "target": "Manual-html/V43-STAGE-D2-adaptation-labelers-and-verdicts.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-D3-adaptation-adjudication.html",
+    "target": "Manual-html/V43-STAGE-D3-adaptation-adjudication.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-D4-forming-the-tree.html",
+    "target": "Manual-html/V43-STAGE-D4-forming-the-tree.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-D5-forming-branch-accounts.html",
+    "target": "Manual-html/V43-STAGE-D5-forming-branch-accounts.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-D6-forming-the-retelling.html",
+    "target": "Manual-html/V43-STAGE-D6-forming-the-retelling.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-E1-formalizing-audit.html",
+    "target": "Manual-html/V43-STAGE-E1-formalizing-audit.html"
+  },
+  {
+    "source": "Manual-html/V43-STAGE-E2-formalizing-feedback.html",
+    "target": "Manual-html/V43-STAGE-E2-formalizing-feedback.html"
+  },
+  {
+    "source": "Manual-html/V43-STANDING-INSTRUCTIONS.html",
+    "target": "Manual-html/V43-STANDING-INSTRUCTIONS.html"
+  }
+]

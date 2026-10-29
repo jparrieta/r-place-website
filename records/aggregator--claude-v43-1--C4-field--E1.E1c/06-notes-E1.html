@@ -1,0 +1,788 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>notes-E1.md | r/place</title><link rel="stylesheet" href="../../assets/site.css"><script defer src="../../assets/local-setup.js"></script><script defer src="../../assets/site.js"></script><script defer src="../../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../../index.html">The organism</a><a  href="../../results.html">Results</a><a  href="../../conditions.html">Common conditions</a><a  href="../../event.html">The whole event</a><a aria-current=location href="../../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../../instrument.html">The instrument</a><a  href="../../run.html">Run the study</a><a  href="../../interviews.html">Checkpoint interviews</a><a  href="../../reference.html">Full reference</a><a  href="../../agents.html">For agents</a><a data-reviewer-entry href="../../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-interviews" data-layer="Full reference"><nav class="breadcrumbs" aria-label="Reading level"><a href="../../index.html">Overview</a><span aria-hidden="true">/</span><a href="../../reference.html">Full reference</a><span aria-hidden="true">/</span><span aria-current="page">Full document</span></nav><h1>out/notes-E1.md</h1><p class="notice">Saved at <a href="../aggregator--claude-v43-1--C4-field--E1.E1c.html">E1.E1c: reconstruction build</a>. This reading copy substitutes participant identifiers in saved text; it is not a new interview response. <a href="../files/6a757bee58d4d7bd94e51d8587537ea8f122016e56cf6f30d761b22481e93450.reading.md">Reading Markdown</a>.</p><p id="participant-identifiers" class="notice">Participant handles in these reading copies use the pixel stream's identifiers: base64(SHA1(username)), case preserved, without a salt. These are linkable pseudonyms. Profile links are removed; missing-author markers remain. Original research files are unchanged. Quote offsets refer to original text. Source and reading-copy hashes are listed separately.</p><div class="historical-context"><p>Source commit: <a href="https://github.com/jparrieta/r-place/tree/3387768448a8105a92d57b82115c8a0e21cfdb14"><code>3387768448a8</code></a>, 2026-10-27T23:11:07+01:00. Saved-state date: 2026-10-27T22:09:55Z. Committed checkpoint close receipt Commit date and saved-state date are distinct.</p></div><p><a href="https://github.com/jparrieta/r-place/blob/3387768448a8105a92d57b82115c8a0e21cfdb14/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-E1.md">Original GitHub file</a>. Original SHA-256: <code>6a757bee58d4d7bd94e51d8587537ea8f122016e56cf6f30d761b22481e93450</code>. Reading-copy SHA-256: <code>6a757bee58d4d7bd94e51d8587537ea8f122016e56cf6f30d761b22481e93450</code>.</p><section class="record-copy"><h1 id="notes-stage-e1-the-audit">Notes, stage E1: the audit</h1>
+<h2 id="e1a-the-scripts">E1a: the scripts</h2>
+<p><strong>The close-check report of D6a-18</strong>
+(<code>_closes/D6-D6a-18-20261027T153104Z.validate.txt</code>): 0
+errors, 0 warnings.</p>
+<p><strong>What this leg did.</strong> It wrote the scripts of stage E1
+section 1, as the stage file declares them, and ran each once. Every
+script is in <code>audit-E1/</code>, with its rule in its docstring,
+declared before it ran, and its output beside it under the same stem. A
+stranger reruns one with
+<code>python3 out/audit-E1/&lt;script&gt;.py &gt; out/audit-E1/&lt;output&gt;</code>.
+Where a first run had a fault, the output was kept under a
+<code>.superseded-N</code> name and the fault is named in the script's
+docstring or in the diary. The readings by hand that the scripts call
+for are left to the audit sections.</p>
+<table>
+<thead>
+<tr>
+<th>script</th>
+<th>output</th>
+<th>what it computes</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>quotes_resolve.py</code></td>
+<td><code>.json</code></td>
+<td>every quote in every output, resolved against the store's
+participant words, labels, case accounts, the instrument's texts and the
+instructions</td>
+<td>3,230 cited concept quotes; 3,218 resolve to the concept they cite;
+12 do not (2 to nothing, 2 to another concept, 1 to a label, 7 return
+lines quoted beside an evidence citation); 2,042 uncited spans of five
+words or more resolve to nothing; five spot-checks drawn by seed</td>
+</tr>
+<tr>
+<td><code>links_check.py</code></td>
+<td><code>.txt</code></td>
+<td><code>links.py</code> and <code>validate.py --links</code></td>
+<td>both exit 0; 3 files checked, all ids resolve</td>
+</tr>
+<tr>
+<td><code>quote_check_raw.py</code></td>
+<td><code>.json</code></td>
+<td>the handler's <code>quote-check-E1.json</code> (seed 13, 80
+rooms)</td>
+<td>code_quote_found_share 1.0; case_quote_found_share 0.6573; 389
+missing strings listed against 548 by the file's count; 227 of the 389
+are in the room's coded passages once case and end punctuation are set
+aside</td>
+</tr>
+<tr>
+<td><code>store_figures.py</code></td>
+<td><code>.tsv</code></td>
+<td>README-store.md, A1's recomputation and now, three columns</td>
+<td>all 16 figures agree; the 158,227 item lines hold 137,732 distinct
+ids, 21,011 in the unnamed state <code>collapsed</code> (A1's
+defect)</td>
+</tr>
+<tr>
+<td><code>coverage.py</code></td>
+<td><code>.json</code></td>
+<td>room, forest and case records in the read logs, by log</td>
+<td>705 rooms read by <code>room</code>, 705 by <code>forest</code> (704
+whole), 705 case accounts; no room unread; the fleets apart</td>
+</tr>
+<tr>
+<td><code>canvas_uses.py</code></td>
+<td><code>.json</code></td>
+<td>rule 7's uses, by log</td>
+<td><code>mem.py room</code> with the canvas shown: A1 715, B1 1,874, C2
+22, C5 218, D3 4, D5 5; canvas files named in commands at C2a-03, D3b,
+D5a-40, D5b, D6b</td>
+</tr>
+<tr>
+<td><code>orderings.py</code></td>
+<td><code>.json</code></td>
+<td>the orderings by snap, and every key file's hash history</td>
+<td>the scheme before B3, prior.md before B1's first theme, the D1 seal
+before the return, and the branch cuts before the projection all held;
+82 D4 snaps after the projection (the room forms)</td>
+</tr>
+<tr>
+<td><code>moves.py</code></td>
+<td><code>.json</code></td>
+<td>both history ledgers by stage and move; the move snaps against the
+diary's move lines</td>
+<td>diary move lines equal move snaps by count from C2 to D6;
+'sequencing' (C2) and 'stabilizing' (D3) are not among the eight</td>
+</tr>
+<tr>
+<td><code>probes_score.py</code></td>
+<td><code>.json</code></td>
+<td>the recall probe, as filed and re-read</td>
+<td>283 of 300 answer files are in bold markdown, which probe.py does
+not parse; goal right 17 as filed, 298 re-read</td>
+</tr>
+<tr>
+<td><code>element_reach.py</code></td>
+<td><code>.json</code></td>
+<td>prior.md section 3's element-reach half</td>
+<td>4,759 of 5,380 themes with a coordinating turn (88.46 per cent)
+reached by a standing element; 297 of 696 rooms in full</td>
+</tr>
+<tr>
+<td><code>unplaced.py</code></td>
+<td><code>.json</code></td>
+<td>the unplaced at each tier</td>
+<td>151 second-order themes unplaced (407 concepts); T3-017 and T3-133
+in no fourth-order theme; every fourth-order theme in a dimension</td>
+</tr>
+<tr>
+<td><code>manifest.py</code></td>
+<td><code>.json</code></td>
+<td><code>run_manifest.json</code>, whole</td>
+<td>19 entries with model, seed and decoding; the D3 re-check return has
+none</td>
+</tr>
+<tr>
+<td><code>counts_rule.py</code></td>
+<td><code>.json</code></td>
+<td>the census twice, D4 section 4's four counts, the ledgers against
+the head, the handbacks' count phrases</td>
+<td>705 and 705; 476 + 0 + 229 + 0 = 705; tier history 1,026 against the
+head's 1,020; 361 count phrases to check</td>
+</tr>
+<tr>
+<td><code>clocks.py</code></td>
+<td><code>.json</code></td>
+<td>the coder's time against the item's; datings in written order</td>
+<td>equal in all 115,350 joined concepts; 237 of 598 case chronologies
+step back; 14 of 21 arrows name such a room</td>
+</tr>
+<tr>
+<td><code>claims.py</code></td>
+<td><code>.json</code></td>
+<td>propositions and branches by kind, evidence, rival and
+validation</td>
+<td>9 propositions (pattern 7, both 2), each with a rival; 35 branches
+(33 groupings, 2 forms)</td>
+</tr>
+<tr>
+<td><code>diary_transcript.py</code></td>
+<td><code>.json</code></td>
+<td>the diary against the transcript, one leg per stage by seed</td>
+<td>17 legs; 392 of 905 diary lines found word for word; the rest are
+tool-written lines, to be read</td>
+</tr>
+<tr>
+<td><code>fleet_figures.py</code></td>
+<td><code>.json</code></td>
+<td>the fleet figures beside FLEET.md section 2</td>
+<td>the verdict fleet's readers differ in 163 of 705 rooms (0.2312)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Carried for this stage, and where each goes.</strong></p>
+<ul>
+<li><strong>prior.md section 3's measure, the element-reach
+half.</strong> It is computed here, at E1a
+(<code>audit-E1/element_reach.py</code>). It will be reported in the
+audit section on composition (section 3). The other half, a validated
+adaptation or a theme listed as unresolved with its reason, is not
+computed, so local validation stays not established.</li>
+<li><strong>Defects 100 and 101</strong> (the survival paragraph rests
+on work_remained; four timings the canvas contradicts) are reported open
+in the ledgers section, not rewritten.</li>
+<li><strong>PR-D6-10</strong> stays an unvalidated proposal. It is
+checked against the D3a-55 ruling in the moves and provenance section.
+The script shows that all eleven proposals are 'unvalidated' on the base
+model 46384686…, the D3 freeze, and that
+<code>amendments-D6.jsonl</code> holds no line.</li>
+<li><strong>The D6 extra legs, D6a-09 to D6a-18</strong>, are audited as
+part of the run. One of them, D6a-17, is in the diary draw. Their moves,
+snaps and outputs are read in the moves and provenance section.</li>
+</ul>
+<p><strong>QE1-001, asked of J at this leg.</strong> Stage E1's
+close-check counts each D4 snap that lists the projection as an error.
+There are 82 such snaps, which give 246 lines. They are the D4a-03
+interview cut, the closes of D4a-04 to D4a-08, and the move snaps 238 to
+313: the room forms, made after the projection at J's instruction. The
+branch cuts, moves 200 to 237, were all snapped before it. Rule 18 bars
+changing the snaps, and the snaps belong to the harness. So every E1 leg
+would fail its close-check on these lines until the check was changed or
+J ruled. My assumption, logged with the question: the check is changed
+to print these snaps as the audit's finding. The first done.sh of this
+leg failed on these 246 lines alone
+(<code>_closes/E1-E1a-20261027T172649Z.validate.txt</code>).</p>
+<p><strong>QE1-001, answered</strong> (J, 27 October 18:45 Berlin,
+through the PI): "Yes. I would not change the structure of the journey
+for bookkeeping." The handler amended <code>check_orderings</code>. A D4
+snap now counts as a branch cut only where it changed
+<code>branches.jsonl</code> from the previous snap. A snap that lists
+the projection with <code>branches.jsonl</code> unchanged is printed as
+a finding, and the error stays for any snap that changed the branches
+after the projection. My assumption held as the answer states it, so
+nothing that rested on it changes. I checked the answer against the
+snaps by script: 82 D4 snaps list the projection, and none of them
+changed <code>branches.jsonl</code> from the previous snap.
+<code>validate.py E1</code> now gives 0 errors, 246 findings on those 82
+snaps, and 1 warning for the stage's later outputs
+(<code>_analysis/e1a_validate_E1-2.txt</code>). The audit reports the 82
+snaps, in the orderings section (E1b-02), as the finding they are: the
+room forms were made after the projection, by J's ruling, and they are
+not a recut of the branches.</p>
+<p><strong>The audit sections I plan: eight, E1b-01 to E1b-08.</strong>
+Each leg writes its section to its own file,
+<code>audit-E1/section-NN.md</code>. The reason: the close-check reads
+<code>audit-E1.md</code> whole as soon as it exists, and it requires the
+composition line and the methods paragraph, which can only be written
+last. <code>audit-E1.md</code> is assembled from the eight files at the
+check leg, E1d. That leg adds stage section 5, the methods paragraph and
+the <code>composition_status</code> line, all of which need the
+reconstruction's fidelity.</p>
+<ol type="1">
+<li><strong>E1b-01, the quotes and the clocks</strong> (section 1): the
+12 cited-quote defects and the 2,042 unresolved spans, read; the five
+spot-checks by hand; the 389 missing case-account strings, read, and the
+548 against 389; links; the store's figures in three columns; the
+clocks, with relations.jsonl by hand.</li>
+<li><strong>E1b-02, the orderings, the counts, coverage and the
+canvas</strong> (section 1): each ordering held or broken; the 361 count
+phrases of the handbacks against their files; coverage by stage; every
+canvas use named, declared or not, with the places the canvas may have
+shaped unseen; QE1-001's answer.</li>
+<li><strong>E1b-03, the moves and provenance</strong> (section 1): the
+moves by stage and by the eight, including 'sequencing' and
+'stabilizing'; the recuts after C5; the D6 proposals against their
+evidence, with PR-D6-10 against D3a-55; D6a-09 to D6a-18; the manifest;
+the figures restated with FLEET.md section 2's definitions.</li>
+<li><strong>E1b-04, claims against their evidence</strong> (section 1):
+<code>claims-E1.md</code>, every proposition and branch by kind and
+validation; prior.md section 3's declaration against what each level
+rests on; the switch records of <code>literature-C3.md</code>.</li>
+<li><strong>E1b-05, the diary, the probes and the unplaced</strong>
+(section 1): the 17 drawn legs read against their transcripts;
+<code>probes-E1.md</code>, per stage and per question, as filed and
+re-read, with notes apart from defects and n/a apart from recall; the
+151 unplaced themes, T3-017 and T3-133, read.</li>
+<li><strong>E1b-06, the ledgers, the stories and what a reader was
+given</strong> (section 2): findings by status, warrant and refuted_by;
+every ledger's lines; new kinds per hundred themes; the stories and the
+account's passes; the five things a reader was given; the departures
+with their costs; the defects, the material's apart from the
+instrument's, 100 and 101 open; the forks (none arrived); rule 9.</li>
+<li><strong>E1b-07, composition and expectations</strong> (section 3):
+the diagnostics recomputed against prior.md section 3, with the element
+reach; local validation and unresolved evidence apart; clusters and
+distinct global changes; prior.md section 2's expectations;
+<code>expectations-E1.md</code> with the field's entries; the onset
+contrast.</li>
+<li><strong>E1b-08, what bore the load and what the study cannot
+say</strong> (sections 6 and 7): stage by stage, the replay of
+<code>tools/chunk_compare.py</code>, the data-structure view at C2's
+last snap against <code>data_structure-C5.md</code>, the tiers' work;
+the absences, the ungrounded, the coder conflicts, the standing
+departures; the critique shelf; the one thing to say plainly.</li>
+</ol>
+<p><strong>Licences exercised at E1a.</strong></p>
+<ul>
+<li>probe.py's <code>--score</code> was not rerun. It writes into
+<code>_probe/</code>, which belongs to the harness, and it scores the
+open distinctions against the question files as they stand now. I read
+the filed scores and re-read the answers by its rules against the
+expected values the harness stored at each close.</li>
+<li>The scripts read <code>package/&lt;sub&gt;/case.md</code> and the
+store's files directly, as stage A1's checks did under the departure in
+<code>departures.jsonl</code> line 1. They print only counts and the
+strings the stage asks to be read.</li>
+<li>The coordinating rule is A1's own code
+(<code>_analysis/a1_ends.py</code>), imported, not rewritten. It
+reproduces <code>organizing_end-A1.jsonl</code> in all 705 rooms.</li>
+</ul>
+<p><strong>Slips at E1a.</strong></p>
+<ul>
+<li>A survey command piped a helper through <code>cut -c</code> and was
+refused; it was re-run without it. A shell loop was refused too; I used
+the peek script instead.</li>
+<li>Two Edits to <code>moves.py</code> went in one turn. They touched
+separate lines and both applied.</li>
+<li>Five scripts needed a second run, and the first output of each is
+kept: <code>quotes_resolve</code> (twice: the pairing of quotes, and a
+citation taken from the next quote), <code>store_figures</code>
+(distinct ids counted as lines), <code>canvas_uses</code> ('placements'
+matched theme placements), <code>moves</code> (twice: 'move N' in lower
+case only, and the eighth move bucketed as dropping) and
+<code>probes_score</code> (one leading mark stripped).</li>
+</ul>
+<h2 id="e1b-01-the-quotes-and-the-clocks">E1b-01: the quotes and the
+clocks</h2>
+<p><strong>The close-check report of E1a</strong>
+(<code>_closes/E1-E1a-20261027T174924Z.validate.txt</code>): 0 errors, 1
+warning (the stage's later outputs not yet written), and 246 findings on
+the 82 D4 snaps after the projection (QE1-001). <strong>QE1-001</strong>
+was read again at this leg's start, as the leg message asked. The answer
+had been reconciled at E1a, and nothing else rested on my assumption, so
+no work changed.</p>
+<p><strong>What this leg did.</strong> It wrote
+<code>audit-E1/section-01.md</code>, part 1 of the audit's section 1, on
+four items: the quotes and ids against the logs, the quotes against the
+raw record, the store's figures, and the clocks. It wrote seven scripts,
+each with its rule in its docstring, declared before the run, and its
+output beside it:</p>
+<ul>
+<li><code>unresolved_read.py</code>: what the 2,042 spans resolved to
+nothing are;</li>
+<li><code>unresolved_hand.py</code>: where the 84 left over first appear
+in the transcripts;</li>
+<li><code>quote_sources_check.py</code>: quotes of a named source,
+beside the source;</li>
+<li><code>labels_read.py</code>: the 3,641 spans that resolve to a
+label;</li>
+<li><code>case_missing_read.py</code>: the handler's 389 missing
+case-account strings;</li>
+<li><code>relations_clock.py</code>: two rooms' records of one
+encounter;</li>
+<li><code>links_views.py</code>: <code>links.py</code>'s resolver over
+the views.</li>
+</ul>
+<p>The readings by hand are logged one by one in the diary.</p>
+<p><strong>What it found.</strong></p>
+<ul>
+<li><strong>Cited quotes.</strong> 3,218 of 3,230 cited concept quotes
+resolve to the concept cited. Of the 12 that do not, 2 are faults of
+form and 10 are faults of the script.</li>
+<li><strong>Invented quotes.</strong> I found no invented quote in my
+files.</li>
+<li><strong>Defects of mine.</strong> Two D6 quotes give the coder's
+wording as members' words, carried from the case accounts. Two small
+misquotes of the instrument's own text. Three examples of my own wording
+in quotation marks.</li>
+<li><strong>The handler's file.</strong> It gives code_quote_found_share
+1.0 and case_quote_found_share 0.6573. Its 389 listed strings are mostly
+participant words missed on punctuation and markup, the coder's own
+labels and phrases, and translations. 33 come from uncoded items, beyond
+my reach.</li>
+<li><strong>The store's figures.</strong> All 16 agree with
+README-store.md and with A1.</li>
+<li><strong>Ids.</strong> No id of the model, the scheme or the store
+fails to resolve in the head, the questions or the views.</li>
+<li><strong>The clocks.</strong> The coder's time equals the item's in
+all 115,350 joined concepts. The store's builder is absent, so this may
+hold by construction. No pair of two rooms' records dates one encounter
+at two times.</li>
+<li><strong>Defects ledger.</strong> Eight lines were appended to
+<code>defects.jsonl</code>: 5 the instrument's, 1 provenance, 2 the
+material's.</li>
+</ul>
+<p><strong>Licences exercised at E1b-01.</strong></p>
+<ul>
+<li>I read <code>_transcripts/</code>, open at this stage, by script for
+where a span first appears.</li>
+<li>The handler's <code>quote-check-E1.json</code> is read from the
+folder root, where it arrived.</li>
+<li>I count the readers' room models, which the E1a rule did not leave
+out, as outputs. Their quotes are reported apart from mine.</li>
+</ul>
+<p><strong>Slips at E1b-01.</strong></p>
+<ul>
+<li>The first <code>unresolved_read.py</code> run kept the earlier class
+and so moved nothing. Its output is kept as
+<code>.superseded-1</code>.</li>
+<li>Two <code>unresolved_hand.py</code> runs with <code>grep</code> were
+too slow and were stopped. Their empty outputs are kept as
+<code>.superseded-1</code> and <code>-2</code>.</li>
+<li>A survey command piped <code>tail</code> into <code>cut</code> and
+was refused; it was re-run without the cut.</li>
+<li>Two diary lines needed correcting lines after them: the count of the
+instrument's defects lines (5, not 6), and the r/argentina and r/uruguay
+pair, which I first read as one encounter.</li>
+</ul>
+<h2 id="e1b-02-the-orderings-the-counts-coverage-and-the-canvas">E1b-02:
+the orderings, the counts, coverage and the canvas</h2>
+<p><strong>The close-check report of E1b-01</strong>
+(<code>_closes/E1-E1b-01-20261027T191229Z.validate.txt</code>): 0
+errors, 1 warning (the stage's later outputs not yet written).</p>
+<p><strong>What this leg did.</strong> It wrote
+<code>audit-E1/section-02.md</code>, part 2 of the audit's section 1. It
+wrote four scripts, each with its rule in its docstring, declared before
+the run, and its output beside it:</p>
+<ul>
+<li><code>prior_sections.py</code>: <code>prior.md</code> rebuilt from
+the transcripts' writes, matched to the snaps and compared section by
+section;</li>
+<li><code>snap_order.py</code>: the move snaps in number order, the D4
+branch cuts against the projection, and the D6 proposals;</li>
+<li><code>counts_phrases.py</code>: the 361 handback count phrases
+sorted, a seeded sample of 36, and the head's ledgers;</li>
+<li><code>counts_sample_check.py</code>: the 36 recomputed where a
+governing file can be counted.</li>
+</ul>
+<p>It read E1a's <code>orderings</code>, <code>counts_rule</code>,
+<code>coverage</code> and <code>canvas_uses</code> outputs, and it
+appended 2 lines to <code>defects.jsonl</code>.</p>
+<p><strong>What it found.</strong></p>
+<ul>
+<li><strong>Orderings.</strong> All seven orderings the stage names
+held. <code>prior.md</code> sections 1 to 6 are byte for byte what was
+snapped before B1's first theme. The model moved after C5's hash only by
+D3's declared amendments. The D4 branch cuts all came before the
+projection, and the 82 snaps after it are the room forms by J's ruling
+(QE1-001). One move snap is a declared duplicate.</li>
+<li><strong>Counts.</strong>
+<ul>
+<li>The census is 705 twice, with 0 drops, and the four D4 counts sum to
+705.</li>
+<li>The head's seven ledger figures agree.</li>
+<li>Of the 36 sampled handback counts: 27 recompute and agree, 4 agree
+with a stated parameter or list, and 3 rest on a judgment by hand.</li>
+<li>2 sampled counts disagree: handback-B1's 107 and handback-C5-p14's
+31. 293 counts were not checked.</li>
+</ul></li>
+<li><strong>Coverage.</strong> All 705 rooms were read by
+<code>room</code>, <code>forest</code> and their case account. 704
+forests were read whole; r/COSI's skipped its ten header lines.</li>
+<li><strong>The canvas.</strong> No undeclared use was found. The canvas
+was on the page in 2,118 room reads at B1, C2, C5 and D3, and whether it
+shaped anything there is self-reported.</li>
+</ul>
+<p><strong>Licences exercised at E1b-02.</strong></p>
+<ul>
+<li>I checked the handback counts by a seeded sample of 36 and not all
+329. The sample and the 293 unchecked counts are both reported.</li>
+<li>I rebuilt <code>prior.md</code> from the transcripts' tool calls,
+which are open at this stage, to tell its sections apart where a hash
+cannot.</li>
+</ul>
+<p><strong>Slips at E1b-02.</strong></p>
+<ul>
+<li><code>counts_phrases.py</code>'s first run took any comma into the
+number and set aside nothing.</li>
+<li><code>counts_sample_check.py</code> had three faults, fixed over two
+reruns (the first two together):
+<ul>
+<li>it read a key the B3 defects lack;</li>
+<li>it read the analyst's D3 rulings in place of the re-check readers'
+verdicts;</li>
+<li>it grouped those verdicts by the readers' own spelling of the
+room.</li>
+</ul></li>
+<li>The first outputs are kept as <code>.superseded-1</code> and
+<code>-2</code>.</li>
+</ul>
+<h2
+id="e1b-03-the-moves-provenance-the-manifest-and-the-figures">E1b-03:
+the moves, provenance, the manifest and the figures</h2>
+<p><strong>The close-check report of E1b-02</strong>
+(<code>_closes/E1-E1b-02-20261027T193841Z.validate.txt</code>): 0
+errors, 1 warning (the stage's later outputs not yet written).</p>
+<p><strong>What this leg did.</strong> It wrote
+<code>audit-E1/section-03.md</code>, part 3 of the audit's section 1,
+and one script, <code>provenance_D6.py</code>, with its rule in its
+docstring and its output beside it. The script covers the D6 proposals'
+evidence and diary lines, the data files across D6a-09 to D6a-18, and
+the tier history by stage and tier. The leg read E1a's
+<code>moves</code>, <code>manifest</code> and <code>fleet_figures</code>
+outputs and the files they name, and appended 2 lines to
+<code>defects.jsonl</code>.</p>
+<p><strong>What it found.</strong></p>
+<ul>
+<li><strong>The moves.</strong> Every move after C5 is either a rule 11
+amendment with its D3 cause or a held proposal, and no coding tier was
+recut after C5. Move snaps and diary move lines agree from C2 to D6. 18
+C2 model-history lines are named "sequencing", which is not one of the
+eight and was never corrected. This is a defect.</li>
+<li><strong>The D6 proposals.</strong> All eleven are unvalidated on the
+D3 freeze, their 254 concept ids resolve, and each has its diary line.
+PR-D6-10 names the D3a-55 ruling it would widen, and it changes
+nothing.</li>
+<li><strong>The extra legs.</strong> No data file moved across D6a-09 to
+D6a-18 except <code>departures.jsonl</code> line 21. That line is the
+dated amendment of the branch-naming rule, in use before it was written;
+it goes to the departures section.</li>
+<li><strong>The manifest.</strong> It gives complete provenance for
+every fleet figure but the D3 re-check, whose runs name a model with no
+seed or decoding. This is a defect.</li>
+<li><strong>The figures.</strong> They are restated with FLEET.md
+section 2's definitions and licence. None is called reliability.</li>
+</ul>
+<p><strong>Licences exercised at E1b-03.</strong></p>
+<ul>
+<li>I read the diary whole by script, for the proposals' lines and C1's
+move lines.</li>
+<li>I counted C1's 185 reassignment lines by their first word, not one
+by one.</li>
+</ul>
+<p><strong>Slips at E1b-03.</strong></p>
+<ul>
+<li>Two Edits to <code>section-03.md</code> went in one turn. They
+touched separate lines and both applied.</li>
+<li>A first draft of the section said the tier history used six of the
+eight moves; it uses seven.</li>
+<li>The same draft said, before I had read them, that C1's 185 extra
+move lines were re-placements under the amended gates. They are
+reassignments, read by their first word. Both were corrected before the
+checks.</li>
+</ul>
+<h2 id="e1b-04-claims-against-their-evidence">E1b-04: claims against
+their evidence</h2>
+<p><strong>The close-check report of E1b-03</strong>
+(<code>_closes/E1-E1b-03-20261027T195759Z.validate.txt</code>): 0
+errors, 1 warning (the stage's later outputs not yet written).</p>
+<p><strong>What this leg did.</strong> It wrote
+<code>claims-E1.md</code>, the table the stage asks for and the methods
+paragraph cites, and <code>audit-E1/section-04.md</code>, part 4 of the
+audit's section 1. It wrote one script, <code>claims_returns.py</code>:
+the return's accepted lines by op on each arrow, and whether each
+arrow's order test is read against a bracket, the onset contrast and
+held size. It read E1a's <code>claims.json</code>, <code>prior.md</code>
+sections 3 and 4, and the switch records of
+<code>literature-C3.md</code>. It resolved the arrows' 57 support quotes
+against the store, and appended 1 line to
+<code>defects.jsonl</code>.</p>
+<p><strong>What it found.</strong></p>
+<ul>
+<li><strong>No claim is validated with the other kind's
+evidence.</strong></li>
+<li><strong>The pattern propositions</strong> rest on counts with
+denominators and beaten nulls.</li>
+<li><strong>N07</strong> declares both, and its pattern half is not
+established. It says so.</li>
+<li><strong>The branches</strong> rest on both kinds, as
+<code>prior.md</code> section 3 asks.</li>
+<li><strong>The one gap against the declaration:</strong> the population
+pattern was never tested at held size, and only A20's order is read
+inside a bracket.</li>
+<li><strong>The two switch records</strong> agree with the findings
+ledger.</li>
+</ul>
+<p><strong>Licences exercised at E1b-04.</strong></p>
+<ul>
+<li>I counted the return's verdicts per arrow from the last ruling of
+each line, across the first return and the re-check together.</li>
+<li>I named N07 half-validated, not a defect, because it declares itself
+theorised and thin.</li>
+</ul>
+<p><strong>Slips at E1b-04.</strong></p>
+<ul>
+<li>The first draft of <code>claims-E1.md</code> said "18 of the 20
+counted arrows" where A21 has counts but no null test. It now says the
+20 arrows the propositions rest on. Corrected before the checks.</li>
+</ul>
+<h2 id="e1b-05-the-diary-the-probes-and-the-unplaced">E1b-05: the diary,
+the probes and the unplaced</h2>
+<p><strong>The close-check report of E1b-04</strong>
+(<code>_closes/E1-E1b-04-20261027T201650Z.validate.txt</code>): 0
+errors, 1 warning (the stage's later outputs not yet written).</p>
+<p><strong>What this leg did.</strong> It wrote
+<code>probes-E1.md</code> and <code>audit-E1/section-05.md</code>, part
+5 of the audit's section 1. It wrote three scripts, each with its rule
+in its docstring and its output beside it:</p>
+<ul>
+<li><code>diary_tool_lines.py</code>: the diary lines E1a could not find
+word for word, against their leg's tool calls;</li>
+<li><code>probes_notes.py</code>: every wrong probe answer, sorted into
+a note or a defect;</li>
+<li><code>unplaced_kinds.py</code>: the 151 unplaced themes, by
+kind.</li>
+</ul>
+<p>It appended 2 lines to <code>defects.jsonl</code>.</p>
+<p><strong>What it found.</strong></p>
+<ul>
+<li><strong>The diary.</strong> All 905 diary lines of the 17 drawn legs
+are borne out by the transcript: 392 word for word, 185 by a nearby tool
+call, 282 as rows of the files a B1 script read, 19 in
+<code>b1_place.py</code> commands, and 27 written by one C5 script.</li>
+<li><strong>The probes.</strong> The method question was right in 298 of
+300 re-read answers. 269 wrong answers are notes the record answered. 18
+are defects no record answered: the rooms of 14 legs, and the changes of
+4.</li>
+<li><strong>The unplaced.</strong> 151 themes: 42 April Fools play, 72
+talk about the event, 18 lost posts and 19 naming an act. 10 of the 19
+should have been placed. T3-017 is outside the scope by design. T3-133
+is one rare host act.</li>
+</ul>
+<p><strong>Licences exercised at E1b-05.</strong></p>
+<ul>
+<li>I did not rerun <code>probe.py --score</code>: it writes into the
+harness's <code>_probe/</code>.</li>
+<li>I added a second test for the rooms question beside the declared
+one, once the first run showed the harness's expected rooms repeat
+across legs. Both counts are kept.</li>
+<li>I counted the unplaced kinds by a keyword rule, then read them.</li>
+</ul>
+<p><strong>Slips at E1b-05.</strong></p>
+<ul>
+<li>A first draft of <code>probes-E1.md</code> said every missed answer
+stayed in the read logs and the ledgers, which I had not checked.
+Corrected before the checks.</li>
+<li>A B1 check by script first used the wrong separator. It found none
+of the 301 rows, against 282 by the regular test, and the regular test
+stands.</li>
+</ul>
+<h2 id="e1b-06-the-ledgers-the-stories-what-a-reader-was-given">E1b-06:
+the ledgers, the stories, what a reader was given</h2>
+<p><strong>The close-check report of E1b-05</strong>
+(<code>_closes/E1-E1b-05-20261027T203818Z.validate.txt</code>): 0
+errors, 1 warning (the stage's later outputs not yet written).</p>
+<p><strong>What this leg did.</strong> It wrote
+<code>audit-E1/section-06.md</code>, the audit's section 2, with one
+script, <code>ledgers_stories.py</code>, whose rule is in its docstring
+and whose output is beside it. It appended 3 lines to
+<code>defects.jsonl</code>.</p>
+<p><strong>What it found.</strong></p>
+<ul>
+<li><strong>Findings.</strong> 45 lines over 27 findings. Six changed
+from standing to bounded. 8 have no statable
+<code>refuted_by</code>.</li>
+<li><strong>Ledgers.</strong> The append-only ledgers never shrink. Nine
+files do: six state files by design, two pilot files at B2, and
+<code>fractal-D6.jsonl</code> by a declared move.</li>
+<li><strong>Kinds.</strong> 2.51 new kinds per hundred themes.</li>
+<li><strong>The stories.</strong> Five passes, and 67 distinct rooms
+read against a story. The one room that does not compose at the first
+return is among the 638 no story was read against. The account's loop
+ran 15 passes.</li>
+<li><strong>What a reader was given.</strong> Two of the five things
+held. The account is 3,326 words, 3 of its quotes are undated, and it
+lists the residue rather than explaining it.</li>
+<li><strong>The departures.</strong> 18 of 21 state no cost, and 2 were
+acted on before they were written.</li>
+<li><strong>Forks and rule 9.</strong> There are no forks to compare.
+Rule 9's handed-over findings are P21, P22 and A21, from the field,
+replicated at D3.</li>
+</ul>
+<p><strong>Licences exercised at E1b-06.</strong></p>
+<ul>
+<li>I sorted the defects by a keyword rule, and the E1 lines by my own
+labels.</li>
+<li>I read the residue and the departures' costs from their files' own
+words.</li>
+</ul>
+<p><strong>Slips at E1b-06.</strong> None noticed.</p>
+<h2 id="e1b-07-composition-and-expectations">E1b-07: composition and
+expectations</h2>
+<p><strong>The close-check report of E1b-06</strong>
+(<code>_closes/E1-E1b-06-20261027T205719Z.validate.txt</code>): 0
+errors, 1 warning (the stage's later outputs not yet written).</p>
+<p><strong>What this leg did.</strong> It wrote
+<code>expectations-E1.md</code> and <code>audit-E1/section-07.md</code>,
+the audit's section 3. It wrote one script,
+<code>expectations.py</code>. Its first run ordered rooms by name and
+read only the readers' verdicts, and is kept as
+<code>.superseded-1</code>.</p>
+<p><strong>What it found.</strong></p>
+<ul>
+<li><strong>Verdicts.</strong> The ruled fixed-global verdicts are 201,
+489, 14 and 1 at the first return, and 630, 56, 19 and 0 at the
+re-check.</li>
+<li><strong>Particulars and shared changes.</strong> 2,749 particular
+lines in 545 rooms. 223 distinct shared changes, whose curve in A1's
+seeded order flattens over the last third (184, 211, 223).</li>
+<li><strong>The expectations.</strong> The in-sample replication score
+is 0.924, with C01's 81 rooms the largest failure.</li>
+<li><strong>The field's entries.</strong> They were taken up in 112 to
+223 rooms and never contradicted, against a mean of 383 for the other
+elements.</li>
+<li><strong>The onset contrast.</strong> Untested: the late side holds 0
+to 15 rooms per arrow.</li>
+<li><strong>Composition.</strong> The population level is supported in
+the return's terms. Below it the population compiles. The leaf is
+unresolved until the reconstruction.</li>
+</ul>
+<p><strong>Licences exercised at E1b-07.</strong></p>
+<ul>
+<li>I counted an arrow as "taken up" when any accepted line changes or
+instantiates it, and as "absent" only when no line takes it up.</li>
+<li>I put off the <code>composition_status</code> line to
+<code>audit-E1.md</code>, after the reconstruction's check.</li>
+</ul>
+<p><strong>Slips at E1b-07.</strong></p>
+<ul>
+<li>Two Edits to <code>expectations.py</code> went in one turn. They
+touched separate lines and both applied.</li>
+<li>Two glosses in <code>expectations-E1.md</code> went beyond what I
+had checked, and were cut before the checks.</li>
+<li>One watch-word ("stands as") was rewritten.</li>
+</ul>
+<h2 id="e1b-08-what-bore-the-load-and-what-the-study-cannot-say">E1b-08:
+what bore the load, and what the study cannot say</h2>
+<p><strong>The close-check report of E1b-07</strong>
+(<code>_closes/E1-E1b-07-20261027T211544Z.validate.txt</code>): 0
+errors, 1 warning (the stage's later outputs not yet written).</p>
+<p><strong>What this leg did.</strong> It wrote
+<code>audit-E1/section-08.md</code>, the audit's sections 6 and 7. It
+wrote two scripts, each with its rule in its docstring and its output
+beside it:</p>
+<ul>
+<li><code>load_limits.py</code>: the outputs named downstream by stage,
+the chunk-comparison receipt, the data-structure view's hashes, the
+dimensions' work and the limits' counts;</li>
+<li><code>shelf_terms.py</code>: the critique files' passages, by
+objection and page.</li>
+</ul>
+<p>It read Jowsey et al. (2025) and the call for papers whole, and
+appended 1 line to <code>defects.jsonl</code>.</p>
+<p><strong>What it found.</strong></p>
+<ul>
+<li><strong>The stages.</strong> Every stage was load-bearing for
+something downstream. Nine files look read by nothing (not sure).</li>
+<li><strong>The chunk comparison.</strong> It matches its receipt and
+can be rerun.</li>
+<li><strong>The data-structure view.</strong> It moved at C5 and has
+been unchanged since.</li>
+<li><strong>The dimensions.</strong> They do no work in the account, the
+arrows or the branches.</li>
+<li><strong>The critique shelf.</strong> The run answers the
+invented-quotes objection in large part, and the opacity objection for
+its record of decisions. It does not answer the objections on
+offloading, reflexivity, more output, or harm.</li>
+<li><strong>What the study produced.</strong> A model with a typology.
+The strongest size argument is D4's volume verdict. A sample of 30
+uncoded rooms with 4 or more not composing would overturn the population
+claim.</li>
+</ul>
+<p><strong>Licences exercised at E1b-08.</strong></p>
+<ul>
+<li>I searched O'Sullivan and Ravasi (2026) and Schildt (2026) by the
+objections' terms with their pages, rather than reading them whole.</li>
+<li>I named files read by nothing from their names and the commands, not
+from every tool's inputs.</li>
+</ul>
+<p><strong>Slips at E1b-08.</strong></p>
+<ul>
+<li>A diary read piped through <code>cut</code> was refused by the
+guard; it was re-run whole.</li>
+<li>My first read of the stage file began at section 6; the rest was
+read before any write.</li>
+</ul>
+<h2 id="e1c-the-reconstruction-build">E1c: the reconstruction build</h2>
+<p><strong>The close-check report of E1b-08</strong>
+(<code>_closes/</code> for E1b-08): 0 errors, 1 warning (the stage's
+later outputs not yet written).</p>
+<p><strong>The sample, named before any room is opened.</strong>
+<code>audit-E1/reconstruction_draw.py</code> drew it from the ledgers
+alone and wrote it to <code>reconstruction-sample-E1.jsonl</code>. Its
+rule is in its docstring, declared before the run:</p>
+<ul>
+<li><strong>Verdict:</strong> the first return's ruled fixed-global
+verdict.</li>
+<li><strong>Branch:</strong> the room's most specific branch, or
+none.</li>
+<li><strong>Strata:</strong> does-not-compose 1, cannot-tell 2, composes
+8, composes-with-residue 19.</li>
+<li><strong>Draw:</strong> a seeded shuffle (<code>out/seed.txt</code>)
+that spreads the rooms over branches, with at most 10 rooms in no
+branch.</li>
+</ul>
+<p>The thirty rooms (room, branch, verdict):</p>
+<table>
+<thead>
+<tr>
+<th>verdict</th>
+<th>rooms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>does-not-compose</td>
+<td>picturegame (F25)</td>
+</tr>
+<tr>
+<td>cannot-tell</td>
+<td>sakartvelo (none); quq (none)</td>
+</tr>
+<tr>
+<td>composes</td>
+<td>hunterxhunter (F03); ethoslab (F01); python (F26); kirby (F18); ucf
+(F15); penguins (F34); ReBoot (none); sonicthehedgehog (none)</td>
+</tr>
+<tr>
+<td>composes-with-residue</td>
+<td>mamamoo (F35); superman (F33); physical_removal (F23);
+thenetherlands (F02); tagpro (F29); gameboy (none); necrodancer (F28);
+simonfraser (F30); Goodboye (none); Madeon (none); dwarffortress (F16);
+TeamYellowPlace (none); hyperlightdrifter (F24); puzzleanddragons (F07);
+seolhyun (F10); pansexual (none); PinkUnion (none); mls (F06); slovenia
+(F08)</td>
+</tr>
+</tbody>
+</table>
+<p>They spread over 20 branches, and 10 are in no branch.</p>
+</section><p id="unavailable-link" class="notice">Some references name files outside this reading selection. Use the full checkpoint manifest and verified restore for them. A link here does not grant access to a private repository.</p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../../agents.html">For agents</a> · <a href="../../reference.html">Full reference</a> · <a href="../../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

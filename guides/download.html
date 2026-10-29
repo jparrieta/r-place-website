@@ -1,0 +1,86 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>1. Open the Collection handler | r/place</title><link rel="stylesheet" href="../assets/site.css"><script defer src="../assets/local-setup.js"></script><script defer src="../assets/site.js"></script><script defer src="../assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../index.html">r/place <span>A fruit fly for organization science</span></a>
+<button id="theme" type="button" aria-label="Change colour theme">Theme: light</button><nav aria-label="Main"><a  href="../index.html">The organism</a><a  href="../results.html">Results</a><a  href="../conditions.html">Common conditions</a><a  href="../event.html">The whole event</a><a aria-current=location href="../tools.html">Data and tools</a></nav><nav class="task-nav" aria-label="Use the repository"><a  href="../instrument.html">The instrument</a><a  href="../run.html">Run the study</a><a  href="../interviews.html">Checkpoint interviews</a><a  href="../reference.html">Full reference</a><a  href="../agents.html">For agents</a><a data-reviewer-entry href="../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav></header>
+<main id="main" class="page-run" data-layer="Guide"><nav class="breadcrumbs" aria-label="Reading level"><a href="../index.html">Overview</a><span aria-hidden="true">/</span><a href="../run.html">Run the study</a><span aria-hidden="true">/</span><span aria-current="page">Guide</span></nav><h1 id="1-open-the-collection-handler">1. Open the Collection
+handler</h1>
+<p>Open a new Codex or Claude chat that can work with files and a shell.
+Name it <strong>Collection handler</strong>. Use an empty working folder
+for this study. A chat without file or shell access cannot run the
+collection scripts.</p>
+<p><a href="../agents/collection.md">Download the Collection handler
+brief</a>, attach it to the chat, then paste this prompt:</p>
+<pre class="text"><code>You are the Collection handler for my r/place study. Read the attached Collection handler brief first. Obtain the instrument from https://github.com/jparrieta/r-place into a separate working folder, record its version, and follow that brief and the repository&#39;s data recipes.
+
+Help me choose between the archived study inputs and a fresh collection. Obtain and check the required raw24, pixel, atlas and other inputs. Ask only for missing access or research decisions. Keep your head and action log on disk. Leave a checked handoff for the existing coding handler. Do not start coding or aggregation.</code></pre>
+<p>The handler can download the instrument and data. You do not need to
+assemble the folders first. If repository access is missing, grant it or
+provide the downloaded instrument. Credentials belong in the provider's
+sign-in flow, never in the prompt.</p>
+<h2 id="get-the-instrument">Get the instrument</h2>
+<p>Open the <a href="https://github.com/jparrieta/r-place">research
+repository</a>, then choose <strong>Code → Download ZIP</strong>, or
+clone it if you use Git. Repository access is currently required. If
+GitHub shows “Page not found”, request project access; the site cannot
+grant it.</p>
+<p>To use the original starting point, download the <a
+href="https://github.com/jparrieta/r-place/releases/download/checkpoint-cloud-test-20261024/pristine-start.tar.gz">verified
+pristine package</a>, then extract it in an empty folder. This is the
+initial instrument and prepared run at commit
+<code>f6588ae37d807884af5fdcc9f7e27a03b4ff253a</code>. It has no analyst
+conversation. The archive SHA-256 is
+<code>1755f467ec0e2a3753a616b5eb19ccfa5b5e1af187a61ceef4ec449274a89b4c</code>.
+Give this folder to the existing aggregator handler when starting from
+the prepared inputs. A new collection still begins with the Collection
+handler.</p>
+<p>The repository holds the instruments, scripts and recorded outputs.
+Large data stores and resumable checkpoint bundles are separate
+downloads. The <strong>interview launcher</strong> opens saved
+checkpoints; it does not install the research workflow.</p>
+<p>Research runs need a computer with a shell, Python 3.11, the
+dependencies listed in the <a
+href="../Manual-html/requirements-and-data.html">requirements
+reference</a>, and the model access required by your chosen platform.
+That reference includes historical run examples; use the current <a
+href="../agents/aggregator.html">handler instructions</a> for the run
+you build. The pristine package passed all eight offline checks in a
+fresh Python 3.11 environment on the author's Mac, with its documented
+numpy, scipy and pandas dependencies. The harness used a simulated
+model. Provider access, recollection and installation on another
+operating system remain untested.</p>
+<h2 id="prepare-the-records">Prepare the records</h2>
+<p><strong>Start with:</strong> the public pixel record, atlas, Reddit
+archives and the study’s census decisions.</p>
+<p><strong>Do:</strong> follow the collection recipes, preserve the
+selected time window, then build each community’s record. Downloading
+source data does not recreate the judgments that define the census.</p>
+<p><strong>Keep:</strong> the prepared records, source versions, time
+window and census decisions.</p>
+<p><strong>Advance when:</strong> the recipes’ checks pass and the
+inputs and versions are recorded.</p>
+<p>The handler distinguishes <strong>the archived study inputs</strong>
+from <strong>a new collection</strong>. Some archived stores still have
+no published download link. Recollection can lose records removed since
+the study. It is not a byte-for-byte replacement. The handler records
+these gaps instead of silently substituting inputs.</p>
+<h2 id="open-the-next-chat">Open the next chat</h2>
+<p>The Collection handler leaves <code>HANDOFF-collection.md</code> with
+input paths, versions, checks and unresolved gaps. Open the <a
+href="communities.html">existing coding handler</a> and give it that
+file. Keep this collection chat for data questions.</p>
+<h2 id="read-further">Read further</h2>
+<ul>
+<li><a href="../Manual-html/data-and-collection.html">Data and
+collection</a>: the stores and how they were assembled.</li>
+<li><a href="../Manual-html/census.html">Census</a>: the population
+decisions.</li>
+<li><a href="../Manual-html/requirements-and-data.html">Requirements and
+data</a>: setup and dependencies.</li>
+<li><a href="../sources/data-README.html">Full data recipes</a>.</li>
+<li><a href="../agents/collection.html">Full Collection handler
+brief</a>.</li>
+<li><a href="../agents/download.html">Complete data reading
+key</a>.</li>
+</ul>
+<p>Next: <a href="communities.html">code communities</a>.</p>
+<p class="deeper"><a href="../reference.html">Full reference</a> · <a href="../agents.html">For agents</a></p></main><footer><span>A shared record for cumulative organization science.</span><div><a href="../agents.html">For agents</a> · <a href="../reference.html">Full reference</a> · <a href="../Manual-html/index.html">Old manual</a> · <a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

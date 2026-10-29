@@ -1,0 +1,212 @@
+[
+  {
+    "path": "data/README.md",
+    "site_source": "sources/data-README.md",
+    "sha256": "f9dc5427c2d96a786379eee2e8f80ab8420bef84dadae12fd38fe86759e02a6a",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/README.md",
+    "site_source": "sources/coder-README.md",
+    "sha256": "4db02db5a8c7206e575f9b2a404082b1a8447b285d746876b0a35faa15762488",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/CONTRACT.v32.md",
+    "site_source": "sources/coder-contract.md",
+    "sha256": "986f8b520bce808eebe5b93c317f73e60f747b8bfab34f8ad51e600ae48218e1",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/CONTRACT-case-lead.v32.md",
+    "site_source": "sources/case-lead.md",
+    "sha256": "7b84da1d4ca2a5f3375bdefbb0881a9d738e5273480eecc2cddb8b1c77e16974",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/CONTRACT-fleet-coder.v32.md",
+    "site_source": "sources/fleet-coder.md",
+    "sha256": "79c8ad2f723af36a296601fe9ea63b9c5b679e20e83bd66c2387ba1e9be42af3",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/handler/CONTRACT-scheduler.md",
+    "site_source": "sources/scheduler.md",
+    "sha256": "7e5fbadee821e22351543d42546d0663a9b2b0fcdad58ad220739a47d7f63a56",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/handler/HANDLER.md",
+    "site_source": "sources/handler.md",
+    "sha256": "0aa8f43ae8886a9b4d99ec1300c74c8cc819919207905cf3562210118c281b62",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/handler/claude-adapter/LEGS.md",
+    "site_source": "sources/legs.md",
+    "sha256": "9bac7939c271749d66513149ff0b2f8b5b9c1d2d14c5fa8d237a99af041a5d10",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "OPENAI.md",
+    "site_source": "sources/codex.md",
+    "sha256": "551b4a33f76745967d0883dd50f5512e11b62f7cd77579119bb2881320d51242",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/CONTRACT-aggregator.md",
+    "site_source": "sources/contract.md",
+    "sha256": "ec92317becd24b53eecf35faa87b629893b0649a6037a59020ddea9dd9d929ef",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/METHOD.md",
+    "site_source": "sources/method.md",
+    "sha256": "5daaeb2319f61a54cfa4d9acbcd077e3a1405edd470795005fb0e152e27fc415",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/WRITING.md",
+    "site_source": "sources/writing.md",
+    "sha256": "df6718d74c3a296de39288f338541dad1126651255b573ee3e5de6681ff5026d",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/STANDING-INSTRUCTIONS.md",
+    "site_source": "sources/standing.md",
+    "sha256": "ccd2b0839511624273133f66466c7721a361e45b69e60617a131d44a0a7c8ecb",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/HOW-TO-RUN.md",
+    "site_source": "sources/how-to-run.md",
+    "sha256": "d505880783e8d13966e29e64d4b91fc94823f3d4135461af0d7338dfcaeabd2b",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/PLATFORM-claude.md",
+    "site_source": "sources/platform-claude.md",
+    "sha256": "c7b542f7e4578bcf4856a852e16c5e0feb55f3dcd3cdd10e0e91a98038bb09d1",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/PLATFORM-codex.md",
+    "site_source": "sources/platform-codex.md",
+    "sha256": "184d65e91d1886d9cd89403f73cba5fd9d5ef9baa09897971c4d421f3f8103ac",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/SCHEMA-adaptations.md",
+    "site_source": "sources/adaptations.md",
+    "sha256": "88aac5a1b16141f3914a3994b2d881a8274b012f050e8ccd6cc47e319c514914",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-A1-reading-room-notes.md",
+    "site_source": "sources/stage-A1.md",
+    "sha256": "9a8ba05c6754cf316fd0fad43bedf08701a067a872c4cfad5809d3ff01653a76",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-B1-coding-third-order-scheme.md",
+    "site_source": "sources/stage-B1.md",
+    "sha256": "a2b733dded3046ba611c65e979beb597ef8ef26e8b625dea28469a254219f8a0",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-B2-coding-pilot.md",
+    "site_source": "sources/stage-B2.md",
+    "sha256": "79c92744bb7b7b26941cf7738a849cf64f121caae77e8a940af97c0e570c8808",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-B3-coding-fleet.md",
+    "site_source": "sources/stage-B3.md",
+    "sha256": "31fd906762e1d2ebf478bcf621410fad82d17a1432defed958a75cb8c07adcc7",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-B4-coding-adjudication-and-freeze.md",
+    "site_source": "sources/stage-B4.md",
+    "sha256": "7fb68adfcd6a1dab15368728559d3eb3c91162c555a8a69b26a53571dfd16ebe",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-C1-model-structuring.md",
+    "site_source": "sources/stage-C1.md",
+    "sha256": "04bfb71195594cbaa2dd500b592419c539c2ea7afdde92d2db2de7ec25183b58",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-C2-model-the-loop.md",
+    "site_source": "sources/stage-C2.md",
+    "sha256": "e9a2ee259d281a421640230c300d693a7f07d3081ec1549bfa097202269ecd17",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-C3-model-literature.md",
+    "site_source": "sources/stage-C3.md",
+    "sha256": "9232e37ea6cda07a6eb28bef367ce7202231b37cc3121dfa051d82a5b3cf2641",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-C4-model-the-field.md",
+    "site_source": "sources/stage-C4.md",
+    "sha256": "dec5968155f6420e1b758384681cf0d20406c7680217e1ece452270212c43f7f",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-C5-model-account.md",
+    "site_source": "sources/stage-C5.md",
+    "sha256": "c0904fc40910da0b2d37fa801159ea39d85b84df09263c343aec2c36104756c4",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-D1-adaptation-return-build.md",
+    "site_source": "sources/stage-D1.md",
+    "sha256": "e7f7a3da33a3603708b1c320337ce205f55d4ae6500807d4558c3a94853fdc4d",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-D2-adaptation-labelers-and-verdicts.md",
+    "site_source": "sources/stage-D2.md",
+    "sha256": "2fe159d9d0967d09e425785ecba74e0e07f9220e4d4fed63ddaa8f622c3f81de",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-D3-adaptation-adjudication.md",
+    "site_source": "sources/stage-D3.md",
+    "sha256": "3dc71c70120dae278ea87958a4b45f2ac02b44eacbd1a2ba2e3534884b623338",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-D4-forming-the-tree.md",
+    "site_source": "sources/stage-D4.md",
+    "sha256": "a28da602661375431d68a7fdf90920ef62bca59fddfe37fde9462a8f891cb3c9",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-D5-forming-branch-accounts.md",
+    "site_source": "sources/stage-D5.md",
+    "sha256": "d00fff0cabc3825eb40949f2e19c0421140116c13b0b17b5fa33d3c875cf1640",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-D6-forming-the-retelling.md",
+    "site_source": "sources/stage-D6.md",
+    "sha256": "b82b0af634ba86053b074d7f0ddedab99830e4fe324fcd079ded914b0d0d2485",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-E1-formalizing-audit.md",
+    "site_source": "sources/stage-E1.md",
+    "sha256": "7c5d45ab13dbdde7e28373dcbc2a6c26447da0c060e1b54acee1a08460173bc3",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "aggregator/instrument/stages/STAGE-E2-formalizing-feedback.md",
+    "site_source": "sources/stage-E2.md",
+    "sha256": "19de4da8d6adc78bb837a997065744d5f3ba5ef6b8a8e10144d7a3cd051a4501",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  }
+]
