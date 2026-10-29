@@ -1,7 +1,7 @@
 {
   "scope": "Overview text, including headings and link labels; excludes navigation, catalogue records and full documents",
   "pages": {
-    "index": 387,
+    "index": 386,
     "conditions": 233,
     "event": 260,
     "tools": 262,
@@ -9,7 +9,7 @@
     "run": 127,
     "interviews": 27
   },
-  "total_words": 1449,
+  "total_words": 1448,
   "limit": 1600,
   "homepage_limit": 400,
   "structure": "Four model-organism pages plus three task introductions"

@@ -30,11 +30,11 @@ A population model is returned to saved community agents for comparison with the
 
 ## What accumulation would mean
 
-The completed v43 model is a baseline, not a settled theory. A later account must show which observations it explains better, which distinctions it preserves, or which earlier claim it corrects. The agent codes and composes; researchers judge whether that amounts to a theoretical contribution.
+The completed model is a baseline, not a settled theory. A later account must show which observations it explains better, which distinctions it preserves, or which earlier claim it corrects. The agent codes and composes; researchers judge whether that amounts to a theoretical contribution.
 
 [Follow one community from coding to its place in the model](../results/placenl.html), [explore the population model and forms](../results/population.html), or [trace a claim to its evidence](trace.html).
 
-The broader ambition is to learn about organizational emergence and evolution. Whether an explanation travels beyond this event requires further evidence. A shared record makes that question easier to pose and test; it does not settle it.
+The broader ambition is to learn about organizational emergence and evolution. Whether an explanation travels beyond this event requires further evidence. A model organism makes that question easier to pose and test; it does not settle it.
 
 ## Further comparisons
 

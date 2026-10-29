@@ -351,3 +351,10 @@
  #results-community .replay-stills{grid-template-columns:1fr}
  #results-community .figure-tools,#results-population .figure-tools{font-size:.8rem}
 }
+
+/* The ladder: the aggregate dimensions (D01 to D08) lead; their fourth-order themes sit one step below. */
+:is(#results-community,#results-population) .dim{margin-top:48px}
+:is(#results-community,#results-population) .dimhead h3{font-size:clamp(28px,3.4vw,36px);font-weight:800;font-stretch:72%;line-height:1.02;margin:0}
+:is(#results-community,#results-population) .dimhead .id{font-size:.8rem;font-weight:600;letter-spacing:.05em;color:var(--accent)}
+:is(#results-community,#results-population) .dimhead .id::after{content:" · Aggregate dimension"}
+:is(#results-community,#results-population) .c-4 h4{font-size:18px;font-stretch:85%;font-weight:700;line-height:1.2}

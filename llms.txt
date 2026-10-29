@@ -1,6 +1,6 @@
 # r/place agent index
 
-An Organizational Fruit Fly: a shared record and revisable instrument for cumulative grounded theory.
+An Organizational Fruit Fly: a frozen dataset and a revisable instrument for cumulative grounded theory.
 
 ## Research context
 

@@ -154,56 +154,56 @@
   },
   "population-15.svg": {
     "source_svg_sha256": "e184c32fe316bacc6d8e896c7ee60cc96325654edfac0b4c3c33b15dbb496ab1",
-    "reading_svg_sha256": "e5d208429e898fbf8c1b94a7c0d52cc14f74442ce6214ecfda25a5899448975c",
+    "reading_svg_sha256": "10552c477e3565decaa9cbc38d0cd039231cae17794cb601978c77eeac253693",
     "text_labels": 136,
     "geometric_elements": 71,
     "geometry_and_labels_unchanged": true,
     "font": "Archivo",
-    "title": "Population model, grouping A"
+    "title": "Population model, form A"
   },
   "population-16.svg": {
     "source_svg_sha256": "a18877df63e507f29f5dba5916bc4e46c98c61e9f377b59f339e140740d8a87e",
-    "reading_svg_sha256": "f2d5a9b5167091054e0d868f40f228b309dcf0594f9cce73503293f075129b8a",
+    "reading_svg_sha256": "98f16bb1096abf45e7505ebc17472d8df1586e78754c27b48c16ce8f0b6613d8",
     "text_labels": 112,
     "geometric_elements": 70,
     "geometry_and_labels_unchanged": true,
     "font": "Archivo",
-    "title": "Population model, grouping B"
+    "title": "Population model, form B"
   },
   "population-17.svg": {
     "source_svg_sha256": "a5dc34ac203a5a358c3551a73d8ef5ebf623e563a60552056136055b9d3e2bfa",
-    "reading_svg_sha256": "cc2740cc51f4ab1420f2360ff78b84a5be2f321c42cd3841e719ef48590e3ca7",
+    "reading_svg_sha256": "829bbd64dfc66751318a626c254934af707310659cae4618ebec9549f3ac4202",
     "text_labels": 128,
     "geometric_elements": 70,
     "geometry_and_labels_unchanged": true,
     "font": "Archivo",
-    "title": "Population model, grouping C"
+    "title": "Population model, form C"
   },
   "population-18.svg": {
     "source_svg_sha256": "4310d4f7cb477db502e4bd252605c2d7977d74c0f46c2963594282b2fe301c92",
-    "reading_svg_sha256": "8fefd9276f290107859987c2de37c0d1e6969c617df9ce21b33a7a37d498e390",
+    "reading_svg_sha256": "bcfd7a711bd6ec5a76871fe1a635fda9ef58a76b83a4badbeddba2c97ec85e98",
     "text_labels": 149,
     "geometric_elements": 69,
     "geometry_and_labels_unchanged": true,
     "font": "Archivo",
-    "title": "Population model, grouping D"
+    "title": "Population model, form D"
   },
   "population-19.svg": {
     "source_svg_sha256": "9e4982e194369da2c62694e8cf286859dddaa2818d3448b16ea184947c0c6875",
-    "reading_svg_sha256": "f066545401a9b4dc6aa58d7de9b78555cbe6870cb6ef46bb359a95fdee35ab81",
+    "reading_svg_sha256": "54f2e431f906fb0f1a6052cbd38a17e19078045294f1170f2f445bd420edb189",
     "text_labels": 123,
     "geometric_elements": 69,
     "geometry_and_labels_unchanged": true,
     "font": "Archivo",
-    "title": "Population model, grouping E"
+    "title": "Population model, form E"
   },
   "population-20.svg": {
     "source_svg_sha256": "69d5bb9e416aa4b5271e779cf01e82bc1d514d09b979ecbd124cf7c492cf15b1",
-    "reading_svg_sha256": "bad7efcbea8f63d2e6f9d8d7373f72f5811cfd3b73772f0932de8b498ea59bd6",
+    "reading_svg_sha256": "c0982d4b576cfa85b8a74e63fbc72422241e20a1b66c6de3aede96eefc7213a4",
     "text_labels": 140,
     "geometric_elements": 70,
     "geometry_and_labels_unchanged": true,
     "font": "Archivo",
-    "title": "Population model, grouping F"
+    "title": "Population model, form F"
   }
 }

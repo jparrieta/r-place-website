@@ -4,11 +4,11 @@ Updated 29 October 2026. This page describes the recorded run and distinguishes 
 
 The study's frame contains 705 communities. Community coding develops codes, second-order themes and case accounts. The aggregator compares this material, builds an account of organizing, and returns the model to saved case agents. The [census reference](../Manual-html/census.html) explains the population judgments; downloads do not recreate those decisions.
 
-The v43 run is finished. Its final publication, `f27566528a51`, records all 18 stages closed, ending at E2b on 28 October 2026. Earlier checkpoints retain their own source commits and saved-state dates. A completed run is not proof that its explanation is correct.
+The run is finished. Its final publication, `f27566528a51`, records all 18 stages closed, ending at E2b on 28 October 2026. Earlier checkpoints retain their own source commits and saved-state dates. A completed run is not proof that its explanation is correct.
 
 ## Read an actual result
 
-[Follow PlaceNL from coding to the population model](../results/placenl.html), or [explore the population model, its groupings and all community profiles](../results/population.html).
+[Follow PlaceNL from coding to the population model](../results/placenl.html), or [explore the population model, its organizational forms and all community profiles](../results/population.html).
 
 Start with the [final D6 account and figure](../records/aggregator--claude-v43-1--C4-field--D6.D6a-18.html). Then read the [E1 audit and experience](../records/aggregator--claude-v43-1--C4-field--E1.E1e.html), followed by [E2's handling review and proposed next instrument](../records/aggregator--claude-v43-1--C4-field--E2.E2b.html). They distinguish the explanation from its limits and proposed repairs.
 
@@ -30,7 +30,7 @@ Scripts check cited quotations against source items. A resolved quotation shows 
 
 Human audits can test selected cross-case inferences. The run also retained critical readings, returned its model to community agents, and checked reconstruction of local accounts. [PlaceNL's return](../results/placenl.html#repair-and-change) shows a revision and its limits; [E1](../stages/E1.html) explains the reconstruction check.
 
-Two further population models are planned for comparison: algorithm-supported induction from term frequencies, without a coding agent, and a separate aggregator using cross-case tables. These comparisons are not results of the completed v43 run.
+Two further population models are planned for comparison: algorithm-supported induction from term frequencies, without a coding agent, and a separate aggregator using cross-case tables. These comparisons are not results of the completed run.
 
 ### Source: what does another view reveal?
 

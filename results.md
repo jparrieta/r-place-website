@@ -1,10 +1,10 @@
 # Results
 
-Follow one community from its evidence to its model, then see how the population analysis brings 705 communities together. These pages show the completed v43 study and the records behind its claims.
+Follow one community from its evidence to its model, then see how the population model brings 705 communities together. These pages show the completed run and the records behind its claims.
 
 ## PlaceNL example: one community
 
-Start with the Dutch community's activity, codes and case account. Read its standalone local model, then follow the aggregator's first reading, its placement in the population's coding structure, and the comments it returned on two model versions. End with PlaceNL's place in the final grouping.
+Start with the Dutch community's activity, codes and case account. Read its standalone local model, then follow the aggregator's first reading, its placement in the population's coding structure, and the comments it returned on two model versions. End with PlaceNL's place among the final organizational forms.
 
 One incident shows why the return matters. Members agreed to add canal houses to their flag, but their own defence script erased them. Comparing such objections across communities changed the model's account of repair. The later recheck also exposed a limit to that revision.
 
@@ -12,7 +12,7 @@ One incident shows why the return matters. Members agreed to add canal houses to
 
 ## Aggregator example: the population model
 
-Explore the coding structure, the model and its narrative, and the six community groupings. The comparison at the end shows every community's changes and codes, with the same dimension colours and normalized averages for each grouping.
+Explore the coding structure, the model and its narrative, and the six organizational forms. The comparison at the end shows every community's changes and codes, with the same dimension colours and normalized averages for each form.
 
 [Explore the population model](results/population.html)
 
