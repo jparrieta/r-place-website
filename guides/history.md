@@ -70,8 +70,10 @@ Evidence: [exact selected decision rows](../history-evidence/handler-decisions.t
 
 ## Release access
 
-This is a private review build. Saved reading pages, their Markdown and JSONL downloads, and the PlaceNL example replace recorded participant handles with pixel-stream IDs: `base64(SHA1(username))`, preserving case, with no salt. Profile links are removed. These are linkable pseudonyms, not anonymity; quoted text remains searchable. The original bundles, transcripts and old manual are unchanged. They would be visible to anyone who could reach an unprotected static host. A private download repository does not protect a public copy of those pages.
+These reading pages are public. Saved reading pages, their Markdown and JSONL downloads, and the PlaceNL example use the pixel stream's participant IDs: `base64(SHA1(username))`, preserving case, with no salt. These are linkable pseudonyms. Quoted text and comment IDs can still lead back to the source record.
 
-Public release has not been approved. Ethics and data-protection clearance, or an explicitly approved publication treatment, remains a release decision. Original research files retain their verified bytes. Reading manifests distinguish original-source hashes from hashes of the derived copies. Private reviewer hosting needs access control for the whole static site as well as interviews. A link token for an interview does not protect static records. No public host or guest service is enabled by this build.
+Original checkpoint bundles and transcripts remain in the private research repository and require access. Three legacy manual pages containing participant handles link to their private originals. Original research files retain their verified bytes. Reading manifests distinguish original-source hashes from hashes of the derived copies.
+
+Online interviews are not connected yet. Chat Locally is available to readers with repository access and a supported model account and runtime. A later interview server can connect to this website without moving these reading pages.
 
 [Machine-readable history and evidence hashes](../history.json). New records extend the catalogue; earlier checkpoint identities, accepted bundles and source recipes remain unchanged. Additional runtime proofs, when available, name the exact executable tested.

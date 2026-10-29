@@ -4,7 +4,7 @@ Choose a community or an aggregator checkpoint. Each card shows what was saved a
 
 **Read saved outputs** opens selected narrative files from that exact checkpoint in the browser, with provenance and hashes. It needs no model login. **Read the record** opens the original transcript or close receipt on GitHub. **Chat Locally** expands setup beneath the selected checkpoint, with one command first and a step-by-step guide below. The stage map and description stay on the page. **Chat Online** opens a new tab, asks for reviewer sign-in, and opens the selected checkpoint when its server is available. Your research page stays open. Hosted research access is still awaiting deployment and runtime checks.
 
-Original GitHub transcripts and private downloads require repository access. The selected saved-output reading pages on this site do not. A GitHub “Page not found” response can mean you lack access. The local **Open the interview service on this computer** link works on this computer only. Phone access requires a separately configured private HTTPS service; it is not enabled by opening this local page.
+Original GitHub transcripts and private downloads require repository access. The selected saved-output reading pages on this site do not. A GitHub “Page not found” response can mean you lack access. The local **Open the interview service on this computer** link works on this computer only. Online interviews from a phone require a separately configured HTTPS service, which is not connected yet.
 
 A complete bundle contains the conversation and the filesystem at that checkpoint, plus a manifest and runtime provenance. Git history or a transcript alone is not that bundle. Historical files stay separate from current research and from other interviews.
 
@@ -29,9 +29,11 @@ Activity messages do not establish which sources were read. Compare an answer's 
 
 Interviews depend on continued access to compatible models and software. A saved checkpoint alone cannot guarantee future resumption. Outputs and transcripts remain readable without a model call. The paper proposes an open-weight rerun with archived weights to reduce this dependency; that rerun is not yet part of the shared baseline. [Long-term access and resource limits](project.html#keeping-the-baseline-usable).
 
-Reading pages replace participant handles with the pixel stream's IDs. They still contain Reddit text; original bundles and transcripts retain usernames. This private build is not approved for public hosting; [release access limits](history.html#release-access) apply to the whole site. Provider processing applies when you run an interview. Credentials are never included. Original records stay intact.
+Reading pages use the pixel stream's participant IDs and still contain linkable Reddit text. The reading website is public; original bundles and transcripts remain private and retain usernames. [Release access](history.html#release-access) explains these boundaries. Provider processing applies when you run an interview. Credentials are never included. Original records stay intact.
 
 ## Return to an online interview
+
+Online interviews are not connected yet. The following describes the planned server interface.
 
 After sign-in, **Open interviews** lists the chats still held by the server. Return opens the same interview, with its messages and historical files, without restoring again. Repeated clicks on Chat Online also reuse the existing chat for that checkpoint.
 

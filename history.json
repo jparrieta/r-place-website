@@ -5050,8 +5050,11 @@
   ],
   "deployment": {
     "public_release_approved": false,
+    "public_reading_website_enabled": true,
+    "website_url": "https://jparrieta.github.io/r-place-website/",
     "reviewer_hosting_enabled": false,
-    "reason": "Saved reading pages include participant handles and verbatim text. Public release and private reviewer access need explicit approval and access configuration."
+    "original_checkpoint_archives_public": false,
+    "reason": "The public reading website is published separately. Original checkpoint bundles and transcripts remain private; three legacy manual pages link to private originals. Reading copies contain linkable quotations and pixel-stream participant IDs. Hosted interviews are not connected."
   },
   "run_completion": {
     "commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
