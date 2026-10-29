@@ -33,7 +33,7 @@ Original coding close
         +-- D3: same D2 session ID in the re-check return record
 ```
 
-D2 did not fork from R6. A shared source identity does not mean the D2 branch held the later R6 local model. The D3 records name GPT-6.1 Sol and the same D2 session IDs. They omit effort; medium was prescribed, not independently checked in those D3 transcripts by this website review. The review did not inspect all 705 D2 native histories. These limits must not be generalized into a claim about every room.
+D2 did not fork from R6. A shared source identity does not mean the D2 branch held the later R6 local model. The D3 records name GPT-6.1 Sol and the same D2 session IDs. They omit effort; medium was prescribed, not independently checked in those D3 transcripts by this website review. The review did not inspect all 705 D2 native histories. These limits must not be generalized into a claim about every community.
 
 | Shared community | D2 source and native-turn evidence |
 |---|---|
@@ -56,7 +56,7 @@ These are selected metadata fields, not complete agent transcripts. Their member
 
 ## Instruction versions
 
-The canonical source copies on this site remain unchanged. Historical checkpoints preserve the files they actually held. A stage-file hash is evidence of a saved file, not proof that the analyst read it or that no later instruction was delivered.
+The canonical source copies on this site remain unchanged. Historical checkpoints preserve the files they actually held. A stage-file hash is evidence of a saved file, not proof that the aggregator read it or that no later instruction was delivered.
 
 **B1.** Saved card SHA-256: `246c890d13c93007d92a27d29c76be7814281d946bc014c23dc96496e0819f97`. Current canonical card SHA-256: `a2b733dded3046ba611c65e979beb597ef8ef26e8b625dea28469a254219f8a0`. [Saved card](../history-evidence/saved-STAGE-B1-coding-third-order-scheme.md); [current canonical card](../sources/stage-B1.md). The saved hash is confirmed in all three shared B1 checkpoints.
 

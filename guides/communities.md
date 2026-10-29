@@ -10,13 +10,13 @@ Read HANDOFF-collection.md. Obtain any missing instrument folders, record their 
 
 The coding handler already exists. This is its entry prompt, not a new protocol. A Claude chat can coordinate it, but the shipped persistent case-lead launcher requires Codex. [Exact platform and folder requirements](../sources/coder-README.html).
 
-**Start with:** a prepared community record and the coder contract.
+**Start with:** a prepared community record and the community coder contract.
 
 **Do:** AI readers code the material; an AI case lead consolidates codes, themes and the case account under researcher supervision. Preserve the lead’s conversation, files and runtime provenance together at the close.
 
 **Keep:** the declared coding outputs, evidence trail and resumable close.
 
-**Advance when:** the coder’s checks pass and its outputs and close are stored.
+**Advance when:** the community coder’s checks pass and its outputs and close are stored.
 
 A coding close, a standalone local model, a return to the global model and a later re-check are distinct milestones. The [checkpoint catalogue](../interviews.html) records their availability separately.
 
@@ -30,8 +30,8 @@ Give the [existing aggregator handler](aggregator.html) the coding handler's che
 
 ## Full instructions and examples
 
-- [Coder overview](../Manual-html/4-the-coder.html).
-- [Full coder contract](../sources/coder-contract.html), [case lead](../sources/case-lead.html) and [fleet reader](../sources/fleet-coder.html).
+- [Community coder overview](../Manual-html/4-the-coder.html).
+- [Full community coder contract](../sources/coder-contract.html), [case lead](../sources/case-lead.html) and [fleet reader](../sources/fleet-coder.html).
 - [How the lead remembers](../Manual-html/memory/coder-lead.html).
 - [Complete agent reading key](../agents/communities.html).
 

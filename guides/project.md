@@ -38,7 +38,7 @@ The broader ambition is to learn about organizational emergence and evolution. W
 
 ## Further comparisons
 
-The paper proposes two further population models from the same record: algorithm-supported induction using term frequencies, with no coder in the loop, and a separate composition from cross-case tables. These are planned comparisons, not completed validation results. The current aggregator already draws on several qualitative traditions; its [contract](../sources/contract.html) holds the rules.
+The paper proposes two further population models from the same record: algorithm-supported induction using term frequencies, with no community coder in the loop, and a separate composition from cross-case tables. These are planned comparisons, not completed validation results. The current aggregator already draws on several qualitative traditions; its [contract](../sources/contract.html) holds the rules.
 
 At [C4](../stages/C4.html), the unfinished Field analysis supplied an interim reading and comments from the central r/place forum. These prompted tentative additions and qualifications to the community model. Comparison with the Field agent's completed model remains future work. A standalone Field launch guide also remains forthcoming. [Read the checks and their limits](study.html#how-the-model-is-checked).
 

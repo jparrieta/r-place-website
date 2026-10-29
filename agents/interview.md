@@ -31,7 +31,7 @@ The website cannot grant repository or provider access. Ask the study owner for 
 
 ## Open and check
 
-Use **Chat Locally** on the selected card. Paste its first command into Terminal, or follow the separate steps below it. The launcher verifies the source recipe or supplied bundle, saved file hashes, conversation identity and supported runtime. It refuses mismatches. Restoration alone sends no analyst question.
+Use **Chat Locally** on the selected card. Paste its first command into Terminal, or follow the separate steps below it. The launcher verifies the source recipe or supplied bundle, saved file hashes, conversation identity and supported runtime. It refuses mismatches. Restoration alone sends no aggregator question.
 
 The default route restores original GitHub files plus the explicitly declared saved-state supplement. [Original-source details](../ORIGINAL-SOURCES.md) explain the distinction. Do not silently fall back to another checkpoint, current workspace or fresh agent.
 

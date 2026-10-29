@@ -14,7 +14,7 @@ Explicit contracts govern reading, coding, comparison and handback. Agents keep 
 
 ## Evidence you can inspect
 
-Read the [completed model, form accounts and audits](guides/study.html). A [checkpoint interview](interviews.html) lets you question a restored analyst and compare its new explanation with saved outputs. The [full reference](reference.html) holds source documents and hashes.
+Read the [completed model, form accounts and audits](guides/study.html). A [checkpoint interview](interviews.html) lets you question a restored agent and compare its new explanation with saved outputs. The [full reference](reference.html) holds source documents and hashes.
 
 Reading pages are available here. GitHub downloads remain private, and hosted reviewer interviews are not enabled. Each checkpoint states what has been verified and released.
 

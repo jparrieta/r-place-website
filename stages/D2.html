@@ -14,8 +14,8 @@ adaptation handler resumes each matching community lead with its
 original conversation and files. Separate readers receive the verdict
 packets. The aggregator’s check leg opens after these jobs have returned
 their files.</p>
-<h2 id="what-the-leads-readers-and-analyst-do">What the leads, readers
-and analyst do</h2>
+<h2 id="what-the-leads-readers-and-aggregator-do">What the leads,
+readers and aggregator do</h2>
 <p>Each community lead rewrites its local account using the population
 model. It records where the model applies, where it needs detail or a
 condition, where the community contradicts it, and where a new idea may
@@ -29,9 +29,9 @@ disagreements remain visible. The lead’s own assessment sits beside
 these verdicts and does not replace them.</p>
 <p>The ingestion tools check model versions, identifiers, citations,
 required fields and completeness. The handler can return a failed
-response for repair. The analyst then inspects the report and a seeded
-sample of ten local accounts: do they describe how those communities
-organized, or merely repeat the population model?</p>
+response for repair. The aggregator then inspects the report and a
+seeded sample of ten local accounts: do they describe how those
+communities organized, or merely repeat the population model?</p>
 <p>These checks establish whether a return can be read and traced. They
 do not decide that a proposed correction is scientifically warranted. A
 high disagreement rate or a large number of exceptions is something to
@@ -44,8 +44,8 @@ substance of corrections. D2 leaves that adjudication to D3 rather than
 mixing collection with judgment.</p>
 <section class="stage-outputs" aria-labelledby="stage-outputs-title"><h2 id="stage-outputs-title">What the output files contain</h2><p>Open a file group for its purpose. These are descriptions of the stage’s outputs. Markdown files hold prose; JSONL files hold one structured record per line.</p><details class="stage-output"><summary><span class="output-purpose">The adaptation ledger</span><span class="output-filenames"><code>adaptations.jsonl</code></span></summary><div class="output-description"><p><code>adaptations.jsonl</code> collects validated return lines with
 their evidence and model version. “Validated” here means that the
-required structural checks passed, not that the analyst has accepted the
-claim.</p>
+required structural checks passed, not that the aggregator has accepted
+the claim.</p>
 </div></details><details class="stage-output"><summary><span class="output-purpose">The independent judgments</span><span class="output-filenames"><code>verdicts-D.jsonl</code></span></summary><div class="output-description"><p><code>verdicts-D.jsonl</code> preserves the readers’ fit judgments
 and reasons beside the leads’ assessments. It makes disagreement visible
 instead of reducing two readings to a vote.</p>
@@ -55,8 +55,8 @@ account, with its <code>verdict-D</code> record alongside.
 model elements so D3 can inspect all evidence concerning one claim
 together.</p>
 </div></details><details class="stage-output"><summary><span class="output-purpose">What arrived, failed or remains missing</span><span class="output-filenames"><code>ingest-D.md</code>, <code>notes-D2.md</code>, <code>RUN.json</code>, <code>run_manifest.json</code>, <code>handback-D2.md</code></span></summary><div class="output-description"><p><code>ingest-D.md</code> reports accepted lines, failed rules and
-missing rooms. <code>notes-D2.md</code> records the sample checks and
-substantive cautions. <code>RUN.json</code> records return counts;
+missing communities. <code>notes-D2.md</code> records the sample checks
+and substantive cautions. <code>RUN.json</code> records return counts;
 <code>run_manifest.json</code> records the models used.
 <code>handback-D2.md</code> carries defects and unresolved operational
 matters forward.</p>

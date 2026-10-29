@@ -8,7 +8,7 @@ The instrument moves between local accounts and a model that must explain their 
 
 Community readers code participants’ words. A case lead consolidates codes, themes and a case account. Exact quotations and reading records let a reviewer check the evidence behind an account.
 
-[How community coding works](communities.html) · [Full coder contract](../sources/coder-contract.html)
+[How community coding works](communities.html) · [Full community coder contract](../sources/coder-contract.html)
 
 ## Then compare, build and challenge
 
@@ -26,7 +26,7 @@ The **Field analysis** studies the central r/place forum separately. C4 compares
 
 ## Review an inference
 
-Follow a claim to its account, codes and source material. Compare the analyst’s record with its stated alternatives and limits. A checkpoint interview can probe that interpretation, but its answers are new responses from the saved state.
+Follow a claim to its account, codes and source material. Compare the aggregator’s record with its stated alternatives and limits. A checkpoint interview can probe that interpretation, but its answers are new responses from the saved state.
 
 [Trace one claim](trace.html) · [Interview a checkpoint](../interviews.html) · [Detailed methodological review](../Manual-html/10-for-reviewers.html)
 

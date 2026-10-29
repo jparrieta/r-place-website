@@ -14,13 +14,13 @@ Continue to community coding. See [data recipes](../sources/data-README.html) an
 
 ## 2. Existing coding handler
 
-**Input:** a prepared community record and the coder contract.
+**Input:** a prepared community record and the community coder contract.
 
 **Work:** readers code the material; the case lead consolidates codes, themes and the case account. Keep the lead's conversation, files and runtime provenance together at the close.
 
-**Ready when:** the coder's checks pass and its declared outputs and resumable close are stored. A standalone local model, a return to the global model and a later re-check are distinct milestones. One does not prove the others exist.
+**Ready when:** the community coder's checks pass and its declared outputs and resumable close are stored. A standalone local model, a return to the global model and a later re-check are distinct milestones. One does not prove the others exist.
 
-Continue to the aggregator's input preparation. See [coder guide](../sources/coder-README.html) and [agent instructions](../agents/communities.html).
+Continue to the aggregator's input preparation. See [community coder guide](../sources/coder-README.html) and [agent instructions](../agents/communities.html).
 
 ## 3. Existing aggregator handler
 
@@ -28,8 +28,8 @@ A stage covers one part of the analysis. Repeated legs divide larger tasks; thei
 
 **Input:** checked community outputs, the census, the required context and shelves.
 
-**Work:** the handler prepares a separate run, checks the build and opens the stages in order. The analyst reads, codes, builds a model, returns it to cases, and writes the resulting account.
+**Work:** the handler prepares a separate run, checks the build and opens the stages in order. The aggregator reads, codes, builds a model, returns it to cases, and writes the resulting account.
 
-**Ready to advance when:** the stage's outputs and checks meet its contract, and the handler records the close. The analyst owns the interpretation; checks establish what was delivered.
+**Ready to advance when:** the stage's outputs and checks meet its contract, and the handler records the close. The aggregator owns the interpretation; checks establish what was delivered.
 
 See the stage map below, the [handler protocol](../sources/handler.html), and [agent instructions](../agents/aggregator.html). These pages do not start research agents.

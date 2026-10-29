@@ -33,7 +33,7 @@ Reads the community’s record from before the event and writes a background bri
 
 ### Coding handler, also called the scheduler
 
-Prepares each community’s working folder, launches its agents, checks their outputs and keeps the progress record. It manages failed jobs and preserves completed work. It does not decide what a quotation means or rewrite an analyst’s answer to make a check pass. [Scheduler contract](../sources/scheduler.html).
+Prepares each community’s working folder, launches its agents, checks their outputs and keeps the progress record. It manages failed jobs and preserves completed work. It does not decide what a quotation means or rewrite an aggregator’s answer to make a check pass. [Scheduler contract](../sources/scheduler.html).
 
 ### Community reader, or fleet coder
 
@@ -41,9 +41,9 @@ Reads an assigned part of one community’s record and develops codes tied to pa
 
 ### Case lead
 
-Owns the community’s whole account. It reads a small room itself; for a larger room it assembles the fleet’s work, groups codes into local themes and writes the case narrative. Its saved conversation and matching files support later continuation and interviews. [Case-lead contract](../sources/case-lead.html).
+Owns the community’s whole account. It reads a small community itself; for a larger community it assembles the fleet’s work, groups codes into local themes and writes the case narrative. Its saved conversation and matching files support later continuation and interviews. [Case-lead contract](../sources/case-lead.html).
 
-### Standalone community analyst
+### Standalone community coder
 
 Develops a model of organizing within one community, using its coded evidence. The recorded R6 close is a later milestone than the initial coding close. It belongs to a separate local-model workflow, not an extra step silently added to the coding scheduler. Compare [PlaceNL after coding](../records/community--PlaceNL--coding-close.html) with [its R6 model](../records/community--PlaceNL--R6.html).
 
@@ -53,9 +53,9 @@ Develops a model of organizing within one community, using its coded evidence. T
 
 Builds the population-level run, opens and closes its legs, supplies permitted inputs and dispatches reader jobs. It records checks, preserves checkpoints and brings research decisions to the investigator. Passing its file checks does not establish that an explanation is true. [Handler protocol](../sources/handler.html).
 
-### Aggregator analyst
+### Aggregator
 
-Reads across communities, builds common categories, develops the population model, assesses returns and explains organizational forms. Stages divide this work into inspectable steps. A new stage or leg does not by itself mean a fresh analyst: saved conversation, files and recorded lineage carry the work forward. [Follow the stages](aggregator.html#stage-map).
+Reads across communities, builds common categories, develops the population model, assesses returns and explains organizational forms. Stages divide this work into inspectable steps. A new stage or leg does not by itself mean a fresh aggregator: saved conversation, files and recorded lineage carry the work forward. [Follow the stages](aggregator.html#stage-map).
 
 ### Classification readers
 
@@ -63,9 +63,9 @@ Use the common scheme to assign local themes to categories. They test the rules 
 
 ### Critical readers
 
-Challenge a developing explanation rather than build the whole model themselves. The [C2](../stages/C2.html) reader examines the model; [C5](../stages/C5.html) readers test claims in the integrated account against cases. Their replies remain alongside the analyst’s responses, including criticism that remains unresolved.
+Challenge a developing explanation rather than build the whole model themselves. The [C2](../stages/C2.html) reader examines the model; [C5](../stages/C5.html) readers test claims in the integrated account against cases. Their replies remain alongside the aggregator’s responses, including criticism that remains unresolved.
 
-### Field analyst and its separate workflow
+### Field agent and its separate workflow
 
 Studies the central r/place forum, where communities recruit, negotiate and discuss the event. It supplied an interim reading and comments at [C4](../stages/C4.html) while its own analysis remained unfinished. A comparison with its completed model is still pending. Its role is to offer a view between communities. This website does not yet supply a standalone Field launch guide.
 
@@ -89,6 +89,6 @@ In [E1](../stages/E1.html), check whether the shared model plus supported local 
 
 ## Interview a saved agent
 
-A checkpoint interview opens a disposable fork of a saved analyst with its matching historical files. It is the analyst at a chosen point, not a new agent asked to imitate it from a summary. Its answers are new interview responses; they do not alter or become part of the original analysis.
+A checkpoint interview opens a disposable fork of a saved agent with its matching historical files. It is the aggregator at a chosen point, not a new agent asked to imitate it from a summary. Its answers are new interview responses; they do not alter or become part of the original analysis.
 
 The [interview catalogue](../interviews.html) distinguishes available community and aggregator checkpoints. It does not promise a conversational checkpoint for every brief writer or fleet reader. [Reading keys for agents](../agents.html) provide the operational instructions; this page explains the division of work.

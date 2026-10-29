@@ -15,7 +15,7 @@ Obtain the [pristine prepared run](../guides/download.md#get-the-instrument), or
 
 ## Required inputs
 
-Provide the census, coder outputs, versions, collection/coding handoffs and declared context. The handler must check these against the chosen instrument before building. A prepared input table is not proof that every later stage can run.
+Provide the census, community coder outputs, versions, collection/coding handoffs and declared context. The handler must check these against the chosen instrument before building. A prepared input table is not proof that every later stage can run.
 
 Write `HANDOFF-aggregator.md` with this preflight table. Use actual paths and results, not assumed readiness:
 
@@ -27,7 +27,7 @@ Write `HANDOFF-aggregator.md` with this preflight table. Use actual paths and re
 | D2 | Original community sessions, matching saved files, runtime provenance and controller registration | Stop the affected returns. Do not replace original leads with fresh agents. |
 | E2 | Proposal/design and feedback materials required by its card | Stop before E2 until the handler has delivered them. |
 
-The interview catalogue shares 14 community coding closes and 14 local-model closes. It does not establish availability of all original leads for the 705-room frame. A read-only interview bundle is not automatic admission to a research continuation. Request any unshared original lead packages from the study owner and verify them through the controller. If they are unavailable, record the limit and the last runnable stage rather than claim a complete reproduction.
+The interview catalogue shares 14 community coding closes and 14 local-model closes. It does not establish availability of all original leads for the 705-community frame. A read-only interview bundle is not automatic admission to a research continuation. Request any unshared original lead packages from the study owner and verify them through the controller. If they are unavailable, record the limit and the last runnable stage rather than claim a complete reproduction.
 
 ## Read in this order
 
@@ -42,7 +42,7 @@ The reading copies resolve links; exact canonical Markdown remains in `sources/`
 
 Run the chosen controller's build, acceptance and lifecycle checks. Record their versions and outcomes before launching A1. Verify original-lead availability early, even though D2 comes later. The Codex route provides `lead-status` and `register-lead`; use the selected controller's documented registration rules.
 
-Deliver stage cards and startup inputs in order. The analyst interprets; the handler checks deliverables and records the close. Keep the head, decisions and gaps on disk. Use only the prescribed checkpoint boundaries.
+Deliver stage cards and startup inputs in order. The aggregator interprets; the handler checks deliverables and records the close. Keep the head, decisions and gaps on disk. Use only the prescribed checkpoint boundaries.
 
 ## Stop when
 

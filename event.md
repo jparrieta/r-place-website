@@ -14,7 +14,7 @@ The whole event is not the whole life of each community. Groups existed before t
 
 ## A separate timeline for the research
 
-The analysis has its own history: community coding, a population model, returns to cases, organizational forms and audits. Saved checkpoints preserve the analyst's conversation and matching files at those boundaries.
+The analysis has its own history: community coding, a population model, returns to cases, organizational forms and audits. Saved checkpoints preserve the aggregator's conversation and matching files at those boundaries.
 
 [Follow the analysis stages](guides/instrument.html), [read the final account](guides/study.html), or [inspect a checkpoint](interviews.html). Interview replies are new explanations from a saved state, not transcripts of unspoken past reasoning.
 

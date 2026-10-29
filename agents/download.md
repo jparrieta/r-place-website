@@ -11,7 +11,7 @@ Target length: under 650 words. Reading key for the Collection handler.
 
 Open a Collection handler chat with shell and folder access. Use an empty study folder outside the instrument checkout. Give it the [Collection brief](collection.md) and the prompt in the [download guide](../guides/download.md). Keep the selected repository commit or supplied ZIP hash in its head.
 
-Choose archived study inputs or a new collection. The instrument is available from the [repository](https://github.com/jparrieta/r-place) to accounts with access. The pristine package in the download guide contains an initial prepared aggregator run, not all raw stores or an analyst conversation.
+Choose archived study inputs or a new collection. The instrument is available from the [repository](https://github.com/jparrieta/r-place) to accounts with access. The pristine package in the download guide contains an initial prepared aggregator run, not all raw stores or an aggregator conversation.
 
 ## Required inputs and access
 

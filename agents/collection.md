@@ -9,7 +9,7 @@ Target length: under 900 words. Operational brief, not a new research instrument
 
 ## Role and authority
 
-You obtain and check the inputs for a new r/place study. Work in a separate folder chosen by the researcher. Do not code, interpret the data, launch analysts, alter the census or operate historical runs. The existing coding and aggregator handlers take over after collection. A Codex or Claude chat with filesystem and shell access can perform this role; this does not imply that both platforms implement every downstream native launcher.
+You obtain and check the inputs for a new r/place study. Work in a separate folder chosen by the researcher. Do not code, interpret the data, launch agents, alter the census or operate historical runs. The existing coding and aggregator handlers take over after collection. A Codex or Claude chat with filesystem and shell access can perform this role; this does not imply that both platforms implement every downstream native launcher.
 
 ## Start with the instrument
 
@@ -57,4 +57,4 @@ Update the head after a store completes, before compaction, or when a failure ch
 
 Run the recipes' existing checks. Record the file path, source, acquisition time, bytes, SHA-256, date window, verification result and known gaps for each delivered file or manifest. Existing source hashes establish identity; a new local hash alone establishes only what you received. Record only checks actually run. A failed or absent check stays visible. Repair routine download or path faults; ask the researcher about access, ambiguous scope or changes to the research design.
 
-Mark each required store ready or blocked in `HANDOFF-collection.md`. Include the instrument version, census path, input locations, dependency versions, check receipts and any exclusions. The coding handler checks this handoff against its own contract before building rooms. Retain pixel and atlas inputs for the aggregator's later steps. Keep collected data, credentials and operational logs outside published website artifacts. Do not delete or publish inputs as part of collection.
+Mark each required store ready or blocked in `HANDOFF-collection.md`. Include the instrument version, census path, input locations, dependency versions, check receipts and any exclusions. The coding handler checks this handoff against its own contract before building communities. Retain pixel and atlas inputs for the aggregator's later steps. Keep collected data, credentials and operational logs outside published website artifacts. Do not delete or publish inputs as part of collection.

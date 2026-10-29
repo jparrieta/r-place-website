@@ -8,7 +8,7 @@ Use five questions from [TRACE](https://trace-os.org/start/principles/) to inspe
 
 ## T. Track records: what happened and why?
 
-**Recorded example:** [Model history](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model/history.jsonl) associates model changes with a leg, reasons and source rooms. The [C2 close receipt](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/CONTROL/close-status-C2.C2d-02.json) identifies a completed turn, validator and report hashes. The report hash was checked against its saved file for this guide on 24 October 2026.
+**Recorded example:** [Model history](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model/history.jsonl) associates model changes with a leg, reasons and source communities. The [C2 close receipt](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/CONTROL/close-status-C2.C2d-02.json) identifies a completed turn, validator and report hashes. The report hash was checked against its saved file for this guide on 24 October 2026.
 
 **Limit:** a close receipt is a record of completion and checks, not a record of every inference or a resumable agent by itself.
 
@@ -20,9 +20,9 @@ Use five questions from [TRACE](https://trace-os.org/start/principles/) to inspe
 
 ## A. Accept independently: who could decide?
 
-**Recorded example:** [QC2-001](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-001.md) identifies a handler ruling under J's delegation, including what the reviewer may see. [The handler protocol](../sources/handler.html) separates analyst, handler and PI duties.
+**Recorded example:** [QC2-001](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-001.md) identifies a handler ruling under J's delegation, including what the reviewer may see. [The handler protocol](../sources/handler.html) separates aggregator, handler and PI duties.
 
-**Gap:** this demonstrates a delegated scope decision, not independent acceptance of the entire model. The analyst answers the critic's objections. We have not established a separate, version-bound acceptance decision for every output. Critique, close and scientific acceptance must not be read as synonyms.
+**Gap:** this demonstrates a delegated scope decision, not independent acceptance of the entire model. The aggregator answers the critic's objections. We have not established a separate, version-bound acceptance decision for every output. Critique, close and scientific acceptance must not be read as synonyms.
 
 ## C. Control transitions: what may advance?
 
