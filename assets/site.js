@@ -4,7 +4,8 @@
   try{mode=localStorage.getItem('rplace-theme')||'light';}catch(_){}
   function applyTheme(){document.documentElement.dataset.theme=mode;if(theme)theme.textContent=`Theme: ${mode}`;}
   applyTheme();if(theme)theme.onclick=()=>{mode=['light','dark','system'][(['light','dark','system'].indexOf(mode)+1)%3];try{localStorage.setItem('rplace-theme',mode);}catch(_){}applyTheme();};
-  const menu=document.querySelector('header .menu'),here=menu&&menu.querySelector('[aria-current]');const showHere=()=>{if(!here)return;const m=menu.getBoundingClientRect(),h=here.getBoundingClientRect();if(h.right>m.right-24)menu.scrollLeft+=h.right-m.right+40;};(document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{if(menu&&menu.scrollWidth>menu.clientWidth)menu.classList.add('scrolls');showHere();});
+  const menu=document.querySelector('header .menu'),here=menu&&menu.querySelector('[aria-current]');const showHere=()=>{if(!here)return;const m=menu.getBoundingClientRect(),h=here.getBoundingClientRect();if(h.right>m.right-48)menu.scrollLeft+=h.right-m.right+60;};(document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{if(menu&&menu.scrollWidth>menu.clientWidth)menu.classList.add('scrolls');showHere();});
+  const tabs=document.querySelector('main .parts'),tab=tabs&&tabs.querySelector('[aria-current]');(document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{if(!tab)return;const r=tabs.getBoundingClientRect(),t=tab.getBoundingClientRect();if(t.right>r.right-48)tabs.scrollLeft+=t.right-r.right+60;});
   document.querySelectorAll('.page-run pre.text code, .page-run pre code.language-text').forEach(code=>{
     const copy=document.createElement('button');copy.type='button';copy.textContent='Copy prompt';
     copy.onclick=async()=>{try{await navigator.clipboard.writeText(code.textContent);copy.textContent='Copied';}catch(_){copy.textContent='Select and copy the prompt above';}};code.parentElement.after(copy);
