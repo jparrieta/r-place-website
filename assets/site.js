@@ -113,3 +113,5 @@
     window.addEventListener('popstate',()=>{readURL();draw();});readURL();draw();if(selected&&document.getElementById('checkpoint-'+selected)){const card=document.getElementById('checkpoint-'+selected);card.tabIndex=-1;card.focus();}else if(entity)title.focus();
   }).catch(e=>{status.hidden=false;status.textContent=e.message+' Use the static list below.';status.className='error';list.append(link('All checkpoint records','checkpoint-index.html'));});
 })();
+// A link to a saved file (#03-timeline) opens its section on the checkpoint page.
+(function(){function openTarget(){const id=decodeURIComponent(location.hash.slice(1));if(!id)return;const el=document.getElementById(id);if(el&&el.tagName==='DETAILS'){el.open=true;el.scrollIntoView();}}window.addEventListener('hashchange',openTarget);if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',openTarget);else openTarget();})();

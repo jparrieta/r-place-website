@@ -20,7 +20,7 @@
       "reading_file": "41ccfaddfabbf60d297125c4fadf389b7aa0c812d78be983a0dc6e8f8124bb7d.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "01-claims-E1.html",
+      "page": "01-claims-E1",
       "raw": "../files/41ccfaddfabbf60d297125c4fadf389b7aa0c812d78be983a0dc6e8f8124bb7d.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "62eda8bc3545c210e9541ac9bb333f7e71d05446d100165ee764b42e6447138f.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-probes-E1.html",
+      "page": "02-probes-E1",
       "raw": "../files/62eda8bc3545c210e9541ac9bb333f7e71d05446d100165ee764b42e6447138f.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "f7851595adc8a0b41b546aee99d641c312de4c0c1af1678f342736fcdb2a24c9.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "03-expectations-E1.html",
+      "page": "03-expectations-E1",
       "raw": "../files/f7851595adc8a0b41b546aee99d641c312de4c0c1af1678f342736fcdb2a24c9.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "21e30cd2905ae9d0a3bb6eebc75923bff1e2dc15b38f25dd414f950a661ca895.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-retelling-D6.html",
+      "page": "04-retelling-D6",
       "raw": "../files/21e30cd2905ae9d0a3bb6eebc75923bff1e2dc15b38f25dd414f950a661ca895.reading.md"
     },
     {
@@ -88,7 +88,7 @@
       "reading_file": "0daeb29e631bf15e5936acc06eb355d054cb263f206a711e61afbec99a808654.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "05-_head.html",
+      "page": "05-_head",
       "raw": "../files/0daeb29e631bf15e5936acc06eb355d054cb263f206a711e61afbec99a808654.reading.md"
     },
     {
@@ -105,7 +105,7 @@
       "reading_file": "8d8f20b6518fb044096e6145e274c9544bdc18bdf46924ae5063197856c1830b.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "06-notes-E1.html",
+      "page": "06-notes-E1",
       "raw": "../files/8d8f20b6518fb044096e6145e274c9544bdc18bdf46924ae5063197856c1830b.reading.md"
     }
   ],

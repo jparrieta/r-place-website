@@ -22,7 +22,7 @@
       "reading_file": "2848dcda4a06bdaef684855e18fe57295161ceadbaa674bb337f9b9c0a8832f3.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "01-case.html",
+      "page": "01-case",
       "raw": "../files/2848dcda4a06bdaef684855e18fe57295161ceadbaa674bb337f9b9c0a8832f3.reading.md"
     },
     {
@@ -41,7 +41,7 @@
       "reading_file": "5297621aa48b300a7e966aa3a68118b59e505102956119d427b45744cb602348.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-lexicon.html",
+      "page": "02-lexicon",
       "raw": "../files/5297621aa48b300a7e966aa3a68118b59e505102956119d427b45744cb602348.reading.md"
     },
     {
@@ -60,7 +60,7 @@
       "reading_file": "d2e9081d210be695f5e224874509b0f4c110c805e810a9570172ed0a8da947cb.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "03-timeline.html",
+      "page": "03-timeline",
       "raw": "../files/d2e9081d210be695f5e224874509b0f4c110c805e810a9570172ed0a8da947cb.reading.md"
     },
     {
@@ -79,7 +79,7 @@
       "reading_file": "775ad9b2584ce002e032905451d7258979e156c0389ed5b458aac86f99fbf54a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-final_message.html",
+      "page": "04-final_message",
       "raw": "../files/775ad9b2584ce002e032905451d7258979e156c0389ed5b458aac86f99fbf54a.reading.md"
     },
     {
@@ -96,7 +96,7 @@
       "reading_file": "e74f558734810a2514a754789e0c5dae6425ff9c951e8a3b6daa241bfe8129f6.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "05-account.html",
+      "page": "05-account",
       "raw": "../files/e74f558734810a2514a754789e0c5dae6425ff9c951e8a3b6daa241bfe8129f6.reading.md"
     },
     {
@@ -113,7 +113,7 @@
       "reading_file": "24d3f4018a8b7e02c75f99fc3a2ea9e3a3bd68739e32917892a031163f4317fe.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "06-model.html",
+      "page": "06-model",
       "raw": "../files/24d3f4018a8b7e02c75f99fc3a2ea9e3a3bd68739e32917892a031163f4317fe.reading.md"
     },
     {
@@ -130,7 +130,7 @@
       "reading_file": "1b929e13f352a786a92c2ce81f15587b90c0f210762a046b821c9b7180207698.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "07-data_structure.html",
+      "page": "07-data_structure",
       "raw": "../files/1b929e13f352a786a92c2ce81f15587b90c0f210762a046b821c9b7180207698.reading.md"
     },
     {
@@ -147,7 +147,7 @@
       "reading_file": "ff7fe6567b7444115f32ae0ad2cc890daf53b100ee4042ad3ba68b288be5ff5d.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "08-figure-C5.html",
+      "page": "08-figure-C5",
       "raw": "../files/ff7fe6567b7444115f32ae0ad2cc890daf53b100ee4042ad3ba68b288be5ff5d.reading.md"
     },
     {
@@ -164,7 +164,7 @@
       "reading_file": "eb25dda50af8ccf023a45d873b410ad51d7659f2c40c9a7d6617011fed55239d.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "09-claims.html",
+      "page": "09-claims",
       "raw": "../files/eb25dda50af8ccf023a45d873b410ad51d7659f2c40c9a7d6617011fed55239d.reading.md"
     },
     {
@@ -181,7 +181,7 @@
       "reading_file": "0aa830fe1c4da03d530412a02b4d8a39aab71189ff3f8ca1475d15d6c2ec8b08.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "10-fourth.html",
+      "page": "10-fourth",
       "raw": "../files/0aa830fe1c4da03d530412a02b4d8a39aab71189ff3f8ca1475d15d6c2ec8b08.reading.md"
     },
     {
@@ -198,7 +198,7 @@
       "reading_file": "1fc9fcbe29a4b83d63c670a24591d834428fb7bdc5b7903eb29074905bd20429.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "11-structure.html",
+      "page": "11-structure",
       "raw": "../files/1fc9fcbe29a4b83d63c670a24591d834428fb7bdc5b7903eb29074905bd20429.reading.md"
     },
     {
@@ -215,7 +215,7 @@
       "reading_file": "269ba58dc3c23e5df8338464a5b6740a0efe799ae02265e2de947daeb12c6ae2.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "12-within_case.html",
+      "page": "12-within_case",
       "raw": "../files/269ba58dc3c23e5df8338464a5b6740a0efe799ae02265e2de947daeb12c6ae2.reading.md"
     },
     {
@@ -232,7 +232,7 @@
       "reading_file": "60e8c13a0a137932e38e1622d158b8bca6cf2aa7bad27ba5a9cd6dacc6ad26ca.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "13-notes-R6.html",
+      "page": "13-notes-R6",
       "raw": "../files/60e8c13a0a137932e38e1622d158b8bca6cf2aa7bad27ba5a9cd6dacc6ad26ca.reading.md"
     }
   ],

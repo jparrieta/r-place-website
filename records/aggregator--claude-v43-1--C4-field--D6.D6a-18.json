@@ -20,7 +20,7 @@
       "reading_file": "21e30cd2905ae9d0a3bb6eebc75923bff1e2dc15b38f25dd414f950a661ca895.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "01-retelling-D6.html",
+      "page": "01-retelling-D6",
       "raw": "../files/21e30cd2905ae9d0a3bb6eebc75923bff1e2dc15b38f25dd414f950a661ca895.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "aabe1acbf0d30fbee3cec56923cfe84850dd713a20d613f642ac958893b28abe.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-figure-D6.html",
+      "page": "02-figure-D6",
       "raw": "../files/aabe1acbf0d30fbee3cec56923cfe84850dd713a20d613f642ac958893b28abe.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "6c20f254185506ad2931a3cdc24e825186bc583fe1297f67b83c5dcb6171d8cd.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "03-MODEL-D3.html",
+      "page": "03-MODEL-D3",
       "raw": "../files/6c20f254185506ad2931a3cdc24e825186bc583fe1297f67b83c5dcb6171d8cd.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "7a8925386e105984e88898528a090543d37b40f59f117cdaeaeba1530c289968.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-_head.html",
+      "page": "04-_head",
       "raw": "../files/7a8925386e105984e88898528a090543d37b40f59f117cdaeaeba1530c289968.reading.md"
     },
     {
@@ -88,7 +88,7 @@
       "reading_file": "ecaf42812b8ce87d07a132b8a0ed00f6f2513fa050e7d178222e83f9d17fcd19.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "05-notes-D6.html",
+      "page": "05-notes-D6",
       "raw": "../files/ecaf42812b8ce87d07a132b8a0ed00f6f2513fa050e7d178222e83f9d17fcd19.reading.md"
     },
     {
@@ -105,7 +105,7 @@
       "reading_file": "324f9be96b4054418d410c1d661a719115d4c2f11241870c204676156551f9d7.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "06-handback-D6.html",
+      "page": "06-handback-D6",
       "raw": "../files/324f9be96b4054418d410c1d661a719115d4c2f11241870c204676156551f9d7.reading.md"
     }
   ],

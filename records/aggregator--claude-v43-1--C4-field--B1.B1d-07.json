@@ -20,7 +20,7 @@
       "reading_file": "c4786fe36e9ac14d1a294d8094d784933bbb5792eba461f80c143188e9a7e878.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "01-_head.html",
+      "page": "01-_head",
       "raw": "../files/c4786fe36e9ac14d1a294d8094d784933bbb5792eba461f80c143188e9a7e878.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-contrast.html",
+      "page": "02-contrast",
       "raw": "../files/afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "f2fb4531ad81bee07a2852ed87ccfd08e0ae8ccfd74d98ff1ec3d30f8c8b1ba0.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "03-saturation-B1.html",
+      "page": "03-saturation-B1",
       "raw": "../files/f2fb4531ad81bee07a2852ed87ccfd08e0ae8ccfd74d98ff1ec3d30f8c8b1ba0.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "d94becde51532f3725b64ec258bdcca1757bfa054f9e67a169fa069c56a9068a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-stopping-B1.html",
+      "page": "04-stopping-B1",
       "raw": "../files/d94becde51532f3725b64ec258bdcca1757bfa054f9e67a169fa069c56a9068a.reading.md"
     }
   ],

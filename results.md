@@ -20,6 +20,6 @@ Explore the coding structure, the model and its narrative, and the six organizat
 
 The Field agent read the central r/place forum and offered comments while its own analysis was still in progress. C4 used this interim view to qualify the community model and add tentative claims. The completed Field model will provide a further comparison; that check is still pending.
 
-[Read what C4 changed](stages/C4.html#what-v43-received) · [Read the saved comparison](records/aggregator--claude-v43-1--C4-field--C4.C4a/04-field-C4.html) · [Interview the C4 aggregator](interviews.html?checkpoint=aggregator--claude-v43-1--C4-field--C4.C4a)
+[Read what C4 changed](stages/C4.html#what-v43-received) · [Read the saved comparison](records/aggregator--claude-v43-1--C4-field--C4.C4a.html#04-field-C4) · [Interview the C4 aggregator](interviews.html?checkpoint=aggregator--claude-v43-1--C4-field--C4.C4a)
 
 The local model and the population model are separate analyses. Their labels and claims should be read within their own scope. [Checks at the coding, composition and source levels](guides/study.html#how-the-model-is-checked) distinguish completed work from planned comparisons. [Checkpoint interviews](interviews.html) let you question the saved agents and compare their new answers with the original work.

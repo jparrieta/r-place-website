@@ -20,7 +20,7 @@
       "reading_file": "aa417c0fb555f5f0096fc32c89dddf8713235291f601c87bf0018ff03377049b.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "01-_head.html",
+      "page": "01-_head",
       "raw": "../files/aa417c0fb555f5f0096fc32c89dddf8713235291f601c87bf0018ff03377049b.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-contrast.html",
+      "page": "02-contrast",
       "raw": "../files/afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "43c68c271c6800ea892711ff30f8efd8532c12907aebeff2555ac54feab1428d.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "03-handback-B1.html",
+      "page": "03-handback-B1",
       "raw": "../files/43c68c271c6800ea892711ff30f8efd8532c12907aebeff2555ac54feab1428d.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "e127519d635bb85efd2ae70ae826cf1e0c2fb6ebbedeb8829c21bf4921b3b96b.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-saturation-B1.html",
+      "page": "04-saturation-B1",
       "raw": "../files/e127519d635bb85efd2ae70ae826cf1e0c2fb6ebbedeb8829c21bf4921b3b96b.reading.md"
     },
     {
@@ -88,7 +88,7 @@
       "reading_file": "92168f48f8a86f303ee0a5297be52ee1c85a066d83590bb2ee70c18ae812276b.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "05-scheme.html",
+      "page": "05-scheme",
       "raw": "../files/92168f48f8a86f303ee0a5297be52ee1c85a066d83590bb2ee70c18ae812276b.reading.md"
     },
     {
@@ -105,7 +105,7 @@
       "reading_file": "c40809c2560d54807c6c54e7bf4930e905cc27285e2b5742741fadacdf24beed.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "06-stopping-B1.html",
+      "page": "06-stopping-B1",
       "raw": "../files/c40809c2560d54807c6c54e7bf4930e905cc27285e2b5742741fadacdf24beed.reading.md"
     }
   ],

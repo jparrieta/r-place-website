@@ -20,7 +20,7 @@
       "reading_file": "0c1fb067a1a4e4529b0b9f635b963166a13354edcf7bd4ab1d0dc855c4c87e98.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "01-RETURN-B4.html",
+      "page": "01-RETURN-B4",
       "raw": "../files/0c1fb067a1a4e4529b0b9f635b963166a13354edcf7bd4ab1d0dc855c4c87e98.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "803e74ac0cceb9912b407d24655eeec6fd9bcb9f69986f30014d5b9371f5dbba.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "02-_head.html",
+      "page": "02-_head",
       "raw": "../files/803e74ac0cceb9912b407d24655eeec6fd9bcb9f69986f30014d5b9371f5dbba.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "03-contrast.html",
+      "page": "03-contrast",
       "raw": "../files/afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "645ac42644d46df0ff05995b829a943dd9aa97344e5ee72bbe2680eed9e91c08.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "04-notes-B4.html",
+      "page": "04-notes-B4",
       "raw": "../files/645ac42644d46df0ff05995b829a943dd9aa97344e5ee72bbe2680eed9e91c08.reading.md"
     },
     {
@@ -88,7 +88,7 @@
       "reading_file": "a3923a8acf3363e153c1907611792631f0e1d25105954a20ebcb6a0c98ecbe92.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "05-scheme.html",
+      "page": "05-scheme",
       "raw": "../files/a3923a8acf3363e153c1907611792631f0e1d25105954a20ebcb6a0c98ecbe92.reading.md"
     },
     {
@@ -105,7 +105,7 @@
       "reading_file": "dc18fc43ac8a1ca9a978f59fc021cc4fe5a7b99e5d15efc4b996f3c9c7bc0a16.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "06-transmission-B4.html",
+      "page": "06-transmission-B4",
       "raw": "../files/dc18fc43ac8a1ca9a978f59fc021cc4fe5a7b99e5d15efc4b996f3c9c7bc0a16.reading.md"
     }
   ],

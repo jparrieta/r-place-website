@@ -10,7 +10,7 @@ Final stage boundaries are D4a-08, D5a-41, D6a-18, E1e and E2b. D5b and D6b clos
 
 Every checkpoint displays its source commit and commit date. Saved-state dates have their own basis, or say “not recorded”. A commit date is not a scientific close. For D3c, the [checkpoint metadata](../history-evidence/D3c-checkpoint.json), [validation receipt](../history-evidence/D3c-validation.json) and [stage close marker](../history-evidence/D3-FINISHED.txt) support the dated status. The metadata hash matches the admitted checkpoint.
 
-The [C5d-p2 account](../records/aggregator--claude-v43-1--C4-field--C5.C5d-p2.html), saved on 15 October, is partly superseded. D3 revised R01 and P05, bounded A21 and added fifteen candidates. The [D3 handback](../records/aggregator--claude-v43-1--C4-field--D3.D3c/07-handback-D3.html) records those revisions. The [final D6 account](../records/aggregator--claude-v43-1--C4-field--D6.D6a-18.html) and E1/E2 audits now document the later account and its limits.
+The [C5d-p2 account](../records/aggregator--claude-v43-1--C4-field--C5.C5d-p2.html), saved on 15 October, is partly superseded. D3 revised R01 and P05, bounded A21 and added fifteen candidates. The [D3 handback](../records/aggregator--claude-v43-1--C4-field--D3.D3c.html#07-handback-D3) records those revisions. The [final D6 account](../records/aggregator--claude-v43-1--C4-field--D6.D6a-18.html) and E1/E2 audits now document the later account and its limits.
 
 ## C4 and the unfinished Field analysis
 

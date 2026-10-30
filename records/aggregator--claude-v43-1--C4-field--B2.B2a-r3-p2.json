@@ -20,7 +20,7 @@
       "reading_file": "fd135160a6db69573707d858f82d82ebc501d6e5c63f3b64d5f18946b3cfe094.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "01-RETURN-B2.html",
+      "page": "01-RETURN-B2",
       "raw": "../files/fd135160a6db69573707d858f82d82ebc501d6e5c63f3b64d5f18946b3cfe094.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "6ed82e260c59cdf1044ac8a9c35c6fa1bcbb0df741ba032effdec19c1ea780c1.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "02-_head.html",
+      "page": "02-_head",
       "raw": "../files/6ed82e260c59cdf1044ac8a9c35c6fa1bcbb0df741ba032effdec19c1ea780c1.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "03-contrast.html",
+      "page": "03-contrast",
       "raw": "../files/afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "bfc2eacb40378a5ea311d16c57b304f9651ad301553bc8d0ee8505a6e7dfa79a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-notes-B2.html",
+      "page": "04-notes-B2",
       "raw": "../files/bfc2eacb40378a5ea311d16c57b304f9651ad301553bc8d0ee8505a6e7dfa79a.reading.md"
     },
     {
@@ -88,7 +88,7 @@
       "reading_file": "358a97052ce89b2e2e81519c11af8de77cc172a52e2705aef1312806612982f7.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "05-scheme.html",
+      "page": "05-scheme",
       "raw": "../files/358a97052ce89b2e2e81519c11af8de77cc172a52e2705aef1312806612982f7.reading.md"
     }
   ],

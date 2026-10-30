@@ -20,7 +20,7 @@
       "reading_file": "448c747290f8f3653c01312f898d551a08bcc6f600239c4b7b6ff54025eb9256.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "01-_head.html",
+      "page": "01-_head",
       "raw": "../files/448c747290f8f3653c01312f898d551a08bcc6f600239c4b7b6ff54025eb9256.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-contrast.html",
+      "page": "02-contrast",
       "raw": "../files/afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "a7540933550a2072fb2624f96b5dae3a883cd1553acac8b596ca3673fe288248.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "03-coordinating-rule-A1.html",
+      "page": "03-coordinating-rule-A1",
       "raw": "../files/a7540933550a2072fb2624f96b5dae3a883cd1553acac8b596ca3673fe288248.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "7b667f31cb55d0e6f90305e9d0124edba0fcac3966d38b89a356a409aca9eaee.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-handback-A1.html",
+      "page": "04-handback-A1",
       "raw": "../files/7b667f31cb55d0e6f90305e9d0124edba0fcac3966d38b89a356a409aca9eaee.reading.md"
     },
     {
@@ -88,7 +88,7 @@
       "reading_file": "6c57cc7718a7674c65701d4b6b0acc0594239d4e3b7d5c9aced72ccd3cabd3b0.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "05-lexicon-A1.html",
+      "page": "05-lexicon-A1",
       "raw": "../files/6c57cc7718a7674c65701d4b6b0acc0594239d4e3b7d5c9aced72ccd3cabd3b0.reading.md"
     },
     {
@@ -105,7 +105,7 @@
       "reading_file": "8e6500ec2e88642db09c41bc60031993432ed3b8dc8b4251b0eb0655ad8b2f54.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "06-notes-A1.html",
+      "page": "06-notes-A1",
       "raw": "../files/8e6500ec2e88642db09c41bc60031993432ed3b8dc8b4251b0eb0655ad8b2f54.reading.md"
     },
     {
@@ -122,7 +122,7 @@
       "reading_file": "832bfde3955055f8cfefa43871a744871c59d11e5c0a17b9ecb4662e2a48c8bf.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "07-running-A1.html",
+      "page": "07-running-A1",
       "raw": "../files/832bfde3955055f8cfefa43871a744871c59d11e5c0a17b9ecb4662e2a48c8bf.reading.md"
     }
   ],

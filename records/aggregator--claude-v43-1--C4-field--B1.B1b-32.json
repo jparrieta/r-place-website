@@ -20,7 +20,7 @@
       "reading_file": "13dedf11156854db202d041412d96332ddea604ca81e4e4b0e9081984140cff5.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "01-_head.html",
+      "page": "01-_head",
       "raw": "../files/13dedf11156854db202d041412d96332ddea604ca81e4e4b0e9081984140cff5.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-contrast.html",
+      "page": "02-contrast",
       "raw": "../files/afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "27a817714c11556e35a83d3d019388a3e9af84e136877204757088443dc9b550.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "03-notes-B1.html",
+      "page": "03-notes-B1",
       "raw": "../files/27a817714c11556e35a83d3d019388a3e9af84e136877204757088443dc9b550.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "f38f8733c37b09c55839fb9a82961e1aaf40f9c7ebe25414c289cdc9d76bafe8.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-stopping-B1.html",
+      "page": "04-stopping-B1",
       "raw": "../files/f38f8733c37b09c55839fb9a82961e1aaf40f9c7ebe25414c289cdc9d76bafe8.reading.md"
     }
   ],

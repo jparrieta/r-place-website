@@ -20,7 +20,7 @@
       "reading_file": "36d152a90c79a2f7c6d5a78a7f7914c2e7dcd17913a00ad0338f1b6c0d9dbc2e.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "01-handling-E2.html",
+      "page": "01-handling-E2",
       "raw": "../files/36d152a90c79a2f7c6d5a78a7f7914c2e7dcd17913a00ad0338f1b6c0d9dbc2e.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "21e30cd2905ae9d0a3bb6eebc75923bff1e2dc15b38f25dd414f950a661ca895.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-retelling-D6.html",
+      "page": "02-retelling-D6",
       "raw": "../files/21e30cd2905ae9d0a3bb6eebc75923bff1e2dc15b38f25dd414f950a661ca895.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "421cd31572dffd2cc67060b89546c3fdf3cd3857f7ffa357d246c75fc7ef28e5.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "03-experience-E1.html",
+      "page": "03-experience-E1",
       "raw": "../files/421cd31572dffd2cc67060b89546c3fdf3cd3857f7ffa357d246c75fc7ef28e5.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "7452e5ce2de61fe8aee45cdc15c83734354531683ddb6b1be6360e1171ee33eb.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-_head.html",
+      "page": "04-_head",
       "raw": "../files/7452e5ce2de61fe8aee45cdc15c83734354531683ddb6b1be6360e1171ee33eb.reading.md"
     },
     {
@@ -88,7 +88,7 @@
       "reading_file": "8e97cf91fb5d4f9bb9e8633bd46fcf15ed16b4bdba79dc478904da052b7ac4b7.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "05-notes-E2.html",
+      "page": "05-notes-E2",
       "raw": "../files/8e97cf91fb5d4f9bb9e8633bd46fcf15ed16b4bdba79dc478904da052b7ac4b7.reading.md"
     }
   ],

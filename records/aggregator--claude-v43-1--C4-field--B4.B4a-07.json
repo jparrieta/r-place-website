@@ -20,7 +20,7 @@
       "reading_file": "972c0fb7bd0362d4a69dc2426446cf08d699d2b363d3ab02e643f97181ad24c9.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "01-_head.html",
+      "page": "01-_head",
       "raw": "../files/972c0fb7bd0362d4a69dc2426446cf08d699d2b363d3ab02e643f97181ad24c9.reading.md"
     },
     {
@@ -37,7 +37,7 @@
       "reading_file": "afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-contrast.html",
+      "page": "02-contrast",
       "raw": "../files/afd301e1209c5aca0abce57203325d44f19a99b7b44406737e6bb85f8825c07a.reading.md"
     },
     {
@@ -54,7 +54,7 @@
       "reading_file": "ee2fa6837c08f2008c34cbcb9fe9c73224452f8ec43f247361579f8ba998557d.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "03-notes-B4.html",
+      "page": "03-notes-B4",
       "raw": "../files/ee2fa6837c08f2008c34cbcb9fe9c73224452f8ec43f247361579f8ba998557d.reading.md"
     },
     {
@@ -71,7 +71,7 @@
       "reading_file": "a3923a8acf3363e153c1907611792631f0e1d25105954a20ebcb6a0c98ecbe92.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "04-scheme.html",
+      "page": "04-scheme",
       "raw": "../files/a3923a8acf3363e153c1907611792631f0e1d25105954a20ebcb6a0c98ecbe92.reading.md"
     },
     {
@@ -88,7 +88,7 @@
       "reading_file": "dc18fc43ac8a1ca9a978f59fc021cc4fe5a7b99e5d15efc4b996f3c9c7bc0a16.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "05-transmission-B4.html",
+      "page": "05-transmission-B4",
       "raw": "../files/dc18fc43ac8a1ca9a978f59fc021cc4fe5a7b99e5d15efc4b996f3c9c7bc0a16.reading.md"
     }
   ],

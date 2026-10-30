@@ -22,7 +22,7 @@
       "reading_file": "9d801193ec3043a7219bb13cbe5db6a979c6bca8ecda188cad41a808a99b72a8.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "01-case.html",
+      "page": "01-case",
       "raw": "../files/9d801193ec3043a7219bb13cbe5db6a979c6bca8ecda188cad41a808a99b72a8.reading.md"
     },
     {
@@ -41,7 +41,7 @@
       "reading_file": "06c77bca8d600b340dfb17ba491303cccaf1e07bf603d226f8ffb12b2bf1cb39.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "02-lexicon.html",
+      "page": "02-lexicon",
       "raw": "../files/06c77bca8d600b340dfb17ba491303cccaf1e07bf603d226f8ffb12b2bf1cb39.reading.md"
     },
     {
@@ -60,7 +60,7 @@
       "reading_file": "ae71a0c7a799b4ef4872d28e93b4e6610f97ce22bedfe2f6069251e2dd15c52b.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,
-      "page": "03-timeline.html",
+      "page": "03-timeline",
       "raw": "../files/ae71a0c7a799b4ef4872d28e93b4e6610f97ce22bedfe2f6069251e2dd15c52b.reading.md"
     },
     {
@@ -79,7 +79,7 @@
       "reading_file": "ffaeded88bf9f08c185ea30280ae4d97e5b1597a381511e3a4e6afe86dfa8a53.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": false,
-      "page": "04-final_message.html",
+      "page": "04-final_message",
       "raw": "../files/ffaeded88bf9f08c185ea30280ae4d97e5b1597a381511e3a4e6afe86dfa8a53.reading.md"
     }
   ],
