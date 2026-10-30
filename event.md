@@ -4,7 +4,7 @@ A finished image shows what remained. The event record lets us ask how people re
 
 ## From first placements to the finished canvas
 
-The archived pixel record contains 16,559,897 placements, about 16.6 million. The study uses a 73-hour placement window, followed by another day for the written record. Together these traces let researchers return to earlier decisions and responses rather than infer the process from its final outcome alone. The [data reference](Manual-html/2-rplace.html) documents the pixel record; the [census reference](Manual-html/census.html) documents the study window.
+The archived pixel record contains 16,559,897 pixel changes, about 16.6 million. The study uses a 73-hour placement window, followed by another day for the written record. Together these traces let researchers return to earlier decisions and responses rather than infer the process from its final outcome alone. The [data reference](Manual-html/2-rplace.html) documents the pixel record; the [census reference](Manual-html/census.html) documents the study window.
 
 The study follows 705 curated communities with evidence of coordination. [Read how the population was defined](Manual-html/census.html) and [how the source records are collected](guides/download.html).
 
