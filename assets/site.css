@@ -143,6 +143,16 @@ main.page-agents{counter-reset:spec}
 .parts a{text-decoration:none;color:var(--muted);font-size:.95rem;padding:.45rem 0;border-bottom:2px solid transparent;margin-bottom:-1px}
 .parts a:hover{color:var(--ink)}.parts a[aria-current]{color:var(--ink);border-bottom-color:var(--ink)}
 
+/* All stages defined in one place (the Instrument page). */
+.stage-defs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem 2.5rem;margin:1.5rem 0 1rem}
+.stage-def-group{min-width:0}.stage-def-group>h3{font-weight:750;margin:0 0 .4rem;padding-bottom:.4rem;border-bottom:2px solid var(--line)}
+.stage-def{padding:.8rem 0 .9rem;border-bottom:1px solid var(--rule);scroll-margin-top:1rem}
+.stage-def h4{margin:0;font:700 1.05rem/1.3 var(--font)}.stage-def h4 a{color:var(--ink);text-decoration:none}.stage-def h4 a:hover{color:var(--accent)}
+.stage-def h4 span{color:var(--accent);margin-right:.35rem}
+.stage-def p{margin:.3rem 0;font-size:.9rem;line-height:1.5}.stage-def .question{font-weight:500}
+.stage-def .more{font-size:.8rem;color:var(--muted)}
+.menu.scrolls{mask-image:linear-gradient(90deg,#000 88%,transparent)}
+
 /* Media queries: always last. */
 @media(max-width:860px){.home{grid-template-columns:minmax(0,1fr);grid-template-areas:none;gap:0}.home>.orientation,.home>.canvas,.home>.examples{grid-area:auto}.home>.orientation{display:contents}.home>.orientation>*{order:2}.home>.orientation>h1{order:0}.home>.canvas{order:1;margin:0 0 1.2rem}.home>.examples{order:3;margin-top:1rem}}
 @media(max-width:680px){:root{--gutter:1.2rem}body{font-size:16px}header{padding:1.4rem var(--gutter) 0}main{padding:2rem var(--gutter) 3rem}header nav{gap:.5rem 1.3rem}header .task-nav{column-gap:1rem}header .task-nav a{font-size:.8rem}.stage-grid,.filters,.reference-topics{grid-template-columns:1fr}.reference-topics{gap:0}.brand span{font-size:.8rem}#theme{font-size:.8rem}.actions>*{max-width:100%}.stage-picker>div{display:block}.stage-picker select{width:100%;min-width:0}.stage-picker button{margin-top:.7rem}.reference-index{columns:1}dl{grid-template-columns:1fr}dd{margin-bottom:.5rem}footer{padding:1.2rem var(--gutter) 1.6rem}.page-index h1{font-size:2.65rem}.breadcrumbs{margin-top:0}pre{font-size:.8rem}}
@@ -165,8 +175,8 @@ main.page-agents{counter-reset:spec}
 .checkpoint-evidence{font-size:.9rem}.checkpoint-evidence>summary{font-weight:400}.checkpoint-evidence .actions a{font-size:.9rem}.checkpoint-date{margin:.35rem 0}
 #selection-title:focus{outline-offset:.3rem}.catalogue-more{margin-top:2rem}#all-checkpoints{width:auto;accent-color:var(--accent);margin-right:.5rem}
 #checkpoint-results{scroll-margin-top:1.5rem}.interview-checkpoints{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.interview-checkpoints article{border-top:1px solid var(--rule);padding-top:1rem}.interview-checkpoints button{display:block;margin:.75rem 0}
-@media(max-width:860px){.stage-map,.community-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:680px){.stage-map{grid-template-columns:1fr;gap:1.5rem}.community-grid,.interview-checkpoints{grid-template-columns:1fr}.stage-map .stage-grid a{padding:.8rem 0}}
+@media(max-width:860px){.stage-map,.community-grid,.stage-defs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.stage-map,.stage-defs{grid-template-columns:1fr;gap:1.5rem}.community-grid,.interview-checkpoints{grid-template-columns:1fr}.stage-map .stage-grid a{padding:.8rem 0}}
 
 
 /* Interview routes use the same reading surface and action rows. */
