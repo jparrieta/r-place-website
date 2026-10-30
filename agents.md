@@ -1,9 +1,9 @@
 ---
 kind: "agent-index"
-title: "For agents"
+title: "Full reference for agents"
 ---
 
-# For agents
+# Full reference for agents
 
 This repository proposes r/place as a fruit fly for organization science: a shared event record and a revisable instrument for cumulative grounded theory. The [research object](guides/project.md), [common conditions](conditions.md), [whole event](event.md) and [shared data and tools](tools.md) explain the project.
 
