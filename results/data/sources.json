@@ -158,5 +158,9 @@
   "media/dutch_artworks_15min_dark_freeze.png": {
     "sha256": "46c618bb3cc64986ab7357fa82208e13deff7ef198c38870e0745833744d160b",
     "bytes": 167633
+  },
+  "dimension-model.svg": {
+    "sha256": "b1480bd79b68a03f69f5cde91dc3a02d9fc6cfd9c84afce1e8633ee6259e4793",
+    "bytes": 29661
   }
 }
