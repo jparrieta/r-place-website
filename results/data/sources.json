@@ -116,12 +116,12 @@
     "bytes": 9488
   },
   "media/dutch_artworks_freeze.png": {
-    "sha256": "d4cbc4eda4ad5b594a0df05ea4e7f7169b87d9b45ae5376d483b54c6ed1d5b22",
-    "bytes": 137908
+    "sha256": "af33e4109dacbe5e86830bb67fdd18a9938282c46029eabb5bd47e010bfdac8c",
+    "bytes": 170346
   },
   "media/dutch_artworks_15min.mp4": {
-    "sha256": "cf067f394c1c0967adab856be570c244878493cd3de5f5899c67ae94ac56c860",
-    "bytes": 4084793
+    "sha256": "67a2d827894f2eb52dc69c53045fa49ddf1227679ee97660cdd044f9d76e1517",
+    "bytes": 4848452
   },
   "r6-model.svg": {
     "sha256": "d5041c2331f19f4eab70e994204f75f9a76d7b14564d9a7b3e495550b77684a7",
@@ -132,12 +132,12 @@
     "bytes": 99878
   },
   "media/dutch_artworks_15min_first.png": {
-    "sha256": "c42987586b343076a18b534a1ea6ee0371d1a519c37120e658d834206a291db3",
-    "bytes": 101458
+    "sha256": "f1e03819806214b84265eb3bd21f0dbd21b5faca4de60c276606acd09e28f352",
+    "bytes": 135105
   },
   "media/dutch_artworks_15min_freeze.png": {
-    "sha256": "7db79239e9cf8de9c1f5f7ddd63ec8acd85c1b3aa967ec4991db5bea91bb2919",
-    "bytes": 137923
+    "sha256": "af33e4109dacbe5e86830bb67fdd18a9938282c46029eabb5bd47e010bfdac8c",
+    "bytes": 170346
   },
   "replication/dutch_replay_15min.md": {
     "sha256": "164f62cabafc6c258b90628cba9a646016b7cf51860ff64deff44fa137ec2283",
