@@ -146,5 +146,17 @@
   "replication/armenia_lion_incident.md": {
     "sha256": "2380b8a70c741b31720d8350146e6e257f6dcf53b801704f7e97a32bc868ef51",
     "bytes": 1864
+  },
+  "media/dutch_artworks_15min_dark.mp4": {
+    "sha256": "49c390abe7289102241ea02d415f6d10332ff6337de16274746118b7d4cf6bf3",
+    "bytes": 4717409
+  },
+  "media/dutch_artworks_15min_dark_first.png": {
+    "sha256": "31c502d9ba3ac00f77e7b22332872a1bd917954d9353529bf4a07f605f30aff7",
+    "bytes": 131612
+  },
+  "media/dutch_artworks_15min_dark_freeze.png": {
+    "sha256": "46c618bb3cc64986ab7357fa82208e13deff7ef198c38870e0745833744d160b",
+    "bytes": 167633
   }
 }
