@@ -139,7 +139,7 @@ main.page-agents{counter-reset:spec}
 .deep a:hover{color:var(--accent)}
 
 /* The instrument's four parts: one row of tabs at the top of each part. */
-.parts{display:flex;flex-wrap:wrap;gap:.3rem 1.6rem;border-bottom:1px solid var(--rule);margin:-1rem 0 2rem;padding-bottom:.1rem}
+.parts{display:flex;flex-wrap:wrap;gap:.3rem 1.6rem;border-bottom:1px solid var(--rule);margin:-1.9rem 0 2.4rem;padding-bottom:.1rem}
 .parts a{text-decoration:none;color:var(--muted);font-size:.95rem;padding:.45rem 0;border-bottom:2px solid transparent;margin-bottom:-1px}
 .parts a:hover{color:var(--ink)}.parts a[aria-current]{color:var(--ink);border-bottom-color:var(--ink)}
 
@@ -149,7 +149,7 @@ main.page-agents{counter-reset:spec}
 @media(pointer:coarse){button,select,summary{min-height:44px}header nav a{padding:.6rem 0}}
 @media(prefers-reduced-motion:no-preference){a,button{transition:background-color .12s ease,color .12s ease}}
 @media(max-width:760px){.example-pair{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:680px){header{grid-template-columns:minmax(0,1fr) auto}header .utility{display:contents}header #theme{grid-column:2;grid-row:1}header .task-nav{grid-column:1/-1;margin-top:.9rem;gap:.2rem 1.1rem}header .menu{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;white-space:nowrap;gap:1.3rem;padding:1rem 0 .5rem;mask-image:linear-gradient(90deg,#000 88%,transparent)}header .menu::-webkit-scrollbar{display:none}.examples{grid-template-columns:1fr}}
+@media(max-width:680px){header{grid-template-columns:minmax(0,1fr) auto}header .utility{display:contents}header #theme{grid-column:2;grid-row:1}header .task-nav{grid-column:1/-1;margin-top:.9rem;gap:.2rem 1.1rem}header .menu{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;white-space:nowrap;gap:1.3rem;padding:1rem 0 .5rem}header .menu::-webkit-scrollbar{display:none}.parts{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;white-space:nowrap;gap:1.2rem;margin-top:-1.2rem;mask-image:linear-gradient(90deg,#000 88%,transparent)}.parts::-webkit-scrollbar{display:none}.examples{grid-template-columns:1fr}}
 @media(max-width:680px){.spec{grid-template-columns:1fr}.spec>h2{grid-row:auto;margin-bottom:.8rem}.spec>*{grid-column:1}}
 /* One stage map shared by explanation and interview selection. */
 .stage-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem 2rem;margin:2rem 0}
