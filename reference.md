@@ -1,7 +1,3 @@
 # Full reference
 
-The reference documents support the repository's [shared data and tools](tools.html). Every level leads here: canonical contracts, full stage cards, agent reading keys and the complete earlier manual. Sources retain their original text. The earlier manual describes historical runs; its progress claims may differ from the publication indexed here.
-
-Use the topic links or search the manual index. No background chapter is required before opening a document.
-
-[Audit the evidence](guides/audit-evidence.html) maps TRACE's five questions to saved records and states what those records do not establish.
+Every document behind the current run, in one place: the guides that explain it, the glossary, and the canonical contracts and stage cards with their agent reading keys. Sources keep their original text.

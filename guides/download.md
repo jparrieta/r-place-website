@@ -20,7 +20,7 @@ To use the original starting point, download the [verified pristine package](htt
 
 The repository holds the instruments, scripts and recorded outputs. Large data stores and resumable checkpoint bundles are separate downloads. The **interview launcher** opens saved checkpoints; it does not install the research workflow.
 
-Research runs need a computer with a shell, Python 3.11, the dependencies listed in the [requirements reference](../Manual-html/requirements-and-data.html), and the model access required by your chosen platform. That reference includes historical run examples; use the current [handler instructions](../agents/aggregator.html) for the run you build. The pristine package passed all eight offline checks in a fresh Python 3.11 environment on the author's Mac, with its documented numpy, scipy and pandas dependencies. The harness used a simulated model. Provider access, recollection and installation on another operating system remain untested.
+Research runs need a computer with a shell, Python 3.11, the dependencies the package lists, and the model access required by your chosen platform. Use the current [handler instructions](../agents/aggregator.html) for the run you build. The pristine package passed all eight offline checks in a fresh Python 3.11 environment on the author's Mac, with its documented numpy, scipy and pandas dependencies. The harness used a simulated model. Provider access, recollection and installation on another operating system remain untested.
 
 ## Prepare the records
 
@@ -40,9 +40,6 @@ The Collection handler leaves `HANDOFF-collection.md` with input paths, versions
 
 ## Read further
 
-- [Data and collection](../Manual-html/data-and-collection.html): the stores and how they were assembled.
-- [Census](../Manual-html/census.html): the population decisions.
-- [Requirements and data](../Manual-html/requirements-and-data.html): setup and dependencies.
 - [Full data recipes](../sources/data-README.html).
 - [Full Collection handler brief](../agents/collection.html).
 - [Complete data reading key](../agents/download.html).

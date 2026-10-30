@@ -2,7 +2,7 @@
 
 Updated 29 October 2026. This page describes the recorded run and distinguishes its checks from proposed next work.
 
-The study's frame contains 705 communities. Community coding develops codes, second-order themes and case accounts. The aggregator compares this material, builds an account of organizing, and returns the model to saved case agents. The [census reference](../Manual-html/census.html) explains the population judgments; downloads do not recreate those decisions.
+The study's frame contains 705 communities. Community coding develops codes, second-order themes and case accounts. The aggregator compares this material, builds an account of organizing, and returns the model to the community coders. Downloads do not recreate the population decisions.
 
 The run is finished. Its final publication, `f27566528a51`, records all 18 stages closed, ending at E2b on 28 October 2026. Earlier checkpoints retain their own source commits and saved-state dates. A completed run is not proof that its explanation is correct.
 

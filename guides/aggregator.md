@@ -32,7 +32,7 @@ At D1 close, give `out/handoff-D/HANDLER.md` to the chat that holds the original
 
 ## Full instructions
 
-[Handler protocol](../sources/handler.html) · [Build and run](../sources/how-to-run.html) · [Agent reading key](../agents/aggregator.html) · [How the aggregator remembers](../Manual-html/memory/aggregator.html)
+[Handler protocol](../sources/handler.html) · [Build and run](../sources/how-to-run.html) · [Agent reading key](../agents/aggregator.html)
 
 ## Stage map
 

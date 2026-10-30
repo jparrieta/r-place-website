@@ -30,9 +30,7 @@ Give the [existing aggregator handler](aggregator.html) the coding handler's che
 
 ## Full instructions and examples
 
-- [Community coder overview](../Manual-html/4-the-coder.html).
 - [Full community coder contract](../sources/coder-contract.html), [case lead](../sources/case-lead.html) and [fleet reader](../sources/fleet-coder.html).
-- [How the lead remembers](../Manual-html/memory/coder-lead.html).
 - [Complete agent reading key](../agents/communities.html).
 
 Next: [run the aggregator](aggregator.html).

@@ -28,7 +28,7 @@ The **Field analysis** studies the central r/place forum separately. C4 compares
 
 Follow a claim to its account, codes and source material. Compare the aggregator’s record with its stated alternatives and limits. A checkpoint interview can probe that interpretation, but its answers are new responses from the saved state.
 
-[Trace one claim](trace.html) · [Interview a checkpoint](../interviews.html) · [Detailed methodological review](../Manual-html/10-for-reviewers.html)
+[Interview a checkpoint](../interviews.html)
 
 [Audit the evidence with TRACE](audit-evidence.html): recorded examples, access limits and gaps, without extra research gates.
 

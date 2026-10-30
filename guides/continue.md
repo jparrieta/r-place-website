@@ -14,4 +14,4 @@ This is an operator task. Use the original handler and its recorded checkpoint, 
 
 Follow the [leg controller](../sources/legs.html) and [handler protocol](../sources/handler.html) for Claude, or the [Codex runtime guide](../sources/codex.html) for Codex. Read the relevant [full stage card](aggregator.html#stage-map) before continuing.
 
-The website does not launch, resume or branch live research. The [old continuation chapter](../Manual-html/9-resuming.html) remains available as historical documentation; its older transcript-based examples are not proof of matching historical files.
+The website does not launch, resume or branch live research.

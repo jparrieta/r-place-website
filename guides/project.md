@@ -14,7 +14,7 @@ The repository connects three things: the event record, an instrument for readin
 
 The record has two parts: pixel placements and public posts and comments. The collection scripts can retrieve records from thousands of subreddits associated with the event's participants. A participant's presence in a subreddit does not mean every post there concerns r/place. The [data guide](download.html) distinguishes collection from the selection of material for analysis.
 
-The current study covers 705 curated communities with evidence of coordination during the 2017 event. Each has a written record and a case account. It is a census of this curated population, not of every subreddit that mentioned r/place. The [census reference](../Manual-html/census.html) records how the frame was built.
+The current study covers 705 curated communities with evidence of coordination during the 2017 event. Each has a written record and a case account. It is a census of this curated population, not of every subreddit that mentioned r/place.
 
 The shared canvas is the setting; communities are the cases. Their differences are what the analysis seeks to explain. [Common conditions](../conditions.html) support comparison, while the [event record](../event.html) preserves the sequence within each case.
 
@@ -32,7 +32,7 @@ A population model is returned to saved community agents for comparison with the
 
 The completed model is a baseline, not a settled theory. A later account must show which observations it explains better, which distinctions it preserves, or which earlier claim it corrects. The agent codes and composes; researchers judge whether that amounts to a theoretical contribution.
 
-[Follow one community from coding to its place in the model](../results/placenl.html), [explore the population model and forms](../results/population.html), or [trace a claim to its evidence](trace.html).
+[Follow one community from coding to its place in the model](../results/placenl.html) or [explore the population model and forms](../results/population.html).
 
 The broader ambition is to learn about organizational emergence and evolution. Whether an explanation travels beyond this event requires further evidence. A model organism makes that question easier to pose and test; it does not settle it.
 

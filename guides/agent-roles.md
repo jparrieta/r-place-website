@@ -27,7 +27,7 @@ Obtains the selected pixel, Reddit and atlas data through the repository’s dow
 
 ### Community brief writer
 
-Reads the community’s record from before the event and writes a background brief. This gives the coding lead context about the community without supplying an interpretation of its later r/place activity. The brief and its quotations are checked before coding begins. [Brief writer’s role](../Manual-html/files/coder/contract-brief-writer.html).
+Reads the community’s record from before the event and writes a background brief. This gives the coding lead context about the community without supplying an interpretation of its later r/place activity. The brief and its quotations are checked before coding begins.
 
 ## Understand a community
 

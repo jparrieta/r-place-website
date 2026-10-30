@@ -3,13 +3,13 @@
   "pages": {
     "index": 386,
     "conditions": 233,
-    "event": 261,
+    "event": 241,
     "tools": 262,
-    "instrument": 153,
+    "instrument": 154,
     "run": 127,
     "interviews": 27
   },
-  "total_words": 1449,
+  "total_words": 1430,
   "limit": 1600,
   "homepage_limit": 400,
   "structure": "Four model-organism pages plus three task introductions"
