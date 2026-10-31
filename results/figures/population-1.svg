@@ -147,9 +147,9 @@
    </g>
    <g id="text_20">
     <g id="patch_20">
-     <path d="M 128.414886 196.242904  L 135.218886 196.242904  Q 138.578886 196.242904 138.578886 192.882904  L 138.578886 190.710104  Q 138.578886 187.350104 135.218886 187.350104  L 128.414886 187.350104  Q 125.054886 187.350104 125.054886 190.710104  L 125.054886 192.882904  Q 125.054886 196.242904 128.414886 196.242904  z " style="fill: #ffffff; stroke: #4e79a7; stroke-width: 0.5; stroke-linejoin: miter" />
+     <path d="M 135.501501 193.408259  L 142.305501 193.408259  Q 145.665501 193.408259 145.665501 190.048259  L 145.665501 187.875459  Q 145.665501 184.515459 142.305501 184.515459  L 135.501501 184.515459  Q 132.141501 184.515459 132.141501 187.875459  L 132.141501 190.048259  Q 132.141501 193.408259 135.501501 193.408259  z " style="fill: #ffffff; stroke: #4e79a7; stroke-width: 0.5; stroke-linejoin: miter" />
     </g>
-    <text style="font-weight: 700; font-size: 5.6px; font-family: Archivo, 'Archivo SemiBold', sans-serif; text-anchor: middle; fill: #0d0d0d" x="131.816886" y="193.666904" transform="rotate(-0 131.816886 193.666904)">A03</text>
+    <text style="font-weight: 700; font-size: 5.6px; font-family: Archivo, 'Archivo SemiBold', sans-serif; text-anchor: middle; fill: #0d0d0d" x="138.903501" y="190.832259" transform="rotate(-0 138.903501 190.832259)">A03</text>
    </g>
    <g id="text_21">
     <g id="patch_21">
@@ -171,54 +171,55 @@
    </g>
    <g id="text_24">
     <g id="patch_24">
-     <path d="M 41.414171 64.819873  L 114.255827 64.819873  L 114.255827 48.565953  L 41.414171 48.565953  z " style="fill: #ffffff; opacity: 0.9" />
+     <path d="M 73.093006 79.626999  L 145.934662 79.626999  L 145.934662 63.373079  L 73.093006 63.373079  z " style="fill: #ffffff; opacity: 0.9" />
     </g>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(50.230171 54.633152)">A call brings hands, who</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(42.284171 61.916393)">build and report the artwork</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(73.963006 69.440278)">A call brings hands, who</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(73.963006 76.723519)">build and report the artwork</text>
    </g>
    <g id="text_25">
     <g id="patch_25">
-     <path d="M 322.279606 70.489165  L 389.136388 70.489165  L 389.136388 54.235245  L 322.279606 54.235245  z " style="fill: #ffffff; opacity: 0.9" />
+     <path d="M 313.36699 87.07058  L 380.223771 87.07058  L 380.223771 70.81666  L 313.36699 70.81666  z " style="fill: #ffffff; opacity: 0.9" />
     </g>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(323.149606 60.302443)">Some hands a call brings</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(323.149606 68.052403)">turn on a rival's work</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(314.23699 76.883859)">Some hands a call brings</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(314.23699 84.633819)">turn on a rival's work</text>
    </g>
    <g id="text_26">
     <g id="patch_26">
-     <path d="M 282.594567 176.164889  L 341.835223 176.164889  L 341.835223 152.654009  L 282.594567 152.654009  z " style="fill: #ffffff; opacity: 0.9" />
+     <path d="M 279.928158 154.237278  L 339.168815 154.237278  L 339.168815 130.726398  L 279.928158 130.726398  z " style="fill: #ffffff; opacity: 0.9" />
     </g>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(283.464567 159.237317)">Too few hands</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(283.464567 166.004449)">to hold the spot:</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(283.464567 173.235128)">the community moves</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(280.798158 137.309706)">Too few hands</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(280.798158 144.076838)">to hold the spot:</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(280.798158 151.307517)">the community moves</text>
    </g>
    <g id="text_27">
     <g id="patch_27">
-     <path d="M 126.689055 155.528535  L 207.099711 155.528535  L 207.099711 139.274615  L 126.689055 139.274615  z " style="fill: #ffffff; opacity: 0.9" />
+     <path d="M 147.873606 192.878259  L 228.284262 192.878259  L 228.284262 176.624339  L 147.873606 176.624339  z " style="fill: #ffffff; opacity: 0.9" />
     </g>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(127.559055 145.341814)">Where anyone can change the</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(127.559055 152.598774)">artwork, keeping it is the work</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(148.743606 182.691537)">Where anyone can change the</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(148.743606 189.948497)">artwork, keeping it is the work</text>
    </g>
    <g id="text_28">
     <g id="patch_28">
-     <path d="M 61.492205 232.063968  L 119.760455 232.063968  L 119.760455 215.810048  L 61.492205 215.810048  z " style="fill: #ffffff; opacity: 0.9" />
+     <path d="M 62.498846 220.040279  L 120.767096 220.040279  L 120.767096 203.786359  L 62.498846 203.786359  z " style="fill: #ffffff; opacity: 0.9" />
     </g>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(62.362205 222.393356)">A finished artwork</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(62.362205 229.134207)">is celebrated together</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(63.368846 210.369667)">A finished artwork</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(63.368846 217.110518)">is celebrated together</text>
    </g>
    <g id="text_29">
     <g id="patch_29">
-     <path d="M 177.712677 294.426173  L 260.608271 294.426173  L 260.608271 278.172253  L 177.712677 278.172253  z " style="fill: #ffffff; opacity: 0.9" />
+     <path d="M 213.463233 292.650682  L 268.45267 292.650682  L 268.45267 269.139802  L 213.463233 269.139802  z " style="fill: #ffffff; opacity: 0.9" />
     </g>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(178.582677 284.239451)">Keeping meets the neighbours:</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(178.582677 291.522693)">talk, help and coalitions</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(214.333233 275.207001)">Keeping meets</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(214.333233 282.463961)">the neighbours: talk,</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(214.333233 289.747202)">help and coalitions</text>
    </g>
    <g id="text_30">
     <g id="patch_30">
-     <path d="M 367.633937 221.51922  L 432.281281 221.51922  L 432.281281 198.00834  L 367.633937 198.00834  z " style="fill: #ffffff; opacity: 0.9" />
+     <path d="M 366.31 222.46823  L 430.957343 222.46823  L 430.957343 198.95735  L 366.31 198.95735  z " style="fill: #ffffff; opacity: 0.9" />
     </g>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(368.503937 204.179757)">An attack call is refused,</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(368.503937 211.413608)">reined in, or met with</text>
-    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(368.503937 219.082458)">a truce or a deal</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(367.18 205.128768)">An attack call is refused,</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(367.18 212.362618)">reined in, or met with</text>
+    <text style="font-weight: 500; font-size: 5.8px; font-family: Archivo, 'Archivo SemiBold', sans-serif; fill: #0d0d0d" transform="translate(367.18 220.031469)">a truce or a deal</text>
    </g>
   </g>
  </g>

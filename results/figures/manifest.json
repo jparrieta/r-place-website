@@ -27,9 +27,9 @@
     "title": "The population model as instantiated in PlaceNL"
   },
   "population-1.svg": {
-    "source_svg_sha256": "d0440ed415cc1a02f7760dbe9346bcca9724546fc13f59d0074ce6c1c8597824",
-    "reading_svg_sha256": "1f24a9d9476e1d89f271472a4f78d72b64d8fae0cf7146f1b3b20ac6b3cbb4a9",
-    "text_labels": 46,
+    "source_svg_sha256": "20df077f32c11c880ab3ce73712aaccc2ad5310a8b7fb70609dc0353c6e527df",
+    "reading_svg_sha256": "c7a66b2cab9b7a2282eaea70664ebfc4b9d3aa095b9552b49d8f64e652cdd27a",
+    "text_labels": 47,
     "geometric_elements": 38,
     "geometry_and_labels_unchanged": true,
     "font": "Archivo",
