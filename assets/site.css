@@ -207,3 +207,9 @@ main.page-agents{counter-reset:spec}
 #stage-description{max-width:72ch}
 #checkpoint-results>.catalogue-more{margin-top:1rem}
 .chat-actions{align-items:stretch}
+/* Overview tabs with several pages: the switch at the top of each page. */
+.orientation>.group-switch{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;margin:0 0 1.6rem;padding-bottom:.6rem;border-bottom:1px solid var(--rule);font-size:.95rem}
+.orientation>.group-switch a{color:var(--muted);text-decoration:none}
+.orientation>.group-switch a:hover{color:var(--ink);text-decoration:underline}
+.orientation>.group-switch a[aria-current]{color:var(--ink);font-weight:650;box-shadow:inset 0 -2px 0 var(--ink)}
+.data-figure{margin:1.4rem 0 1.8rem}.data-figure img{display:block;width:100%;max-width:100%;height:auto;background:#fff}.data-figure figcaption{color:var(--muted);font-size:.9rem;padding-top:.5rem}
