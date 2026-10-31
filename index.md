@@ -2,32 +2,16 @@
 
 r/place as a model organism for cumulative grounded theory.
 
-How do communities organize, and why do their forms differ? In 2017, over a million Reddit users made and defended pictures on a shared canvas. We propose this event as a fruit fly for organization science: a common object against which researchers can test explanations and build on what is already known.
+Biology accumulates knowledge around the fruit fly. Organization science has no common organism to study. In April 2017, over a million Reddit users spent 72 hours making and defending pictures on a shared canvas, one pixel at a time. We propose this event as a model organism for how organizations emerge and evolve.
 
-The aim is cumulative knowledge: a new explanation should show what it adds to the existing account. The repository joins a frozen dataset with a revisable instrument for reading it. Four features organize this site, applying [Ankeny and Leonelli's account of model organisms](https://doi.org/10.1016/j.shpsa.2010.11.039) to this setting.
+Here you find the frozen record of the event, the instrument we used to read it, and what it found in 705 communities.
 
-## One shared research object
+## How the study works
 
-The record joins pixel changes with posts and comments. Collection scripts reach beyond the current study's 705 curated communities. This study composes their case accounts into a population model while retaining differences between cases. It is a census of the curated population, not every community that discussed the event.
+1. **The record** Every pixel change, joined with the posts and comments of the communities behind the artworks.
+2. **Community coders** One AI agent reads each community's full record and codes how its members organized.
+3. **The aggregator** A second agent composes the 705 coded cases into one population model.
+4. **The return** The model goes back to every community coder, who says where it fails their case. The aggregator revises it.
+5. **Organizational forms** Communities that asked for similar changes group into six candidate forms.
 
-[Understand the research object and population](guides/project.html).
-
-## Common conditions
-
-Communities worked on the same canvas under the same placement rules. Each user could change one pixel every five minutes, and another user could overwrite it. These common conditions make different ways of organizing comparable; they do not make communities identical.
-
-[See the shared rules and limits of comparison](conditions.html).
-
-## The whole event
-
-The record spans the roughly three-day event, from the first placements to the finished canvas. Posts, comments and pixel changes let us study organizing as it unfolds. The written record also includes the following day. Off-platform coordination remains outside that view.
-
-[Explore the event and what the record captures](event.html).
-
-## Shared data and tools
-
-Collection scripts, coded cases, analysis contracts and saved checkpoints let researchers revisit the same evidence. Community coders code their own records; an aggregator composes a population model and returns it to those community coders for corrections. Researchers judge the claims.
-
-The completed run shows what composition can reveal. PlaceNL's defence script erased houses its members had agreed to add. Similar evidence across communities changed the account of repair. [Follow the example, its revision and its limits](results/placenl.html#repair-and-change), or question a saved agent through a [checkpoint interview](interviews.html).
-
-[Explore the results](results.html) · [Use the shared data and tools](tools.html).
+Researchers judge what the model is worth. [How the instrument works](instrument.html)
