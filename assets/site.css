@@ -221,3 +221,12 @@ main.page-agents{counter-reset:spec}
 @media(max-width:860px){.how>ol{grid-template-columns:minmax(0,1fr)}}
 .home~.how,.principles.how{max-width:none}.how>h2,.how>p{max-width:66ch}
 .launch pre{white-space:pre-wrap;word-break:break-all;font-size:.85rem}
+.how>ol>li{padding-top:0;border-top:0}
+.how>ol>li>a{display:block;height:100%;border-top:2px solid var(--line);padding:.7rem 0 .4rem;color:var(--ink);text-decoration:none}
+.how>ol>li>a:hover{border-top-color:var(--accent)}
+.how>ol>li>a:hover .see{text-decoration:underline}
+.how .see{display:block;margin-top:.5rem;color:var(--accent);font-weight:600;font-size:.9rem}
+.how .see::after{content:" →"}
+.how>ol>li::before{margin-top:.7rem}
+.how>ol>li::before{content:none}
+.how>ol>li>a::before{content:counter(step);display:block;font:750 1.6rem/1 var(--font);font-stretch:75%;color:var(--accent);margin-bottom:.4rem}
