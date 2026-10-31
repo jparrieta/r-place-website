@@ -22,7 +22,7 @@ From the first recorded community coding run on 18 August to the last aggregator
 | E1 to E2, audit and close | 27 to 28 Oct | 5 | 14 |
 | Total | 21.5 days | 377 | 316 |
 
-B1 and D3 took the most time. Three D3 sessions that waited on rulings hold 104 of the 377 hours. Routine reading checks and fleet coding at stages B2 and B3 used DeepSeek V4.1 Flash, in 1,573 calls.
+B1 and D3 took the most time. The [run log](runlog.html) gives every stage with its dates and tokens. Three D3 sessions that waited on rulings hold 104 of the 377 hours. Routine reading checks and fleet coding at stages B2 and B3 used DeepSeek V4.1 Flash, in 1,573 calls.
 
 ## Contract versions
 

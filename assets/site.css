@@ -213,3 +213,11 @@ main.page-agents{counter-reset:spec}
 .orientation>.group-switch a:hover{color:var(--ink);text-decoration:underline}
 .orientation>.group-switch a[aria-current]{color:var(--ink);font-weight:650;box-shadow:inset 0 -2px 0 var(--ink)}
 .data-figure{margin:1.4rem 0 1.8rem}.data-figure img{display:block;width:100%;max-width:100%;height:auto;background:#fff}.data-figure figcaption{color:var(--muted);font-size:.9rem;padding-top:.5rem}
+/* Home: how the study works, five numbered steps in a row. */
+.how>ol{list-style:none;counter-reset:step;padding:0;margin:1rem 0 1.4rem;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1.2rem;max-width:none}
+.how>ol>li{counter-increment:step;border-top:2px solid var(--line);padding-top:.7rem;font-size:.95rem;line-height:1.5;max-width:none}
+.how>ol>li::before{content:counter(step);display:block;font:750 1.6rem/1 var(--font);font-stretch:75%;color:var(--accent);margin-bottom:.4rem}
+.how>ol>li strong{display:block;margin-bottom:.2rem}
+@media(max-width:860px){.how>ol{grid-template-columns:minmax(0,1fr)}}
+.home~.how,.principles.how{max-width:none}.how>h2,.how>p{max-width:66ch}
+.launch pre{white-space:pre-wrap;word-break:break-all;font-size:.85rem}

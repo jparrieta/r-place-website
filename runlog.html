@@ -1,0 +1,314 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Run log | r/place</title><link rel="stylesheet" href="assets/site.css"><script defer src="assets/local-setup.js"></script><script defer src="assets/site.js"></script><script defer src="assets/reviewer.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="index.html">r/place <span>A fruit fly for organization science</span></a>
+<div class="utility"><nav class="task-nav" aria-label="Use the repository"><a data-reviewer-entry href="open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav><button id="theme" type="button" aria-label="Change colour theme">Theme: light</button></div><nav class="menu" aria-label="Main"><a aria-current=location href="index.html">Overview</a><a  href="results.html">Results</a><a  href="instrument.html">Instrument</a><a  href="interviews.html">Checkpoint interviews</a></nav></header>
+<main id="main" class="page-runlog" data-layer="Overview"><nav class="parts" aria-label="Overview"><a  href="index.html">Introduction</a><a  href="model-organisms.html">Model organism</a><a aria-current=page href="data.html">Data</a></nav><section class="orientation" aria-label="Overview"><nav class="toc group-switch" aria-label="Pages in this tab"><a href="data.html">The record in numbers</a><a href="emergence.html">New communities</a><a href="census.html">From 2,796 to 705</a><a href="versions.html">Time and versions</a><a href="runlog.html" aria-current="page">Run log</a></nav><h1 id="run-log">Run log</h1>
+<p>Every stage of the study in one place: when it ran, how long it took,
+how many sessions it used, and its tokens. All dates are 2026 and all
+times UTC. The records behind this page are in the research repository
+(<a
+href="https://github.com/jparrieta/r-place">github.com/jparrieta/r-place</a>;
+private, access on request).</p>
+<h2 id="community-coding">Community coding</h2>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Dates</th>
+<th>Communities</th>
+<th>Model</th>
+<th>Tokens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Earlier contracts, v16 to v29</td>
+<td>18 Aug to 5 Sep</td>
+<td>347 communities in 462 runs, later redone</td>
+<td>Claude Opus 5 (323 runs), Claude Sonnet (20), unrecorded (112)</td>
+<td>not recorded</td>
+</tr>
+<tr>
+<td>Final coding, v30 to v32</td>
+<td>7 Sep to 4 Oct</td>
+<td>738 finished, the 705 among them</td>
+<td>gpt-5.6-sol: 5,097 agents at medium effort, 65 at extra high</td>
+<td>15.89 billion, cached input included</td>
+</tr>
+<tr>
+<td>The aggregator's frame</td>
+<td>4 Oct</td>
+<td>705</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The final coding finished 138, 128 and 133 communities in its first
+three weeks. The fourth week counts 339, but 326 of those are dated 30
+September, the day a list of 299 earlier communities was redone, so that
+week's count may include records closed rather than coded. Coding hours
+were not logged.</p>
+<h2 id="the-return-to-the-model">The return to the model</h2>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Dates</th>
+<th>Communities</th>
+<th>Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1, tasks prepared</td>
+<td>15 Oct, 15:54 to 19:49</td>
+<td>705</td>
+<td>Claude Opus 5.5</td>
+</tr>
+<tr>
+<td>D2, first return</td>
+<td>sent 15 Oct; compiled 16 Oct, 08:53</td>
+<td>705</td>
+<td>gpt-6.1-sol</td>
+</tr>
+<tr>
+<td>D3, re-check sent</td>
+<td>21 Oct, 12:40</td>
+<td>705</td>
+<td>gpt-6.1-sol</td>
+</tr>
+<tr>
+<td>D3, first batch back</td>
+<td>by 21 Oct, 19:26</td>
+<td>472; the account then ran out of tokens</td>
+<td></td>
+</tr>
+<tr>
+<td>D3, second batch back</td>
+<td>22 Oct, 19:10</td>
+<td>all 705</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Tokens for the returns were not recorded.</p>
+<h2 id="the-aggregator-run-claude-v43-1">The aggregator, run
+claude-v43-1</h2>
+<p>Claude Opus 5.5 ran every stage, from 6 Oct 12:14 to 28 Oct 00:38:
+21.5 days and 316 sessions. Session hours run from launch to close and
+include waits for our rulings. Tokens are in millions. The run's own
+counter, <code>RUN.json</code>, counts most calls two or three times;
+the figures in brackets are deduplicated counts, which exist for A1 to
+C3 only.</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Start</th>
+<th>End</th>
+<th style="text-align: right;">Session hours</th>
+<th style="text-align: right;">Sessions</th>
+<th style="text-align: right;">Cache read</th>
+<th style="text-align: right;">Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="stages/A1.html">A1, community notes</a></td>
+<td>6 Oct 12:14</td>
+<td>7 Oct 13:02</td>
+<td style="text-align: right;">18.9</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">7,550 (3,482)</td>
+<td style="text-align: right;">12.9 (5.0)</td>
+</tr>
+<tr>
+<td><a href="stages/B1.html">B1, third-order scheme</a></td>
+<td>7 Oct 13:11</td>
+<td>11 Oct 14:49</td>
+<td style="text-align: right;">91.2</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">12,873 (5,961)</td>
+<td style="text-align: right;">37.0 (13.4)</td>
+</tr>
+<tr>
+<td><a href="stages/B2.html">B2, pilot</a></td>
+<td>11 Oct 14:57</td>
+<td>12 Oct 14:09</td>
+<td style="text-align: right;">7.5</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">978 (334)</td>
+<td style="text-align: right;">2.5 (0.7)</td>
+</tr>
+<tr>
+<td><a href="stages/B3.html">B3, fleet</a></td>
+<td>12 Oct 14:17</td>
+<td>12 Oct 21:18</td>
+<td style="text-align: right;">2.3</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">204 (63)</td>
+<td style="text-align: right;">0.8 (0.2)</td>
+</tr>
+<tr>
+<td><a href="stages/B4.html">B4, adjudication and freeze</a></td>
+<td>12 Oct 21:19</td>
+<td>13 Oct 17:47</td>
+<td style="text-align: right;">18.5</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">2,208 (1,066)</td>
+<td style="text-align: right;">18.3 (6.6)</td>
+</tr>
+<tr>
+<td><a href="stages/C1.html">C1, structuring</a></td>
+<td>13 Oct 18:17</td>
+<td>14 Oct 00:56</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">1,086 (456)</td>
+<td style="text-align: right;">4.8 (1.7)</td>
+</tr>
+<tr>
+<td><a href="stages/C2.html">C2, the loop</a></td>
+<td>14 Oct 06:04</td>
+<td>14 Oct 13:49</td>
+<td style="text-align: right;">5.5</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1,483 (753)</td>
+<td style="text-align: right;">3.5 (1.4)</td>
+</tr>
+<tr>
+<td><a href="stages/C3.html">C3, literature</a></td>
+<td>14 Oct 13:59</td>
+<td>14 Oct 15:16</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">278 (116)</td>
+<td style="text-align: right;">0.9 (0.2)</td>
+</tr>
+<tr>
+<td><a href="stages/C4.html">C4, the field</a></td>
+<td>14 Oct 22:35</td>
+<td>14 Oct 23:03</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">0.2</td>
+</tr>
+<tr>
+<td><a href="stages/C5.html">C5, account</a></td>
+<td>14 Oct 23:30</td>
+<td>15 Oct 15:00</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">1,205</td>
+<td style="text-align: right;">3.3</td>
+</tr>
+<tr>
+<td><a href="stages/D1.html">D1, return build</a></td>
+<td>15 Oct 15:54</td>
+<td>15 Oct 19:49</td>
+<td style="text-align: right;">3.9</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">0.3</td>
+</tr>
+<tr>
+<td><a href="stages/D2.html">D2, labelers and verdicts</a></td>
+<td>16 Oct 08:59</td>
+<td>16 Oct 10:21</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">0.2</td>
+</tr>
+<tr>
+<td><a href="stages/D3.html">D3, adjudication and re-check</a></td>
+<td>16 Oct 11:00</td>
+<td>24 Oct 10:54</td>
+<td style="text-align: right;">171.6</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">12,796</td>
+<td style="text-align: right;">55.7</td>
+</tr>
+<tr>
+<td><a href="stages/D4.html">D4, the tree</a></td>
+<td>24 Oct 11:39</td>
+<td>26 Oct 22:05</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">821</td>
+<td style="text-align: right;">2.0</td>
+</tr>
+<tr>
+<td><a href="stages/D5.html">D5, branch accounts</a></td>
+<td>25 Oct 21:01</td>
+<td>27 Oct 03:20</td>
+<td style="text-align: right;">23.4</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">2,618</td>
+<td style="text-align: right;">7.8</td>
+</tr>
+<tr>
+<td><a href="stages/D6.html">D6, the retelling</a></td>
+<td>27 Oct 03:28</td>
+<td>27 Oct 15:41</td>
+<td style="text-align: right;">6.7</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">1,014</td>
+<td style="text-align: right;">2.9</td>
+</tr>
+<tr>
+<td><a href="stages/E1.html">E1, audit</a></td>
+<td>27 Oct 16:56</td>
+<td>27 Oct 23:52</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">511</td>
+<td style="text-align: right;">1.5</td>
+</tr>
+<tr>
+<td><a href="stages/E2.html">E2, feedback</a></td>
+<td>27 Oct 23:55</td>
+<td>28 Oct 00:38</td>
+<td style="text-align: right;">0.7</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">99</td>
+<td style="text-align: right;">0.2</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td>6 Oct</td>
+<td>28 Oct</td>
+<td style="text-align: right;"><strong>376.5</strong></td>
+<td style="text-align: right;"><strong>316</strong></td>
+<td style="text-align: right;"><strong>45,947</strong></td>
+<td style="text-align: right;"><strong>154.9</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>D4 and D5 overlap on 26 October.</li>
+<li>Three D3 sessions that waited on our rulings hold 104 of the 376.5
+hours. The median session took 34 minutes.</li>
+<li>Deduplicating at the A1 to C3 ratios (2.18 for cache read, 2.78 for
+output) gives an estimated run total of about 21,000 million cache-read
+tokens and 56 million output tokens. This is an estimate.</li>
+<li>Other models: DeepSeek V4.1 Flash made 1,573 calls at B2 and B3
+(139.6 million prompt and 44.6 million completion tokens), and an audit
+at E1 used 3.2 million tokens at a cost of US$1.73.</li>
+</ul>
+<h2 id="accounts">Accounts</h2>
+<p>The work ran on a Claude subscription (the aggregator and the earlier
+coding), a Codex account (the final coding and the returns) and
+OpenRouter (DeepSeek).</p>
+<h2 id="sources">Sources</h2>
+<p>In the research repository: the coding handler's
+<code>STATUS.tsv</code>, <code>CODING-PROGRESS.json</code> and
+<code>PRIOR-RUNS.tsv</code>; the run's session log,
+<code>handover-events.log</code> and <code>RUN.json</code>; the token
+analyses in the aggregator handler's memory; the stage notes
+<code>notes-D2.md</code> and <code>notes-D3.md</code>; and the git
+history of the run's branch.</p>
+</section></main><footer><span>r/place as a model organism for cumulative grounded theory.</span><div><a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

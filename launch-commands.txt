@@ -1,0 +1,213 @@
+# r/place checkpoint launch commands
+# Paste one into Terminal on macOS or Linux. Bundles are private GitHub release assets: they need access to github.com/jparrieta/r-place.
+
+## The aggregator
+# A1.A1b-55, reading block (aggregator--claude-v43-1--C4-field--A1.A1b-55)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/A1.A1b-55.interview.tar.gz sha256 f0599af6b3227246a17f0dcda3f11463f716865c3bdedf7afc0489baddac6b08
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--A1.A1b-55'
+
+# B1.B1b-32, getting lost (aggregator--claude-v43-1--C4-field--B1.B1b-32)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B1.B1b-32.interview.tar.gz sha256 cc196b40bc79fc1ce3868a022bab819a4bddb9bee2183fc92730a8ab506f6330
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B1.B1b-32'
+
+# B1.B1d-07, second pass (aggregator--claude-v43-1--C4-field--B1.B1d-07)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B1.B1d-07.interview.tar.gz sha256 5c8cfefe27861f770d0d4a1a7b9b24966f16df89b273d81f80058d8d669957ed
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B1.B1d-07'
+
+# B1.B1e, scheme standing (aggregator--claude-v43-1--C4-field--B1.B1e)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B1.B1e.interview.tar.gz sha256 85f692f366fa5c31e132be1048a30480f2c25017fd4282cb52be217ea238c781
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B1.B1e'
+
+# B2.B2a-r3-p2, build round (aggregator--claude-v43-1--C4-field--B2.B2a-r3-p2)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B2.B2a-r3-p2.interview.tar.gz sha256 eabacf0c6806ebd44a23e000087400a96257daf9b15ce827f993ebc99a30a5d7
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B2.B2a-r3-p2'
+
+# B2.B2b-r3-p3, check round (aggregator--claude-v43-1--C4-field--B2.B2b-r3-p3)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B2.B2b-r3-p3.interview.tar.gz sha256 d85e3c6632535b9ee58e201c1f49abeef74e22d1148a6d26c545fb31bc50c352
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B2.B2b-r3-p3'
+
+# B2.B2d, gold and stability check (aggregator--claude-v43-1--C4-field--B2.B2d)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B2.B2d.interview.tar.gz sha256 f2919a29e51a41e42c9b099cd3f8bf00efa80da0d834a8e166ba39c4928fd46a
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B2.B2d'
+
+# B3.B3a-p2, build (aggregator--claude-v43-1--C4-field--B3.B3a-p2)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B3.B3a-p2.interview.tar.gz sha256 965e373671c7b0899336643d1931470d02cb956495f8b8a5ef92ee560ec1700c
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B3.B3a-p2'
+
+# B3.B3b, check (aggregator--claude-v43-1--C4-field--B3.B3b)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B3.B3b.interview.tar.gz sha256 c2b2a1145d5b1331cdc353759eecc0f5f174fe399682f8a1b27632742190723d
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B3.B3b'
+
+# B4.B4a-07, adjudicate packet (aggregator--claude-v43-1--C4-field--B4.B4a-07)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B4.B4a-07.interview.tar.gz sha256 98fbcc5348e3f253c89c9e49fe8ba3d0ffab9c0f234a8e320b1b1f88f7673707
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B4.B4a-07'
+
+# B4.B4b-p4, sample build (aggregator--claude-v43-1--C4-field--B4.B4b-p4)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B4.B4b-p4.interview.tar.gz sha256 c3e83899fa773517827249f188dc85bf24ab77c4e033f90614975269b0958fab
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B4.B4b-p4'
+
+# B4.B4c, check and final placements (aggregator--claude-v43-1--C4-field--B4.B4c)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B4.B4c.interview.tar.gz sha256 97257f9cc84644e5366e310b17308d453b1100fd833ba17b51ed94dbdfcc21fd
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--B4.B4c'
+
+# C1.C1a-11, pass (aggregator--claude-v43-1--C4-field--C1.C1a-11)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C1.C1a-11.interview.tar.gz sha256 00ee7b12d6a6bb2340d1db5e571567706d19a1f2da7c6148c31f102b389898a1
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--C1.C1a-11'
+
+# C2.C2a-03, pass (aggregator--claude-v43-1--C4-field--C2.C2a-03)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C2.C2a-03.interview.tar.gz sha256 81bf6c606975e3850bf5936c6564137e15facfc15ac8e5fbaebd6d2ab28c5f6a
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--C2.C2a-03'
+
+# C2.C2d-02, closing pass (aggregator--claude-v43-1--C4-field--C2.C2d-02)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C2.C2d-02.interview.tar.gz sha256 0d696af2713dfad4e80e0174e54091a76ea574e6972de89764310eb5199fc83a
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--C2.C2d-02'
+
+# C3.C3c, the four problems (aggregator--claude-v43-1--C4-field--C3.C3c)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C3.C3c.interview.tar.gz sha256 55a3c62375f6d91596508d2c2ed0026cf286bc9c7402d773a270ff1a1d5960cc
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--C3.C3c'
+
+# C4.C4a, the field (aggregator--claude-v43-1--C4-field--C4.C4a)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C4.C4a.interview.tar.gz sha256 21883e846e106f8d5ee2059dcf22e363a209832f1b2ec2ecd4ff859b26f25175
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--C4.C4a'
+
+# C5.C5a-04, pass (aggregator--claude-v43-1--C4-field--C5.C5a-04)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C5.C5a-04.interview.tar.gz sha256 0a219292ede2db3997a74eb7c32d4ef8d87c6f41905700856389f4eecab022a2
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--C5.C5a-04'
+
+# C5.C5c-13, readers check (aggregator--claude-v43-1--C4-field--C5.C5c-13)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C5.C5c-13.interview.tar.gz sha256 b06117287a77181314f42e32c65540de320fdd4c6ed7507baa412208b00344c1
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--C5.C5c-13'
+
+# C5.C5d-p2, table, model and figure (aggregator--claude-v43-1--C4-field--C5.C5d-p2)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C5.C5d-p2.interview.tar.gz sha256 5e277d5c91e1f951bffa22ecac66cf480b2c050fcbbfe3f4b42f651b384ae7a1
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--C5.C5d-p2'
+
+# D1.D1a, build (aggregator--claude-v43-1--C4-field--D1.D1a)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/D1.D1a.interview.tar.gz sha256 1b00af48bd83238ab2e8f4500457e7629c14c6dde6a8bab1b7d6d14d1356cf1b
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--D1.D1a'
+
+# D2.D2a, check (aggregator--claude-v43-1--C4-field--D2.D2a)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/D2.D2a.interview.tar.gz sha256 12d53abe814b0086eb719b549d6abb81628e8cf5e0b5149fd8d004db5ad27ffd
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--D2.D2a'
+
+# D3.D3a-57, element group (aggregator--claude-v43-1--C4-field--D3.D3a-57)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/D3.D3a-57.interview.tar.gz sha256 e705463af50e576029072b39a22ae4edca08e0d112f0a213b50941686903ed37
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--D3.D3a-57'
+
+# D3.D3c, D3c (aggregator--claude-v43-1--C4-field--D3.D3c)
+# bundle https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/D3.D3c.interview.tar.gz sha256 0686259728c363d693a970f2aff1ef9d9eeab3371dd060e6ef9361a140cc3a55
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'aggregator--claude-v43-1--C4-field--D3.D3c'
+
+## Community coders
+# r/PlaceNL, 5.6 case-lead close (community--PlaceNL--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--PlaceNL--coding-close.tar.gz sha256 6d1382d5ee59638e61693e5b53a4b8f4a221b6743e58c231065d5c21379ab9a2
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--PlaceNL--coding-close'
+
+# r/PlaceNL, 6.1 local model, R6 (community--PlaceNL--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--PlaceNL--R6.tar.gz sha256 253124d2caa89997f426d38f7f0dd0f8bcfb06c1fed5fa771d9044c68decdddb
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--PlaceNL--R6'
+
+# r/thenetherlands, 5.6 case-lead close (community--thenetherlands--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--thenetherlands--coding-close.tar.gz sha256 3d267cb2c58b0d672010c306c87bd18ab0b569f726f6e42ca8cdd159d324fe16
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--thenetherlands--coding-close'
+
+# r/thenetherlands, 6.1 local model, R6 (community--thenetherlands--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--thenetherlands--R6.tar.gz sha256 bfd3379eb6e8da8c36f0a6d4e53a100bb4fe8936b5d3d23c7d1f7b1a2885abae
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--thenetherlands--R6'
+
+# r/cirkeltrek, 5.6 case-lead close (community--cirkeltrek--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--cirkeltrek--coding-close.tar.gz sha256 c2148ecb308c9bebdd407bde712d3713c56574d04f7c118b9f75eda12705aa47
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--cirkeltrek--coding-close'
+
+# r/cirkeltrek, 6.1 local model, R6 (community--cirkeltrek--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--cirkeltrek--R6.tar.gz sha256 7d1aad26e9206ae68a433178f958892e7fd9ff7534a2c39714a449d750e81652
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--cirkeltrek--R6'
+
+# r/norge, 5.6 case-lead close (community--norge--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--norge--coding-close.tar.gz sha256 8615d495850a1bcba3c035b23e9a186d55560659421dd4c83e25bc93d3b92539
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--norge--coding-close'
+
+# r/norge, 6.1 local model, R6 (community--norge--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--norge--R6.tar.gz sha256 8d3194b2dbd7925e8bbb44004c70d90725e2c059bb44d400332c953343cdda58
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--norge--R6'
+
+# r/norway, 5.6 case-lead close (community--norway--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--norway--coding-close.tar.gz sha256 f237758d04383a9335b81eedf1247eb98287c938abb256f662439daf29224986
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--norway--coding-close'
+
+# r/norway, 6.1 local model, R6 (community--norway--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--norway--R6.tar.gz sha256 3e2525a115d1d3ff1e66e6024bba356133ed30f4cc8a3fdc1a5f22fa13640db3
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--norway--R6'
+
+# r/sweden, 5.6 case-lead close (community--sweden--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--sweden--coding-close.tar.gz sha256 56470f781bd3b1c80ca3562bf9ff9102c429d8ab696c029b84f40f1e6d3ad1c0
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--sweden--coding-close'
+
+# r/sweden, 6.1 local model, R6 (community--sweden--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--sweden--R6.tar.gz sha256 5359dfb260fb210aee1fe171636e9612f5aa2eeb01ac71d796bd3457314f3bbf
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--sweden--R6'
+
+# r/greece, 5.6 case-lead close (community--greece--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--greece--coding-close.tar.gz sha256 631219c1f8989bd28c3b21655901d6a91503c7a8880748b50313fba1d2e3c582
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--greece--coding-close'
+
+# r/greece, 6.1 local model, R6 (community--greece--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--greece--R6.tar.gz sha256 cca2bad8a559f9a9c26efd01d8ff2e2b740d82b597576c73ac4b0bbb7b9c7923
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--greece--R6'
+
+# r/czech, 5.6 case-lead close (community--czech--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--czech--coding-close.tar.gz sha256 c01efc63bb6809ab72c87a92d9eada3777e4fa672b80aa9b2d3ec71367a6b07f
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--czech--coding-close'
+
+# r/czech, 6.1 local model, R6 (community--czech--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--czech--R6.tar.gz sha256 d9880610e0349fa540f539b51df4c352693dbc3f68acf3c2f59836f77670ab41
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--czech--R6'
+
+# r/armenia, 5.6 case-lead close (community--armenia--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--armenia--coding-close.tar.gz sha256 7209921a39a4f3015ad5b1d4551e864f65523620ca7c1153512a6ea106a0c808
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--armenia--coding-close'
+
+# r/armenia, 6.1 local model, R6 (community--armenia--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--armenia--R6.tar.gz sha256 18865826e2e728e81dc16c7a3983721f265820db9e6d40f96f34a30ae33dbb09
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--armenia--R6'
+
+# r/indonesia, 5.6 case-lead close (community--indonesia--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--indonesia--coding-close.tar.gz sha256 2543a6f6638da32e176659cff3935c86256227a67924c8e8b9a08e53b8935598
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--indonesia--coding-close'
+
+# r/indonesia, 6.1 local model, R6 (community--indonesia--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--indonesia--R6.tar.gz sha256 c7b8aea21ff7e27ccb0d9f3843664ac2542dd82570f454599cab0350718be93b
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--indonesia--R6'
+
+# r/placehearts, 5.6 case-lead close (community--placehearts--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--placehearts--coding-close.tar.gz sha256 e6f9dbcf23e2e7b6bf31e4498f30e8a0e9752422ae35aa18bf95f1595aec99ee
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--placehearts--coding-close'
+
+# r/placehearts, 6.1 local model, R6 (community--placehearts--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--placehearts--R6.tar.gz sha256 9dbac787d8300642dd47918961d39381aa0b8ba03586dfa264e888e186c520a0
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--placehearts--R6'
+
+# r/mindcrack, 5.6 case-lead close (community--mindcrack--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--mindcrack--coding-close.tar.gz sha256 784ff4b634663fc193bfdfe6b4105508dd78cbfd9b16385ea78ef66bfffab371
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--mindcrack--coding-close'
+
+# r/mindcrack, 6.1 local model, R6 (community--mindcrack--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--mindcrack--R6.tar.gz sha256 06937c66b1dfef98fb885468089dcf00f0f5130c1315ac6bfd00827668873801
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--mindcrack--R6'
+
+# r/blackmirror, 5.6 case-lead close (community--blackmirror--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--blackmirror--coding-close.tar.gz sha256 71d04bb35c8d94abb78d886dcc565dbd208d2e9a13425442cec19dc1a23ea6ea
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--blackmirror--coding-close'
+
+# r/blackmirror, 6.1 local model, R6 (community--blackmirror--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--blackmirror--R6.tar.gz sha256 352c973ba15358d3fe1a35979c4580eb4ba246b34202a1e902f23229ae42ef3d
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--blackmirror--R6'
+
+# r/Goodboye, 5.6 case-lead close (community--Goodboye--coding-close)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--Goodboye--coding-close.tar.gz sha256 4cc9c027fce0fc79423b66c0c492d86266640db5c5c3b80b035782f29200ce30
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--Goodboye--coding-close'
+
+# r/Goodboye, 6.1 local model, R6 (community--Goodboye--R6)
+# bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--Goodboye--R6.tar.gz sha256 dcd31ebc3c4de2613046240191b002749a3b27be3d484cc6b2a6c4f4dca23bea
+bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--Goodboye--R6'
+
