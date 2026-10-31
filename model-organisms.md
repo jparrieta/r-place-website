@@ -1,4 +1,4 @@
-# Why accumulate knowledge on organizational emergence
+# Why we need model organisms
 
 Our field struggles to build cumulative knowledge (Pfeffer, 1993; Davis, 2010). A model organism gives later studies a common baseline: each new account must show what it adds to, corrects or qualifies in what is already known.
 
@@ -24,7 +24,7 @@ The dataset is frozen, but the instrument can change: a later run can use anothe
 
 We start with qualitative research for three reasons. First, the limit binds hardest there: qualitative findings rest on case detail, which existing ways of composing cases discard. Second, forms that emerge instead of being specified in advance need categories that also emerge from the record. Third, accumulation is least settled there. For some, knowledge "accumulates vertically, building higher and higher on tested foundations"; for others, it accumulates horizontally, as "a stock of broad principles generated across many past situations, each of them unique" (Pratt et al., 2020:5–6). A shared record serves both.
 
-Whether our field "evolves toward 'more' or 'better'" is an institutional question (Gartenberg et al., 2026a:811). A model organism is a nudge toward "better". [What makes r/place one](organism.html) · [See the results](results.html).
+Whether our field "evolves toward 'more' or 'better'" is an institutional question (Gartenberg et al., 2026a:811). A model organism is a nudge toward "better". [Why r/place is one](organism.html) · [See the results](results.html).
 
 ## References
 

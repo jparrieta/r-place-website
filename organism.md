@@ -38,7 +38,7 @@ On a small screen, scroll the table sideways to compare fields.
 
 **Research community.** We share our baseline, the coded cases and tools for inspecting the analysis. Researchers can rerun the instrument or resume it from a [checkpoint](interviews.html), then return a revised population model to the community coders to assess its fit to their cases. Whether r/place becomes a model organism depends on other researchers using and extending this baseline (Kohler, 1994).
 
-The four characteristics also answer Machlup's (1967) three constraints on studying real firms: public records make the event accessible, LLM agents reduce the cost of reading them, and the instrument relates coded cases in a population model. [Why that matters for organization science](accumulation.html).
+The four characteristics also answer Machlup's (1967) three constraints on studying real firms: public records make the event accessible, LLM agents reduce the cost of reading them, and the instrument relates coded cases in a population model. [Why we need model organisms](model-organisms.html).
 
 ## Inspect the examples
 
