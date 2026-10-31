@@ -27,13 +27,13 @@
     "title": "The population model as instantiated in PlaceNL"
   },
   "population-1.svg": {
-    "source_svg_sha256": "20df077f32c11c880ab3ce73712aaccc2ad5310a8b7fb70609dc0353c6e527df",
-    "reading_svg_sha256": "c7a66b2cab9b7a2282eaea70664ebfc4b9d3aa095b9552b49d8f64e652cdd27a",
+    "source_svg_sha256": "b6ad9768346e3e846d061ac7a8e93c173f223d112993fe7a96f58c1a696229b6",
+    "reading_svg_sha256": "8d0686c125adcfd7ede490a83179aa09bc406f8e039bd45c4a898595feea273b",
     "text_labels": 47,
     "geometric_elements": 38,
     "geometry_and_labels_unchanged": true,
     "font": "Archivo",
-    "title": "The population model on its eight aggregate dimensions"
+    "title": "The population model across eight dimensions"
   },
   "population-2.svg": {
     "source_svg_sha256": "ad60fc712764cb87d73f35bdc4f9e6685a7c8e189fcb121be573a6f8410395dc",

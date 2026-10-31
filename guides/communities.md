@@ -5,14 +5,14 @@ Open a second Codex or Claude chat in your study's working folder. Name it **Cod
 ```text
 You are the coding handler for my r/place study. Use the existing handler in https://github.com/jparrieta/r-place. Read FOR-AGENTS.md, coder/FOR-AGENTS.md, coder/handler/CONTRACT-scheduler.md and coder/README.md before operating anything.
 
-Read HANDOFF-collection.md. Obtain any missing instrument folders, record their version, and prepare a separate working yard using the documented folder layout. Check the inputs, model access and native launcher, run the prescribed self-tests, then follow the existing scheduler contract. Keep progress on disk and preserve the required case-lead closes. Hand checked outputs and their provenance to the aggregator handler. Do not replace the existing protocol or use shipped example rooms as my new run.
+Read HANDOFF-collection.md. Obtain any missing instrument folders, record their version, and prepare a separate working yard using the documented folder layout. Check the inputs, model access and native launcher, run the prescribed self-tests, then follow the existing scheduler contract. Keep progress on disk and preserve the required community-coder closes. Hand checked outputs and their provenance to the aggregator handler. Do not replace the existing protocol or use shipped example rooms as my new run.
 ```
 
-The coding handler already exists. This is its entry prompt, not a new protocol. A Claude chat can coordinate it, but the shipped persistent case-lead launcher requires Codex. [Exact platform and folder requirements](../sources/coder-README.html).
+The coding handler already exists. This is its entry prompt, not a new protocol. A Claude chat can coordinate it, but the shipped persistent community-coder launcher requires Codex. [Exact platform and folder requirements](../sources/coder-README.html).
 
 **Start with:** a prepared community record and the community coder contract.
 
-**Do:** AI readers code the material; an AI case lead consolidates codes, themes and the case account under researcher supervision. Preserve the lead’s conversation, files and runtime provenance together at the close.
+**Do:** AI coding agents code the material; an AI community coder consolidates codes, themes and the case account under researcher supervision. Preserve the community coder’s conversation, files and runtime provenance together at the close.
 
 **Keep:** the declared coding outputs, evidence trail and resumable close.
 
@@ -20,7 +20,7 @@ The coding handler already exists. This is its entry prompt, not a new protocol.
 
 A coding close, a standalone local model, a return to the global model and a later re-check are distinct milestones. The [checkpoint catalogue](../interviews.html) records their availability separately.
 
-A community return resumes the saved case agent to compare the global model with that community's record. It does not ask the original participants to validate the model. [Full return instructions](../sources/stage-D2.html).
+A community return resumes the saved community coder to compare the global model with that community's record. It does not ask the original participants to validate the model. [Full return instructions](../sources/stage-D2.html).
 
 Keep the r/place field analysis and standalone local models as distinct workflows when your selected instrument requires them. This introduction does not add them to the v32 scheduler or replace their own contracts. The aggregator handler must identify any required field package before starting the stage that uses it.
 
@@ -30,7 +30,7 @@ Give the [existing aggregator handler](aggregator.html) the coding handler's che
 
 ## Full instructions and examples
 
-- [Full community coder contract](../sources/coder-contract.html), [case lead](../sources/case-lead.html) and [fleet reader](../sources/fleet-coder.html).
+- [Full community coder contract](../sources/coder-contract.html), [community coder](../sources/case-lead.html) and [fleet reader](../sources/fleet-coder.html).
 - [Complete agent reading key](../agents/communities.html).
 
 Next: [run the aggregator](aggregator.html).

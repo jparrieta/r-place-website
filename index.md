@@ -28,7 +28,7 @@ The record spans the roughly three-day event, from the first placements to the f
 
 ## Shared data and tools
 
-Collection scripts, coded cases, analysis contracts and saved checkpoints let researchers revisit the same evidence. Community agents code their own records; an aggregator composes a population model and returns it to those agents for corrections. Researchers judge the claims.
+Collection scripts, coded cases, analysis contracts and saved checkpoints let researchers revisit the same evidence. Community coders code their own records; an aggregator composes a population model and returns it to those community coders for corrections. Researchers judge the claims.
 
 The completed run shows what composition can reveal. PlaceNL's defence script erased houses its members had agreed to add. Similar evidence across communities changed the account of repair. [Follow the example, its revision and its limits](results/placenl.html#repair-and-change), or question a saved agent through a [checkpoint interview](interviews.html).
 

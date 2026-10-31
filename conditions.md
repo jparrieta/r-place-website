@@ -14,7 +14,7 @@ Communities entered with different histories, numbers of participants, aims and 
 
 ## How the instrument uses comparison
 
-Each community is coded from its own record before the aggregator composes across cases. The population model is then returned to saved community agents, which check its fit and report departures. A shared explanation must account for those departures or state its limits.
+Each community is coded from its own record before the aggregator composes across cases. The population model is then returned to saved community coders, which check its fit and report departures. A shared explanation must account for those departures or state its limits.
 
 [Follow the instrument](instrument.html), then inspect the [organizational forms and their accounts](guides/study.html). The [full contracts](reference.html) retain the rules behind the comparisons.
 

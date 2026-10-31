@@ -4,7 +4,7 @@ The words this site uses, as the paper and the instrument's contract define them
 
 ## The study
 
-**Community.** One subreddit studied as a case: its members, the artworks it built and what its members wrote during the event and the day after. The agents' files call a community a *room*.
+**Community.** One subreddit studied as a case: its members, the artworks it built and what its members wrote during the event and the day after. The agents' files keep the run's own words: a community is a *room*, an artwork a *mark*, the aggregator the *analyst* and the community coder the *case lead*.
 
 **Dataset.** The public record of the event: pixel changes, posts and comments. It is frozen.
 

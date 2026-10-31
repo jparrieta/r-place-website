@@ -8,7 +8,7 @@ Original GitHub transcripts and private downloads require repository access. The
 
 A complete bundle contains the conversation and the filesystem at that checkpoint, plus a manifest and runtime provenance. Git history or a transcript alone is not that bundle. Historical files stay separate from current research and from other interviews.
 
-For communities, the four slots are the 5.6 coding close, the 6.1 local model, the global return D2 and the re-check D3. The design forks D2 from the matching original case-lead checkpoint and resumes that D2 session at D3. For the 14 shared communities, archive and native-session evidence places the D2 fork at the coding close, before R6. R6 and D2 are separate continuations of that close. The D3 return records retain the D2 session IDs. [Inspect the lineage and model-setting evidence](history.html#models-and-lineage).
+For communities, the four slots are the 5.6 coding close, the 6.1 local model, the global return D2 and the re-check D3. The design forks D2 from the matching original community-coder checkpoint and resumes that D2 session at D3. For the 14 shared communities, archive and native-session evidence places the D2 fork at the coding close, before R6. R6 and D2 are separate continuations of that close. The D3 return records retain the D2 session IDs. [Inspect the lineage and model-setting evidence](history.html#models-and-lineage).
 
 | Milestone | What the agent has done |
 |---|---|

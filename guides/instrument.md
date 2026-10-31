@@ -6,7 +6,7 @@ The instrument moves between local accounts and a model that must explain their 
 
 ## First, understand each community
 
-Community readers code participants’ words. A case lead consolidates codes, themes and a case account. Exact quotations and reading records let a reviewer check the evidence behind an account.
+Community coders code participants’ words, helped by additional coding agents in large communities. Each community coder consolidates codes, themes and a case account. Exact quotations and reading records let a reviewer check the evidence behind an account.
 
 [How community coding works](communities.html) · [Full community coder contract](../sources/coder-contract.html)
 

@@ -24,7 +24,7 @@ The **aggregator** develops the interpretation. The **handler** is a separate co
 
 You can open this handler directly with checked coded inputs; a new collection is not required. Use the [start-from-coded reading key](../agents/aggregator.html) to inventory the inputs and boundaries before launch. It covers the pristine starting folder, original leads for D2, the field package or recorded decision for C4, and proposal material for E2.
 
-The 14 shared community checkpoint pairs do not supply every original lead for the 705-community frame. Missing leads limit later returns, even if the earlier aggregator stages can run. The handler requests the missing packages and records the last runnable stage. It does not replace a saved original lead with a fresh agent.
+The 14 shared community checkpoint pairs do not supply every original community coder for the 705-community frame. Missing community coders limit later returns, even if the earlier aggregator stages can run. The handler requests the missing packages and records the last runnable stage. It does not replace a saved original community coder with a fresh agent.
 
 ## Return the model to communities
 

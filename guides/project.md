@@ -20,11 +20,11 @@ The shared canvas is the setting; communities are the cases. Their differences a
 
 ## A frozen dataset and a revisable instrument
 
-The dataset preserves the event record. The instrument specifies how agents read, code and compose it under researcher supervision. Each community agent works with its own material, keeps notes outside the conversation and retrieves evidence as needed. The aggregator compares those accounts across communities. This reduces the need to hold all the material in one conversation; it does not remove selection or interpretation.
+The dataset preserves the event record. The instrument specifies how agents read, code and compose it under researcher supervision. Each community coder works with its own material, keeps notes outside the conversation and retrieves evidence as needed. The aggregator compares those accounts across communities. This reduces the need to hold all the material in one conversation; it does not remove selection or interpretation.
 
 Researchers can change the instrument, bring a different theory to the record, or extend the population, while stating which baseline they use.
 
-A population model is returned to saved community agents for comparison with their own records. Their objections can qualify an explanation that seemed to hold across cases. This is a check against recorded evidence, not participant member checking. The contracts preserve the outputs and handbacks behind those moves.
+A population model is returned to saved community coders for comparison with their own records. Their objections can qualify an explanation that seemed to hold across cases. This is a check against recorded evidence, not participant member checking. The contracts preserve the outputs and handbacks behind those moves.
 
 [PlaceNL's defence script erased a planned addition](../results/placenl.html#repair-and-change). Evidence like this changed the model's account of repair. The example follows the objection through the revision and the later finding that bounded it.
 

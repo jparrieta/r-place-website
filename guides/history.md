@@ -20,7 +20,7 @@ The Field agent had not finished its analysis when it supplied its reading and c
 
 ## Models and lineage
 
-The canonical instruction says to restore the original lead on its recorded model and effort. This study used dated operational decisions, retained in [handler decision rows 155 and 248](../history-evidence/handler-decisions.tsv). On 15 October, J specified a GPT-5.6 Sol resume followed by GPT-6.1 Sol medium for the return. On 21 October, the re-check was corrected to GPT-6.1 Sol medium; the earlier 5.6 launch wording was superseded. The [correction message](../history-evidence/D3-model-correction.md) records why `resumed_with` is unreliable as a description of an answer turn.
+The canonical instruction says to restore the original community coder on its recorded model and effort. This study used dated operational decisions, retained in [handler decision rows 155 and 248](../history-evidence/handler-decisions.tsv). On 15 October, J specified a GPT-5.6 Sol resume followed by GPT-6.1 Sol medium for the return. On 21 October, the re-check was corrected to GPT-6.1 Sol medium; the earlier 5.6 launch wording was superseded. The [correction message](../history-evidence/D3-model-correction.md) records why `resumed_with` is unreliable as a description of an answer turn.
 
 This website review inspected the D2 archives of all 14 shared communities. Each archive hash matched its custody receipt. In each, the source proof names the same archive used for the shared coding close; the native fork identifies its original session and boundary ordinal; and the D2 turn contexts record GPT-6.1 Sol, medium. Thus `run.json`'s `model=6.1` describes these returns, while `resumed_with=5.6` is retained historical metadata, not proof that their answers used 5.6.
 

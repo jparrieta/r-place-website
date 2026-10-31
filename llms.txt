@@ -34,7 +34,7 @@ An Organizational Fruit Fly: a frozen dataset and a revisable instrument for cum
 
 ## Stage reading keys
 
-- [A1 Reading: room notes](agents/A1.md)
+- [A1 Reading: community notes](agents/A1.md)
 - [B1 Coding: third-order scheme](agents/B1.md)
 - [B2 Coding: pilot](agents/B2.md)
 - [B3 Coding: fleet](agents/B3.md)

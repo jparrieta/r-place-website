@@ -28,7 +28,7 @@ Scripts check cited quotations against source items. A resolved quotation shows 
 
 ### Composition: do claims hold across cases?
 
-Human audits can test selected cross-case inferences. The run also retained critical readings, returned its model to community agents, and checked reconstruction of local accounts. [PlaceNL's return](../results/placenl.html#repair-and-change) shows a revision and its limits; [E1](../stages/E1.html) explains the reconstruction check.
+Human audits can test selected cross-case inferences. The run also retained critical readings, returned its model to community coders, and checked reconstruction of local accounts. [PlaceNL's return](../results/placenl.html#repair-and-change) shows a revision and its limits; [E1](../stages/E1.html) explains the reconstruction check.
 
 Two further population models are planned for comparison: algorithm-supported induction from term frequencies, without a coding agent, and a separate aggregator using cross-case tables. These comparisons are not results of the completed run.
 

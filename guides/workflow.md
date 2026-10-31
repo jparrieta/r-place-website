@@ -16,7 +16,7 @@ Continue to community coding. See [data recipes](../sources/data-README.html) an
 
 **Input:** a prepared community record and the community coder contract.
 
-**Work:** readers code the material; the case lead consolidates codes, themes and the case account. Keep the lead's conversation, files and runtime provenance together at the close.
+**Work:** coding agents code the material; the community coder consolidates codes, themes and the case account. Keep the community coder's conversation, files and runtime provenance together at the close.
 
 **Ready when:** the community coder's checks pass and its declared outputs and resumable close are stored. A standalone local model, a return to the global model and a later re-check are distinct milestones. One does not prove the others exist.
 

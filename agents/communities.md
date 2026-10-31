@@ -5,7 +5,7 @@ title: "Code communities"
 
 # Code communities
 
-Use the original case lead and the native runtime defined by the handler. The standalone local model and D2/D3 returns are separate milestones. This site has no independent authority to launch them.
+Use the original community coder (the run’s case lead) and the native runtime defined by the handler. The standalone local model and D2/D3 returns are separate milestones. This site has no independent authority to launch them.
 
 ## Read in this order
 

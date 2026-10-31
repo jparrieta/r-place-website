@@ -1,6 +1,6 @@
 # Agents and their roles
 
-The work is divided so that preparing evidence, interpreting it and checking an interpretation are distinct jobs. A handler manages the process. A lead owns an account. A reader answers a bounded question from specified evidence. The researcher sets the study’s scope and remains responsible for its claims.
+The work is divided so that preparing evidence, interpreting it and checking an interpretation are distinct jobs. A handler manages the process. A community coder or the aggregator owns an account. A reader answers a bounded question from specified evidence. The researcher sets the study’s scope and remains responsible for its claims.
 
 An agent is a model conversation with a task and permitted files. These are roles, not model brands. Checkpoint records identify the model and saved state used at a particular point.
 
@@ -27,7 +27,7 @@ Obtains the selected pixel, Reddit and atlas data through the repository’s dow
 
 ### Community brief writer
 
-Reads the community’s record from before the event and writes a background brief. This gives the coding lead context about the community without supplying an interpretation of its later r/place activity. The brief and its quotations are checked before coding begins.
+Reads the community’s record from before the event and writes a background brief. This gives the community coder context about the community without supplying an interpretation of its later r/place activity. The brief and its quotations are checked before coding begins.
 
 ## Understand a community
 
@@ -35,13 +35,13 @@ Reads the community’s record from before the event and writes a background bri
 
 Prepares each community’s working folder, launches its agents, checks their outputs and keeps the progress record. It manages failed jobs and preserves completed work. It does not decide what a quotation means or rewrite an aggregator’s answer to make a check pass. [Scheduler contract](../sources/scheduler.html).
 
-### Community reader, or fleet coder
+### Additional coding agent, or fleet coder
 
-Reads an assigned part of one community’s record and develops codes tied to participants’ words. In a large community, readers receive slices of whole threads. Their work passes to the case lead. This community-coding fleet is different from the aggregator’s later classification readers. [Reader contract](../sources/fleet-coder.html).
+Reads an assigned part of one community’s record and develops codes tied to participants’ words. In a large community, these agents receive slices of whole threads. Their work passes to the community coder. This community-coding fleet is different from the aggregator’s later classification readers. [Reader contract](../sources/fleet-coder.html).
 
-### Case lead
+### Community coder
 
-Owns the community’s whole account. It reads a small community itself; for a larger community it assembles the fleet’s work, groups codes into local themes and writes the case narrative. Its saved conversation and matching files support later continuation and interviews. [Case-lead contract](../sources/case-lead.html).
+Owns the community’s whole account. It reads a small community itself; for a larger community it assembles the fleet’s work, groups codes into local themes and writes the case narrative. Its saved conversation and matching files support later continuation and interviews. [Community-coder contract](../sources/case-lead.html).
 
 ### Standalone community coder
 
@@ -73,15 +73,15 @@ Studies the central r/place forum, where communities recruit, negotiate and disc
 
 ### Adaptation handler
 
-Delivers the fixed population model to each matching saved community lead, checks returns and routes required repairs back to that lead. It keeps local histories separate and records missing returns. It does not summarize the model for the lead or decide which corrections the aggregator should accept. [Return preparation](../stages/D1.html).
+Delivers the fixed population model to each matching saved community coder, checks returns and routes required repairs back to that community coder. It keeps local histories separate and records missing returns. It does not summarize the model for the community coder or decide which corrections the aggregator should accept. [Return preparation](../stages/D1.html).
 
-### Returning community lead
+### Returning community coder
 
-The saved case agent reads the population model against its own community and writes a local account in the model’s terms. It records needed detail, conditions, contradictions or missing ideas. If the model changes, affected leads return for the [D3 recheck](../stages/D3.html). These are model-to-record comparisons, not interviews with the original participants.
+The saved community coder reads the population model against its own community and writes a local account in the model’s terms. It records needed detail, conditions, contradictions or missing ideas. If the model changes, affected community coders return for the [D3 recheck](../stages/D3.html). These are model-to-record comparisons, not interviews with the original participants.
 
 ### Verdict readers
 
-Independently judge how well the model accounts for each community from specified evidence. Their reasons can disagree with each other or with the returning lead. [D2](../stages/D2.html) preserves these judgments; D3 assesses disputed ones. A verdict is not permission to change the model.
+Independently judge how well the model accounts for each community from specified evidence. Their reasons can disagree with each other or with the returning community coder. [D2](../stages/D2.html) preserves these judgments; D3 assesses disputed ones. A verdict is not permission to change the model.
 
 ### Reconstruction readers
 
