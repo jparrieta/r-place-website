@@ -6,8 +6,6 @@ How do communities organize, and why do their forms differ? In 2017, over a mill
 
 The aim is cumulative knowledge: a new explanation should show what it adds to the existing account. The repository joins a frozen dataset with a revisable instrument for reading it. Four features organize this site, applying [Ankeny and Leonelli's account of model organisms](https://doi.org/10.1016/j.shpsa.2010.11.039) to this setting.
 
-[Compare the fruit fly, ImageNet2012, chess and r/place](guides/model-organisms.html).
-
 ## One shared research object
 
 The record joins pixel changes with posts and comments. Collection scripts reach beyond the current study's 705 curated communities. This study composes their case accounts into a population model while retaining differences between cases. It is a census of the curated population, not every community that discussed the event.

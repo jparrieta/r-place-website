@@ -4,7 +4,8 @@ An Organizational Fruit Fly: a frozen dataset and a revisable instrument for cum
 
 ## Research context
 
-- [Model organisms across fields](guides/model-organisms.md).
+- [Why r/place is a model organism](organism.md).
+- [Why accumulate knowledge on organizational emergence](accumulation.md).
 - [One shared research object](guides/project.md).
 - [Common conditions](conditions.md).
 - [The whole event](event.md).
