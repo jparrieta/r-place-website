@@ -343,3 +343,9 @@ main a[download]::after{content:" ↓";font-size:.85em}
 :is(#results-community,#results-population) .in-detail+section>h2{margin-top:1.6rem}
 :is(#results-community,#results-population) details:is(.fold,.more-rows){margin:1rem 0}
 @media(max-width:680px){:is(#results-community,#results-population) :is(.page-index,.stage-index) .lab{display:block}}
+/* v1.3: the r/PlaceNL front page opens with the case. */
+:is(#results-community) .about figure.area{margin:1.4rem 0 1.8rem;max-width:none}
+:is(#results-community) .about figure.area img{width:100%;height:auto;image-rendering:pixelated;vertical-align:bottom;border:1px solid var(--rule)}
+:is(#results-community) .about figure.area figcaption{color:var(--muted);font-size:.9rem;padding-top:.5rem;max-width:75ch}
+:is(#results-community) .about .area-scroll{overflow-x:auto}
+@media(max-width:680px){:is(#results-community) .about figure.area .area-scroll img{width:1000px;max-width:none}}
