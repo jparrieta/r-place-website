@@ -295,3 +295,7 @@ details.counts{margin:.6rem 0 1.4rem}
 @media(max-width:860px){#results-community .lrow-d>summary.lsum,#results-community .colhead.lcols{grid-template-columns:minmax(0,1fr)}}
 #results-community .lrow-d>summary.lsum{align-items:start;padding:.45rem 0;min-height:0}#results-community .lsum ul{margin:0}#results-community .lsum .t3 li,#results-community .lsum .t4 li{padding:.1rem 0}
 #results-community .lsum .t3 li,#results-community .lsum .t4 li{padding:.2rem 0 .35rem}
+.lsum .show{color:var(--accent);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.lrow-d[open] .lsum .show{text-decoration:none}
+details.timeline-fold{margin:1.2rem 0;border-top:1px solid var(--rule);padding-top:.4rem}
+details.timeline-fold>summary{font-weight:600}
