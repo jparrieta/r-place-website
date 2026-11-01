@@ -361,3 +361,9 @@ footer>div{margin-left:auto}
 @media(max-width:680px){:is(#results-population) ul.dimlist{grid-template-columns:minmax(0,1fr)}}
 :is(#results-population) section.dim{margin-top:0}
 :is(#results-population) section.dim>details.fold{margin:0;border-top:1px solid var(--rule)}
+:is(#results-population) table.return-table{margin:1.2rem 0 1.4rem;max-width:44rem}
+:is(#results-population) table.return-table caption{caption-side:top;text-align:left;font-weight:650;padding-bottom:.4rem}
+:is(#results-population) table.return-table tr.total td{font-weight:650;border-top:2px solid var(--ink)}
+:is(#results-population) table.return-table th code{font-size:.8em;font-weight:400}
+:is(#results-population) table.return-table tr.sub td{color:var(--muted);font-size:.9rem}
+:is(#results-population) table.return-table tr.sub td:first-child{padding-left:1.2rem}
