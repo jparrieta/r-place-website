@@ -321,3 +321,25 @@ details.timeline-fold>summary{font-weight:600}
 }
 /* Contract 6.2: files that download say so. */
 main a[download]::after{content:" ↓";font-size:.85em}
+/* r/PlaceNL in six pages (contract v1.2): strip label, page index, findings box, stage index, the In detail band. */
+.stage-strip .strip-label{margin:0 0 .35rem;color:var(--muted);font-size:.85rem;max-width:none}
+:is(#results-community,#results-population) .stage-strip .strip-label{margin:0 0 .35rem;color:var(--muted);font-size:.85rem}
+:is(#results-community,#results-population) .page-index{border:1px solid var(--rule);padding:.6rem 1rem;margin:1.2rem 0 1.4rem;font-size:.95rem}
+:is(#results-community,#results-population) .page-index p{margin:.25rem 0;max-width:none}
+:is(#results-community,#results-population) :is(.page-index,.stage-index,.in-detail) .lab{display:inline-block;min-width:7.2rem;font-size:.78rem;font-weight:650;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+:is(#results-community,#results-population) .findings{border:2px solid var(--ink);padding:1rem 1.25rem .6rem;margin:1.6rem 0 2.2rem;max-width:72ch}
+:is(#results-community,#results-population) .findings h2{margin:0 0 .4rem;border-top:0;padding-top:0;font-size:1.6rem}
+:is(#results-community,#results-population) .findings ol{margin:.4rem 0 .7rem;padding-left:1.4rem}
+:is(#results-community,#results-population) .findings li{margin:.4rem 0;line-height:1.45}
+:is(#results-community,#results-population) .findings a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
+:is(#results-community,#results-population) .stage-index ol{list-style:none;padding:0;margin:1rem 0 2rem}
+:is(#results-community,#results-population) .stage-index li{border-top:1px solid var(--rule);padding:.9rem 0;max-width:none}
+:is(#results-community,#results-population) .stage-index .stage-name{font-weight:650;font-size:1.15rem;margin:0 0 .3rem}
+:is(#results-community,#results-population) .stage-index .stage-name a{color:var(--ink)}
+:is(#results-community,#results-population) .stage-index .n{color:var(--accent);font-weight:750;margin-right:.3rem}
+:is(#results-community,#results-population) .stage-index .secs{font-size:.92rem;margin:.25rem 0}
+:is(#results-community,#results-population) .in-detail{border-top:6px solid var(--ink);margin:3.5rem 0 0;padding-top:.7rem}
+:is(#results-community,#results-population) .in-detail p{margin:.2rem 0}
+:is(#results-community,#results-population) .in-detail+section>h2{margin-top:1.6rem}
+:is(#results-community,#results-population) details:is(.fold,.more-rows){margin:1rem 0}
+@media(max-width:680px){:is(#results-community,#results-population) :is(.page-index,.stage-index) .lab{display:block}}
