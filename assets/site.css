@@ -299,26 +299,25 @@ details.counts{margin:.6rem 0 1.4rem}
 .lrow-d[open] .lsum .show{text-decoration:none}
 details.timeline-fold{margin:1.2rem 0;border-top:1px solid var(--rule);padding-top:.4rem}
 details.timeline-fold>summary{font-weight:600}
-/* Phone frame (design contract 2.3): one header row, navigation folded, the title near the top. */
-.phone-only{display:none}
+/* Phone frame (design contract 2.3): one header row; the menu, the section's tabs and the strip stay visible, the current page marked in each. */
 @media(max-width:680px){
- .phone-only{display:block}
  header{grid-template-columns:minmax(0,1fr) auto auto;align-items:center;padding-top:1rem}
  header .brand span{display:none}
  header .task-nav{grid-column:2;grid-row:1;margin:0}
  header #theme{grid-column:3;grid-row:1}
- header .menu,main>nav.parts,.stage-strip,.orientation>.group-switch{display:none}
- main{padding-top:.6rem}
- details.phone-nav,details.strip-phone{border:1px solid var(--rule);margin:0 0 .6rem}
- details.phone-nav>summary,details.strip-phone>summary{min-height:44px;display:flex;align-items:center;padding:0 .8rem;font-weight:600;cursor:pointer}
- details.phone-nav nav,details.strip-phone nav,details.strip-phone ol{display:flex;flex-direction:column;padding:0 .8rem .4rem;margin:0;list-style:none}
- details.phone-nav nav+nav{border-top:1px solid var(--rule)}
- details.phone-nav a,details.strip-phone a,details.strip-phone li{min-height:44px;display:flex;align-items:center;max-width:none}
- details.phone-nav a[aria-current],details.strip-phone li[aria-current],details.strip-phone a[aria-current]{font-weight:650}
+ header .menu{grid-column:1/-1;padding:.4rem 0 0}
+ header .menu a,main>nav.parts a{min-height:44px;display:inline-flex;align-items:center}
+ main>nav.parts{margin-top:-1.6rem}
  main h1{margin-top:.6rem}
+ header .task-nav a{min-height:44px;display:inline-flex;align-items:center}
+ .prev-next a,.prev-next span{min-height:44px;display:inline-flex;align-items:center}
+ .study-entry .eyebrow-line{display:none}
+ .stage-strip li,.orientation>.group-switch a{min-height:44px;display:inline-flex;align-items:center}
+ .stage-strip li>a{display:inline-flex;align-items:center;gap:.3rem;min-height:44px}
+ .stage-strip ol{gap:0 1.2rem;padding-bottom:.3rem;margin-bottom:1rem}
+ .stage-strip li,.orientation>.group-switch a{margin:0;padding:0}
+ .orientation>.group-switch{gap:0 1.2rem;padding-bottom:.3rem;margin-bottom:1rem}
+ .study-entry{margin-bottom:0}
 }
-@media(max-width:680px){header .task-nav a{min-height:44px;display:inline-flex;align-items:center}.prev-next a,.prev-next span{min-height:44px;display:inline-flex;align-items:center}.study-entry .eyebrow-line{display:none}}
-:is(#results-community,#results-population) details.phone-only>summary{display:flex;align-items:center;gap:.6rem;padding:0 .8rem;min-height:44px;font-weight:600;color:var(--ink);font-size:1rem}:is(#results-community,#results-population) details.phone-only>summary::before{content:"";display:block;flex:none;width:.42em;height:.42em;border:solid var(--accent);border-width:0 1.5px 1.5px 0;transform:translateY(-.15em) rotate(-45deg)}:is(#results-community,#results-population) details.phone-only[open]>summary::before{transform:translateY(-.3em) rotate(45deg)}
-@media(max-width:680px){details.strip-phone li{gap:.45rem}details.strip-phone li>a{min-height:0;gap:.45rem}details.strip-phone ol{padding-bottom:.6rem}}
 /* Contract 6.2: files that download say so. */
 main a[download]::after{content:" ↓";font-size:.85em}
