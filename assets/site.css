@@ -273,3 +273,25 @@ main.page-agents{counter-reset:spec}
 .written-in .who{color:var(--muted)}
 .written-in .cap{margin:0;font-size:.85rem;color:var(--muted)}
 .theme-list{width:100%;max-width:none;font-size:.92rem}.theme-list .n{text-align:right}
+/* PlaceNL section 7: one line per theme, opening to its codes. */
+.lcols{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:1rem}
+.lrow-d{border-top:1px solid var(--rule)}
+.lrow-d>summary.lsum{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:1rem;padding:.6rem 0;cursor:pointer;list-style:none}
+.lrow-d>summary.lsum::-webkit-details-marker{display:none}
+.lsum .s-t strong::before{content:"+ ";color:var(--accent)}.lrow-d[open] .lsum .s-t strong::before{content:"− "}
+.lsum .s-t .meta{display:block;font-size:.85rem;color:var(--muted)}
+.lsum ul{margin:0;padding:0;list-style:none}.lsum .dchips{margin-top:.2rem}
+.lrow-body{padding:0 0 1rem 1.2rem;border-left:3px solid var(--rule);margin-bottom:.6rem}
+.lrow-body .note{color:var(--muted);font-size:.92rem}
+.count-summary{max-width:32rem;font-size:.92rem}.count-summary .n{text-align:right}
+details.counts{margin:.6rem 0 1.4rem}
+@media(max-width:860px){.lcols,.lrow-d>summary.lsum{grid-template-columns:minmax(0,1fr)}}
+.results-artifact .lrow-d>summary.lsum::before{content:none;display:none}
+.results-artifact .lrow-d>summary.lsum{display:grid;align-items:start;padding:.5rem 0;min-height:0}
+.results-artifact .lsum li{padding:.05rem 0;margin:0;border:0;font-size:.9rem;line-height:1.4}
+.results-artifact .lsum .dchips{margin-top:.15rem;font-size:.85rem}
+#results-community .lrow-d>summary.lsum{display:grid;width:100%;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:1rem}
+#results-community .colhead.lcols{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:1rem}
+@media(max-width:860px){#results-community .lrow-d>summary.lsum,#results-community .colhead.lcols{grid-template-columns:minmax(0,1fr)}}
+#results-community .lrow-d>summary.lsum{align-items:start;padding:.45rem 0;min-height:0}#results-community .lsum ul{margin:0}#results-community .lsum .t3 li,#results-community .lsum .t4 li{padding:.1rem 0}
+#results-community .lsum .t3 li,#results-community .lsum .t4 li{padding:.2rem 0 .35rem}
