@@ -302,7 +302,7 @@ details.timeline-fold>summary{font-weight:600}
 /* Phone frame (design contract 2.3): one header row; the menu, the section's tabs and the strip stay visible, the current page marked in each. */
 @media(max-width:680px){
  header{grid-template-columns:minmax(0,1fr) auto auto;align-items:center;padding-top:1rem}
- header .brand span{display:none}
+ header .brand span{margin-top:.1rem;font-size:.75rem;line-height:1.25}
  header .task-nav{grid-column:2;grid-row:1;margin:0}
  header #theme{grid-column:3;grid-row:1}
  header .menu{grid-column:1/-1;padding:.4rem 0 0}
@@ -349,3 +349,6 @@ main a[download]::after{content:" ↓";font-size:.85em}
 :is(#results-community) .about figure.area figcaption{color:var(--muted);font-size:.9rem;padding-top:.5rem;max-width:75ch}
 :is(#results-community) .about .area-scroll{overflow-x:auto}
 @media(max-width:680px){:is(#results-community) .about figure.area .area-scroll img{width:1000px;max-width:none}}
+/* The paper's title appears once, on the front page; the footer keeps its links at the right. */
+footer>div{margin-left:auto}
+@media(max-width:680px){.stage-strip .strip-label,:is(#results-community,#results-population) .stage-strip .strip-label{margin-bottom:.15rem}}

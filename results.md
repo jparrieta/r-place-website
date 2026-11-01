@@ -8,7 +8,7 @@ Start with the Dutch community's activity, codes and case account. Read its stan
 
 One incident shows why the return matters. Members agreed to add canal houses to their flag, but their own defence script erased them. Comparing such objections across communities changed the model's account of repair. The later recheck also exposed a limit to that revision.
 
-[Follow PlaceNL's journey](results/placenl.html) · [Read the repair-and-change example](results/placenl.html#repair-and-change)
+[Follow PlaceNL's journey](results/placenl.html)
 
 ## Aggregator example: the population model
 
