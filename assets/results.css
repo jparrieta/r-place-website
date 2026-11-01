@@ -367,3 +367,11 @@
 :root[data-theme=dark] #results-community .theme-light{display:none}
 :root[data-theme=dark] #results-community .theme-dark{display:block}
 @media(prefers-color-scheme:dark){:root[data-theme=system] #results-community .theme-light{display:none}:root[data-theme=system] #results-community .theme-dark{display:block}}
+/* Contract 7.1: text on a white plate keeps light-theme colours in both themes. */
+:is(#results-community,#results-population) .plate:not(:has(.figure-reader)) :is(.cap,figcaption,summary,p,li){color:#545454}
+:is(#results-community,#results-population) .plate:not(:has(.figure-reader)) a{color:#a32a14}
+:is(#results-community,#results-population) .plate:has(.figure-reader) figcaption{color:var(--muted)}
+/* Contract 6.1: folds on the results pages use the site's chevron, not "+" and "−". */
+:is(#results-community,#results-population) summary::before{content:"";flex:none;align-self:center;width:.42em;height:.42em;font-size:inherit;border:solid var(--accent);border-width:0 1.5px 1.5px 0;transform:translateY(-.1em) rotate(-45deg)}
+:is(#results-community,#results-population) details[open]>summary::before{content:"";transform:translateY(-.2em) rotate(45deg)}
+:is(#results-community,#results-population) .plate:not(:has(.figure-reader)) summary::before{border-color:#a32a14}

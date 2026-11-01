@@ -278,8 +278,8 @@ main.page-agents{counter-reset:spec}
 .lrow-d{border-top:1px solid var(--rule)}
 .lrow-d>summary.lsum{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:1rem;padding:.6rem 0;cursor:pointer;list-style:none}
 .lrow-d>summary.lsum::-webkit-details-marker{display:none}
-.lsum .s-t strong::before{content:"+ ";color:var(--accent)}.lrow-d[open] .lsum .s-t strong::before{content:"− "}
-.lsum .s-t .meta{display:block;font-size:.85rem;color:var(--muted)}
+.lsum .s-t strong::before{content:"";display:inline-block;width:.42em;height:.42em;margin:0 .7rem .1em .1em;border:solid var(--accent);border-width:0 1.5px 1.5px 0;transform:rotate(-45deg)}.lrow-d[open] .lsum .s-t strong::before{transform:translateY(-.1em) rotate(45deg)}
+.lsum .s-t .meta{display:block;padding-left:1.22rem;font-size:.85rem;color:var(--muted)}
 .lsum ul{margin:0;padding:0;list-style:none}.lsum .dchips{margin-top:.2rem}
 .lrow-body{padding:0 0 1rem 1.2rem;border-left:3px solid var(--rule);margin-bottom:.6rem}
 .lrow-body .note{color:var(--muted);font-size:.92rem}
@@ -320,3 +320,5 @@ details.timeline-fold>summary{font-weight:600}
 @media(max-width:680px){header .task-nav a{min-height:44px;display:inline-flex;align-items:center}.prev-next a,.prev-next span{min-height:44px;display:inline-flex;align-items:center}.study-entry .eyebrow-line{display:none}}
 :is(#results-community,#results-population) details.phone-only>summary{display:flex;align-items:center;gap:.6rem;padding:0 .8rem;min-height:44px;font-weight:600;color:var(--ink);font-size:1rem}:is(#results-community,#results-population) details.phone-only>summary::before{content:"";display:block;flex:none;width:.42em;height:.42em;border:solid var(--accent);border-width:0 1.5px 1.5px 0;transform:translateY(-.15em) rotate(-45deg)}:is(#results-community,#results-population) details.phone-only[open]>summary::before{transform:translateY(-.3em) rotate(45deg)}
 @media(max-width:680px){details.strip-phone li{gap:.45rem}details.strip-phone li>a{min-height:0;gap:.45rem}details.strip-phone ol{padding-bottom:.6rem}}
+/* Contract 6.2: files that download say so. */
+main a[download]::after{content:" ↓";font-size:.85em}
