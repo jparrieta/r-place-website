@@ -265,3 +265,11 @@ main.page-agents{counter-reset:spec}
 .replay figcaption{color:var(--muted);font-size:.9rem;padding-top:.5rem}
 .study-entry{margin:0 0 1.2rem}.study-entry .eyebrow-line{margin:0 0 .5rem;color:var(--muted);font-size:.95rem;max-width:none}.study-entry .stage-strip ol{margin-bottom:.4rem}
 .method-example .ex{padding-left:1.25rem}@media(max-width:860px){.method-example .ex{border-left:3px solid var(--rule);padding-left:1.25rem}}
+/* Written in: the raw file behind a section. */
+.written-in{border:1px solid var(--rule);border-left:3px solid var(--accent);padding:.8rem 1rem;margin:1rem 0 1.4rem;max-width:none;background:var(--bg)}
+.written-in .lab{margin:0 0 .4rem;font-size:.72rem;font-weight:650;letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+.written-in ul{list-style:none;padding:0;margin:0 0 .5rem}.written-in li{margin:0 0 .45rem;max-width:none}
+.written-in a.raw code{font-weight:650}.written-in a.raw::after{content:" ↗";font-size:.8em}
+.written-in .who{color:var(--muted)}
+.written-in .cap{margin:0;font-size:.85rem;color:var(--muted)}
+.theme-list{width:100%;max-width:none;font-size:.92rem}.theme-list .n{text-align:right}
