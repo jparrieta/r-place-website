@@ -352,3 +352,12 @@ main a[download]::after{content:" ↓";font-size:.85em}
 /* The paper's title appears once, on the front page; the footer keeps its links at the right. */
 footer>div{margin-left:auto}
 @media(max-width:680px){.stage-strip .strip-label,:is(#results-community,#results-population) .stage-strip .strip-label{margin-bottom:.15rem}}
+/* The population pilot: the eight dimensions as one compact list; links to the rest of the site. */
+:is(#results-population) ul.dimlist{list-style:none;padding:0;margin:.6rem 0 1rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.2rem 1.6rem;max-width:none}
+:is(#results-population) ul.dimlist li{margin:0;padding:.05rem 0;border-bottom:1px solid var(--rule)}
+:is(#results-population) ul.dimlist .id{font-family:var(--mono,ui-monospace,monospace);font-size:.85em;color:var(--muted);margin-right:.35rem}
+:is(#results-population) ul.more-links{padding-left:1.2rem}
+:is(#results-population) ul.more-links li{margin:.35rem 0}
+@media(max-width:680px){:is(#results-population) ul.dimlist{grid-template-columns:minmax(0,1fr)}}
+:is(#results-population) section.dim{margin-top:0}
+:is(#results-population) section.dim>details.fold{margin:0;border-top:1px solid var(--rule)}
