@@ -1,6 +1,6 @@
 # Instrument
 
-The instrument turns the shared record of r/place into accounts that later studies can test and revise. It has three parts, run in order, each by its own handler: collection, community coding and aggregation. Each part takes the one before it as input and works under its own written instructions. Below is one entry for each page in this section: the three parts, then Versions, Run the study and Full reference.
+The instrument turns the shared record of r/place into accounts that later studies can test and revise. It has three parts, run in order, each by its own handler: collection, community coding and aggregation. Each part takes the one before it as input and works under its own written instructions. Below is one entry for each page in this section: the three parts, then Versions and Run the study.
 
 ## Collection
 
@@ -28,14 +28,8 @@ How the contracts came to their current versions, and how the population model c
 
 ## Run the study
 
-How to run the study again: open a handler chat in Codex or Claude, give it the linked instructions, and run the three parts in order.
+How to run the study again: open a handler chat in Codex or Claude, give it the linked instructions, and run the three parts in order. Its last item is the full reference: every document behind the run, in its original text.
 
 [Run the study](run.html)
-
-## Full reference
-
-Every document behind the run in one place: the guides, the glossary, and the contracts and stage cards with their agent reading keys, in their original text.
-
-[Full reference](reference.html)
 
 Who does what: [agents and their roles](guides/agent-roles.html).

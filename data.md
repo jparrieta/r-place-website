@@ -4,7 +4,7 @@ The dataset joins four public records of the 2017 event: Reddit's log of every p
 
 ## Pixel changes
 
-Reddit's log records the time, position, color and hashed account of every change: 16,559,897 changes by 1,166,924 accounts (Reddit, 2017). The canvas opened to the public on 31 March 2017 and froze on 3 April at 17:00 UTC: about 72 hours of placing, 72.1 measured from the first minute of public traffic at 16:55 UTC. The study's window opens at 16:00, so its hours run from 0 to 73; the last pixel change came at 16:58:54. Activity rose and fell with the day: it dipped between about 04:00 and 12:00 UTC, and peaked in hour 51 at 401,442 changes.
+Reddit's log records the time, position, color and hashed account of every change: 16,559,897 changes by 1,166,924 accounts (Reddit, 2017). The canvas opened to the public on 31 March 2017 and froze on 3 April at 17:00 UTC: a little over 72 hours of placing from the first minute of public traffic, at 16:55 UTC. The study's window opens at 16:00, so its hours run from 0 to 73; the last pixel change came at 16:58:54. Activity rose and fell with the day: it dipped between about 04:00 and 12:00 UTC, and peaked in hour 51 at 401,442 changes.
 
 <figure class="data-figure"><img src="assets/data/pixels-per-hour.svg" alt="Pixel changes per hour over the 72 hours. 391 test changes by 18 accounts before the opening are left out." width="630" height="290" loading="lazy"><figcaption>Pixel changes per hour over the 72 hours. 391 test changes by 18 accounts before the opening are left out.</figcaption></figure>
 

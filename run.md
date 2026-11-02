@@ -13,3 +13,7 @@ Each guide has a prompt to paste and explains the handoff to the next chat. You 
 Already have checked coded communities? [Start with the Aggregator handler](agents/aggregator.html) and its input checklist.
 
 Only auditing? Use [checkpoint interviews](interviews.html).
+
+## Full reference
+
+Every document behind the run, in one place: the guides, the glossary, and the contracts and stage cards with their agent reading keys, in their original text. [Full reference](reference.html)
