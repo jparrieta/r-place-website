@@ -391,3 +391,6 @@ main.page-results>.findings a{color:var(--ink);text-decoration:underline;text-de
 /* The footer holds the two links every page carries: For agents and Repository. */
 footer>div{display:flex;gap:1.6rem}
 .sub-head{font-weight:400;color:var(--muted);font-size:.85em}
+:is(#results-population) table.dims-table{margin:.8rem 0 .6rem;display:block;overflow-x:auto;max-width:100%}
+:is(#results-population) table.dims-table caption{caption-side:top;text-align:left;color:var(--muted);font-size:.85rem;padding-bottom:.4rem}
+:is(#results-population) table.dims-table th[scope=row]{text-align:left;white-space:nowrap;font-weight:600}
