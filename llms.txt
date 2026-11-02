@@ -1,6 +1,6 @@
 # r/place agent index
 
-An Organizational Fruit Fly: a frozen dataset and a revisable instrument for cumulative grounded theory.
+This repository accompanies the paper An Organizational Fruit Fly: r/place as a Model Organism for Cumulative Grounded Theory. It holds a frozen dataset and a revisable instrument.
 
 ## Research context
 
