@@ -367,3 +367,11 @@ footer>div{margin-left:auto}
 :is(#results-population) table.return-table th code{font-size:.8em;font-weight:400}
 :is(#results-population) table.return-table tr.sub td{color:var(--muted);font-size:.9rem}
 :is(#results-population) table.return-table tr.sub td:first-child{padding-left:1.2rem}
+:is(#results-population) table.contract-table{margin:.8rem 0 1rem}
+:is(#results-population) table.contract-table .none{color:var(--muted)}
+:is(#results-population) .contract-line{margin:.6rem 0 0;font-size:.95rem}
+:is(#results-population) :is(.contract-line,details.contract>summary) .lab{display:inline-block;margin-right:.6rem;font-size:.78rem;font-weight:650;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+:is(#results-population) details.contract{margin:.6rem 0 0}
+/* Stage pages of both examples: a little less space above each section heading. */
+:is(#results-community,#results-population) section>h2{margin-top:48px}
+:is(#results-population) table.contract-table caption{caption-side:top;text-align:left;color:var(--muted);font-size:.85rem;padding-bottom:.4rem}
