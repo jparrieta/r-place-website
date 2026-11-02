@@ -375,3 +375,7 @@ footer>div{margin-left:auto}
 /* Stage pages of both examples: a little less space above each section heading. */
 :is(#results-community,#results-population) section>h2{margin-top:48px}
 :is(#results-population) table.contract-table caption{caption-side:top;text-align:left;color:var(--muted);font-size:.85rem;padding-bottom:.4rem}
+:is(#results-population) ul.audit-levels{padding-left:1.2rem;max-width:75ch}
+:is(#results-population) ul.audit-levels li{margin:.5rem 0}
+:is(#results-population) details.contract>summary{display:block}
+:is(#results-population) details.contract>summary::before{display:inline-block;margin-right:.6rem;vertical-align:.1em}
