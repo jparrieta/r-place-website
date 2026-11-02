@@ -16,7 +16,7 @@ Version 32 coded 603 communities and version 30 coded 102, r/PlaceNL among them.
 | Tools | how the agents read the record and cite it | [both](sources/coder-tools.html) | same file |
 | The instrument | its files, and what changed from the version before | [files](sources/coder-instrument.html), [changes](sources/coder-changelog.html) | [changes](sources/v30-changelog.html) |
 
-Why the instrument moved [from v30 to v31](sources/coder-v31-rationale.html) and [from v31 to v32](sources/coder-v32-rationale.html). The briefs record the brief writer of version 30, with its revision of 7 September 2026, for communities coded under either version.
+Why the instrument moved [from v30 to v31](sources/coder-v31-rationale.html) and [from v31 to v32](sources/coder-v32-rationale.html). Nearly every brief records the brief writer of version 30, with its revision of 7 September 2026, whichever version then coded the community; 17 record version 32's revision.
 
 ## The handler
 

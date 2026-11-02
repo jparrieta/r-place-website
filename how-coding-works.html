@@ -22,17 +22,20 @@ with a fleet, and the order of work in each branch.</li>
 <li><a href="sources/fleet-coder.html">The fleet coder's contract</a>:
 one slice of whole threads, coded, and nothing else.</li>
 <li><a href="sources/v30-brief-writer.html">The brief writer's
-contract</a>, version 30 with its revision of 7 September 2026, which
-the briefs record for communities coded under either version: the brief
-of the community's week before the event.</li>
+contract</a>: the brief of the community's week before the event. Nearly
+every brief records version 30, with its revision of 7 September 2026,
+whichever version then coded the community; 17 record <a
+href="sources/brief-writer.html">version 32's</a>.</li>
 <li><a href="sources/scheduler.html">The scheduler's contract</a>: the
 cycle for one community, the checks, and what happens when one
 fails.</li>
 </ul>
 <p>A fresh gpt-5.6-sol conversation writes each community's brief, and a
-script writes an empty brief where the week before holds nothing. Of the
-705 briefs, 627 hold text and 78 are empty. Some of the 627 come from
-runs before 7 September; how many each writer wrote is not recorded.</p>
+script writes an empty brief where the week before holds nothing. The
+briefs were written in three runs, from 7 to 30 September: the first two
+at high reasoning effort, the third at medium. Of the 705 briefs, 626
+come from a writer (373 at high effort, 246 at medium, 7 not recorded),
+78 are empty, and r/Dorset's records no writer.</p>
 <p><a href="coding-contracts.html">Every document, in both versions,
 with the handler's and the local model's</a>.</p>
 <h2 id="the-steps">The steps</h2>
@@ -130,9 +133,10 @@ return page</a>.</p>
 <h2 id="after-the-coding-the-local-model-r6">After the coding: the local
 model (R6)</h2>
 <p>The local model is a second branch from the coding close, and the
-aggregator did not use it. It exists for the 14 communities whose
-checkpoints the site shares. For each, a copy of the closed community
-coder resumed its own session under <a
+aggregator did not use it. Admissions stopped on 28 October; by 29
+October, 173 communities had finished it and the other 532 had not run
+it. The site shares 14 of the 173. For each, a copy of the closed
+community coder resumed its own session under <a
 href="sources/room-model.html">the room-model contract</a>, fifth
 version of 7 October 2026, and <a href="sources/pilot-amendment.html">a
 pilot amendment</a> authorized on 11 October. r/Goodboye, the first, ran
@@ -203,13 +207,19 @@ room handler's.</p>
 <tbody>
 <tr>
 <td>Model</td>
-<td>gpt-6.1-sol at medium effort; the coding close ran on gpt-5.6-sol at
+<td>for the 14 shared, a naming turn on gpt-5.6-sol at medium, then
+gpt-6.1-sol at medium; the coding close ran on gpt-5.6-sol at
 medium</td>
 </tr>
 <tr>
+<td>Critic</td>
+<td>gpt-6.1-sol at medium, the route the runner requests and checks; its
+record was read for 7 of the 14</td>
+</tr>
+<tr>
 <td>Dates</td>
-<td>20 October 15:39 to 21 October 13:47 UTC; r/Goodboye also ran on 9
-and 10 October</td>
+<td>for the 14 shared, 20 October 15:39 to 21 October 13:47 UTC;
+r/Goodboye also ran on 9 and 10 October</td>
 </tr>
 <tr>
 <td>Outputs</td>
@@ -225,7 +235,7 @@ return (D2) forked the coding close, not R6</td>
 <tr>
 <td>Not recorded</td>
 <td>a commit for the contract and the amendment, which reach the
-repository only inside each R6 checkpoint; the critic's model</td>
+repository only inside each R6 checkpoint</td>
 </tr>
 </tbody>
 </table>
