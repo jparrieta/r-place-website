@@ -1,12 +1,23 @@
-# How the instrument works
+# The instrument
 
-The instrument turns the shared r/place record into accounts that later studies can test and revise. It is one part of the repository's [shared data and tools](tools.html).
+The instrument turns the shared record of r/place into accounts that later studies can test and revise. It has three parts, run in order, each by its own handler: collection, community coding and aggregation. Each part takes the one before it as input and works under its own written instructions.
 
-Community coders read each community's full record and write first-order concepts and second-order themes. The aggregator compares the coded communities and builds the population model under researcher supervision. The model then goes back to every community coder, who answers from its community's record; these returns are not interviews with participants. Finally, the aggregator cuts organizational forms from the changes communities need.
+## Collection
 
-The aggregator owns the interpretation. Checks establish what was read, written and preserved; they do not establish that an explanation is true.
+Gathers the public record once and freezes it: Reddit's log of every pixel change, the Place Atlas of the finished canvas, and the posts and comments of the subreddits behind its artworks. A census then decides which communities count as cases: 705 of 2,796. Scripts collect; the census judgements are ours.
 
-- [Follow the analysis](guides/instrument.html): stages, decisions and checks.
-- [Agents and their roles](guides/agent-roles.html): who prepares, reads, interprets and checks the work.
-- [What this publication contains](guides/study.html): where to read its results.
-- [Read the full contract](sources/contract.html): rules and limits.
+[How it was done](study/record.html) · [Run it](guides/download.html) · [The data recipes](sources/data-README.html)
+
+## Community coding
+
+One community coder per community reads its whole record and writes codes, themes and a case account, close to its members' words. It sees no other community. A scheduler prepares, launches and checks each coder; fleet coders help with the largest communities.
+
+[How it was done](study/coding.html) · [Run it](guides/communities.html) · [The coder contract](sources/coder-contract.html)
+
+## Aggregation
+
+The aggregator reads the coders' sealed work, never the record. Over eighteen stages it builds a ladder of themes and one population model, returns the model to every community coder, revises it, and groups the communities into candidate organizational forms.
+
+[How the aggregator works](how-it-works.html) · [Run it](guides/aggregator.html) · [The aggregator's contract](sources/contract.html)
+
+Who does what: [agents and their roles](guides/agent-roles.html).

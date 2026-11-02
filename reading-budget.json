@@ -5,11 +5,11 @@
     "conditions": 233,
     "event": 239,
     "tools": 262,
-    "instrument": 154,
+    "instrument": 230,
     "run": 127,
     "interviews": 27
   },
-  "total_words": 1227,
+  "total_words": 1303,
   "limit": 1600,
   "homepage_limit": 400,
   "structure": "Four model-organism pages plus three task introductions"
