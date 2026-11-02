@@ -18,6 +18,6 @@ One community coder per community reads its whole record and writes codes, theme
 
 The aggregator reads the coders' sealed work, never the record. Over eighteen stages it builds a ladder of themes and one population model, returns the model to every community coder, revises it, and groups the communities into candidate organizational forms.
 
-[How the aggregator works](how-it-works.html) · [Run it](guides/aggregator.html) · [The aggregator's contract](sources/contract.html)
+[How the aggregator works](how-it-works.html) · How it was done: [aggregation](study/aggregation.html), [the return](study/return.html), [organizational forms](study/forms.html) · [Run it](guides/aggregator.html) · [The aggregator's contract](sources/contract.html)
 
 Who does what: [agents and their roles](guides/agent-roles.html).
