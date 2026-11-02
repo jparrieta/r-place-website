@@ -10,43 +10,43 @@
         {
           "original": "pixels/README.md",
           "repository_path": "data/pixels/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels/README.md",
+          "target": "data-pixels.md",
           "status": "pinned"
         },
         {
           "original": "atlas/README.md",
           "repository_path": "data/atlas/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/atlas/README.md",
+          "target": "data-atlas.md",
           "status": "pinned"
         },
         {
           "original": "users/README.md",
           "repository_path": "data/users/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/users/README.md",
+          "target": "data-users.md",
           "status": "pinned"
         },
         {
           "original": "venues-placers/README.md",
           "repository_path": "data/venues-placers/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/venues-placers/README.md",
+          "target": "data-venues-placers.md",
           "status": "pinned"
         },
         {
           "original": "raw24/README.md",
           "repository_path": "data/raw24/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/raw24/README.md",
+          "target": "data-raw24.md",
           "status": "pinned"
         },
         {
           "original": "pixels-hourly/README.md",
           "repository_path": "data/pixels-hourly/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels-hourly/README.md",
+          "target": "data-pixels-hourly.md",
           "status": "pinned"
         },
         {
           "original": "pixels-per-artwork/README.md",
           "repository_path": "data/pixels-per-artwork/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels-per-artwork/README.md",
+          "target": "data-pixels-per-artwork.md",
           "status": "pinned"
         },
         {
@@ -62,7 +62,7 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "5a18a2c39f35d8866c7432db4ec55ff4540dcbb4cee26cfd2cdd989ca06999df"
+      "reading_sha256": "ec8b735fdf5d8875322505466897df36e7f4d689db3b657d18b31613be4605c7"
     },
     {
       "key": "coder-README",
@@ -73,7 +73,7 @@
         {
           "original": "census/README.md",
           "repository_path": "coder/census/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/coder/census/README.md",
+          "target": "census-README.md",
           "status": "pinned"
         },
         {
@@ -89,7 +89,177 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "bb128c24e8378fa5b67fbf6c3e9ab5d605fe263963b9ecd1cbf68bc672ee7e59"
+      "reading_sha256": "f33fed63988005ba7c487c68d87260f2b4e1aef589b05f19408ab0cde135ff90"
+    },
+    {
+      "key": "data-for-agents",
+      "path": "data/FOR-AGENTS.md",
+      "sha256": "a9d4e95c5869e763520ffba42bc1e5b646f1864b095c566fc575e0399a798fa3",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [
+        {
+          "original": "README.md",
+          "repository_path": "data/README.md",
+          "target": "data-README.md",
+          "status": "pinned"
+        }
+      ],
+      "reading_sha256": "780b8408472c1e92f6811716286a2a574cc1989e8aa2234f3f66428d6d146d56"
+    },
+    {
+      "key": "data-lib",
+      "path": "data/_lib/README.md",
+      "sha256": "3e022e8978de1e7211705a5f189050c8d8880542a90d91c322c2ba898e2f4583",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "e0d9fa7f6a7a0645bf7dc35c1c9a3d07275c866c63ed4ae04c227abb46ede40f"
+    },
+    {
+      "key": "data-pixels",
+      "path": "data/pixels/README.md",
+      "sha256": "ee5ba42ff6f5aa8220ed0a4604327ba5c89480f691c224df35ff91a74e90f424",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "db6f28782d449dcf8e99402bf4719b43c92cdcd74fd4a03985d29741c1c6f7c6"
+    },
+    {
+      "key": "data-pixels-link",
+      "path": "data/pixels/LINK.md",
+      "sha256": "70e527ac45e26ecf506179fca156b072f5feae54b26e882db96811bcbb798da2",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "48854c4c46b2921b71cc79651696a7330f2ce6ba10e5f4d93e8a7054f7917068"
+    },
+    {
+      "key": "data-atlas",
+      "path": "data/atlas/README.md",
+      "sha256": "fcaae3b2d4fe51970795fba4b6316f52caf013e4e80f2cb1cb2609bde550939a",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "e969d3aa6cf61dfd1f3b0d367c3b336a42fbeb7338eee9fcc1ae660c4dd0fee5"
+    },
+    {
+      "key": "data-users",
+      "path": "data/users/README.md",
+      "sha256": "539141bd7b6696e63616cb3a05bb7ea04a7727a7e68eb205ac5561c5bc41dd46",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "f680a0aa44ab61cb4fc5f2a862588b961f64d3aec50d7343e38010d02e317951"
+    },
+    {
+      "key": "data-users-link",
+      "path": "data/users/LINK.md",
+      "sha256": "25b8eacd0c21af4b5aa3dd86b301e953e215e72520e6e129cceb801755059b16",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "71b17812095e2d636efd0f98f8da8184cebc59a75b81d6228347d129c78c953c"
+    },
+    {
+      "key": "data-venues-placers",
+      "path": "data/venues-placers/README.md",
+      "sha256": "1810bdeeb0128db206d0417a335cdc79e2ce50d894a0c76dd7712bfc0e1365e0",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "79963640de03c3f656340537becd0b3fbf7ed62b2db3ed53e19ecff88e559337"
+    },
+    {
+      "key": "data-venues-placers-link",
+      "path": "data/venues-placers/LINK.md",
+      "sha256": "7cbfc435775c014616841cb5fa4081ad525ca78a373814741d5075cdef55ba17",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "42a389b8d94350f1c77341405df2c369955edcf6c73d250eb5f2ee639b18e60f"
+    },
+    {
+      "key": "data-raw24",
+      "path": "data/raw24/README.md",
+      "sha256": "195b932e28a22a8b5089950418baaa358d463f616a90bf6cae7536fe91edc7c0",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "a6af71b4ef97a7e1689d53d389c55aa5129b92b99e1f9c461ad1fa7022ea6e36"
+    },
+    {
+      "key": "data-raw24-link",
+      "path": "data/raw24/LINK.md",
+      "sha256": "2167bae982489bbf76c27b9db0ced7c8b21c1298e281ab75c27001e0cbf18197",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "5056504f2464e91fb350a174886d4d5df8381bfedddfa958b6967263df79d7ac"
+    },
+    {
+      "key": "data-pixels-per-artwork",
+      "path": "data/pixels-per-artwork/README.md",
+      "sha256": "f39897930625819db42b9a7112e233c6cf2cf5a0e9930868073ce16a77819c1f",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "a95562531e5b28c27bcd7c756d3aa5ffc60afab177967ce6ad911149a0fab6d0"
+    },
+    {
+      "key": "data-pixels-per-artwork-link",
+      "path": "data/pixels-per-artwork/LINK.md",
+      "sha256": "1ffb53b84df5af629bf64d3e43ba77012cf72a8a61b8d072cc134a2290fc332c",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "c8f7ee33f9efed2b82d767ba702cb8c39d6f083ec602232faeec317bae193cfc"
+    },
+    {
+      "key": "data-pixels-hourly",
+      "path": "data/pixels-hourly/README.md",
+      "sha256": "bf1ace8f69ed7d37eb3d5ef36fe3322de65bd826bee41cfacba0199085f1c3bc",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "98346ea47b64c24a87e5621f73556d621fd73c02e0ec6e438e0d3531bab4003b"
+    },
+    {
+      "key": "data-pixels-hourly-link",
+      "path": "data/pixels-hourly/LINK.md",
+      "sha256": "0d53131da2b618a544c9baad8719d694d92c7a54693eb68fda5b26dae64f7a4b",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "194fc1156a86d2edc3674eede0706b944afc33dd504553c795e8044ab2afce01"
+    },
+    {
+      "key": "data-activity",
+      "path": "data/pixels-hourly/README-activity.md",
+      "sha256": "ca95c4106c8c71c23eba51ef52be5016a6b435638a607dab7cec8ec2b230e5e8",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "0647d47a292eedf0d735cbb553c9522135d96e205bb531d93498ea671a72a138"
+    },
+    {
+      "key": "census-README",
+      "path": "coder/census/README.md",
+      "sha256": "3ac647004d0d458ddb73238040ed96eb763bad5cd2d76ba757709b197a25099c",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [
+        {
+          "original": "../../Manual/census.md",
+          "repository_path": "Manual/census.md",
+          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/Manual/census.md",
+          "status": "pinned"
+        },
+        {
+          "original": "../../Manual/artworks-outside-the-population.md",
+          "repository_path": "Manual/artworks-outside-the-population.md",
+          "target": "https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/Manual/artworks-outside-the-population.md",
+          "status": "pinned"
+        },
+        {
+          "original": "builders/README.md",
+          "repository_path": "coder/census/builders/README.md",
+          "target": "census-builders.md",
+          "status": "pinned"
+        }
+      ],
+      "reading_sha256": "0284e1b57e1b98074f209d56fcf065f49fa16e4852a58cded68e6dea29a6ddc9"
+    },
+    {
+      "key": "census-builders",
+      "path": "coder/census/builders/README.md",
+      "sha256": "ca2eefc0509ab311117491f04cdee153a8ed2042c7eb9273841622e432d3de70",
+      "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
+      "links": [],
+      "reading_sha256": "9634290db56e558cd6beadab691d38ccbeb4171405ff5feb0338f59c50fccaf1"
     },
     {
       "key": "coder-contract",

@@ -16,6 +16,12 @@ stops.</li>
 <li><a href="sources/data-README.html">The data recipes</a>: seven
 stores, the scripts that build each, where each comes from and what was
 tested.</li>
+<li><a href="sources/data-for-agents.html">The data folder, for
+agents</a>: the order in which the stores are built, fast ones
+first.</li>
+<li><a href="sources/data-lib.html">The shared collectors</a>: the
+archive collector every text store reuses, and the one place the event
+window is defined.</li>
 <li><a href="agents/download.html">Start from raw data</a>: the reading
 key, with the inputs and access a collection needs.</li>
 </ul>
@@ -26,6 +32,7 @@ key, with the inputs and access a collection needs.</li>
 <th>Step</th>
 <th>What it gives</th>
 <th>Size in the study</th>
+<th>Its documents</th>
 </tr>
 </thead>
 <tbody>
@@ -34,41 +41,55 @@ key, with the inputs and access a collection needs.</li>
 <td>every placement, with the placer's hashed name, and the table of
 usernames behind the hashes</td>
 <td>16,559,897 placements</td>
+<td><a href="sources/data-pixels.html">recipe</a>, <a
+href="sources/data-pixels-link.html">the copy</a></td>
 </tr>
 <tr>
 <td>2. The atlas</td>
 <td>1,473 artworks, their outlines and the subreddits they name, checked
 byte for byte against the study's copy</td>
 <td>675 KB</td>
+<td><a href="sources/data-atlas.html">recipe</a></td>
 </tr>
 <tr>
 <td>3. The placer accounts</td>
 <td>everything each placer wrote on Reddit in 24 days around the canvas;
 days at the archive's pace, resumable</td>
 <td>1,101,801 accounts, about 14 GB</td>
+<td><a href="sources/data-users.html">recipe</a>, <a
+href="sources/data-users-link.html">the copy</a></td>
 </tr>
 <tr>
 <td>4. Venues, placers only</td>
 <td>what placers wrote in each subreddit</td>
 <td>50,936 venues, 13.6 GB</td>
+<td><a href="sources/data-venues-placers.html">recipe</a>, <a
+href="sources/data-venues-placers-link.html">the copy</a></td>
 </tr>
 <tr>
 <td>5. Venues in full</td>
 <td>everything anyone wrote in each subreddit in the 24 days; days,
 resumable</td>
 <td>24,093 venues, about 51 GB</td>
+<td><a href="sources/data-raw24.html">recipe</a>, <a
+href="sources/data-raw24-link.html">the copy</a></td>
 </tr>
 <tr>
 <td>6. Pixels per artwork</td>
 <td>every placement inside each artwork's outline, and a 30-minute panel
 per artwork; about four minutes</td>
 <td>23,058,857 rows, 1.1 GB</td>
+<td><a href="sources/data-pixels-per-artwork.html">recipe</a>, <a
+href="sources/data-pixels-per-artwork-link.html">the copy</a></td>
 </tr>
 <tr>
 <td>7. Hourly pixels per community</td>
 <td>placements in each community's region by hour, by anyone and by its
 own members; about a minute</td>
 <td>67,907 rows, 1.4 MB</td>
+<td><a href="sources/data-pixels-hourly.html">recipe</a>, <a
+href="sources/data-pixels-hourly-link.html">the copy</a>, <a
+href="sources/data-activity.html">the week before</a></td>
 </tr>
 <tr>
 <td>8. The census</td>
@@ -76,6 +97,8 @@ own members; about a minute</td>
 href="results/population-record.html#census">from 2,796 subreddits to
 705 communities</a></td>
 <td>judgements with evidence</td>
+<td><a href="sources/census-README.html">the census</a>, <a
+href="sources/census-builders.html">its builders</a></td>
 </tr>
 <tr>
 <td>9. Freeze and hand over</td>
@@ -83,13 +106,15 @@ href="results/population-record.html#census">from 2,796 subreddits to
 input's path, source, bytes, hash, time window, version, checks, gaps
 and status</td>
 <td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>Every text record came through the public Arctic Shift archive, which
-serves Reddit's record as it was ingested at the time, before later
-deletions. The pixel record is Reddit's own release; the atlas is the
-2017 Place Atlas.</p>
+<p>A recipe says what a store holds, how to build it and what was
+tested; "the copy" says where the study's own copy is. Every text record
+came through the public Arctic Shift archive, which serves Reddit's
+record as it was ingested at the time, before later deletions. The pixel
+record is Reddit's own release; the atlas is the 2017 Place Atlas.</p>
 <h2 id="when-it-stops">When it stops</h2>
 <p>The handler stops a route when access is missing, archived bytes are
 unavailable, a check fails or the choice of collection is unresolved. It

@@ -12,6 +12,114 @@
     "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
   },
   {
+    "path": "data/FOR-AGENTS.md",
+    "site_source": "sources/data-for-agents.md",
+    "sha256": "a9d4e95c5869e763520ffba42bc1e5b646f1864b095c566fc575e0399a798fa3",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/_lib/README.md",
+    "site_source": "sources/data-lib.md",
+    "sha256": "3e022e8978de1e7211705a5f189050c8d8880542a90d91c322c2ba898e2f4583",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/pixels/README.md",
+    "site_source": "sources/data-pixels.md",
+    "sha256": "ee5ba42ff6f5aa8220ed0a4604327ba5c89480f691c224df35ff91a74e90f424",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/pixels/LINK.md",
+    "site_source": "sources/data-pixels-link.md",
+    "sha256": "70e527ac45e26ecf506179fca156b072f5feae54b26e882db96811bcbb798da2",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/atlas/README.md",
+    "site_source": "sources/data-atlas.md",
+    "sha256": "fcaae3b2d4fe51970795fba4b6316f52caf013e4e80f2cb1cb2609bde550939a",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/users/README.md",
+    "site_source": "sources/data-users.md",
+    "sha256": "539141bd7b6696e63616cb3a05bb7ea04a7727a7e68eb205ac5561c5bc41dd46",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/users/LINK.md",
+    "site_source": "sources/data-users-link.md",
+    "sha256": "25b8eacd0c21af4b5aa3dd86b301e953e215e72520e6e129cceb801755059b16",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/venues-placers/README.md",
+    "site_source": "sources/data-venues-placers.md",
+    "sha256": "1810bdeeb0128db206d0417a335cdc79e2ce50d894a0c76dd7712bfc0e1365e0",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/venues-placers/LINK.md",
+    "site_source": "sources/data-venues-placers-link.md",
+    "sha256": "7cbfc435775c014616841cb5fa4081ad525ca78a373814741d5075cdef55ba17",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/raw24/README.md",
+    "site_source": "sources/data-raw24.md",
+    "sha256": "195b932e28a22a8b5089950418baaa358d463f616a90bf6cae7536fe91edc7c0",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/raw24/LINK.md",
+    "site_source": "sources/data-raw24-link.md",
+    "sha256": "2167bae982489bbf76c27b9db0ced7c8b21c1298e281ab75c27001e0cbf18197",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/pixels-per-artwork/README.md",
+    "site_source": "sources/data-pixels-per-artwork.md",
+    "sha256": "f39897930625819db42b9a7112e233c6cf2cf5a0e9930868073ce16a77819c1f",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/pixels-per-artwork/LINK.md",
+    "site_source": "sources/data-pixels-per-artwork-link.md",
+    "sha256": "1ffb53b84df5af629bf64d3e43ba77012cf72a8a61b8d072cc134a2290fc332c",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/pixels-hourly/README.md",
+    "site_source": "sources/data-pixels-hourly.md",
+    "sha256": "bf1ace8f69ed7d37eb3d5ef36fe3322de65bd826bee41cfacba0199085f1c3bc",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/pixels-hourly/LINK.md",
+    "site_source": "sources/data-pixels-hourly-link.md",
+    "sha256": "0d53131da2b618a544c9baad8719d694d92c7a54693eb68fda5b26dae64f7a4b",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "data/pixels-hourly/README-activity.md",
+    "site_source": "sources/data-activity.md",
+    "sha256": "ca95c4106c8c71c23eba51ef52be5016a6b435638a607dab7cec8ec2b230e5e8",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "coder/census/README.md",
+    "site_source": "sources/census-README.md",
+    "sha256": "3ac647004d0d458ddb73238040ed96eb763bad5cd2d76ba757709b197a25099c",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
+    "path": "coder/census/builders/README.md",
+    "site_source": "sources/census-builders.md",
+    "sha256": "ca2eefc0509ab311117491f04cdee153a8ed2042c7eb9273841622e432d3de70",
+    "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624"
+  },
+  {
     "path": "coder/instrument/v32/CONTRACT.v32.md",
     "site_source": "sources/coder-contract.md",
     "sha256": "986f8b520bce808eebe5b93c317f73e60f747b8bfab34f8ad51e600ae48218e1",

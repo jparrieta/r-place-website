@@ -10,13 +10,13 @@ How to get every piece of data the study used, and the scripts that made each. S
 
 | Store | Folder | What one file is | Size in the study | Study's copy |
 |----|----|----|----|----|
-| the pixel record | [pixels/](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels/README.md) | Reddit's 2017 tile dump: every placement, with the placer's hashed name | 16,559,897 placements | public source; Drive |
-| the atlas | [atlas/](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/atlas/README.md) | the 2017 atlas: 1,473 artworks, their outlines and the subreddits they name | 675 KB | public, pinned; the run's copy is in `aggregator/input/canvas/` |
-| the placer accounts | [users/](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/users/README.md) | one account: everything it wrote on Reddit in 24 days around the canvas | 1,101,801 accounts, about 14 GB | Drive |
-| venues, placers only | [venues-placers/](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/venues-placers/README.md) | one subreddit: only what placers wrote there | 50,936 venues, 13.6 GB | Drive |
-| venues in full (raw24) | [raw24/](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/raw24/README.md) | one subreddit: everything anyone wrote there in the 24 days | 24,093 venues, about 51 GB | Drive (the atlas venues: [folder](https://drive.google.com/drive/folders/1itd-IZsAhBq9lMzCnrQERlO2vfxdT9g6)) |
-| hourly pixels per community | [pixels-hourly/](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels-hourly/README.md) | one row per community and hour: placements in its region, by anyone and by its own members | 67,907 rows, 1.4 MB | built here in a minute; member lists on the Drive |
-| pixels per artwork | [pixels-per-artwork/](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels-per-artwork/README.md) | one artwork: every placement inside its outline; and a 30-minute panel per artwork | 23,058,857 rows, 1.1 GB | built here in minutes; Drive |
+| the pixel record | [pixels/](data-pixels.md) | Reddit's 2017 tile dump: every placement, with the placer's hashed name | 16,559,897 placements | public source; Drive |
+| the atlas | [atlas/](data-atlas.md) | the 2017 atlas: 1,473 artworks, their outlines and the subreddits they name | 675 KB | public, pinned; the run's copy is in `aggregator/input/canvas/` |
+| the placer accounts | [users/](data-users.md) | one account: everything it wrote on Reddit in 24 days around the canvas | 1,101,801 accounts, about 14 GB | Drive |
+| venues, placers only | [venues-placers/](data-venues-placers.md) | one subreddit: only what placers wrote there | 50,936 venues, 13.6 GB | Drive |
+| venues in full (raw24) | [raw24/](data-raw24.md) | one subreddit: everything anyone wrote there in the 24 days | 24,093 venues, about 51 GB | Drive (the atlas venues: [folder](https://drive.google.com/drive/folders/1itd-IZsAhBq9lMzCnrQERlO2vfxdT9g6)) |
+| hourly pixels per community | [pixels-hourly/](data-pixels-hourly.md) | one row per community and hour: placements in its region, by anyone and by its own members | 67,907 rows, 1.4 MB | built here in a minute; member lists on the Drive |
+| pixels per artwork | [pixels-per-artwork/](data-pixels-per-artwork.md) | one artwork: every placement inside its outline; and a 30-minute panel per artwork | 23,058,857 rows, 1.1 GB | built here in minutes; Drive |
 
 ## If you want all of it, in order
 
