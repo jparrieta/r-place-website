@@ -21,6 +21,15 @@ Each community is read by its own community coder, a model conversation that see
 | 5. The case account | A chronology, then what set off what, with a stated reason for each relation, and a counter-reading before the verdict. | [coder contract, step 5](sources/coder-contract.html#8-step-5--the-within-case-account) |
 | Checks and close | The scheduler resolves every cited quote against the record and runs end checks; a failed check sends the work back. | [scheduler, the checks](sources/scheduler.html#3-the-checks) |
 
-Two later continuations resume the same community coder: its local model (R6), which the aggregator did not use, and its answers to the population model at [the return](results/population-return.html).
+## After the coding: the return
+
+At the return ([D2](stages/D2.html)), an adaptation handler forks, for each community, the checkpoint of the community coder that coded it, with its conversation and files, and gives it a new task in a separate folder. This is not another coding pass. Under the return contract the coder recodes its whole community in the population model's terms. It reads its own case account, themes, codes, brief and reply trees against the model, the coding ladder and the model's vocabulary of element and arrow ids. It then writes two files:
+
+- a room model: its case account rewritten section by section in the model's terms, each claim tied to an element id or marked as new and cited to the community's own codes, ending with its own grade and the exceptions it found;
+- one line for each change the model needs: an element instantiated, marked absent, given a condition or a finer step, linked, restricted or contradicted, or a new element proposed.
+
+A script checks every return, and the same session repairs what fails. Two separate readers judge, from the evidence, whether the model composes the community. The aggregator rules on every line and revises the model ([D3](stages/D3.html)); each community's return checkpoint then continues with the revised model for the re-check. The results are on [the population return page](results/population-return.html).
+
+To do: the local model (R6), a separate continuation from the coding close. Its contract and how it was run are not yet described here.
 
 [How it was done, with r/PlaceNL beside it](study/coding.html) · [Run it](guides/communities.html)
