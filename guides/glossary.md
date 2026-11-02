@@ -38,7 +38,7 @@ The *ladder* is the five layers from quote to aggregate dimension. Construction 
 
 **Population model.** The aggregator's qualitative model of the 705 curated communities: its parts, arrows and telling.
 
-**Organizational forms.** The six groups A to F that the aggregator cut from the communities' changes to the model and their codes.
+**Organizational forms.** The six groups A to F into which the aggregator clustered the communities by their changes to the model and their codes. It recommended six over four and eight; the investigator ruled six.
 
 **Return.** The model goes back to every community coder, who answers with its community's record (stage D2); the revised model goes back again (D3).
 

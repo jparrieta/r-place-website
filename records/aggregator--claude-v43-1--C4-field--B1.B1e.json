@@ -83,8 +83,8 @@
         "blob": "de42790957376a51a3500effdef664b98a3a4b37",
         "path": "aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/scheme.md"
       },
-      "reading_sha256": "d10076938b6463b0e21963075894f7d118302bf4eacb003cf868d1cf47031758",
-      "reading_bytes": 341651,
+      "reading_sha256": "6f3e2639a5dfab6dffb9c7ec0a6fdc86c730eb1b9f394a2817dd008c124dd23b",
+      "reading_bytes": 341613,
       "reading_file": "92168f48f8a86f303ee0a5297be52ee1c85a066d83590bb2ee70c18ae812276b.reading.md",
       "participant_identifiers": "base64(SHA1(UTF-8 username)), case preserved, no salt",
       "names_substituted": true,

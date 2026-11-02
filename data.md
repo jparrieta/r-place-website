@@ -1,6 +1,6 @@
 # The record in numbers
 
-The dataset joins three public records of the 2017 event: Reddit's log of every pixel change, the Place Atlas of the finished canvas, and the posts and comments of the subreddits behind its artworks. This page shows what each holds. Every figure is computed from the shared files; the [data guide](sources/data-README.html) explains how to download and rebuild them.
+The dataset joins four public records of the 2017 event: Reddit's log of every pixel change, the table of the usernames behind its hashed names, the Place Atlas of the finished canvas, and the posts and comments of the subreddits behind its artworks. This page shows what each holds. Every figure is computed from the shared files; the [data guide](sources/data-README.html) explains how to download and rebuild them.
 
 ## Pixel changes
 
@@ -26,7 +26,7 @@ The 705 communities in the census wrote 2,130,302 posts and comments from the op
 
 <figure class="data-figure"><img src="assets/data/community-rank.svg" alt="The 705 communities ranked by their posts and comments while the canvas was open. Both axes are on a log scale. Red dots mark the 78 communities whose first record falls during the event." width="630" height="290" loading="lazy"><figcaption>The 705 communities ranked by their posts and comments while the canvas was open. Both axes are on a log scale. Red dots mark the 78 communities whose first record falls during the event.</figcaption></figure>
 
-The week before the event shows who was already there. The median community had 276 distinct posters in those seven days. 78 communities have no record before the event: they were founded for it. [New communities](emergence.html) says what they were.
+The week before the event shows who was already there. The median community had 276 distinct posters in those seven days. 78 communities have no record in the week before; most were founded for the event. [New communities](emergence.html) says what they were.
 
 Writing and placing were done by different people. Across the 704 communities with an artwork region, a median of 11% of the changes inside the community's artworks came from accounts that posted in the community between the opening and seven days after the freeze. Most hands that built an artwork left no post in the community that claimed it. Regions overlap, so these shares are sound for each community but cannot be added across communities.
 

@@ -2,7 +2,7 @@
 
 r/place as a model organism for cumulative grounded theory.
 
-Biology accumulates knowledge around the fruit fly. Organization science has no common organism to study. In April 2017, over a million Reddit users spent 72 hours making and defending pictures on a shared canvas, one pixel at a time. We propose this event as a model organism for how organizations emerge and evolve.
+Biology accumulates knowledge around the fruit fly. Organization science has no common organism to study. From 31 March to 3 April 2017, over a million Reddit users spent 72 hours making and defending pictures on a shared canvas, one pixel at a time. We propose this event as a model organism for how organizations emerge and evolve.
 
 Here you find the frozen record of the event, the instrument we used to read it, and what it found in 705 communities.
 

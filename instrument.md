@@ -4,7 +4,7 @@ The instrument turns the shared record of r/place into accounts that later studi
 
 ## Collection
 
-Gathers the public record once and freezes it: Reddit's log of every pixel change, the Place Atlas of the finished canvas, and the posts and comments of the subreddits behind its artworks. A census then decides which communities count as cases: 705 of 2,796. Scripts collect; the census judgements are ours.
+Gathers the public record once and freezes it: Reddit's log of every pixel change, the Place Atlas of the finished canvas, and the posts and comments of the subreddits behind its artworks. A census then decides which communities count as cases: 705 of the 2,796 subreddits in the wider dataset. Scripts collect; the census judgements are ours.
 
 [How collection works](how-collection-works.html) · [How it was done](study/record.html) · [Run it](guides/download.html)
 
