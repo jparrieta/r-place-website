@@ -399,3 +399,24 @@ footer>div{display:flex;gap:1.6rem}
 .part-strip li[aria-current]{box-shadow:none}
 p.part-of{color:var(--muted);font-size:.95rem}
 :is(#results-population) table.return-table,:is(#results-population) #census table{display:block;overflow-x:auto;max-width:100%}
+/* Harmony (design review, 2 November 2026; contract 4.4, 6.1, 7.2). One type scale for every page, results artifacts included;
+   one style for evidence links; one style for fold labels. Agent pages (.spec) and the stage agent key keep their own headings. */
+:root{--fs-body:17px;--fs-ui:.95rem;--fs-small:.9rem;--fs-label:.75rem;--fs-h2:1.9rem;--fs-h3:1.2rem;--fs-h4:1.05rem}
+@media(max-width:680px){:root{--fs-body:16px}}
+#main :is(p,li,blockquote,dd){font-size:var(--fs-body)!important}
+#main :is(.cap,figcaption,caption,p.meta,p.note,p.gloss,.what,.dek-small){font-size:var(--fs-small)!important}
+#main :is(.cap,figcaption,caption,p.meta,p.note,p.gloss) :is(p,li){font-size:inherit!important}
+#main :is(td,th){font-size:var(--fs-small)!important}
+#main :is(td,th) :is(p,li,dd,blockquote){font-size:inherit!important}
+#main dl.fact-box dd{font-size:var(--fs-ui)!important}
+#main :is(dt,.lab,.eyebrow,.strip-label,.kicker){font-size:var(--fs-label)!important}
+#main code{font-size:max(12px,.88em)!important}
+#main summary{font-size:var(--fs-ui)!important;font-weight:500!important;color:var(--ink)!important}
+#main h2:not(.stage-agent-key h2):not(.spec>h2){font-size:var(--fs-h2)!important;font-weight:750!important;font-stretch:75%!important}
+#main h3{font-size:var(--fs-h3)!important;font-weight:650!important;font-stretch:100%!important}
+#main h4{font-size:var(--fs-h4)!important;font-weight:700!important;font-stretch:100%!important}
+#main :is(p,li,td,th,dd,figcaption,caption,.cap,blockquote) a:not([class]){color:var(--accent)!important;text-decoration-line:underline!important;text-decoration-color:var(--accent)!important;font-weight:inherit}
+#main :is(a.full,a.method,a.raw,.figure-tools a){color:var(--accent)!important;text-decoration-color:var(--accent)!important}
+#main a.raw{font-family:var(--mono,ui-monospace,monospace)}
+#main :is(a.button,a.talk-action){font-weight:600!important}
+
