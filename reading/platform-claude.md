@@ -1,6 +1,6 @@
 # Reading copy: platform-claude
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/platform-claude.md), SHA-256 `c7b542f7e4578bcf4856a852e16c5e0feb55f3dcd3cdd10e0e91a98038bb09d1`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/platform-claude.md), SHA-256 `c7b542f7e4578bcf4856a852e16c5e0feb55f3dcd3cdd10e0e91a98038bb09d1`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 

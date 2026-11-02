@@ -1,6 +1,6 @@
 # Reading copy: coder-v32-rationale
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-v32-rationale.md), SHA-256 `8fd2a2a842b0d9ecd540e38b454c4db0081cf8870a0b4afffc558968b5bcd4a2`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-v32-rationale.md), SHA-256 `8fd2a2a842b0d9ecd540e38b454c4db0081cf8870a0b4afffc558968b5bcd4a2`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 

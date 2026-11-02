@@ -1,6 +1,6 @@
 # Reading copy: coder-README
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-README.md), SHA-256 `4db02db5a8c7206e575f9b2a404082b1a8447b285d746876b0a35faa15762488`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-README.md), SHA-256 `4db02db5a8c7206e575f9b2a404082b1a8447b285d746876b0a35faa15762488`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 
@@ -47,7 +47,7 @@ One folder per community of the r/place census, each holding everything a case l
         snapshots/after-fleet.tgz      the fork point
         forks/<name>/run/        a fresh lead's copy of the snapshot
 
-**Which rooms.** The population is the 706 communities with `handable = 1` in [census/MASTER-census.csv](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/census/README.md); [the census page](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/Manual/census.md) explains the judgements that made that list. The scheduler codes the rooms listed in `STATUS.tsv` (rebuilt by `_tools/status.py`) from the bottom up, smallest first. The study's yard held 741 rooms on 27 September 2026, 33 of them outside the 708 of that day: r/place, the field, coded apart (Manual/census.md), and 32 because they were built before the screen closed them. On 4 October 2026 r/lehigh and r/upvote left the population (no writing about the event while the canvas was open), so 35 of the yard's 741 are outside the 706.
+**Which rooms.** The population is the 706 communities with `handable = 1` in [census/MASTER-census.csv](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/coder/census/README.md); [the census page](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/Manual/census.md) explains the judgements that made that list. The scheduler codes the rooms listed in `STATUS.tsv` (rebuilt by `_tools/status.py`) from the bottom up, smallest first. The study's yard held 741 rooms on 27 September 2026, 33 of them outside the 708 of that day: r/place, the field, coded apart (Manual/census.md), and 32 because they were built before the screen closed them. On 4 October 2026 r/lehigh and r/upvote left the population (no writing about the event while the canvas was open), so 35 of the yard's 741 are outside the 706.
 
 ## Persistent case-lead continuation
 

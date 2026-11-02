@@ -1,6 +1,6 @@
 # Reading copy: writing
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/writing.md), SHA-256 `df6718d74c3a296de39288f338541dad1126651255b573ee3e5de6681ff5026d`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/writing.md), SHA-256 `df6718d74c3a296de39288f338541dad1126651255b573ee3e5de6681ff5026d`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 

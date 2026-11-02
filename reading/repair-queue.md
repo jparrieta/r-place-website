@@ -1,6 +1,6 @@
 # Reading copy: repair-queue
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/repair-queue.md), SHA-256 `f3f3ea9ed355a050134d9540387d16353dacf376be4b7bbc2456397eacf94d46`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/repair-queue.md), SHA-256 `f3f3ea9ed355a050134d9540387d16353dacf376be4b7bbc2456397eacf94d46`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 

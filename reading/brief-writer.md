@@ -1,6 +1,6 @@
 # Reading copy: brief-writer
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/brief-writer.md), SHA-256 `0b6139ce0c9d11e09e978911db1aafa3520985ecdff050d5e6f53108dcb7f122`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/brief-writer.md), SHA-256 `0b6139ce0c9d11e09e978911db1aafa3520985ecdff050d5e6f53108dcb7f122`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 

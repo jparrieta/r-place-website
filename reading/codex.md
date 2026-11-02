@@ -1,12 +1,12 @@
 # Reading copy: codex
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/codex.md), SHA-256 `551b4a33f76745967d0883dd50f5512e11b62f7cd77579119bb2881320d51242`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/codex.md), SHA-256 `551b4a33f76745967d0883dd50f5512e11b62f7cd77579119bb2881320d51242`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 
 # Run r/place with Codex
 
-Guides: [automatic leg blocks](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/BLOCKS.md), [remote access](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/REMOTE.md), [analysis branches and Git lineage](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/BRANCHES.md).
+Guides: [automatic leg blocks](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/codex/BLOCKS.md), [remote access](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/codex/REMOTE.md), [analysis branches and Git lineage](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/codex/BRANCHES.md).
 
 Target length: under 1,250 words. Installation does not start research.
 
@@ -26,7 +26,7 @@ The controller owns all native sessions. Start it once. A second controller is r
 
 ## Handler and aggregator
 
-Open a separate ordinary Codex chat as the handler and give it [HANDLER-CHAT.md](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/HANDLER-CHAT.md). Keep this instrument-development chat separate. The handler reads state and operates the controller; it does not need a website actor or native checkpoint. Stage and leg agents keep their full native checkpoints.
+Open a separate ordinary Codex chat as the handler and give it [HANDLER-CHAT.md](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/codex/HANDLER-CHAT.md). Keep this instrument-development chat separate. The handler reads state and operates the controller; it does not need a website actor or native checkpoint. Stage and leg agents keep their full native checkpoints.
 
 Prepare a new study from the supplied material:
 
@@ -36,7 +36,7 @@ python3 r-place/aggregator/handler/codex/run.py status
 python3 r-place/aggregator/handler/codex/run.py step study-01 A1a
 ```
 
-Choose `--fleet-arm openrouter` for the alternative packet reader arm, or select it in the panel. See [two reader arms](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/FLEET-ARMS.md) for routing, credentials and recovery.
+Choose `--fleet-arm openrouter` for the alternative packet reader arm, or select it in the panel. See [two reader arms](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/FLEET-ARMS.md) for routing, credentials and recovery.
 
 The panel offers stage/step dropdowns, **Prepare leg**, then **Start prepared leg**. Or use `step study-01 A1a --start`, then attach:
 

@@ -1,6 +1,6 @@
 # Reading copy: stage-C5
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/stage-C5.md), SHA-256 `c0904fc40910da0b2d37fa801159ea39d85b84df09263c343aec2c36104756c4`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/stage-C5.md), SHA-256 `c0904fc40910da0b2d37fa801159ea39d85b84df09263c343aec2c36104756c4`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 

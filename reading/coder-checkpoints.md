@@ -1,6 +1,6 @@
 # Reading copy: coder-checkpoints
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-checkpoints.md), SHA-256 `0578b05a13106bc55d8f8b27cda5701c2eb7d264acffe36927f7c8dbe3812575`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-checkpoints.md), SHA-256 `0578b05a13106bc55d8f8b27cda5701c2eb7d264acffe36927f7c8dbe3812575`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 

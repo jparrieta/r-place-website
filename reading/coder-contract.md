@@ -1,6 +1,6 @@
 # Reading copy: coder-contract
 
-Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-contract.md), SHA-256 `986f8b520bce808eebe5b93c317f73e60f747b8bfab34f8ad51e600ae48218e1`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-contract.md), SHA-256 `986f8b520bce808eebe5b93c317f73e60f747b8bfab34f8ad51e600ae48218e1`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
 
 ---
 
