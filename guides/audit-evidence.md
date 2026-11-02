@@ -16,7 +16,7 @@ Use five questions from [TRACE](https://trace-os.org/start/principles/) to inspe
 
 **Recorded example:** [The C2 review](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/review-C2.md) retains nine objections and discloses the ten model sections omitted from the review packet. [Reviewer metadata](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_fleet_raw/C2/C2-reviewer/r1.meta.json) binds the reviewer to a packet hash; that hash and the returned model hash match their saved files.
 
-**Limit:** the reviewer saw selected sections. Neither a favourable review nor valid file shapes establish the model's truth. [C2's full instructions](../sources/stage-C2.html) explain the review criterion.
+**Limit:** the reviewer saw selected sections. Neither a favorable review nor valid file shapes establish the model's truth. [C2's full instructions](../sources/stage-C2.html) explain the review criterion.
 
 ## A. Accept independently: who could decide?
 

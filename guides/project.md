@@ -12,7 +12,7 @@ The repository connects three things: the event record, an instrument for readin
 
 ## A broad record and a bounded study
 
-The record has two parts: pixel placements and public posts and comments. The collection scripts can retrieve records from thousands of subreddits associated with the event's participants. A participant's presence in a subreddit does not mean every post there concerns r/place. The [data guide](download.html) distinguishes collection from the selection of material for analysis.
+The record has two parts: pixel changes and public posts and comments. The collection scripts can retrieve records from thousands of subreddits associated with the event's participants. A participant's presence in a subreddit does not mean every post there concerns r/place. The [data guide](download.html) distinguishes collection from the selection of material for analysis.
 
 The current study covers 705 curated communities with evidence of coordination during the 2017 event. Each has a written record and a case account. It is a census of this curated population, not of every subreddit that mentioned r/place.
 
@@ -24,9 +24,9 @@ The dataset preserves the event record. The instrument specifies how agents read
 
 Researchers can change the instrument, bring a different theory to the record, or extend the population, while stating which baseline they use.
 
-A population model is returned to saved community coders for comparison with their own records. Their objections can qualify an explanation that seemed to hold across cases. This is a check against recorded evidence, not participant member checking. The contracts preserve the outputs and handbacks behind those moves.
+A population model is returned to saved community coders for comparison with their own records. Their objections can qualify an explanation that seemed to hold across cases. This is a check against recorded evidence, not participant member checking. The contracts preserve the outputs and reports behind those moves.
 
-[PlaceNL's defence script erased a planned addition](../results/placenl.html#repair-and-change). Evidence like this changed the model's account of repair. The example follows the objection through the revision and the later finding that bounded it.
+[PlaceNL's defense script erased a planned addition](../results/placenl.html#repair-and-change). Evidence like this changed the model's account of repair. The example follows the objection through the revision and the later finding that bounded it.
 
 ## What accumulation would mean
 

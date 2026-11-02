@@ -1,6 +1,6 @@
 # Time and costs
 
-How long each part of the study took and what it consumed, where it was recorded. All dates are 2026 and all times UTC; money is in US dollars. From the first recorded community coding run on 18 August to the last aggregator session on 28 October is 71 days. The figures come from the handler's cost and time dataset of 29 October, built from the session transcripts, the Codex receipts and the OpenRouter export, unless a line says otherwise. The records are in the [research repository (private; access on request)](https://github.com/jparrieta/r-place).
+How long each part of the study took and what it consumed, where it was recorded. All dates are 2026 and all times UTC; money is in US dollars. From the first recorded community coding run on 18 August to the last aggregator session on 28 October is 71 days. The figures come from the cost and time dataset that the run's handler, the conversation that ran the aggregator's stages, built on 29 October, built from the session transcripts, the Codex receipts and the OpenRouter export, unless a line says otherwise. The records are in the [research repository (private; access on request)](https://github.com/jparrieta/r-place).
 
 | | |
 |---|---|
@@ -23,7 +23,7 @@ The value at list prices is the tokens times each model's published price: a val
 | The re-check, D3 | gpt-6.1-sol | 3.53 billion | $1,200 |
 | The aggregator, A1 to E2 | Claude Opus 5.5 | 21.45 billion | $6,719 |
 | Independent readers, B2 to E1 | DeepSeek V4.1 Flash | 252.5 million | $68, paid |
-| The field, r/place, read for C4 and its interviews | gpt-6.1-sol | 7.62 billion | $1,392 |
+| The r/place subreddit, read for C4 and its interviews | gpt-6.1-sol | 7.62 billion | $1,392 |
 | Readers at C2 and C5 | Claude Opus 5.5 | not recorded in full | $2 |
 
 Table: Tokens and their value, by part of the work
@@ -90,9 +90,9 @@ D4 and D5 overlap on 26 October. The earlier count of 316 sessions came from the
 | Usage limits of the Claude subscription | 93.9 | 3.9 |
 | Waiting for us: rulings, go-aheads, pushes, interviews | 39.9 | 1.7 |
 | Waiting for the Codex coders at D2 and D3 | 30.0 | 1.2 |
-| Waiting for the reader fleets | 14.0 | 0.6 |
-| Waiting for both the fleet and the Codex coders | 6.8 | 0.3 |
-| Waiting for the field at C4 and C5 | 9.4 | 0.4 |
+| Waiting for the independent readers | 14.0 | 0.6 |
+| Waiting for both the readers and the Codex coders | 6.8 | 0.3 |
+| Waiting for the r/place reading at C4 and C5 | 9.4 | 0.4 |
 | Handovers under 30 minutes and short pauses | 53.4 | 2.2 |
 | The handler: late checks and publishing | 7.0 | 0.3 |
 | Disk, network and a computer off | 4.5 | 0.2 |
@@ -103,9 +103,9 @@ Table: Where the aggregator's hours went
 
 Without delays the run would have taken between 10.3 days, counting working time only, and 15.1 days, counting also handovers, short pauses and the fleet and Codex waits as they ran.
 
-## The field
+## The r/place subreddit
 
-r/place itself, read by the Field agent for C4, used 7.62 billion tokens in its pilots, its production coding, its lead and the interviews at C4 and C5, worth $1,392 at list prices. Field work after C5 is not counted.
+r/place itself, read by a separate agent for C4, used 7.62 billion tokens in its pilots, its production coding, its lead and the interviews at C4 and C5, worth $1,392 at list prices. Work on r/place after C5 is not counted.
 
 ## Prices used
 
@@ -115,20 +115,20 @@ r/place itself, read by the Field agent for C4, used 7.62 billion tokens in its 
 |---|---:|---:|---:|---:|
 | Claude Opus 5.5 | 4,000 | 200 | 8,000 | 20,000 |
 | gpt-5.6-sol, community coding | 4,000 | 400 | 5,000 | 20,000 |
-| gpt-6.1-sol, D2, D3 and the field | 2,000 | 100 | 2,500 | 10,000 |
+| gpt-6.1-sol, D2, D3 and r/place | 2,000 | 100 | 2,500 | 10,000 |
 | DeepSeek V4.1 Flash through OpenRouter, as paid | 240 | 41 | | 590 |
 
 Table: Prices used, US dollars per billion tokens
 
  D2 and D3 carry the long-context surcharge on 6,964 responses with input over 272,000 tokens. The community coding is priced at short-context rates, since its receipts give no context size; at long-context rates it would cost $19,676 more.
 
-Not counted: the handler's own sessions, Claude's side of the field interviews, a Codex arm at B4 (9.6 million tokens), community coding runs other than the selected medium runs, and field work after C5.
+Not counted: the handler's own sessions, Claude's side of the interviews at C4 and C5, a Codex arm at B4 (9.6 million tokens), community coding runs other than the selected medium runs, and work on r/place after C5.
 
 </details>
 
 ## Accounts
 
-The work ran on a Claude subscription (the aggregator and the earlier coding), a Codex account (the final coding, the returns and the field) and OpenRouter (DeepSeek).
+The work ran on a Claude subscription (the aggregator and the earlier coding), a Codex account (the final coding, the returns and r/place) and OpenRouter (DeepSeek).
 
 ## Files
 
@@ -136,4 +136,4 @@ The work ran on a Claude subscription (the aggregator and the earlier coding), a
 
 ## Sources
 
-The handler's cost and time dataset of 29 October 2026: the session transcripts and the handler's per-session file; the Codex token and cost reports for the 705 communities and the field; the DeepSeek dispatch logs and the OpenRouter export of 13 October. For the earlier coding: the coding handler's `STATUS.tsv`, `CODING-PROGRESS.json` and `PRIOR-RUNS.tsv`.
+The handler's cost and time dataset of 29 October 2026: the session transcripts and the handler's per-session file; the Codex token and cost reports for the 705 communities and r/place; the DeepSeek dispatch logs and the OpenRouter export of 13 October. For the earlier coding: the coding handler's `STATUS.tsv`, `CODING-PROGRESS.json` and `PRIOR-RUNS.tsv`.

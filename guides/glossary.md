@@ -28,7 +28,7 @@ The *ladder* is the five layers from quote to aggregate dimension. Construction 
 
 | Layer | What it is | Written by |
 |---|---|---|
-| T1 first-order concepts | members' words, coded, with the quote | community coder |
+| T1 first-order codes | members' words, coded, with the quote | community coder |
 | T2 second-order themes | one community's concepts consolidated within the case | community coder |
 | T3 third-order themes | kinds of second-order theme across communities, in the material's words | aggregator |
 | T4 fourth-order themes | named groups of third-order themes; constructs | aggregator |
@@ -36,7 +36,7 @@ The *ladder* is the five layers from quote to aggregate dimension. Construction 
 
 ## Results
 
-**Population model.** The aggregator's qualitative model of the 705 curated communities: its parts, arrows and telling.
+**Population model.** The aggregator's qualitative model of the 705 curated communities: its parts, arrows and account.
 
 **Organizational forms.** The six groups A to F into which the aggregator clustered the communities by their changes to the model and their codes. It recommended six over four and eight; the investigator ruled six.
 

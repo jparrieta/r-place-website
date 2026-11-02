@@ -12,8 +12,8 @@ The paper reports this division of work. Exact settings, changes of model and fo
 
 | Work | Model and environment |
 |---|---|
-| Community coding | GPT-5.6 Sol in Codex. |
-| Community returns to the population model | GPT-6.1 Sol in Codex. |
+| Community coding | gpt-5.6-sol in Codex. |
+| Community returns to the population model | gpt-6.1-sol in Codex. |
 | Population analysis | Claude Opus 5.5 in Claude Code. |
 | Routine reading checks and classification fleet | DeepSeek V4.1 Flash. |
 
@@ -91,4 +91,4 @@ In [E1](../stages/E1.html), check whether the shared model plus supported local 
 
 A checkpoint interview opens a disposable fork of a saved agent with its matching historical files. It is the aggregator at a chosen point, not a new agent asked to imitate it from a summary. Its answers are new interview responses; they do not alter or become part of the original analysis.
 
-The [interview catalogue](../interviews.html) distinguishes available community and aggregator checkpoints. It does not promise a conversational checkpoint for every brief writer or fleet reader. [Reading keys for agents](../agents.html) provide the operational instructions; this page explains the division of work.
+The [interview catalog](../interviews.html) distinguishes available community and aggregator checkpoints. It does not promise a conversational checkpoint for every brief writer or fleet reader. [Reading keys for agents](../agents.html) provide the operational instructions; this page explains the division of work.

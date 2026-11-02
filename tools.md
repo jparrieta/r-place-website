@@ -4,11 +4,11 @@ A model organism needs a record and tools that researchers can use again. This r
 
 ## The dataset
 
-The collection recipes identify Reddit posts and comments, pixel placements and the artwork atlas. They reach beyond the 705 communities selected for the current analysis. Coded community records add codes, themes and case accounts. Start with the [data guide](guides/download.html) or [use the coded communities](guides/aggregator.html).
+The collection recipes identify Reddit posts and comments, pixel changes and the artwork atlas. They reach beyond the 705 communities selected for the current analysis. Coded community records add codes, themes and case accounts. Start with the [data guide](guides/download.html) or [use the coded communities](guides/aggregator.html).
 
 ## The instrument
 
-Explicit contracts govern reading, coding, comparison and handback. Agents keep notes and retrieve evidence as needed. One community's record need not be discarded to make room for another. Researchers direct the inquiry and judge its theoretical contribution.
+Explicit contracts govern reading, coding, comparison and reporting back. Agents keep notes and retrieve evidence as needed. One community's record need not be discarded to make room for another. Researchers direct the inquiry and judge its theoretical contribution.
 
 [Understand the stages](instrument.html) or [run the study](run.html). For a new run, open three handler chats in order: Collection, community coding, aggregation. [Full agent instructions](agents.html) retain the detailed rules.
 

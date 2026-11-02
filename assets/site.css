@@ -390,3 +390,4 @@ main.page-results>.findings li{margin:.45rem 0;line-height:1.45}
 main.page-results>.findings a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
 /* The footer holds the two links every page carries: For agents and Repository. */
 footer>div{display:flex;gap:1.6rem}
+.sub-head{font-weight:400;color:var(--muted);font-size:.85em}

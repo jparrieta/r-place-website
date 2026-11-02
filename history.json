@@ -1984,7 +1984,7 @@
       "recipe_sha256": "456b4358bbaba8525aad02a45e6ccf5f95f6ad7f338c93db2568b40b67c9f749",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -1998,7 +1998,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-01-24d3e3e3-5aab-4b13-b24d-8134b1c10637.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2012,7 +2012,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-02-09a803ce-2570-43bd-8483-1fc95c105390.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2026,7 +2026,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-03-28ca22dd-8ea7-41e5-a4b4-f52ed19f29d5.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2040,7 +2040,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-04-9f093954-8d2c-4837-a3ab-87ff8ae49689.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2054,7 +2054,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-05-b4f49c7a-d87a-4cb6-8cc8-c100ce600b07.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2068,7 +2068,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-06-c28f1100-bc5c-42a9-abd0-860b5da00737.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2082,7 +2082,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-07-cd9580af-5dc8-431e-aaf5-acb057166910.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2096,7 +2096,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-08-74bdc8c1-e6b1-40d0-a824-79e00801649b.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2110,7 +2110,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-09-ab67b0e5-e527-4243-af7b-27620a062d63.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2124,7 +2124,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-10-624b7633-5794-42fc-9865-1802b93118f9.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2138,7 +2138,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-11-599d0718-6cf2-4a77-a159-c09d92f44ae9.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2152,7 +2152,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-12-41b60a6f-d1c6-439f-bde1-e301b7cd6738.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2166,7 +2166,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-13-d89ae4b1-68af-4202-a891-bd6a1951d3a2.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2180,7 +2180,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-14-abc790f5-1550-4359-b654-61e14a56f3c8.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2194,7 +2194,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-15-d188aa40-d250-4e85-afe4-b8e15ce1ce5c.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2208,7 +2208,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-16-832d2c7d-bf61-47b0-8ef0-41c3e877bcd1.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2222,7 +2222,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-17-44fc46cd-971f-4ef4-b29d-349177e94b63.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2236,7 +2236,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-18-695aa124-fe5a-493e-93e6-dc9ddf48701c.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2250,7 +2250,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-19-693fcdbc-91b2-4a57-981a-b6cc85a688fc.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2264,7 +2264,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-20-8fcf7c64-24df-4ef9-9759-654936727ed1.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2278,7 +2278,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-21-ce22ae02-74ae-4c62-b308-b0e05b6d1ebf.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2292,7 +2292,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-22-463ac8ab-cde2-4df7-814c-193b85c864d7.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2306,7 +2306,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-23-0e15e8b0-c737-403e-a520-7b43a30ca6c0.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2320,7 +2320,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-24-70f1bc28-a2a5-42c1-b25e-f2287b7c3f27.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2334,7 +2334,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-25-70cb7abc-324d-45d0-8fa8-66184d8a0cc5.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2348,7 +2348,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-26-cb7a9bbb-ceb8-4fe9-b531-05032efa42ae.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2362,7 +2362,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-27-80e1bcf1-b4c9-492e-97c2-c3593133adf5.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2376,7 +2376,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-28-c1fc690f-e5c4-427c-9f66-e2ac021d4871.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2390,7 +2390,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-29-fafd19cd-6c2e-4dc9-ad47-955ee3a1f1c8.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2404,7 +2404,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-30-91afa0bd-eaeb-42a8-a202-ecb26618052d.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2418,7 +2418,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-31-82c45e85-4fa6-4ade-9e06-8ec5f311c3a7.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2432,7 +2432,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-32-4f8d680d-12a2-4cb6-b516-0dbb3493b86b.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2446,7 +2446,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-33-9ee8e745-8db9-434c-8a6d-d2a44568379b.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2460,7 +2460,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-34-09f337cb-fb8f-42d3-879d-ca50fd65df04.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2474,7 +2474,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-35-fe2c0ca5-5551-4f0b-beef-860942284191.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2488,7 +2488,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-36-07cda75c-ce51-49d1-854c-325cd7e2d371.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2502,7 +2502,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-37-235ab109-ad8c-4404-8d60-74f0b792bea6.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2516,7 +2516,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-38-8e7bb5e5-7120-4a70-bd8b-dd8e43571d61.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2530,7 +2530,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-39-04c4af71-5fc7-42c3-a253-0b3803be1e90.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2544,7 +2544,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-40-b7d0685c-674e-47f9-9902-bd0e2d426185.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2558,7 +2558,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-41-facab1ef-34b5-479e-a86f-b09604ae0268.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2572,7 +2572,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-42-f60731d1-56c4-491d-9bb1-da81fa7020fd.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2586,7 +2586,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-43-47267251-b42f-4691-9e97-f348a0ba5c54.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2600,7 +2600,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-44-485fd44c-c2d7-474b-86c2-8fd00adacb81.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2614,7 +2614,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-45-dce8456b-99c5-431f-9f50-76f5f9f0f0f1.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2628,7 +2628,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-46-9efd30f0-66d6-4940-8bab-35ec533d5255.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2642,7 +2642,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-47-6e713c1d-9424-4343-ac0d-32b04eec6a96.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2656,7 +2656,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-48-6777a6fa-1aed-41f4-b072-2dcbc8ad57db.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2670,7 +2670,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-49-9f721c27-9579-4f4c-a9b7-416e544c2003.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2684,7 +2684,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-50-ada3f885-f492-4050-aafb-f5598c38882c.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2698,7 +2698,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-51-3ab591a9-8b1b-42ee-a85d-3ef15e7371f1.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2712,7 +2712,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-52-f21a7c83-240e-45d2-8fa7-b3ca0213ce16.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2726,7 +2726,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-53-211b6c47-e9dd-402c-b6c1-826ec4961c2f.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2740,7 +2740,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-54-a0b4a870-7da5-4ff8-9b6a-6777efec3f00.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2754,7 +2754,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-55-7e22b815-f15d-4419-b998-7e24f8925557.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2768,7 +2768,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-D3.D3a-56-142b243d-932f-4437-83ea-e769f6dab191.jsonl",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2783,7 +2783,7 @@
       "recipe_sha256": "21603be2b90507461b9c06209555de53c2c073664f094cfda9e2383b3e76d668",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2797,7 +2797,7 @@
       "record_url": "https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_closes/D3-D3b.closed",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         }
@@ -2849,7 +2849,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -2882,7 +2882,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -2934,7 +2934,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -2967,7 +2967,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3019,7 +3019,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3052,7 +3052,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3104,7 +3104,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3137,7 +3137,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3189,7 +3189,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3222,7 +3222,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3274,7 +3274,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3307,7 +3307,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3359,7 +3359,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3392,7 +3392,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3444,7 +3444,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3477,7 +3477,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3529,7 +3529,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3562,7 +3562,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3614,7 +3614,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3647,7 +3647,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3699,7 +3699,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3732,7 +3732,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3784,7 +3784,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3817,7 +3817,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3869,7 +3869,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3902,7 +3902,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3954,7 +3954,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as GPT-6.1 Sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3987,7 +3987,7 @@
       },
       "notes": [
         {
-          "text": "D3: run.json names GPT-6.1 Sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
+          "text": "D3: run.json names gpt-6.1-sol and the same D2 return session. Medium effort was prescribed on 21 October; it is absent from run.json and was not independently checked in the D3 transcript here. D2 came from the coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -4002,7 +4002,7 @@
       "recipe_sha256": "dd97aa95a58b15401c17301f767fc7a2b53b6f6ce20090cf950bddb64c9396a2",
       "notes": [
         {
-          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used GPT-6.1 Sol, medium; resumed_with=5.6 is not their answer model.",
+          "text": "The community returns used study-specific model settings. D2 native turns checked for the 14 shared communities used gpt-6.1-sol, medium; resumed_with=5.6 is not their answer model.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Models and lineage"
         },

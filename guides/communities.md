@@ -18,7 +18,7 @@ The coding handler already exists. This is its entry prompt, not a new protocol.
 
 **Advance when:** the community coder’s checks pass and its outputs and close are stored.
 
-A coding close, a standalone local model, a return to the global model and a later re-check are distinct milestones. The [checkpoint catalogue](../interviews.html) records their availability separately.
+A coding close, a standalone local model, a return to the global model and a later re-check are distinct milestones. The [checkpoint catalog](../interviews.html) records their availability separately.
 
 A community return resumes the saved community coder to compare the global model with that community's record. It does not ask the original participants to validate the model. [Full return instructions](../sources/stage-D2.html).
 

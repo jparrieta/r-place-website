@@ -53,7 +53,7 @@ The main revisions:
 
 - **C3 and C4.** Two arrows take a mechanism from conversation analysis. Two elements and an arrow enter from r/place, the field, as tentative.
 - **C5.** Three elements are cut for want of a grounded arrow; one of them is restored.
-- **D3, from the community coders' returns.** The starter's role is split from joining, which the model now treats as the answer to a call. Repair is revised: it restores the form the keepers know, so a planned change is erased as damage until the keepers learn of it. r/PlaceNL is among the communities that showed this ([the example](results/placenl.html)). The field's elements and arrow become standing, and fifteen candidates enter. We froze the model as 46384686.
+- **D3, from the community coders' returns.** The starter's role is split from joining, which the model now treats as the answer to a call. Repair is revised: it restores the form the keepers know, so a planned change is erased as damage until the keepers learn of it. r/PlaceNL is among the communities that showed this ([the example](results/placenl.html)). The elements and arrow from r/place become standing, and fifteen candidates enter. We froze the model as 46384686.
 - **D4.** Two changes made after the freeze were reverted to proposals, restoring 46384686.
 
 ## Sources

@@ -4,7 +4,7 @@ Target length: under 1,200 words. Updated 28 October 2026. These notes describe 
 
 ## Publications and closure
 
-The run finished at E2b on 28 October 2026. Final publication `f27566528a5102d944c6ddc3d2e2e98b839cbab8` records all 18 stages closed. The earlier catalogue baseline, `c070d990be88234ccd74101d4104160e71a28c5e`, ends during D3. Its accepted checkpoints and proofs remain unchanged; later records identify their own commits.
+The run finished at E2b on 28 October 2026. Final publication `f27566528a5102d944c6ddc3d2e2e98b839cbab8` records all 18 stages closed. The earlier catalog baseline, `c070d990be88234ccd74101d4104160e71a28c5e`, ends during D3. Its accepted checkpoints and proofs remain unchanged; later records identify their own commits.
 
 Final stage boundaries are D4a-08, D5a-41, D6a-18, E1e and E2b. D5b and D6b closed earlier, before further work in those stages. They remain available as historical legs, not as the final versions. A checkpoint that also closes a stage appears once. [Read the completed run](study.html).
 
@@ -20,9 +20,9 @@ The Field agent had not finished its analysis when it supplied its reading and c
 
 ## Models and lineage
 
-The canonical instruction says to restore the original community coder on its recorded model and effort. This study used dated operational decisions, retained in [handler decision rows 155 and 248](../history-evidence/handler-decisions.tsv). On 15 October, J specified a GPT-5.6 Sol resume followed by GPT-6.1 Sol medium for the return. On 21 October, the re-check was corrected to GPT-6.1 Sol medium; the earlier 5.6 launch wording was superseded. The [correction message](../history-evidence/D3-model-correction.md) records why `resumed_with` is unreliable as a description of an answer turn.
+The canonical instruction says to restore the original community coder on its recorded model and effort. This study used dated operational decisions, retained in [handler decision rows 155 and 248](../history-evidence/handler-decisions.tsv). On 15 October, J specified a gpt-5.6-sol resume followed by gpt-6.1-sol medium for the return. On 21 October, the re-check was corrected to gpt-6.1-sol medium; the earlier 5.6 launch wording was superseded. The [correction message](../history-evidence/D3-model-correction.md) records why `resumed_with` is unreliable as a description of an answer turn.
 
-This website review inspected the D2 archives of all 14 shared communities. Each archive hash matched its custody receipt. In each, the source proof names the same archive used for the shared coding close; the native fork identifies its original session and boundary ordinal; and the D2 turn contexts record GPT-6.1 Sol, medium. Thus `run.json`'s `model=6.1` describes these returns, while `resumed_with=5.6` is retained historical metadata, not proof that their answers used 5.6.
+This website review inspected the D2 archives of all 14 shared communities. Each archive hash matched its custody receipt. In each, the source proof names the same archive used for the shared coding close; the native fork identifies its original session and boundary ordinal; and the D2 turn contexts record gpt-6.1-sol, medium. Thus `run.json`'s `model=6.1` describes these returns, while `resumed_with=5.6` is retained historical metadata, not proof that their answers used 5.6.
 
 The verified relationship for these communities is:
 
@@ -33,7 +33,7 @@ Original coding close
         +-- D3: same D2 session ID in the re-check return record
 ```
 
-D2 did not fork from R6. A shared source identity does not mean the D2 branch held the later R6 local model. The D3 records name GPT-6.1 Sol and the same D2 session IDs. They omit effort; medium was prescribed, not independently checked in those D3 transcripts by this website review. The review did not inspect all 705 D2 native histories. These limits must not be generalized into a claim about every community.
+D2 did not fork from R6. A shared source identity does not mean the D2 branch held the later R6 local model. The D3 records name gpt-6.1-sol and the same D2 session IDs. They omit effort; medium was prescribed, not independently checked in those D3 transcripts by this website review. The review did not inspect all 705 D2 native histories. These limits must not be generalized into a claim about every community.
 
 | Shared community | D2 source and native-turn evidence |
 |---|---|
@@ -76,4 +76,4 @@ Original checkpoint bundles and transcripts remain in the private research repos
 
 Online interviews are not connected yet. Chat Locally is available to readers with repository access and a supported model account and runtime. A later interview server can connect to this website without moving these reading pages.
 
-[Machine-readable history and evidence hashes](../history.json). New records extend the catalogue; earlier checkpoint identities, accepted bundles and source recipes remain unchanged. Additional runtime proofs, when available, name the exact executable tested.
+[Machine-readable history and evidence hashes](../history.json). New records extend the catalog; earlier checkpoint identities, accepted bundles and source recipes remain unchanged. Additional runtime proofs, when available, name the exact executable tested.

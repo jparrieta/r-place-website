@@ -32,4 +32,4 @@ Follow a claim to its account, codes and source material. Compare the aggregator
 
 [Audit the evidence with TRACE](audit-evidence.html): recorded examples, access limits and gaps, without extra research gates.
 
-The older review page describes a historical run. Use the [publication catalogue](../checkpoint-index.html) for the records indexed by this site.
+The older review page describes a historical run. Use the [publication catalog](../checkpoint-index.html) for the records indexed by this site.

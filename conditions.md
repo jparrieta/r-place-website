@@ -4,9 +4,9 @@ r/place gives communities a common task environment in which to study different 
 
 ## What communities shared
 
-The 2017 event lasted 72 hours on a 1,000 by 1,000 pixel canvas. Each user could change one pixel's colour every five minutes. Any user could overwrite a pixel placed by someone else. A design therefore depended on many people placing pixels and responding to changes.
+The 2017 event lasted 72 hours on a 1,000 by 1,000 pixel canvas. Each user could change one pixel's color every five minutes. Any user could overwrite a pixel placed by someone else. A design therefore depended on many people placing pixels and responding to changes.
 
-The same public canvas made neighbours, agreements and competing designs part of the task. The [data guide](guides/download.html) identifies the placement record, written records and artwork atlas used to reconstruct it.
+The same public canvas made neighbors, agreements and competing designs part of the task. The [data guide](guides/download.html) identifies the pixel record, written records and artwork atlas used to reconstruct it.
 
 ## What still differed
 

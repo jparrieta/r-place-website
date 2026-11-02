@@ -4,7 +4,7 @@
 
 Use [checkpoint interviews](../interviews.html). A verified bundle combines the saved conversation with its historical files. The interview runs separately; it does not advance a research stage or change the original record.
 
-The catalogue distinguishes **Read the record**, **Download and interview**, and **Interview online**. An unavailable bundle or hosted route is labelled. A transcript alone does not prove a complete restore exists.
+The catalog distinguishes **Read the record**, **Download and interview**, and **Interview online**. An unavailable bundle or hosted route is labeled. A transcript alone does not prove a complete restore exists.
 
 [Interview guide](interviews.html) · [Full restore and service instructions](../runtime.md)
 

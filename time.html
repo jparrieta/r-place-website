@@ -1,13 +1,14 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Time and costs | r/place</title><link rel="stylesheet" href="assets/site.css"><script defer src="assets/local-setup.js"></script><script defer src="assets/site.js"></script><script defer src="assets/reviewer.js"></script></head>
 <body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="index.html">r/place<span>An organizational fruit fly</span></a>
-<div class="utility"><nav class="task-nav" aria-label="Use the repository"><a data-reviewer-entry href="open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav><button id="theme" type="button" aria-label="Change colour theme">Theme: light</button></div><nav class="menu" aria-label="Main"><a  href="index.html">Overview</a><a aria-current=location href="results.html">Results</a><a  href="instrument.html">Instrument</a><a  href="interviews.html">Checkpoint interviews</a></nav></header>
-<main id="main" class="page-time" data-layer="Overview"><nav class="parts" aria-label="Results"><a  href="results.html">Both examples</a><a  href="results/placenl.html">PlaceNL example</a><a  href="results/population.html">Aggregator example</a><a aria-current=page href="time.html">Time and costs</a></nav><h1 id="time-and-costs">Time and costs</h1>
+<div class="utility"><nav class="task-nav" aria-label="Use the repository"><a data-reviewer-entry href="open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav><button id="theme" type="button" aria-label="Change color theme">Theme: light</button></div><nav class="menu" aria-label="Main"><a  href="index.html">Overview</a><a aria-current=location href="results.html">Results</a><a  href="instrument.html">Instrument</a><a  href="interviews.html">Checkpoint interviews</a></nav></header>
+<main id="main" class="page-time" data-layer="Overview"><nav class="parts" aria-label="Results"><a  href="results.html">Summary</a><a  href="results/placenl.html">One community: r/PlaceNL</a><a  href="results/population.html">The population model</a><a aria-current=page href="time.html">Time and costs</a></nav><h1 id="time-and-costs">Time and costs</h1>
 <p>How long each part of the study took and what it consumed, where it
 was recorded. All dates are 2026 and all times UTC; money is in US
 dollars. From the first recorded community coding run on 18 August to
 the last aggregator session on 28 October is 71 days. The figures come
-from the handler's cost and time dataset of 29 October, built from the
+from the cost and time dataset that the run's handler, the conversation
+that ran the aggregator's stages, built on 29 October, built from the
 session transcripts, the Codex receipts and the OpenRouter export,
 unless a line says otherwise. The records are in the <a
 href="https://github.com/jparrieta/r-place">research repository
@@ -82,7 +83,7 @@ price: a valuation, not an invoice.</p>
 <td style="text-align: right;">$68, paid</td>
 </tr>
 <tr>
-<td>The field, r/place, read for C4 and its interviews</td>
+<td>The r/place subreddit, read for C4 and its interviews</td>
 <td>gpt-6.1-sol</td>
 <td style="text-align: right;">7.62 billion</td>
 <td style="text-align: right;">$1,392</td>
@@ -399,17 +400,17 @@ came from the run's session log; this dataset counts 314.</p>
 <td style="text-align: right;">1.2</td>
 </tr>
 <tr>
-<td>Waiting for the reader fleets</td>
+<td>Waiting for the independent readers</td>
 <td style="text-align: right;">14.0</td>
 <td style="text-align: right;">0.6</td>
 </tr>
 <tr>
-<td>Waiting for both the fleet and the Codex coders</td>
+<td>Waiting for both the readers and the Codex coders</td>
 <td style="text-align: right;">6.8</td>
 <td style="text-align: right;">0.3</td>
 </tr>
 <tr>
-<td>Waiting for the field at C4 and C5</td>
+<td>Waiting for the r/place reading at C4 and C5</td>
 <td style="text-align: right;">9.4</td>
 <td style="text-align: right;">0.4</td>
 </tr>
@@ -443,11 +444,11 @@ came from the run's session log; this dataset counts 314.</p>
 <p>Without delays the run would have taken between 10.3 days, counting
 working time only, and 15.1 days, counting also handovers, short pauses
 and the fleet and Codex waits as they ran.</p>
-<h2 id="the-field">The field</h2>
-<p>r/place itself, read by the Field agent for C4, used 7.62 billion
+<h2 id="the-rplace-subreddit">The r/place subreddit</h2>
+<p>r/place itself, read by a separate agent for C4, used 7.62 billion
 tokens in its pilots, its production coding, its lead and the interviews
-at C4 and C5, worth $1,392 at list prices. Field work after C5 is not
-counted.</p>
+at C4 and C5, worth $1,392 at list prices. Work on r/place after C5 is
+not counted.</p>
 <h2 id="prices-used">Prices used</h2>
 <details class="fold"><summary>Show the prices used and what is not counted</summary>
 
@@ -477,7 +478,7 @@ counted.</p>
 <td style="text-align: right;">20,000</td>
 </tr>
 <tr>
-<td>gpt-6.1-sol, D2, D3 and the field</td>
+<td>gpt-6.1-sol, D2, D3 and r/place</td>
 <td style="text-align: right;">2,000</td>
 <td style="text-align: right;">100</td>
 <td style="text-align: right;">2,500</td>
@@ -496,15 +497,16 @@ counted.</p>
 input over 272,000 tokens. The community coding is priced at
 short-context rates, since its receipts give no context size; at
 long-context rates it would cost $19,676 more.</p>
-<p>Not counted: the handler's own sessions, Claude's side of the field
-interviews, a Codex arm at B4 (9.6 million tokens), community coding
-runs other than the selected medium runs, and field work after C5.</p>
+<p>Not counted: the handler's own sessions, Claude's side of the
+interviews at C4 and C5, a Codex arm at B4 (9.6 million tokens),
+community coding runs other than the selected medium runs, and work on
+r/place after C5.</p>
 </details>
 
 <h2 id="accounts">Accounts</h2>
 <p>The work ran on a Claude subscription (the aggregator and the earlier
-coding), a Codex account (the final coding, the returns and the field)
-and OpenRouter (DeepSeek).</p>
+coding), a Codex account (the final coding, the returns and r/place) and
+OpenRouter (DeepSeek).</p>
 <h2 id="files">Files</h2>
 <p><a href="assets/data/cost-time/00_headline.json" download>The headline</a> ·
 <a href="assets/data/cost-time/01_overview_by_workstream.csv" download>By part of
@@ -524,8 +526,8 @@ holds</a></p>
 <h2 id="sources">Sources</h2>
 <p>The handler's cost and time dataset of 29 October 2026: the session
 transcripts and the handler's per-session file; the Codex token and cost
-reports for the 705 communities and the field; the DeepSeek dispatch
-logs and the OpenRouter export of 13 October. For the earlier coding:
-the coding handler's <code>STATUS.tsv</code>,
+reports for the 705 communities and r/place; the DeepSeek dispatch logs
+and the OpenRouter export of 13 October. For the earlier coding: the
+coding handler's <code>STATUS.tsv</code>,
 <code>CODING-PROGRESS.json</code> and <code>PRIOR-RUNS.tsv</code>.</p>
 </main><footer><div><a href="agents.html">For agents</a><a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

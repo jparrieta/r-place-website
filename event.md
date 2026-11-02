@@ -2,7 +2,7 @@
 
 A finished image shows what remained. The event record lets us ask how people reached it: what they planned, changed, defended or abandoned. This is the lifecycle the repository holds in common.
 
-## From first placements to the finished canvas
+## From the first pixel changes to the finished canvas
 
 The archived pixel record contains 16,559,897 pixel changes, about 16.6 million. The event lasted 72 hours, and the written record adds the following day. Together these traces let researchers return to earlier decisions and responses rather than infer the process from its final outcome alone.
 

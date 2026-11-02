@@ -28,16 +28,16 @@ A fresh gpt-5.6-sol conversation writes each community's brief, and a script wri
 
 ## After the coding: the return
 
-At the return ([D2](stages/D2.html)), an adaptation handler forks, for each community, the checkpoint of the community coder that coded it, with its conversation and files, and gives it a new task in a separate folder. This is not another coding pass. Under the return contract the coder recodes its whole community in the population model's terms. It reads its own case account, themes, codes, brief and reply trees against the model, the coding ladder and the model's vocabulary of element and arrow ids. It then writes two files:
+At the return ([D2](stages/D2.html)), an adaptation handler forks, for each community, the checkpoint of the community coder that coded it, with its conversation and files, and gives it a new task in a separate folder. This is not another coding pass. Under the return contract the coder recodes its whole community in the population model's terms. It reads its own case account, themes, codes, brief and reply trees against the model, the coding structure and the model's vocabulary of element and arrow ids. It then writes two files:
 
-- a room model: its case account rewritten section by section in the model's terms, each claim tied to an element id or marked as new and cited to the community's own codes, ending with its own grade and the exceptions it found;
+- a model of the community: its case account rewritten section by section in the model's terms, each claim tied to an element id or marked as new and cited to the community's own codes, ending with its own grade and the exceptions it found;
 - one line for each change the model needs: an element instantiated, marked absent, given a condition or a finer step, linked, restricted or contradicted, or a new element proposed.
 
 A script checks every return, and the same session repairs what fails. Two separate readers judge, from the evidence, whether the model composes the community. The aggregator rules on every line and revises the model ([D3](stages/D3.html)); each community's return checkpoint then continues with the revised model for the re-check. The results are on [the population return page](results/population-return.html).
 
 ## After the coding: the local model (R6)
 
-The local model is a second branch from the coding close, and the aggregator did not use it. Admissions stopped on 28 October; by 29 October, 173 communities had finished it and the other 532 had not run it. The site shares 14 of the 173. For each, a copy of the closed community coder resumed its own session under [the room-model contract](sources/room-model.html), fifth version of 7 October 2026, and [a pilot amendment](sources/pilot-amendment.html) authorized on 11 October. r/Goodboye, the first, ran without the amendment.
+The local model is a second branch from the coding close, and the aggregator did not use it. Admissions stopped on 28 October; by 29 October, 173 communities had finished it and the other 532 had not run it. The site shares 14 of the 173. For each, a copy of the closed community coder resumed its own session under [the local model's contract](sources/room-model.html), fifth version of 7 October 2026, and [a pilot amendment](sources/pilot-amendment.html) authorized on 11 October. r/Goodboye, the first, ran without the amendment.
 
 The contract tells the coder that coding is closed and that no code, theme or coding file may change. It asks for the community's own model in the manner of Gioia, Corley and Hamilton (2013): themes above the coder's themes, aggregate dimensions where the material carries them, a data structure and a dynamic model. The coder then sets the model against the literature, writes an account, grades its confidence and closes. Each of its six stages follows a stage of the aggregator; R6, the last, names the checkpoint.
 
@@ -50,7 +50,7 @@ The contract tells the coder that coding is closed and that no code, theme or co
 | R5 literature | receives the paper by Puranam, Alexy and Reitzig (2014) and maps each higher theme to the problem of organizing it handles | [C3](sources/stage-C3.html) |
 | R6 account and close | writes the account, propositions, the data structure, claims and an interview, then grades its confidence last | [C5](sources/stage-C5.html), [E1](sources/stage-E1.html) |
 
-[The local model's other documents](coding-contracts.html#the-local-model-r6): how it maps onto the aggregator, the files it writes, the aggregator's texts as the checkpoints carry them, and the room handler's.
+[The local model's other documents](coding-contracts.html#the-local-model-r6): how it maps onto the aggregator, the files it writes, the aggregator's texts as the checkpoints carry them, and the handler's.
 
 | | |
 |---|---|

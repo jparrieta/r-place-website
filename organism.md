@@ -24,9 +24,9 @@ On a small screen, scroll the table sideways to compare fields.
 | Characteristic | Fruit fly: biology | Chess: cognitive psychology | ImageNet2012: computer vision | r/place: organization science |
 |---|---|---|---|---|
 | **Material accessibility** | Standard fly strains that laboratories obtain, breed and examine. | A game with explicit rules, recorded positions and recorded games. | A defined collection of images in 1,000 categories, open for download. | Public records of the 72-hour event: 16.6 million pixel changes and 7.5 million posts and comments. LLM agents reduce the cost of reading them. |
-| **Representational scope** | Genetics, development, physiology and behaviour in the same organism. | Perception, memory, learning and search behind expertise in one task. | Classification and localization as related parts of object recognition. | Coordination, maintenance, contention and alliances in the same communities: eight dimensions and six candidate organizational forms. |
-| **Standardization** | Strains raised under the same laboratory conditions. | Fixed rules and measurable differences in skill. | Agreed labels, data splits and evaluation rules. | The same placement rules for all: one pixel every five minutes, and anyone could overwrite it. Coder contracts are held constant within a run. |
-| **Research community** | Stock centres and databases such as FlyBase connect strains and findings. | Published position tasks and game records let later work revisit findings. | Development kits and a public challenge put new methods to common tests. | Download scripts, coded records, contracts and agent checkpoints are shared, so others can rerun or extend the analysis. |
+| **Representational scope** | Genetics, development, physiology and behavior in the same organism. | Perception, memory, learning and search behind expertise in one task. | Classification and localization as related parts of object recognition. | Coordination, maintenance, contention and alliances in the same communities: eight dimensions and six candidate organizational forms. |
+| **Standardization** | Strains raised under the same laboratory conditions. | Fixed rules and measurable differences in skill. | Agreed labels, data splits and evaluation rules. | The same rules for all: one pixel every five minutes, and anyone could overwrite it. Coder contracts are held constant within a run. |
+| **Research community** | Stock centers and databases such as FlyBase connect strains and findings. | Published position tasks and game records let later work revisit findings. | Development kits and a public challenge put new methods to common tests. | Download scripts, coded records, contracts and agent checkpoints are shared, so others can rerun or extend the analysis. |
 
 ## Why r/place meets the criteria
 
@@ -34,7 +34,7 @@ On a small screen, scroll the table sideways to compare fields.
 
 **Representational scope.** The model provides a basis for comparison with open-source communities and self-managing firms (O'Mahony & Ferraro, 2007; Lee & Edmondson, 2017). Only 46 of the 705 coded communities show a leader, a vote, an oath, a sanction or an explicit division of work. Extending the model to hierarchical firms requires further evidence, and pay, employment contracts, careers and costly exit cannot be studied here.
 
-**Standardization.** All communities worked under the same pixel-placement rules (Simpson et al., 2017), though they differed in their histories and circumstances. We held the community coders' contract constant within a run. Later runs can change one component, such as the literature, the community coder or the aggregator, and compare the results with the baseline.
+**Standardization.** All communities worked under the same rules for placing pixels (Simpson et al., 2017), though they differed in their histories and circumstances. We held the community coders' contract constant within a run. Later runs can change one component, such as the literature, the community coder or the aggregator, and compare the results with the baseline.
 
 **Research community.** We share our baseline, the coded cases and tools for inspecting the analysis. Researchers can rerun the instrument or resume it from a [checkpoint](interviews.html), then return a revised population model to the community coders to assess its fit to their cases. Whether r/place becomes a model organism depends on other researchers using and extending this baseline (Kohler, 1994).
 
@@ -42,7 +42,7 @@ The four characteristics also answer Machlup's (1967) three constraints on study
 
 ## Inspect the examples
 
-- **Fruit fly:** [Ankeny and Leonelli's analysis](https://doi.org/10.1016/j.shpsa.2010.11.039) and the [Bloomington stock centre](https://bdsc.indiana.edu/about/index.html).
+- **Fruit fly:** [Ankeny and Leonelli's analysis](https://doi.org/10.1016/j.shpsa.2010.11.039) and the [Bloomington stock center](https://bdsc.indiana.edu/about/index.html).
 - **Chess:** [Simon and Chase, Skill in chess (1973)](https://iiif.library.cmu.edu/file/Simon_box00066_fld05052_bdl0001_doc0001/Simon_box00066_fld05052_bdl0001_doc0001.pdf).
 - **ImageNet2012:** [the original tasks and evaluation rules](https://ftp.image-net.org/challenges/LSVRC/2012/index.php).
 - **r/place:** [the data collection](sources/data-README.html), [the study and its limits](guides/study.html), and [one claim traced to its evidence](records/example-PlaceNL.html).

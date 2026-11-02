@@ -32,8 +32,8 @@ Why the instrument moved [from v30 to v31](sources/coder-v31-rationale.html) and
 
 These reach the repository only inside the R6 checkpoints.
 
-- [The room-model contract](sources/room-model.html), fifth version of 7 October 2026, and [the pilot amendment](sources/pilot-amendment.html) of 11 October, which 13 of the 14 checkpoints carry.
+- [The local model's contract](sources/room-model.html), fifth version of 7 October 2026, and [the pilot amendment](sources/pilot-amendment.html) of 11 October, which 13 of the 14 checkpoints carry.
 - [The crosswalk](sources/room-crosswalk.html): the local model beside the aggregator, stage by stage.
 - [The file profile](sources/room-profile.html): every file the local model writes.
 - [The aggregator's contract](sources/room-contract-v43.html) and [C1 card](sources/room-stage-C1.html) as the checkpoints carry them, earlier than the copies the aggregator ran with. Its other stage cards, C2, C3, C5 and E1, are the aggregator's own.
-- The room handler's [controller](sources/room-handler.html), [snapshot policy](sources/room-snapshots.html) and [amendments](sources/room-amendments.html), as they stand today, not as copies from the run.
+- The handler's [controller](sources/room-handler.html), [snapshot policy](sources/room-snapshots.html) and [amendments](sources/room-amendments.html), as they stand today, not as copies from the run.
