@@ -51,7 +51,7 @@ One folder per community of the r/place census, each holding everything a case l
 
 ## Persistent case-lead continuation
 
-For a snapshot of both the **case lead's native conversation and the whole room's filesystem**, use `_tools/codex_lead.py` as described in [CHECKPOINTS.md](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/handler/CHECKPOINTS.md). Only the case lead needs a saved native session; brief writers and fleet coders do not. The adapter works in an isolated managed copy and checkpoints each completed lead reply.
+For a snapshot of both the **case lead's native conversation and the whole room's filesystem**, use `_tools/codex_lead.py` as described in [CHECKPOINTS.md](coder-checkpoints.md). Only the case lead needs a saved native session; brief writers and fleet coders do not. The adapter works in an isolated managed copy and checkpoints each completed lead reply.
 
 The `room.py snapshot`/`fork` commands below are the older filesystem-only, fresh-lead research comparison. They do not restore the original agent's conversation. On the last batch, `message collect` now stops the lead before consolidation; checkpoint there, then send `message finish`, which no longer collects the same batch a second time.
 

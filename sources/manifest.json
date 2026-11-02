@@ -36,6 +36,90 @@
     "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
   },
   {
+    "path": "coder/instrument/v32/CONTRACT-brief-writer.v32.md",
+    "site_source": "sources/brief-writer.md",
+    "sha256": "0b6139ce0c9d11e09e978911db1aafa3520985ecdff050d5e6f53108dcb7f122",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/AGENT.v32.md",
+    "site_source": "sources/coder-agent.md",
+    "sha256": "f428e33ead41ba54ae06d7001b6fb729b60e4ea6990b1d251b0521062594c82f",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/TOOLS-SPEC.md",
+    "site_source": "sources/coder-tools.md",
+    "sha256": "345ecc3e886596f9a537b2e1728e0647063edd0854694c53aa0538a3cf17bf70",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/README.md",
+    "site_source": "sources/coder-instrument.md",
+    "sha256": "980387f6c055f495ec2804bc3e43a602b2fb9a88cbf9dd41e0d00d9a4662ed65",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/CHANGELOG-v32.md",
+    "site_source": "sources/coder-changelog.md",
+    "sha256": "de3f6de8b2db827b2372982409f116206c88fb028c7fcfb9629bd12ce60eb933",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/rationale/V31-PREVENTION-RATIONALE.md",
+    "site_source": "sources/coder-v31-rationale.md",
+    "sha256": "076c254784cbc43c0163ea3756dc8bb029c38f51f0b8c165280b5736554a554f",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md",
+    "site_source": "sources/coder-v32-rationale.md",
+    "sha256": "8fd2a2a842b0d9ecd540e38b454c4db0081cf8870a0b4afffc558968b5bcd4a2",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/handler/CODING-SCHEDULER.md",
+    "site_source": "sources/coding-scheduler.md",
+    "sha256": "22eb395d7e79a10570846846d68db9ea3a85fad8a411fb1e43fa23d7e58a1952",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/handler/CASE-LEAD-PROMPT.md",
+    "site_source": "sources/case-lead-prompt.md",
+    "sha256": "72b66473307467a8cf1dadfcada45bcf164a4139f53db4c374cc249839d3858a",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/handler/CHECKPOINTS.md",
+    "site_source": "sources/coder-checkpoints.md",
+    "sha256": "0578b05a13106bc55d8f8b27cda5701c2eb7d264acffe36927f7c8dbe3812575",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/handler/BRIEF-COORDINATOR.md",
+    "site_source": "sources/brief-coordinator.md",
+    "sha256": "0276e9a00b18f373de3f949debda16e9e40b9a8f0db07d9eeaf4d32af9ca92ab",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/handler/BRIEF-WRITER-PROMPT.md",
+    "site_source": "sources/brief-writer-prompt.md",
+    "sha256": "d30dae43e1cb3a99973d29e579af5ad8561375a822a6ba1d2c2df7c87356393b",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/handler/REPAIR-QUEUE-RESTART-RULES.md",
+    "site_source": "sources/repair-queue.md",
+    "sha256": "f3f3ea9ed355a050134d9540387d16353dacf376be4b7bbc2456397eacf94d46",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "coder/handler/VERIFIED-RUN-ARCHIVES.md",
+    "site_source": "sources/verified-archives.md",
+    "sha256": "c13ef3e5fbe4bfa6d664e3d788b31f34af876e2e81c26e2bc60b206ad6158a07",
+    "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
     "path": "aggregator/handler/HANDLER.md",
     "site_source": "sources/handler.md",
     "sha256": "0aa8f43ae8886a9b4d99ec1300c74c8cc819919207905cf3562210118c281b62",
@@ -208,5 +292,95 @@
     "site_source": "sources/stage-E2.md",
     "sha256": "19de4da8d6adc78bb837a997065744d5f3ba5ef6b8a8e10144d7a3cd051a4501",
     "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185"
+  },
+  {
+    "path": "website/community-contracts/v30/CONTRACT.v30.md",
+    "site_source": "sources/v30-coder-contract.md",
+    "sha256": "121b0472ebd612751ef1060e1b9f28f5db51e327cf2e07441032e3cd2163fe51",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/v30/CONTRACT-case-lead.v30.md",
+    "site_source": "sources/v30-case-lead.md",
+    "sha256": "d472caa6ee824832d056a518570aa6063dddaa4956c119d17440ad0285e44991",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/v30/CONTRACT-fleet-coder.v30.md",
+    "site_source": "sources/v30-fleet-coder.md",
+    "sha256": "ea62d867e549abcff3581ea84eea08fe51c929a99454612b6447a7eed330c1a5",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/v30/CONTRACT-brief-writer.v30.md",
+    "site_source": "sources/v30-brief-writer.md",
+    "sha256": "03a227ddc54ba3bf4c46c08ffcc5ecafbe0f036b75db6b2cbf1d2ba663be2925",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/v30/AGENT.v30.md",
+    "site_source": "sources/v30-coder-agent.md",
+    "sha256": "c72461f997957658ffc2a11b9a0172bed33f400b9df77c7f7574336548104e89",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/v30/CHANGELOG-v30.md",
+    "site_source": "sources/v30-changelog.md",
+    "sha256": "487157dd826fd4e20b510fef0e64e4d7eb87848212052c7c871c3e1575345c8d",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/room-model/CONTRACT.md",
+    "site_source": "sources/room-model.md",
+    "sha256": "ef116a840835667f5336a86d4c1db161db1e5de53e81191649ea1ca56744b0a2",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/PILOT-AMENDMENT.md",
+    "site_source": "sources/pilot-amendment.md",
+    "sha256": "425a1443e9703a2feb253d6ef564ebec9a8aecbce086b1afcf5c87af00de1782",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/CROSSWALK.md",
+    "site_source": "sources/room-crosswalk.md",
+    "sha256": "71be757f136a3b6200c617598343ba6687958d3f22116021e8447fc9857b1e31",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/PROFILE.md",
+    "site_source": "sources/room-profile.md",
+    "sha256": "361232b4de0bebbe90101d70acf252db9c0775feee0897740a9aa0bc2b2e226d",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/global/CONTRACT-aggregator.md",
+    "site_source": "sources/room-contract-v43.md",
+    "sha256": "0898d8b5726d357739d7b61cebe059e757fb4226e017f13955ba0c7b7ac59925",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/global/stages/STAGE-C1-model-structuring.md",
+    "site_source": "sources/room-stage-C1.md",
+    "sha256": "958ea51caf47fa9b2a89212ff57482b46471d4d50a9114cd0cbdf18871796f2f",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/handler/ROOM-HANDLER.md",
+    "site_source": "sources/room-handler.md",
+    "sha256": "0bc6b3535ca6ad83487c96c23bece78969d4446468a4caa9dc6475158189e997",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/handler/SNAPSHOT-POLICY.md",
+    "site_source": "sources/room-snapshots.md",
+    "sha256": "854ce115bc20f02c07cdcfe11d75953375e00b34441ee0299360c4206957d84e",
+    "commit": null
+  },
+  {
+    "path": "website/community-contracts/R6/handler/AMENDMENTS.md",
+    "site_source": "sources/room-amendments.md",
+    "sha256": "a0ec9f7138c47ecb1b658d54b7a15bd7ae6628298fb9b885054937d3b354856c",
+    "commit": null
   }
 ]

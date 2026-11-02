@@ -11,9 +11,13 @@ Use the original community coder (the run’s case lead) and the native runtime 
 
 1. [coder-README](../reading/coder-README.md)
 2. [scheduler](../reading/scheduler.md)
-3. [coder-contract](../reading/coder-contract.md)
-4. [case-lead](../reading/case-lead.md)
-5. [fleet-coder](../reading/fleet-coder.md)
+3. [coding-scheduler](../reading/coding-scheduler.md)
+4. [coder-contract](../reading/coder-contract.md)
+5. [case-lead](../reading/case-lead.md)
+6. [fleet-coder](../reading/fleet-coder.md)
+7. [brief-writer](../reading/brief-writer.md)
+8. [coder-agent](../reading/coder-agent.md)
+9. [coder-tools](../reading/coder-tools.md)
 
 ## Version and scope
 

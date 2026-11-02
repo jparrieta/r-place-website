@@ -4,10 +4,15 @@ Each community is read by its own community coder, a model conversation that see
 
 ## Its contracts
 
-- [The coder contract](sources/coder-contract.html), version 32 (version 30 for 102 communities): the method, the rules, the five steps and the outputs.
+- [The coder contract](sources/coder-contract.html), version 32 (version 30 for 102 communities, r/PlaceNL among them): the method, the rules, the five steps and the outputs.
 - [The community coder's contract](sources/case-lead.html), which the run calls the case lead's: the gate between working alone and with a fleet, and the order of work in each branch.
 - [The fleet coder's contract](sources/fleet-coder.html): one slice of whole threads, coded, and nothing else.
+- [The brief writer's contract](sources/v30-brief-writer.html), version 30 with its revision of 7 September 2026, which the briefs record for communities coded under either version: the brief of the community's week before the event.
 - [The scheduler's contract](sources/scheduler.html): the cycle for one community, the checks, and what happens when one fails.
+
+A fresh gpt-5.6-sol conversation writes each community's brief, and a script writes an empty brief where the week before holds nothing. Of the 705 briefs, 627 hold text and 78 are empty. Some of the 627 come from runs before 7 September; how many each writer wrote is not recorded.
+
+[Every document, in both versions, with the handler's and the local model's](coding-contracts.html).
 
 ## The steps
 
@@ -30,6 +35,29 @@ At the return ([D2](stages/D2.html)), an adaptation handler forks, for each comm
 
 A script checks every return, and the same session repairs what fails. Two separate readers judge, from the evidence, whether the model composes the community. The aggregator rules on every line and revises the model ([D3](stages/D3.html)); each community's return checkpoint then continues with the revised model for the re-check. The results are on [the population return page](results/population-return.html).
 
-To do: the local model (R6), a separate continuation from the coding close. Its contract and how it was run are not yet described here.
+## After the coding: the local model (R6)
+
+The local model is a second branch from the coding close, and the aggregator did not use it. It exists for the 14 communities whose checkpoints the site shares. For each, a copy of the closed community coder resumed its own session under [the room-model contract](sources/room-model.html), fifth version of 7 October 2026, and [a pilot amendment](sources/pilot-amendment.html) authorized on 11 October. r/Goodboye, the first, ran without the amendment.
+
+The contract tells the coder that coding is closed and that no code, theme or coding file may change. It asks for the community's own model in the manner of Gioia, Corley and Hamilton (2013): themes above the coder's themes, aggregate dimensions where the material carries them, a data structure and a dynamic model. The coder then sets the model against the literature, writes an account, grades its confidence and closes. Each of its six stages follows a stage of the aggregator; R6, the last, names the checkpoint.
+
+| Stage | What the coder does | The aggregator's stage |
+|---|---|---|
+| R1 prior | writes what the coding taught it to expect, before it reopens its codes | B1 |
+| R2 reading | reads its codes in clock order, one note per block, and keeps a list of episodes | A1 |
+| R3 structure | reads its codes for form, then groups its themes into higher themes and dimensions | [C1](sources/room-stage-C1.html), [C2](sources/stage-C2.html) |
+| R4 the model | builds the model in numbered passes until two in a row change nothing; a fresh critic returns errors and a rival grouping of its themes | [C2](sources/stage-C2.html) |
+| R5 literature | receives the paper by Puranam, Alexy and Reitzig (2014) and maps each higher theme to the problem of organizing it handles | [C3](sources/stage-C3.html) |
+| R6 account and close | writes the account, propositions, the data structure, claims and an interview, then grades its confidence last | [C5](sources/stage-C5.html), [E1](sources/stage-E1.html) |
+
+[The local model's other documents](coding-contracts.html#the-local-model-r6): how it maps onto the aggregator, the files it writes, the aggregator's texts as the checkpoints carry them, and the room handler's.
+
+| | |
+|---|---|
+| Model | gpt-6.1-sol at medium effort; the coding close ran on gpt-5.6-sol at medium |
+| Dates | 20 October 15:39 to 21 October 13:47 UTC; r/Goodboye also ran on 9 and 10 October |
+| Outputs | for r/PlaceNL, six higher themes, two dimensions, 12 elements and four propositions ([its outputs](records/community--PlaceNL--R6.html)) |
+| Lineage | same session and same source checkpoint as the coding close; the return (D2) forked the coding close, not R6 |
+| Not recorded | a commit for the contract and the amendment, which reach the repository only inside each R6 checkpoint; the critic's model |
 
 [How it was done, with r/PlaceNL beside it](study/coding.html) · [Run it](guides/communities.html)

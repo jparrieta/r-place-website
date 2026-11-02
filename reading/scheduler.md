@@ -6,7 +6,7 @@ Links below are resolved against commit `c4a37e88bc627fbeabcd9aabb886a2b4b3d1a18
 
 # The scheduler's contract, run yard v31
 
-*Written for yard v31 and kept as the scheduler ran under it. The instrument shipped here is v32, which replaced v31 in the same yard ([why](https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md)); read "v31" below as the current reference instrument.*
+*Written for yard v31 and kept as the scheduler ran under it. The instrument shipped here is v32, which replaced v31 in the same yard ([why](coder-v32-rationale.md)); read "v31" below as the current reference instrument.*
 
 Completed and in-progress v30 rooms retain their original instrument. New rooms use v31. The scheduler never updates an instrument inside a dispatched run.
 

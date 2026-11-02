@@ -10,50 +10,50 @@
         {
           "original": "pixels/README.md",
           "repository_path": "data/pixels/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/pixels/README.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "atlas/README.md",
           "repository_path": "data/atlas/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/atlas/README.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "users/README.md",
           "repository_path": "data/users/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/users/README.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "venues-placers/README.md",
           "repository_path": "data/venues-placers/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/venues-placers/README.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "raw24/README.md",
           "repository_path": "data/raw24/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/raw24/README.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "pixels-hourly/README.md",
           "repository_path": "data/pixels-hourly/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/pixels-hourly/README.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "pixels-per-artwork/README.md",
           "repository_path": "data/pixels-per-artwork/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/pixels-per-artwork/README.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "_lib/rplace_window.py",
           "repository_path": "data/_lib/rplace_window.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/data/_lib/rplace_window.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "../Manual/data-and-collection.md#terms-of-use",
@@ -73,8 +73,8 @@
         {
           "original": "census/README.md",
           "repository_path": "coder/census/README.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/census/README.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "../Manual/census.md",
@@ -85,11 +85,11 @@
         {
           "original": "handler/CHECKPOINTS.md",
           "repository_path": "coder/handler/CHECKPOINTS.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/handler/CHECKPOINTS.md",
+          "target": "coder-checkpoints.md",
           "status": "pinned"
         }
       ],
-      "reading_sha256": "5b26b81958f7dded2501bf60e1684bde2e8f00eddd793442969202fd512796eb"
+      "reading_sha256": "ef531c1a10e519d99a3d0f26dddf3962212a85b4ee9956e2779c339857bbb4cb"
     },
     {
       "key": "coder-contract",
@@ -124,11 +124,123 @@
         {
           "original": "../instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md",
           "repository_path": "coder/instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/coder/instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md",
+          "target": "coder-v32-rationale.md",
           "status": "pinned"
         }
       ],
-      "reading_sha256": "ce45dff7ff8ae3dec3d4d5c8d4ce571417bf4e4551a9de7e25df98e3c29d86fe"
+      "reading_sha256": "60b6255cc0435991874714119ec042be8d3000a04b91f73b23a8de94fa08bf9d"
+    },
+    {
+      "key": "brief-writer",
+      "path": "coder/instrument/v32/CONTRACT-brief-writer.v32.md",
+      "sha256": "0b6139ce0c9d11e09e978911db1aafa3520985ecdff050d5e6f53108dcb7f122",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "8a6c7542eba67a55ea528e3c77d2b7070d97f342f84e115d80cc9a980dd387f3"
+    },
+    {
+      "key": "coder-agent",
+      "path": "coder/instrument/v32/AGENT.v32.md",
+      "sha256": "f428e33ead41ba54ae06d7001b6fb729b60e4ea6990b1d251b0521062594c82f",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "c00d17132a2fdf6c5ed5e35e1c890f3dfab8b6f71c64a89b9ae3d9ac02c798a9"
+    },
+    {
+      "key": "coder-tools",
+      "path": "coder/instrument/v32/TOOLS-SPEC.md",
+      "sha256": "345ecc3e886596f9a537b2e1728e0647063edd0854694c53aa0538a3cf17bf70",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "16eb93a3a4ada92dae3eb5c2ce737d2da78c7f7595989fc460b681034a8f3c33"
+    },
+    {
+      "key": "coder-instrument",
+      "path": "coder/instrument/v32/README.md",
+      "sha256": "980387f6c055f495ec2804bc3e43a602b2fb9a88cbf9dd41e0d00d9a4662ed65",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "ca2963936532968f4729f75a9d5af962d3c17f7dce90788d0ce4d97b4048caa5"
+    },
+    {
+      "key": "coder-changelog",
+      "path": "coder/instrument/v32/CHANGELOG-v32.md",
+      "sha256": "de3f6de8b2db827b2372982409f116206c88fb028c7fcfb9629bd12ce60eb933",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "eeda960f33767e88af8f7b2f4f88ec989149b5376612b2c98f032421cbe5bf9e"
+    },
+    {
+      "key": "coder-v31-rationale",
+      "path": "coder/instrument/v32/rationale/V31-PREVENTION-RATIONALE.md",
+      "sha256": "076c254784cbc43c0163ea3756dc8bb029c38f51f0b8c165280b5736554a554f",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "98211a31fd4e9fc66e0432ff462dfdfe8a03457b41b7f88a25813f78ac11db52"
+    },
+    {
+      "key": "coder-v32-rationale",
+      "path": "coder/instrument/v32/rationale/V32-C5-PREVENTION-RATIONALE.md",
+      "sha256": "8fd2a2a842b0d9ecd540e38b454c4db0081cf8870a0b4afffc558968b5bcd4a2",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "965ba28253a7fef5cb1b96639be89320de93f2e6b925263ca6acf4015c302b2a"
+    },
+    {
+      "key": "coding-scheduler",
+      "path": "coder/handler/CODING-SCHEDULER.md",
+      "sha256": "22eb395d7e79a10570846846d68db9ea3a85fad8a411fb1e43fa23d7e58a1952",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "c8cca262afe905ec5a61b9356ae98dead877e42ace3b5d228295392adeff5c32"
+    },
+    {
+      "key": "case-lead-prompt",
+      "path": "coder/handler/CASE-LEAD-PROMPT.md",
+      "sha256": "72b66473307467a8cf1dadfcada45bcf164a4139f53db4c374cc249839d3858a",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "7779d7765d2838a2445e548d64713024ef63d69a59b496d1f36e01228ac0d601"
+    },
+    {
+      "key": "coder-checkpoints",
+      "path": "coder/handler/CHECKPOINTS.md",
+      "sha256": "0578b05a13106bc55d8f8b27cda5701c2eb7d264acffe36927f7c8dbe3812575",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "2b3b5d5dfd50332479ea27814060b8cc8fa3639be3b90fca65b3f0d8de116ddd"
+    },
+    {
+      "key": "brief-coordinator",
+      "path": "coder/handler/BRIEF-COORDINATOR.md",
+      "sha256": "0276e9a00b18f373de3f949debda16e9e40b9a8f0db07d9eeaf4d32af9ca92ab",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "d9c154db0425c0ce899acbf8b3b186e44ecba9801cbaa91cbeec36496dc3c676"
+    },
+    {
+      "key": "brief-writer-prompt",
+      "path": "coder/handler/BRIEF-WRITER-PROMPT.md",
+      "sha256": "d30dae43e1cb3a99973d29e579af5ad8561375a822a6ba1d2c2df7c87356393b",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "238db6fe3d3469883e8e5c65aa454aa2adcdaa39ae8355f706662c4f8d864dea"
+    },
+    {
+      "key": "repair-queue",
+      "path": "coder/handler/REPAIR-QUEUE-RESTART-RULES.md",
+      "sha256": "f3f3ea9ed355a050134d9540387d16353dacf376be4b7bbc2456397eacf94d46",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "7cffa325133746fa469d228e64077d08055d1297ce50762a0298f6fbb86d5b70"
+    },
+    {
+      "key": "verified-archives",
+      "path": "coder/handler/VERIFIED-RUN-ARCHIVES.md",
+      "sha256": "c13ef3e5fbe4bfa6d664e3d788b31f34af876e2e81c26e2bc60b206ad6158a07",
+      "commit": "c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185",
+      "links": [],
+      "reading_sha256": "978aa30a04e14b63cdd3ba8b4fbedf2d56f7d16a32e6309e421f4fb24d4e32e1"
     },
     {
       "key": "handler",
@@ -145,8 +257,8 @@
         {
           "original": "claude/READ-ME-FIRST.md",
           "repository_path": "aggregator/handler/claude/READ-ME-FIRST.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/claude/READ-ME-FIRST.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "../../coder/handler/CONTRACT-scheduler.md",
@@ -163,68 +275,68 @@
         {
           "original": "../instrument/tools/version_log.py",
           "repository_path": "aggregator/instrument/tools/version_log.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/instrument/tools/version_log.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "paths.py",
           "repository_path": "aggregator/handler/paths.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/paths.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "import_rooms.py",
           "repository_path": "aggregator/handler/import_rooms.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/import_rooms.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "extract_legacy.py",
           "repository_path": "aggregator/handler/extract_legacy.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/extract_legacy.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "build_outcome.py",
           "repository_path": "aggregator/handler/build_outcome.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/build_outcome.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "build_canvas.py",
           "repository_path": "aggregator/handler/build_canvas.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/build_canvas.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "../instrument/tools/build_shelves.py",
           "repository_path": "aggregator/instrument/tools/build_shelves.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/instrument/tools/build_shelves.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "../instrument/shelves/make_meta.py",
           "repository_path": "aggregator/instrument/shelves/make_meta.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/instrument/shelves/make_meta.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "claude/build.sh",
           "repository_path": "aggregator/handler/claude/build.sh",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/claude/build.sh",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "claude/acceptance.sh",
           "repository_path": "aggregator/handler/claude/acceptance.sh",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/claude/acceptance.sh",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "claude-adapter/probe_lifecycle.py",
           "repository_path": "aggregator/handler/claude-adapter/probe_lifecycle.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/claude-adapter/probe_lifecycle.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "claude-adapter/LEGS.md",
@@ -235,26 +347,26 @@
         {
           "original": "build_raw_record.py",
           "repository_path": "aggregator/handler/build_raw_record.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/build_raw_record.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "check_quotes.py",
           "repository_path": "aggregator/handler/check_quotes.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/check_quotes.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "gather_collection.py",
           "repository_path": "aggregator/handler/gather_collection.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/gather_collection.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "bundle_history.py",
           "repository_path": "aggregator/handler/bundle_history.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/bundle_history.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "claude-adapter/LEGS.md",
@@ -265,14 +377,14 @@
         {
           "original": "paths.py",
           "repository_path": "aggregator/handler/paths.py",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/paths.py",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "paths.example.json",
           "repository_path": "aggregator/handler/paths.example.json",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/paths.example.json",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         }
       ],
       "reading_sha256": "30848549e22cf07f4345755a59b9c469f38d6da8fea631ea34d83ac57b4c3781"
@@ -294,26 +406,26 @@
         {
           "original": "aggregator/handler/codex/BLOCKS.md",
           "repository_path": "aggregator/handler/codex/BLOCKS.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/BLOCKS.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "aggregator/handler/codex/REMOTE.md",
           "repository_path": "aggregator/handler/codex/REMOTE.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/REMOTE.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "aggregator/handler/codex/BRANCHES.md",
           "repository_path": "aggregator/handler/codex/BRANCHES.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/BRANCHES.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "aggregator/handler/codex/HANDLER-CHAT.md",
           "repository_path": "aggregator/handler/codex/HANDLER-CHAT.md",
-          "target": "https://github.com/jparrieta/r-place/blob/c4a37e88bc627fbeabcd9aabb886a2b4b3d1a185/aggregator/handler/codex/HANDLER-CHAT.md",
-          "status": "pinned"
+          "target": "#unshipped-dependencies",
+          "status": "not-shipped"
         },
         {
           "original": "FLEET-ARMS.md",
