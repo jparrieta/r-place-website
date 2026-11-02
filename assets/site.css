@@ -382,3 +382,9 @@ footer>div{margin-left:auto}
 /* The eight dimensions carry the model's colours wherever they are listed. */
 :is(#results-population) .dsw{display:inline-block;width:.75rem;height:.75rem;background:var(--dc);box-shadow:0 0 0 1px var(--line);margin-right:.5rem;vertical-align:-.05em}
 :is(#results-population) section.dim>details.fold>summary{border-left:5px solid var(--dc);padding-left:.7rem}
+/* The Results overview's findings box (contract 3.1). */
+main.page-results>.findings{border:2px solid var(--ink);padding:1rem 1.25rem .6rem;margin:1.4rem 0 2.2rem;max-width:72ch}
+main.page-results>.findings h2{margin:0 0 .4rem;font-size:1.6rem}
+main.page-results>.findings ol{margin:.4rem 0 .7rem;padding-left:1.4rem}
+main.page-results>.findings li{margin:.45rem 0;line-height:1.45}
+main.page-results>.findings a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
