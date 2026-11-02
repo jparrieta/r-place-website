@@ -394,3 +394,7 @@ footer>div{display:flex;gap:1.6rem}
 :is(#results-population) table.dims-table{margin:.8rem 0 .6rem;display:block;overflow-x:auto;max-width:100%}
 :is(#results-population) table.dims-table caption{caption-side:top;text-align:left;color:var(--muted);font-size:.85rem;padding-bottom:.4rem}
 :is(#results-population) table.dims-table th[scope=row]{text-align:left;white-space:nowrap;font-weight:600}
+.part-strip li.here{color:var(--ink)}
+.part-strip [aria-current]{color:var(--ink);font-weight:650;box-shadow:inset 0 -2px 0 var(--ink)}
+.part-strip li[aria-current]{box-shadow:none}
+p.part-of{color:var(--muted);font-size:.95rem}
