@@ -1,28 +1,6 @@
-# Time and versions
+# Versions of the instrument
 
-How long the work took, how the two contracts came to their current versions, and how the population model changed during the run. All dates are 2026 and all times UTC.
-
-## Time
-
-From the first recorded community coding run on 18 August to the last aggregator session on 28 October is 71 days.
-
-**Community coding.** Earlier contracts coded 347 communities in 462 runs between 18 August and 5 September, mostly with Claude Opus 5; that coding was later redone. The final coding ran from 7 September to 4 October with gpt-5.6-sol: 5,097 agents at medium reasoning effort and 65 at extra high. It finished about 130 communities a week in its first three weeks. The aggregator's frame of 705 coded communities was taken on 4 October. Coding hours were not logged.
-
-**The return to the model.** The model went to all 705 community coders on 15 October, and their first returns were compiled on 16 October. After the aggregator revised the model, the re-check went out on 21 October and came back from all 705 by 22 October, about 30 hours later. The returns used gpt-6.1-sol.
-
-**The aggregator.** Run claude-v43-1, with Claude Opus 5.5, ran 21.5 days, from 6 October to 28 October, in 316 sessions. Sessions are counted from launch to close, waits for our rulings included; the median session took 34 minutes.
-
-| Stages | Dates | Session hours | Sessions |
-|---|---|---:|---:|
-| A1, reading the communities | 6 to 7 Oct | 19 | 57 |
-| B1 to B4, coding the themes | 7 to 13 Oct | 120 | 72 |
-| C1 to C5, building the model | 13 to 15 Oct | 19 | 43 |
-| D1 to D3, return and revision | 15 to 24 Oct | 177 | 61 |
-| D4 to D6, organizational forms | 24 to 27 Oct | 37 | 69 |
-| E1 to E2, audit and close | 27 to 28 Oct | 5 | 14 |
-| Total | 21.5 days | 377 | 316 |
-
-B1 and D3 took the most time. The [run log](runlog.html) gives every stage with its dates and tokens. Three D3 sessions that waited on rulings hold 104 of the 377 hours. Routine reading checks and fleet coding at stages B2 and B3 used DeepSeek V4.1 Flash, in 1,573 calls.
+How the contracts came to their current versions, and how the population model changed during the run. All dates are 2026. [Time and costs](time.html) gives how long each stage took.
 
 ## Contract versions
 
