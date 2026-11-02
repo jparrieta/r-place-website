@@ -52,6 +52,8 @@ D2 did not fork from R6. A shared source identity does not mean the D2 branch he
 | r/blackmirror | [Fork, source archive and turn settings](../history-evidence/blackmirror-D2-lineage.json) |
 | r/Goodboye | [Fork, source archive and turn settings](../history-evidence/Goodboye-D2-lineage.json) |
 
+Table: The 14 shared communities: where each return came from, and the evidence for its model
+
 These are selected metadata fields, not complete agent transcripts. Their member hashes and archive hashes identify the retained evidence. Reading them starts no agent.
 
 ## Instruction versions
@@ -66,7 +68,7 @@ B1b-32, B1d-07 and B1e predate the 11 October amendment. B1e closed at 14:49Z; d
 
 Decision row 96 introduced B4's three-placement rule on 12 October. The 21:19Z handler delivery explicitly opens B4a-01 under that amendment. The saved notes record its use. A further ruling changed packet 4 from item 401 and sent earlier affected rulings back at B4a-05. Thus the B4a-07, B4b-p4 and B4c checkpoints follow those changes; their original stage-file hash alone does not encode the delivered amendments. This review did not reconstruct every tool read of every intermediate leg.
 
-Evidence: [exact selected decision rows](../history-evidence/handler-decisions.tsv), [dated handler deliveries](../history-evidence/amendment-deliveries.jsonl), and [notes-B4 at the B4c source commit](https://github.com/jparrieta/r-place/blob/3bbef7ebf1a23d8ea0d051c18d0ef83dab9037f0/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-B4.md). The delivery's label can name the outgoing leg; its text names the incoming leg.
+Evidence: [exact selected decision rows](../history-evidence/handler-decisions.tsv), [dated handler deliveries](../history-evidence/amendment-deliveries.jsonl), and [notes-B4 at the B4c source commit (private)](https://github.com/jparrieta/r-place/blob/3bbef7ebf1a23d8ea0d051c18d0ef83dab9037f0/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-B4.md). The delivery's label can name the outgoing leg; its text names the incoming leg.
 
 ## Release access
 

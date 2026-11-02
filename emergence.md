@@ -29,6 +29,8 @@ New communities wrote less but held more of the canvas. The table gives medians.
 | Place-only | 33 | 335 | 1,742 | 81,070 |
 | Uncertain | 13 | 135 | 504 | 9,516 |
 
+Table: Medians for the communities that existed before the event and for the 78 new ones, by group
+
 Place-only communities hold the largest artworks: a median of 1,742 pixels and 81,070 changes, ten times the older communities. The figures carry two cautions: a shared artwork counts in full for each community it credits, and the atlas records only what survived.
 
 ## What the population model says

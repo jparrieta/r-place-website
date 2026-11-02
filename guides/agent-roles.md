@@ -17,6 +17,8 @@ The paper reports this division of work. Exact settings, changes of model and fo
 | Population analysis | Claude Opus 5.5 in Claude Code. |
 | Routine reading checks and classification fleet | DeepSeek V4.1 Flash. |
 
+Table: Each kind of work, with its model and environment
+
 The authors designed the instrument and ruled on questions during the run. The agents code and compose descriptions; the authors judge the theoretical contribution and answer for the claims. Claude and Codex also helped edit the paper and build the figures and website. [Inspect recorded model settings and lineage](history.html#models-and-lineage).
 
 ## Prepare the record

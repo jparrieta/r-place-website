@@ -17,6 +17,8 @@ Written contracts specify what each agent reads, produces and may do. We develop
 | v31 | 8 Sep | The community coder runs end checks before closing, after defects in 34 of 60 communities | No community is recorded under v31 |
 | v32 | 9 Sep | The recording tool refuses a missing cited exclusion | Coding to 4 Oct |
 
+Table: Community coder contracts, v1 to v32
+
 **The aggregator, v28 to v43.** Versions v28, v35, v37 and v43 were run on real data; the others were development versions.
 
 | Version | Date | Change | Use |
@@ -29,6 +31,8 @@ Written contracts specify what each agent reads, produces and may do. We develop
 | v43 | 4 Oct | The frame of 705, questions to us, and two kinds of claim (Günther et al., 2026) | Run claude-v43-1 |
 | v43.2 | 6 and 11 Oct | Fixes, including one from an interview during stage B1 | Same run |
 
+Table: Aggregator contracts, v28 to v43
+
 Dates for v29 to v34 are not recorded, and v39 has no record.
 
 ## Population model versions
@@ -40,6 +44,8 @@ The run recorded each version of the model as a hash of its files, and every cha
 | e15f9647 | close of C5, 15 Oct | 30: 23 standing, 5 candidate, 2 tentative | 21 | the 705 community coders at D2 |
 | 46384686 | frozen at D3, 24 Oct; unchanged at D6 | 45: 30 standing, 15 candidate | 21 | the 705 at the re-check |
 
+Table: The two versions of the population model sent to the community coders
+
 | Stage | Dates | Edits | Added | Revised | Cut | Elements and arrows after |
 |---|---|---:|---:|---:|---:|---|
 | C2 | 14 Oct | 82 | 48 | 34 | 0 | 28 and 20 |
@@ -48,6 +54,8 @@ The run recorded each version of the model as a hash of its files, and every cha
 | C5 | 14 to 15 Oct | 46 | 0 | 43 | 3 | 30 and 21 |
 | D3 | 16 to 24 Oct | 38 | 15 | 23 | 0 | 45 and 21 |
 | D4 | 24 Oct | 10 | 0 | 10 | 0 | 45 and 21 |
+
+Table: Edits to the population model, stage by stage
 
 The main revisions:
 

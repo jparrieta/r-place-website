@@ -2,7 +2,7 @@
 <title>Audit the evidence | r/place</title><link rel="stylesheet" href="../assets/site.css"><script defer src="../assets/local-setup.js"></script><script defer src="../assets/site.js"></script><script defer src="../assets/reviewer.js"></script></head>
 <body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../index.html">r/place<span>An organizational fruit fly</span></a>
 <div class="utility"><nav class="task-nav" aria-label="Use the repository"><a data-reviewer-entry href="../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav><button id="theme" type="button" aria-label="Change color theme">Theme: light</button></div><nav class="menu" aria-label="Main"><a  href="../index.html">Overview</a><a aria-current=location href="../instrument.html">Instrument</a><a  href="../results.html">Results</a><a  href="../interviews.html">Checkpoint interviews</a></nav></header>
-<main id="main" class="page-instrument" data-layer="Guide"><nav class="parts" aria-label="Instrument"><a aria-current=location href="../instrument.html">The three parts</a><a  href="../how-collection-works.html">Collection</a><a  href="../how-coding-works.html">Community coding</a><a  href="../how-it-works.html">Aggregation</a><a  href="../versions.html">Versions</a><a  href="../run.html">Run the study</a><a  href="../reference.html">Full reference</a></nav><h1 id="audit-the-evidence">Audit the evidence</h1>
+<main id="main" class="page-instrument" data-layer="Guide"><nav class="parts" aria-label="Instrument"><a aria-current=location href="../instrument.html">Instrument</a><a  href="../how-collection-works.html">Collection</a><a  href="../how-coding-works.html">Community coding</a><a  href="../how-it-works.html">Aggregation</a><a  href="../versions.html">Versions</a><a  href="../run.html">Run the study</a><a  href="../reference.html">Full reference</a></nav><h1 id="audit-the-evidence">Audit the evidence</h1>
 <p>Use five questions from <a
 href="https://trace-os.org/start/principles/">TRACE</a> to inspect this
 study. This is an evidence map, not a TRACE certification or a new
@@ -23,12 +23,12 @@ acceptance decision.</p>
 happened and why?</h2>
 <p><strong>Recorded example:</strong> <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model/history.jsonl">Model
-history</a> associates model changes with a leg, reasons and source
-communities. The <a
+history (private)</a> associates model changes with a leg, reasons and
+source communities. The <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/CONTROL/close-status-C2.C2d-02.json">C2
-close receipt</a> identifies a completed turn, validator and report
-hashes. The report hash was checked against its saved file for this
-guide on 24 October 2026.</p>
+close receipt (private)</a> identifies a completed turn, validator and
+report hashes. The report hash was checked against its saved file for
+this guide on 24 October 2026.</p>
 <p><strong>Limit:</strong> a close receipt is a record of completion and
 checks, not a record of every inference or a resumable agent by
 itself.</p>
@@ -36,11 +36,11 @@ itself.</p>
 sources: what was tested?</h2>
 <p><strong>Recorded example:</strong> <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/review-C2.md">The
-C2 review</a> retains nine objections and discloses the ten model
-sections omitted from the review packet. <a
+C2 review (private)</a> retains nine objections and discloses the ten
+model sections omitted from the review packet. <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_fleet_raw/C2/C2-reviewer/r1.meta.json">Reviewer
-metadata</a> binds the reviewer to a packet hash; that hash and the
-returned model hash match their saved files.</p>
+metadata (private)</a> binds the reviewer to a packet hash; that hash
+and the returned model hash match their saved files.</p>
 <p><strong>Limit:</strong> the reviewer saw selected sections. Neither a
 favorable review nor valid file shapes establish the model's truth. <a
 href="../sources/stage-C2.html">C2's full instructions</a> explain the
@@ -48,10 +48,11 @@ review criterion.</p>
 <h2 id="a-accept-independently-who-could-decide">A. Accept
 independently: who could decide?</h2>
 <p><strong>Recorded example:</strong> <a
-href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-001.md">QC2-001</a>
-identifies a handler ruling under J's delegation, including what the
-reviewer may see. <a href="../sources/handler.html">The handler
-protocol</a> separates aggregator, handler and PI duties.</p>
+href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-001.md">QC2-001
+(private)</a> identifies a handler ruling under J's delegation,
+including what the reviewer may see. <a
+href="../sources/handler.html">The handler protocol</a> separates
+aggregator, handler and PI duties.</p>
 <p><strong>Gap:</strong> this demonstrates a delegated scope decision,
 not independent acceptance of the entire model. The aggregator answers
 the critic's objections. We have not established a separate,
@@ -60,13 +61,13 @@ scientific acceptance must not be read as synonyms.</p>
 <h2 id="c-control-transitions-what-may-advance">C. Control transitions:
 what may advance?</h2>
 <p><strong>Recorded example:</strong> <a
-href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-002.md">QC2-002</a>
-states J's direction for the final C2 pass and how to treat the stopping
-criterion. The <a
+href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-002.md">QC2-002
+(private)</a> states J's direction for the final C2 pass and how to
+treat the stopping criterion. The <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/CONTROL/validation-C2.C2d-02.txt">close
-report</a> preserves a warning even though the mechanical check passed.
-Read the ruling beside the warning; do not turn either into a blanket
-approval.</p>
+report (private)</a> preserves a warning even though the mechanical
+check passed. Read the ruling beside the warning; do not turn either
+into a blanket approval.</p>
 <p><strong>Limit:</strong> a stage gate differs from the decision to
 publish a checkpoint. A readable record does not imply a downloadable
 bundle or a live interview. <a href="../interviews.html">See available
@@ -75,12 +76,12 @@ routes</a>.</p>
 corrections: did the repair work?</h2>
 <p><strong>Recorded example:</strong> <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-C2.md#L504-L516">The
-C2c response</a> accepts the reviewer's objection to the label “Present”
-and specifies a correction. <a
+C2c response (private)</a> accepts the reviewer's objection to the label
+“Present” and specifies a correction. <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model-p4.md#L11">Pass
-4</a> records that replacement as “order fails in”. The earlier version
-is retained. This audit checked the revised wording, not the underlying
-counts.</p>
+4 (private)</a> records that replacement as “order fails in”. The
+earlier version is retained. This audit checked the revised wording, not
+the underlying counts.</p>
 <p><strong>Gap:</strong> the later close report does not prove an
 independent, targeted recheck of every correction. That wider claim
 remains unverified.</p>

@@ -14,7 +14,7 @@ The handler can download the instrument and data. You do not need to assemble th
 
 ## Get the instrument
 
-Open the [research repository](https://github.com/jparrieta/r-place), then choose **Code → Download ZIP**, or clone it if you use Git. Repository access is currently required. If GitHub shows “Page not found”, request project access; the site cannot grant it.
+Open the [research repository (private)](https://github.com/jparrieta/r-place), then choose **Code → Download ZIP**, or clone it if you use Git. Repository access is currently required. If GitHub shows “Page not found”, request project access; the site cannot grant it.
 
 To use the original starting point, download the [verified pristine package](https://github.com/jparrieta/r-place/releases/download/checkpoint-cloud-test-20261024/pristine-start.tar.gz), then extract it in an empty folder. This is the initial instrument and prepared run at commit `f6588ae37d807884af5fdcc9f7e27a03b4ff253a`. It has no aggregator conversation. The archive SHA-256 is `1755f467ec0e2a3753a616b5eb19ccfa5b5e1af187a61ceef4ec449274a89b4c`. Give this folder to the existing aggregator handler when starting from the prepared inputs. A new collection still begins with the Collection handler.
 

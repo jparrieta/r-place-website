@@ -34,6 +34,8 @@ The *ladder* is the five layers from quote to aggregate dimension. Construction 
 | T4 fourth-order themes | named groups of third-order themes; constructs | aggregator |
 | Aggregate dimensions, D01 to D08 | what the fourth-order themes are about; constructs | aggregator |
 
+Table: The layers of coding, from quote to aggregate dimension
+
 ## Results
 
 **Population model.** The aggregator's qualitative model of the 705 curated communities: its parts, arrows and account.

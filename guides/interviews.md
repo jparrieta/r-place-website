@@ -17,6 +17,8 @@ For communities, the four slots are the 5.6 coding close, the 6.1 local model, t
 | Global return, D2 | Compared its community with the shared model. |
 | Re-check, D3 | Reconsidered its response against the revised shared model. |
 
+Table: What each checkpoint holds, milestone by milestone
+
 Each aggregator stage shows its latest completed checkpoint first. **Other checkpoints in this stage** opens earlier legs and recovery closes. A direct link to an earlier checkpoint opens that list automatically. Each checkpoint retains its source commit, date and availability; none reports live progress.
 
 ## What an interview can and cannot do
