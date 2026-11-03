@@ -428,4 +428,10 @@ p.part-of{color:var(--muted);font-size:.95rem}
 /* Figure plates stay white in both themes (results.css): their links and fold labels keep the light colors. */
 #main .results-artifact .plate:not(:has(.figure-reader)) summary{color:#0d0d0d!important}
 #main .results-artifact .plate:not(:has(.figure-reader)) a:not([class]){color:#a32a14!important;text-decoration-color:#a32a14!important}
+/* Impeccable on every page, 3 November 2026: table cells keep the 80-character measure, long hashes and links break
+   instead of widening the page on phones, small headings sit closer to the text they introduce. */
+#main td{max-width:60ch}
+#main :is(p,li,dd,td,th,figcaption){overflow-wrap:break-word}
+#main :is(code,a){overflow-wrap:anywhere}
+#main h4{margin-top:1.4em!important;margin-bottom:.45em!important}
 
