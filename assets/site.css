@@ -419,4 +419,13 @@ p.part-of{color:var(--muted);font-size:.95rem}
 #main :is(a.full,a.method,a.raw,.figure-tools a){color:var(--accent)!important;text-decoration-color:var(--accent)!important}
 #main a.raw{font-family:var(--mono,ui-monospace,monospace)}
 #main :is(a.button,a.talk-action){font-weight:600!important}
+/* Impeccable detector, 3 November 2026: lines under 80 characters (66ch of Archivo ran to about 87), no one-word last lines, room beside table text. */
+#main :is(p,li,figcaption,.cap){max-width:60ch!important}
+#main table.dims-table td:first-of-type{width:60ch}
+#main :is(p,li,dd,blockquote,figcaption,caption,.cap,summary,td){text-wrap:pretty}
+#main :is(h1,h2,h3,h4){text-wrap:balance}
+#main table.rt th.stick{padding-left:8px!important;padding-right:8px!important}
+/* Figure plates stay white in both themes (results.css): their links and fold labels keep the light colors. */
+#main .results-artifact .plate:not(:has(.figure-reader)) summary{color:#0d0d0d!important}
+#main .results-artifact .plate:not(:has(.figure-reader)) a:not([class]){color:#a32a14!important;text-decoration-color:#a32a14!important}
 
