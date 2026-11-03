@@ -12,17 +12,23 @@ What the completed run found, and the records behind each claim. The main findin
 
 ## One community: r/PlaceNL
 
-Start with the Dutch community's activity, codes and case account. Read its standalone local model, then follow the aggregator's first reading, its placement in the population's coding structure, and the comments it returned on two model versions. End with r/PlaceNL's place among the final organizational forms.
+One community followed through the five stages: r/PlaceNL, founded for the event to coordinate the Dutch artworks.
 
-One incident shows what the return can change. Members agreed to add canal houses to their flag, but their own defense script erased them. Comparing such objections across communities changed the model's account of repair. The later re-check also exposed a limit to that revision.
-
-[One community: r/PlaceNL](results/placenl.html) · [The coding](results/placenl-coding.html#account) · [The local model](results/placenl-coding.html#local-model) · [The objection](results/placenl-return.html#the-objection) · [Its form](results/placenl-forms.html#form)
+- [The record: r/PlaceNL](results/placenl-record.html): the Dutch area, hour by hour. r/PlaceNL joined it on the second day, and most hands that built it left no post in the community.
+- [Community coding: r/PlaceNL](results/placenl-coding.html): one community coder and two fleet coders turn its 701 posts and comments into 246 codes, 21 themes and a case account; the same coder later builds a local model.
+- [Aggregation: r/PlaceNL](results/placenl-aggregation.html): the aggregator reads the coder's work, never the posts, writes a note on the community and places each theme in the population's coding structure.
+- [The return: r/PlaceNL](results/placenl-return.html): the model goes back to r/PlaceNL's coder. Its objection, canal houses erased by the community's own defense script, changes the model's account of repair.
+- [Organizational forms: r/PlaceNL](results/placenl-forms.html): r/PlaceNL falls in form B, Behind the thread, and departs from it in places.
 
 ## The population model
 
-Explore the coding structure, the model and its narrative, and the six organizational forms. The comparison at the end shows every community's changes and codes, with the same dimension colors and normalized averages for each form.
+All 705 communities, through the same five stages.
 
-[The population model](results/population.html) · [The coding structure](results/population-aggregation.html#ladder) · [The model and its account](results/population-aggregation.html#model) · [The return in numbers](results/population-return.html#return-numbers) · [The six forms](results/population-forms.html#forms)
+- [The record: 705 communities](results/population-record.html): of the 777 subreddits credited with an artwork, 705 stay, because their members wrote about the event while the canvas was open.
+- [Community coding: 705 communities](results/population-coding.html): each community is read by its own community coder, who sees no other community: 115,388 first-order codes and 7,844 second-order themes.
+- [Aggregation: 705 communities](results/population-aggregation.html): the aggregator composes the coders' work into 197 third-order themes, 28 fourth-order themes, eight aggregate dimensions and one model of how organizing unfolds.
+- [The return: 705 communities](results/population-return.html): every community coder answers the model, and the aggregator rules on each change and revises it.
+- [Organizational forms: 705 communities](results/population-forms.html): communities that asked for similar changes form six candidate organizational forms; the aggregator audits the run and reviews how it was handled.
 
 ## Time and costs
 
