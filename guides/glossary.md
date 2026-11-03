@@ -18,9 +18,9 @@ The words this site uses, as the paper and the instrument's contract define them
 
 **Aggregator.** The agent that composes the coded communities into the population model. It builds the last three layers of coding, the model and the organizational forms.
 
-**Field agent.** A separate agent that reads the central r/place forum. At stage C4 it supplied an interim view; its own analysis is not finished.
+**Field agent.** A separate agent that reads the central r/place subreddit. At stage C4 it supplied an interim reading; its own analysis is unfinished.
 
-**Handler.** Opens and closes the stages in order and checks what they deliver. It does not interpret the data.
+**Handler.** Opens and closes the stages in order and checks what they deliver. The agents it runs do the interpretation.
 
 ## Layers of coding
 

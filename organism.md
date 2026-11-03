@@ -12,10 +12,10 @@ Biology is not the only field to work this way. "As genetics needs its model org
 
 Following Ankeny and Leonelli (2011), a model organism has four characteristics:
 
-- **Material accessibility.** Researchers can obtain the organism and study it at a cost they can bear.
-- **Representational scope.** Many connected phenomena can be studied in the same organism, and its limits are known.
-- **Standardization.** Every specimen lives under the same conditions, so differences between findings can be traced.
-- **A research community.** Researchers share materials and results and build on one another's work (Kohler, 1994; Leonelli & Ankeny, 2013).
+- Material accessibility: researchers can obtain the organism and study it at a cost they can bear.
+- Representational scope: many connected phenomena can be studied in the same organism, and its limits are known.
+- Standardization: every specimen lives under the same conditions, so differences between findings can be traced.
+- A research community: researchers share materials and results and build on one another's work (Kohler, 1994; Leonelli & Ankeny, 2013).
 
 ## Three examples and r/place
 
@@ -30,22 +30,30 @@ On a small screen, scroll the table sideways to compare fields.
 
 ## Why r/place meets the criteria
 
-**Material accessibility.** The 72-hour event provides a bounded record of communities forming, building and defending artworks. Reddit discussions can be read alongside pixel changes, and LLM agents reduce the cost of reading the 705 communities' records. The dataset is frozen, but researchers can change the instrument, use another literature or broaden the census.
+### Material accessibility
 
-**Representational scope.** The model provides a basis for comparison with open-source communities and self-managing firms (O'Mahony & Ferraro, 2007; Lee & Edmondson, 2017). Only 46 of the 705 coded communities show a leader, a vote, an oath, a sanction or an explicit division of work. Extending the model to hierarchical firms requires further evidence, and pay, employment contracts, careers and costly exit cannot be studied here.
+The 72-hour event gives a bounded record of communities forming, building and defending artworks. Reddit discussions can be read alongside pixel changes, and LLM agents reduce the cost of reading the 705 communities' records. The dataset is frozen, but researchers can change the instrument, use another literature or broaden the census.
 
-**Standardization.** All communities worked under the same rules for placing pixels (Simpson et al., 2017), though they differed in their histories and circumstances. We held the community coders' contract constant within a run. Later runs can change one component, such as the literature, the community coder or the aggregator, and compare the results with the baseline.
+### Representational scope
 
-**Research community.** We share our baseline, the coded cases and tools for inspecting the analysis. Researchers can rerun the instrument or resume it from a [checkpoint](interviews.html), then return a revised population model to the community coders to assess its fit to their cases. Whether r/place becomes a model organism depends on other researchers using and extending this baseline (Kohler, 1994).
+The model is a basis for comparison with open-source communities and self-managing firms (O'Mahony & Ferraro, 2007; Lee & Edmondson, 2017). Only 46 of the 705 coded communities show a leader, a vote, an oath, a sanction or an explicit division of work. Extending the model to hierarchical firms requires further evidence, and pay, employment contracts, careers and costly exit cannot be studied here.
+
+### Standardization
+
+All communities worked under the same rules for placing pixels (Simpson et al., 2017), though they differed in their histories and circumstances. We held the community coders' contract constant within a run. Later runs can change one component, such as the literature, the community coder or the aggregator, and compare the results with the baseline.
+
+### Research community
+
+We share our baseline, the coded cases and tools for inspecting the analysis. Researchers can rerun the instrument or resume it from a [checkpoint](interviews.html), then return a revised population model to the community coders to assess its fit to their cases. Whether r/place becomes a model organism depends on other researchers using and extending this baseline (Kohler, 1994).
 
 The four characteristics also answer Machlup's (1967) three constraints on studying real firms: public records make the event accessible, LLM agents reduce the cost of reading them, and the instrument relates coded cases in a population model. [Why we need model organisms](model-organisms.html).
 
 ## Inspect the examples
 
-- **Fruit fly:** [Ankeny and Leonelli's analysis](https://doi.org/10.1016/j.shpsa.2010.11.039) and the [Bloomington stock center](https://bdsc.indiana.edu/about/index.html).
-- **Chess:** [Simon and Chase, Skill in chess (1973)](https://iiif.library.cmu.edu/file/Simon_box00066_fld05052_bdl0001_doc0001/Simon_box00066_fld05052_bdl0001_doc0001.pdf).
-- **ImageNet2012:** [the original tasks and evaluation rules](https://ftp.image-net.org/challenges/LSVRC/2012/index.php).
-- **r/place:** [the data collection](sources/data-README.html), [the study and its limits](guides/study.html), and [one claim traced to its evidence](records/example-PlaceNL.html).
+- Fruit fly: [Ankeny and Leonelli's analysis](https://doi.org/10.1016/j.shpsa.2010.11.039) and the [Bloomington stock center](https://bdsc.indiana.edu/about/index.html).
+- Chess: [Simon and Chase, Skill in chess (1973)](https://iiif.library.cmu.edu/file/Simon_box00066_fld05052_bdl0001_doc0001/Simon_box00066_fld05052_bdl0001_doc0001.pdf).
+- ImageNet2012: [the original tasks and evaluation rules](https://ftp.image-net.org/challenges/LSVRC/2012/index.php).
+- r/place: [the data collection](sources/data-README.html), [the study and its limits](guides/study.html), and [one claim traced to its evidence](records/example-PlaceNL.html).
 
 ## References
 

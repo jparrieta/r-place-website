@@ -22,7 +22,7 @@ Of the 1,473 artworks, 1,236 credit at least one subreddit. These credits are wh
 
 ## Communities
 
-The 705 communities in the census wrote 2,130,302 posts and comments from the opening to a day after the freeze, 1,590,890 of them while the canvas was open. Sizes span four orders of magnitude. The median community wrote 549 posts and comments while the canvas was open; r/leagueoflegends wrote 54,110, most of them about its game rather than the canvas. The coders read every item and coded what concerned the event.
+The 705 communities in the census wrote 2,130,302 posts and comments from the opening to a day after the freeze, 1,590,890 of them while the canvas was open. Sizes span four orders of magnitude. The median community wrote 549 posts and comments while the canvas was open; r/leagueoflegends wrote 54,110, most of them about its game and not the canvas. The coders read every item and coded what concerned the event.
 
 <figure class="data-figure"><img src="assets/data/community-rank.svg" alt="The 705 communities ranked by their posts and comments while the canvas was open. Both axes are on a log scale. Red dots mark the 78 communities whose first record falls during the event." width="630" height="290" loading="lazy"><figcaption>The 705 communities ranked by their posts and comments while the canvas was open. Both axes are on a log scale. Red dots mark the 78 communities whose first record falls during the event.</figcaption></figure>
 

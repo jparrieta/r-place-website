@@ -1558,9 +1558,9 @@
       "recipe_sha256": "87bf11aec4f2f2064a4debe436db2940c91e825c87b260f0a92c47e69ea71cf5",
       "notes": [
         {
-          "text": "Source status clarified on 29 October 2026: the Field agent was still working when it supplied C4. This checkpoint contains its interim reading and comments, not a comparison against its completed model. That fuller comparison remains pending.",
-          "url": "guides/history.html#c4-and-the-unfinished-field-analysis",
-          "label": "Field analysis status"
+          "text": "Source status clarified on 29 October 2026: the Field agent was still working when it supplied C4. This checkpoint contains its interim reading and comments. A comparison with its completed account remains pending.",
+          "url": "guides/history.html#c4-and-the-field-agents-unfinished-analysis",
+          "label": "Field agent status"
         }
       ]
     },
@@ -2849,7 +2849,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -2934,7 +2934,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3019,7 +3019,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3104,7 +3104,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3189,7 +3189,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3274,7 +3274,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3359,7 +3359,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3444,7 +3444,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3529,7 +3529,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3614,7 +3614,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3699,7 +3699,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3784,7 +3784,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3869,7 +3869,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }
@@ -3954,7 +3954,7 @@
       },
       "notes": [
         {
-          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is retained as historical metadata. D2 forked from this community\u2019s coding close, not R6.",
+          "text": "D2: native answer turns verified as gpt-6.1-sol, medium. The archived resumed_with=5.6 field is kept as historical metadata. D2 forked from this community's coding close, not R6.",
           "url": "guides/history.html#models-and-lineage",
           "label": "Verified fork evidence and limits"
         }

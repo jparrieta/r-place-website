@@ -5,61 +5,59 @@
 <main id="main" class="page-instrument" data-layer="Stage guide"><nav class="parts" aria-label="Instrument"><a aria-current=location href="../instrument.html">Instrument</a><a  href="../how-collection-works.html">Collection</a><a  href="../how-coding-works.html">Community coding</a><a  href="../how-it-works.html">Aggregation</a><a  href="../versions.html">Versions</a><a  href="../run.html">Run the study</a></nav><article class="stage-explanation"><p class="kicker">B2 · Coding: pilot</p><h1 id="test-whether-others-can-use-the-scheme">Test whether others can
 use the scheme</h1>
 <p>A category can seem clear to its author and confuse everyone else. B2
-tests that problem on a small set before the scheme is used across the
-whole collection.</p>
+tests the scheme on a small set before it is used across the whole
+collection.</p>
 <h2 id="where-this-stage-starts">Where this stage starts</h2>
 <p><a href="B1.html">B1</a> has supplied provisional categories and
 rules for assigning material to them. B2 starts with those rules, known
-confusing pairs, and both difficult and randomly selected examples.
-“Placement” means assigning a local theme to one or more of the common
+confusing pairs, and a mix of difficult and randomly drawn examples. A
+placement assigns a second-order theme to one or more of the common
 categories.</p>
 <h2 id="what-the-aggregator-does">What the aggregator does</h2>
-<p>The author records their own answers before seeing anyone else’s.
-Fresh readers then receive the scheme and examples, without the author’s
-working notes or answer key. Three readers examine each pilot item.
-Their replies show where the rules lead to different
-interpretations.</p>
+<p>The author records its own answers before it sees anyone else's.
+Fresh readers then receive the scheme and examples, without the author's
+working notes or answer key. Three readers examine each pilot item, and
+their replies show where the rules lead to different readings.</p>
 <p>The aggregator asks why each important disagreement arose. Was a rule
-vague? Did one local theme bundle several kinds of action? Did a reader
-miss evidence? Was the author’s original answer wrong? These
-explanations matter more than making an agreement score rise. The scheme
-can be revised, and every revision must have a recorded reason.</p>
-<p>The pilot also tests whether small changes in the wording of
-instructions alter placements and whether readers behave differently
-near the beginning and end of a batch. This helps determine how much
-material later readers should receive together.</p>
+vague? Did one second-order theme bundle several kinds of action? Did a
+reader miss evidence? Was the author's first answer wrong? Revisions
+answer these causes, whatever they do to the agreement score. Each
+revision to the scheme has a recorded reason.</p>
+<p>The pilot also tests whether small changes in the wording of the
+instructions alter placements, and whether readers answer differently at
+the start and the end of a batch. The results set how much material
+later readers receive together.</p>
 <p>Rounds stop under the declared rule: no further edit, the declared
 agreement threshold, or the four-round limit. Any remaining weakness
-stays in the report. A separate set of reference answers is then used to
-check the frozen scheme. These are the author’s judgments, sometimes
-called “gold” answers; they are not an external truth about the
-communities. Agreement measures consistent use of the instrument, not
-whether its interpretation is correct.</p>
+stays in the report. A separate set of reference answers then checks the
+frozen scheme. These answers are the author's judgments, which the files
+call "gold" answers. Agreement measures how consistently readers use the
+scheme; whether its readings are right is a separate question.</p>
 <h2 id="what-the-next-stage-receives">What the next stage receives</h2>
 <p><a href="B3.html">B3</a> receives one fixed version of the scheme, a
-reply format and evidence about batch design. Freezing the rules allows
-disagreements in the full reading to be compared under the same
-instructions. It does not make those rules immune to later
-criticism.</p>
-<section class="stage-outputs" aria-labelledby="stage-outputs-title"><h2 id="stage-outputs-title">What the output files contain</h2><p>Open a file group for its purpose. These are descriptions of the stage’s outputs. Markdown files hold prose; JSONL files hold one structured record per line.</p><details class="stage-output"><summary><span class="output-purpose">The reference answers</span><span class="output-filenames"><code>author_items.jsonl</code>, <code>gold_items.jsonl</code></span></summary><div class="output-description"><p><code>author_items.jsonl</code> records the author’s pilot placements
+reply format and evidence on batch design. With the rules frozen,
+disagreements in the full reading can be compared under the same
+instructions. Later stages can still revise the rules.</p>
+<section class="stage-outputs" aria-labelledby="stage-outputs-title"><h2 id="stage-outputs-title">What the output files contain</h2><p>Open a file group for its purpose. These are descriptions of the stage's outputs. Markdown files hold prose; JSONL files hold one structured record per line.</p><details class="stage-output"><summary><span class="output-purpose">The reference answers</span><span class="output-filenames"><code>author_items.jsonl</code>, <code>gold_items.jsonl</code></span></summary><div class="output-description"><p><code>author_items.jsonl</code> records the author's pilot placements
 before comparison. <code>gold_items.jsonl</code> holds the separate
-reference items and judgments used to assess the frozen scheme. Their
-role is a declared comparison standard.</p>
+reference items and judgments used to assess the frozen scheme as a
+declared standard of comparison.</p>
 </div></details><details class="stage-output"><summary><span class="output-purpose">The reader instructions</span><span class="output-filenames"><code>RETURN-B2.md</code></span></summary><div class="output-description"><p><code>RETURN-B2.md</code> defines what a reader must return. It makes
-replies comparable and lets the handler distinguish an incomplete reply
-from a substantive disagreement.</p>
-</div></details><details class="stage-output"><summary><span class="output-purpose">What each round changed</span><span class="output-filenames"><code>pilot_rounds.jsonl</code>, <code>scheme_edits.jsonl</code>, <code>exemplar_candidates.jsonl</code></span></summary><div class="output-description"><p><code>pilot_rounds.jsonl</code> records the rounds and results.
+replies comparable and lets the handler tell an incomplete reply from a
+real disagreement.</p>
+</div></details><details class="stage-output"><summary><span class="output-purpose">What each round changed</span><span class="output-filenames"><code>pilot_rounds.jsonl</code>, <code>scheme_edits.jsonl</code>, <code>exemplar_candidates.jsonl</code></span></summary><div class="output-description"><p><code>pilot_rounds.jsonl</code> records the rounds and their results.
 <code>scheme_edits.jsonl</code> links each rule change to its reason.
-<code>exemplar_candidates.jsonl</code> identifies difficult examples
-that might help readers in the full reading.</p>
-</div></details><details class="stage-output"><summary><span class="output-purpose">Stability and the overall assessment</span><span class="output-filenames"><code>stability-B2.md</code>, <code>pilot_report.md</code>, <code>notes-B2.md</code></span></summary><div class="output-description"><p><code>stability-B2.md</code> reports sensitivity to different
-wording. <code>pilot_report.md</code> brings together agreement,
-reference matching, remaining confusions and practical limits.
+<code>exemplar_candidates.jsonl</code> lists difficult examples that
+might help readers in the full reading.</p>
+</div></details><details class="stage-output"><summary><span class="output-purpose">Stability and the pilot report</span><span class="output-filenames"><code>stability-B2.md</code>, <code>pilot_report.md</code>, <code>notes-B2.md</code></span></summary><div class="output-description"><p><code>stability-B2.md</code> reports how placements changed with the
+wording. <code>pilot_report.md</code> gathers agreement, reference
+matching, remaining confusions and practical limits.
 <code>notes-B2.md</code> records settings, thresholds and decisions.</p>
 </div></details><details class="stage-output"><summary><span class="output-purpose">The frozen scheme and its provenance</span><span class="output-filenames"><code>scheme_final.md</code>, <code>scheme_final.jsonl</code>, <code>run_manifest.json</code></span></summary><div class="output-description"><p><code>scheme_final.md</code> is the readable scheme;
-<code>scheme_final.jsonl</code> is the equivalent structured record used
-by tools. The stage’s <code>run_manifest.json</code> entry records how
-the pilot was run, so later results can be tied to the tested setup.</p>
+<code>scheme_final.jsonl</code> is the same scheme as a structured
+record for tools. The stage's <code>run_manifest.json</code> entry
+records how the pilot was run, so later results can be tied to the
+tested setup.</p>
 </div></details></section><section class="stage-reference" aria-labelledby="stage-reference-title"><h2 id="stage-reference-title"><a href="../sources/stage-B2.html">Full stage description</a></h2><p>Read the complete technical card for exact tasks, reading boundaries, checks and closing rules. The explanation above is a guide; the card holds the instructions.</p><details><summary>Show how the stage is divided into its 4 legs</summary><ul>
 <li><code>B2a</code>: build round. Repeats: round. Interview point:
 -.</li>

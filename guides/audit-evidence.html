@@ -5,90 +5,86 @@
 <main id="main" class="page-instrument" data-layer="Guide"><nav class="parts" aria-label="Instrument"><a aria-current=location href="../instrument.html">Instrument</a><a  href="../how-collection-works.html">Collection</a><a  href="../how-coding-works.html">Community coding</a><a  href="../how-it-works.html">Aggregation</a><a  href="../versions.html">Versions</a><a  href="../run.html">Run the study</a></nav><h1 id="audit-the-evidence">Audit the evidence</h1>
 <p>Use five questions from <a
 href="https://trace-os.org/start/principles/">TRACE</a> to inspect this
-study. This is an evidence map, not a TRACE certification or a new
-protocol. Records show what was retained; they do not prove an
-explanation sound.</p>
-<p><strong>Scope:</strong> one C2 model-building example in the indexed
-publication, commit <code>c070d990be882</code>. These records come from
-the parent run before the C4 Field branch. They do not establish
-coverage of every stage or community. Saved-run links below require
-repository access. <a href="../sources/contract.html">Full
-instructions</a> and <a href="../sources/manifest.json" download>source
-hashes</a> are readable on this site; instructions describe what should
-happen, not proof that it happened.</p>
-<p><a href="../evidence.json" download>Evidence register</a>: exact file
-versions, hashes, checks and limits. It records this inspection, not an
-acceptance decision.</p>
+study. This page maps the evidence to those questions; it is neither a
+TRACE certification nor a new protocol. Records show what was kept, and
+whether an explanation is sound is a separate judgment.</p>
+<p>The example is one C2 model-building step in the indexed publication,
+commit <code>c070d990be882</code>. These records come from the parent
+run, before the C4 Field branch, and cover that step only. Links to the
+saved run require repository access. The <a
+href="../sources/contract.html">full instructions</a> and <a
+href="../sources/manifest.json" download>source hashes</a> can be read on this
+site; instructions say what should happen, and the records show what
+did.</p>
+<p>The <a href="../evidence.json" download>evidence register</a> lists exact file
+versions, hashes, checks and limits. It records this inspection;
+acceptance is decided elsewhere.</p>
 <h2 id="t-track-records-what-happened-and-why">T. Track records: what
 happened and why?</h2>
-<p><strong>Recorded example:</strong> <a
-href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model/history.jsonl">Model
-history (private)</a> associates model changes with a leg, reasons and
-source communities. The <a
+<p>The <a
+href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model/history.jsonl">model
+history (private)</a> ties each model change to a leg, its reasons and
+its source communities. The <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/CONTROL/close-status-C2.C2d-02.json">C2
-close receipt (private)</a> identifies a completed turn, validator and
-report hashes. The report hash was checked against its saved file for
-this guide on 24 October 2026.</p>
-<p><strong>Limit:</strong> a close receipt is a record of completion and
-checks, not a record of every inference or a resumable agent by
-itself.</p>
+close receipt (private)</a> names a completed turn, its validator and
+the report hashes. The report hash was checked against its saved file
+for this guide on 24 October 2026.</p>
+<p>A close receipt records completion and checks. Each inference is in
+the saved conversation and files, and resuming the agent needs its
+checkpoint bundle.</p>
 <h2 id="r-review-against-sources-what-was-tested">R. Review against
 sources: what was tested?</h2>
-<p><strong>Recorded example:</strong> <a
+<p><a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/review-C2.md">The
-C2 review (private)</a> retains nine objections and discloses the ten
-model sections omitted from the review packet. <a
-href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_fleet_raw/C2/C2-reviewer/r1.meta.json">Reviewer
+C2 review (private)</a> keeps nine objections and names the ten model
+sections left out of the review packet. The <a
+href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_fleet_raw/C2/C2-reviewer/r1.meta.json">reviewer
 metadata (private)</a> binds the reviewer to a packet hash; that hash
 and the returned model hash match their saved files.</p>
-<p><strong>Limit:</strong> the reviewer saw selected sections. Neither a
-favorable review nor valid file shapes establish the model's truth. <a
+<p>The reviewer saw selected sections. A favorable review and valid file
+shapes say nothing about whether the model is true. <a
 href="../sources/stage-C2.html">C2's full instructions</a> explain the
 review criterion.</p>
 <h2 id="a-accept-independently-who-could-decide">A. Accept
 independently: who could decide?</h2>
-<p><strong>Recorded example:</strong> <a
+<p><a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-001.md">QC2-001
-(private)</a> identifies a handler ruling under J's delegation,
-including what the reviewer may see. <a
-href="../sources/handler.html">The handler protocol</a> separates
-aggregator, handler and PI duties.</p>
-<p><strong>Gap:</strong> this demonstrates a delegated scope decision,
-not independent acceptance of the entire model. The aggregator answers
-the critic's objections. We have not established a separate,
-version-bound acceptance decision for every output. Critique, close and
-scientific acceptance must not be read as synonyms.</p>
+(private)</a> records a handler ruling under J's delegation, including
+what the reviewer may see. <a href="../sources/handler.html">The handler
+protocol</a> separates the duties of the aggregator, the handler and the
+principal investigator.</p>
+<p>This is a delegated decision on scope. The aggregator answers the
+critic's objections, and no separate, version-bound acceptance decision
+has been found for every output. A critique, a close and a scientific
+acceptance are three different things.</p>
 <h2 id="c-control-transitions-what-may-advance">C. Control transitions:
 what may advance?</h2>
-<p><strong>Recorded example:</strong> <a
+<p><a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-002.md">QC2-002
 (private)</a> states J's direction for the final C2 pass and how to
 treat the stopping criterion. The <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/CONTROL/validation-C2.C2d-02.txt">close
-report (private)</a> preserves a warning even though the mechanical
-check passed. Read the ruling beside the warning; do not turn either
-into a blanket approval.</p>
-<p><strong>Limit:</strong> a stage gate differs from the decision to
-publish a checkpoint. A readable record does not imply a downloadable
-bundle or a live interview. <a href="../interviews.html">See available
-routes</a>.</p>
+report (private)</a> keeps a warning although the mechanical check
+passed. Read the ruling and the warning together; each covers its own
+point.</p>
+<p>A stage gate and the decision to publish a checkpoint are separate
+decisions. A readable record may have no downloadable bundle or live
+interview. <a href="../interviews.html">See available routes</a>.</p>
 <h2 id="e-evaluate-corrections-did-the-repair-work">E. Evaluate
 corrections: did the repair work?</h2>
-<p><strong>Recorded example:</strong> <a
+<p><a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-C2.md#L504-L516">The
 C2c response (private)</a> accepts the reviewer's objection to the label
-“Present” and specifies a correction. <a
+"Present" and specifies a correction. <a
 href="https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model-p4.md#L11">Pass
-4 (private)</a> records that replacement as “order fails in”. The
-earlier version is retained. This audit checked the revised wording, not
-the underlying counts.</p>
-<p><strong>Gap:</strong> the later close report does not prove an
-independent, targeted recheck of every correction. That wider claim
-remains unverified.</p>
+4 (private)</a> records the replacement as "order fails in". The earlier
+version is kept. This audit checked the revised wording, and the counts
+beneath it were not checked.</p>
+<p>The later close report shows no independent, targeted re-check of
+every correction, so that wider claim is unverified.</p>
 <h2 id="use-a-checkpoint-interview">Use a checkpoint interview</h2>
 <p>Ask which evidence changed the account, what an objection exposed,
-and what remains uncertain. Check the reply against the saved record.
-New interview answers are private, later responses; they do not amend
-the original evidence or certify it. <a href="interviews.html">Interview
-guide</a>.</p>
+and what remains uncertain. Check each reply against the saved record.
+Interview answers are private and later; the original evidence stays as
+it was. <a href="interviews.html">Interview guide</a>.</p>
 </main><footer><div><a href="../agents.html">For agents</a><a href="../reference.html">Full reference</a><a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>

@@ -4,18 +4,18 @@ A finished image shows what remained. The event record lets us ask how people re
 
 ## From the first pixel changes to the finished canvas
 
-The archived pixel record contains 16,559,897 pixel changes, about 16.6 million. The event lasted 72 hours, and the written record adds the following day. Together these traces let researchers return to earlier decisions and responses rather than infer the process from its final outcome alone.
+The archived pixel record contains 16,559,897 pixel changes, about 16.6 million. The event lasted 72 hours, and the written record adds the following day. With these traces, researchers can return to earlier decisions and responses instead of inferring the process from the final image.
 
 The study follows 705 curated communities with evidence of coordination. [Read how the source records are collected](guides/download.html).
 
 ## The boundaries of observation
 
-The whole event is not the whole life of each community. Groups existed before the canvas opened and could continue afterwards. Public records also leave gaps: coordination on Discord or other channels is not made visible by preserving Reddit and pixel data. A missing statement is not proof that an action or discussion did not occur.
+Each community's life is longer than the event. Groups existed before the canvas opened and could continue afterwards. Public records also leave gaps: coordination on Discord or other channels is missing from the Reddit and pixel data, and a missing statement leaves open whether an action or discussion took place.
 
 ## A separate timeline for the research
 
-The analysis has its own history: community coding, a population model, returns to cases, organizational forms and audits. Saved checkpoints preserve the aggregator's conversation and matching files at those boundaries.
+The analysis has its own history: community coding, a population model, returns to cases, organizational forms and audits. Saved checkpoints keep the aggregator's conversation and matching files at those boundaries.
 
-[Follow the analysis stages](guides/instrument.html), [read the final account](guides/study.html), or [inspect a checkpoint](interviews.html). Interview replies are new explanations from a saved state, not transcripts of unspoken past reasoning.
+[Follow the analysis stages](guides/instrument.html), [read the final account](guides/study.html), or [inspect a checkpoint](interviews.html). Interview replies are new explanations, given from a saved state.
 
 Next: [use the shared data and tools](tools.html).

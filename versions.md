@@ -6,7 +6,9 @@ How the contracts came to their current versions, and how the population model c
 
 Written contracts specify what each agent reads, produces and may do. We developed them through repeated runs on the same material and interviews with the agents, and revised a contract when the agents' work departed from the grounded-theory method.
 
-**Community coders, v1 to v32.** Only v30 (102 communities) and v32 (603) coded the final data.
+### Community coders, v1 to v32
+
+Only v30 (102 communities) and v32 (603) coded the final data.
 
 | Version | Date | Change | Use |
 |---|---|---|---|
@@ -19,7 +21,9 @@ Written contracts specify what each agent reads, produces and may do. We develop
 
 Table: Community coder contracts, v1 to v32
 
-**The aggregator, v28 to v43.** Versions v28, v35, v37 and v43 were run on real data; the others were development versions.
+### The aggregator, v28 to v43
+
+Versions v28, v35, v37 and v43 were run on real data; the others were development versions.
 
 | Version | Date | Change | Use |
 |---|---|---|---|
@@ -59,10 +63,10 @@ Table: Edits to the population model, stage by stage
 
 The main revisions:
 
-- **C3 and C4.** Two arrows take a mechanism from conversation analysis. Two elements and an arrow enter from r/place, the field, as tentative.
-- **C5.** Three elements are cut for want of a grounded arrow; one of them is restored.
-- **D3, from the community coders' returns.** The starter's role is split from joining, which the model now treats as the answer to a call. Repair is revised: it restores the form the keepers know, so a planned change is erased as damage until the keepers learn of it. r/PlaceNL is among the communities that showed this ([the example](results/placenl.html)). The elements and arrow from r/place become standing, and fifteen candidates enter. We froze the model as 46384686.
-- **D4.** Two changes made after the freeze were reverted to proposals, restoring 46384686.
+- C3 and C4: two arrows take a mechanism from conversation analysis. Two elements and an arrow enter as tentative from the Field agent's reading of r/place.
+- C5: three elements are cut for want of a grounded arrow; one of them is restored.
+- D3, from the community coders' returns: the starter's role is split from joining, which the model now treats as the answer to a call. Repair is revised: it restores the form the keepers know, so a planned change is erased as damage until the keepers learn of it. r/PlaceNL is among the communities that showed this ([the example](results/placenl.html)). The elements and arrow from r/place become standing, and fifteen candidates enter. We froze the model as 46384686.
+- D4: two changes made after the freeze were reverted to proposals, restoring 46384686.
 
 ## Sources
 

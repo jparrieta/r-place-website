@@ -16,7 +16,7 @@ Machlup (1967) gave three reasons not to study real firms: cost, observability a
 
 ## What a model organism adds
 
-r/place addresses all three constraints. LLMs reduce the cost of reading the record, researchers can inspect the discussions and pixel changes, and the instrument composes the coded cases while retaining their detail. Because one community coder studies each community, the population model covers a census of the curated population (Hannan & Freeman, 1977) while keeping the nuance needed to distinguish how organizational forms differ (McKelvey, 1975).
+r/place addresses all three constraints. LLMs reduce the cost of reading the record, researchers can inspect the discussions and pixel changes, and the instrument composes the coded cases and keeps their detail. Because one community coder studies each community, the population model covers a census of the curated population (Hannan & Freeman, 1977) while keeping the nuance needed to distinguish how organizational forms differ (McKelvey, 1975).
 
 The dataset is frozen, but the instrument can change: a later run can use another literature, broaden the census or test what a new mechanism adds to the baseline. This makes the model organism an "open-ended program of research" (Lewin & Volberda, 1999:529). A model organism does not forbid outliers or novelty. It gives them a baseline to be measured against.
 

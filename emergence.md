@@ -8,13 +8,21 @@ A caution first. The record has no creation dates, so an older subreddit that wa
 
 We sorted the 78 by reading the atlas descriptions, the coded records of the 627 older communities (where a parent sends its canvas work to a new subreddit), and each community's own coded record. Each sort is a reading of short texts; the table behind this page gives the evidence for every community.
 
-**Support communities for a parent subreddit (19).** An existing community opened a new subreddit to coordinate its canvas work, or its members did. r/PlaceNL served r/thenetherlands, r/placeDE served r/de and r/germany, r/ukplace served r/unitedkingdom, r/theitalyplace served r/italy, and r/AcePlace served r/asexuality. On r/italy a moderator "moves r/place submissions to r/theitalyplace". The parent keeps its identity; the new subreddit carries the work.
+### Support communities for a parent subreddit (19)
 
-**Support communities for a group outside Reddit (13).** A university club, a team or a fandom with no subreddit of its own opened one for the canvas: r/compsoc, r/mcgillrobotics, r/aeskwadraat. All are small, with at most 55 posts and comments while the canvas was open.
+An existing community opened a new subreddit to coordinate its canvas work, or its members did. r/PlaceNL served r/thenetherlands, r/placeDE served r/de and r/germany, r/ukplace served r/unitedkingdom, r/theitalyplace served r/italy, and r/AcePlace served r/asexuality. On r/italy a moderator "moves r/place submissions to r/theitalyplace". The parent keeps its identity; the new subreddit carries the work.
 
-**Place-only communities (33).** These organized around the canvas itself: a color, a zone, a pattern or a figure born on the canvas, with no prior group behind it. They include the Rainbow Road community, r/thebluecorner and r/orderofthebluecorner, r/theblackvoid, r/greenlattice, r/PurplePixels, r/TeamYellowPlace, r/placestart and r/monalisaclan. The Void and the color corners were not identities members brought to the canvas. They were identities the canvas made.
+### Support communities for a group outside Reddit (13)
 
-**Uncertain (13).** Identity artworks with no parent found, or with a mixed origin. r/Goodboye began as a dog from a video game and became a canvas mascot; r/THE_R was "dedicated to protecting the great R".
+A university club, a team or a fandom with no subreddit of its own opened one for the canvas: r/compsoc, r/mcgillrobotics, r/aeskwadraat. All are small, with at most 55 posts and comments while the canvas was open.
+
+### Place-only communities (33)
+
+These organized around the canvas itself: a color, a zone, a pattern or a figure born on the canvas, with no prior group behind it. They include the Rainbow Road community, r/thebluecorner and r/orderofthebluecorner, r/theblackvoid, r/greenlattice, r/PurplePixels, r/TeamYellowPlace, r/placestart and r/monalisaclan. The Void and the color corners are identities the canvas made.
+
+### Uncertain (13)
+
+Identity artworks with no parent found, or with a mixed origin. r/Goodboye began as a dog from a video game and became a canvas mascot; r/THE_R was "dedicated to protecting the great R".
 
 ## Small in talk, large on the canvas
 

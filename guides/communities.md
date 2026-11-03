@@ -8,29 +8,23 @@ You are the coding handler for my r/place study. Use the existing handler in htt
 Read HANDOFF-collection.md. Obtain any missing instrument folders, record their version, and prepare a separate working yard using the documented folder layout. Check the inputs, model access and native launcher, run the prescribed self-tests, then follow the existing scheduler contract. Keep progress on disk and preserve the required community-coder closes. Hand checked outputs and their provenance to the aggregator handler. Do not replace the existing protocol or use shipped example rooms as my new run.
 ```
 
-The coding handler already exists. This is its entry prompt, not a new protocol. A Claude chat can coordinate it, but the shipped persistent community-coder launcher requires Codex. [Exact platform and folder requirements](../sources/coder-README.html).
+The coding handler already exists, and this prompt opens it under its own protocol. A Claude chat can coordinate it, but the shipped launcher for persistent community coders requires Codex. [Exact platform and folder requirements](../sources/coder-README.html).
 
-**Start with:** a prepared community record and the community coder contract.
+This step starts from a prepared community record and the community coder contract. The community coder codes the material, with fleet coders in communities above 500 items, and brings the codes, themes and case account together under the investigator's supervision. At the close, keep the community coder's conversation, files and runtime provenance together, with the declared coding outputs and the evidence trail. Move on when the community coder's checks pass and its outputs and close are stored.
 
-**Do:** AI coding agents code the material; an AI community coder consolidates codes, themes and the case account under researcher supervision. Preserve the community coder’s conversation, files and runtime provenance together at the close.
+A coding close, a local model (R6), a return to the population model and a later re-check are separate milestones. The [checkpoint catalog](../interviews.html) records the availability of each.
 
-**Keep:** the declared coding outputs, evidence trail and resumable close.
+A return resumes the saved community coder, which compares the population model with its community's record. The original participants are not asked. [Full return instructions](../sources/stage-D2.html).
 
-**Advance when:** the community coder’s checks pass and its outputs and close are stored.
-
-A coding close, a standalone local model, a return to the global model and a later re-check are distinct milestones. The [checkpoint catalog](../interviews.html) records their availability separately.
-
-A community return resumes the saved community coder to compare the global model with that community's record. It does not ask the original participants to validate the model. [Full return instructions](../sources/stage-D2.html).
-
-Keep the r/place field analysis and standalone local models as distinct workflows when your selected instrument requires them. This introduction does not add them to the v32 scheduler or replace their own contracts. The aggregator handler must identify any required field package before starting the stage that uses it.
+Run the Field agent and the local models (R6) as their own workflows, under their own contracts, when your instrument requires them; the v32 scheduler does not include them. The aggregator handler names any required Field package before it starts the stage that uses it.
 
 ## Open the next chat
 
-Give the [existing aggregator handler](aggregator.html) the coding handler's checked output paths, census, versions and close records. It verifies its own required inputs before building a new run. Keep the coding chat available for returns and repairs.
+Give the [existing aggregator handler](aggregator.html) the coding handler's checked output paths, census, versions and close records. It checks its own required inputs before it builds a new run. Keep the coding chat open for returns and repairs.
 
 ## Full instructions and examples
 
-- [Full community coder contract](../sources/coder-contract.html), [community coder](../sources/case-lead.html) and [fleet reader](../sources/fleet-coder.html).
+- [Full community coder contract](../sources/coder-contract.html), [community coder](../sources/case-lead.html) and [fleet coder](../sources/fleet-coder.html).
 - [Complete agent reading key](../agents/communities.html).
 
 Next: [run the aggregator](aggregator.html).

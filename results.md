@@ -1,12 +1,12 @@
 # Results
 
-What the completed run found, and the records behind each claim. The main findings come first, then one entry for each page in this section: One community: r/PlaceNL, The population model, and Time and costs.
+What the completed run found, and the records behind each claim. The main findings come first. The section's pages are One community: r/PlaceNL, The population model, and Time and costs.
 
 ## One community: r/PlaceNL
 
 Start with the Dutch community's activity, codes and case account. Read its standalone local model, then follow the aggregator's first reading, its placement in the population's coding structure, and the comments it returned on two model versions. End with r/PlaceNL's place among the final organizational forms.
 
-One incident shows why the return matters. Members agreed to add canal houses to their flag, but their own defense script erased them. Comparing such objections across communities changed the model's account of repair. The later re-check also exposed a limit to that revision.
+One incident shows what the return can change. Members agreed to add canal houses to their flag, but their own defense script erased them. Comparing such objections across communities changed the model's account of repair. The later re-check also exposed a limit to that revision.
 
 [One community: r/PlaceNL](results/placenl.html)
 
@@ -22,4 +22,4 @@ How long each part of the study took and what it consumed. From the first commun
 
 [Time and costs](time.html)
 
-The local model and the population model are separate analyses. Their labels and claims should be read within their own scope. [Checks at the coding, composition and source levels](guides/study.html#how-the-model-is-checked) distinguish completed work from planned comparisons. [Checkpoint interviews](interviews.html) let you question the saved agents and compare their new answers with the original work.
+The local model and the population model are separate analyses, each with its own labels and claims. [Checks at the coding, composition and source levels](guides/study.html#how-the-model-is-checked) separate completed work from planned comparisons. [Checkpoint interviews](interviews.html) let you question the saved agents and compare their new answers with the original work.

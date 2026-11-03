@@ -12,7 +12,7 @@ How long each part of the study took and what it consumed, where it was recorded
 
 Table: The study in five numbers
 
-The value at list prices is the tokens times each model's published price: a valuation, not an invoice.
+The value at list prices is the tokens times each model's published price. It values the work; the cash paid is in the table's last line.
 
 ## By part of the work
 

@@ -5,9 +5,9 @@
 <main id="main" class="page-results" data-layer="Guide"><nav class="parts" aria-label="Results"><a  href="../results.html">Results</a><a  href="../results/placenl.html">One community: r/PlaceNL</a><a aria-current=page href="../results/population.html">The population model</a><a  href="../time.html">Time and costs</a></nav><article id="results-population" class="results-artifact"><nav class="stage-strip" aria-label="The population, one page per stage"><p class="strip-label">The population, one page per stage</p><ol><li aria-current="step"><span class="n">1</span> The record</li><li><a href="population-coding.html"><span class="n">2</span> Community coding</a></li><li><a href="population-aggregation.html"><span class="n">3</span> Aggregation</a></li><li><a href="population-return.html"><span class="n">4</span> The return</a></li><li><a href="population-forms.html"><span class="n">5</span> Organizational forms</a></li></ol></nav><h1>The population: the record</h1><dl class="fact-box"><div><dt>Output</dt><dd>the frozen dataset: every pixel change, each community's posts and comments, an hourly pixel table per community, and the census of 705 communities</dd></div><div><dt>Counts</dt><dd>16,559,897 pixel changes by 1,166,924 accounts; 7.5 million posts and comments in 2,796 subreddits; 1,473 artworks; 705 communities with 2,130,302 posts and comments</dd></div></dl><nav class="page-index" aria-label="On this page"><p><span class="lab">Short version</span> <a href="#who-counts-as-a-community">Who counts as a community</a></p><p><span class="lab">In detail</span> <a href="#census">From 2,796 subreddits to 705 communities</a> · <a href="#contract">In the contract</a> · <a href="#more">Elsewhere on the site</a></p></nav><p>Of the 777 subreddits credited with an artwork on the atlas or the canvas, 705 stayed: their members wrote about the event while the canvas was open.</p><section id="who-counts-as-a-community"><h2>Who counts as a community</h2><p>A credited subreddit stays if its members wrote about the event while the canvas was open. Each judgment is recorded with its evidence and can be reversed. Seventy-eight of the 705, like r/PlaceNL, have no record before the event.</p></section><div class="in-detail"><p class="lab">In detail</p><p>Everything the run recorded at this stage; each folded section says what it holds.</p></div><section id="census"><h2>From 2,796 subreddits to 705 communities</h2>
 <p>The wider dataset holds 7.5 million posts and comments across 2,796
 subreddits that took part in the event. The population model covers 705
-of them. This section shows each step between the two, and marks the steps
-that took a judgment rather than a count. The judgments are recorded
-with their evidence in the census files, so each can be checked or
+of them. This section shows each step between the two, and marks which
+steps took a judgment and which a count. The judgments are recorded with
+their evidence in the census files, so each can be checked or
 reversed.</p>
 <h3 id="where-the-census-starts">Where the census starts</h3>
 <p>The census starts from the Place Atlas of the finished canvas (Place
@@ -133,27 +133,30 @@ did</td>
 </tbody>
 </table>
 <details class="fold" id="the-judgments"><summary>Show the judgments: 6 decisions behind the count</summary>
-<p><strong>Which community a link means.</strong> The atlas names
-subreddits as annotators typed them. Each link was resolved by hand.
-Typos and folded names were assigned to the community the artwork
-belongs to: <code>hyperlightdrifer</code> to r/hyperlightdrifter,
-<code>Chelsea</code> to r/chelseafc. Links that name no community, such
-as r/all, user pages or a subreddit founded in 2022, were set aside.</p>
-<p><strong>What counts as being there.</strong> The criterion for
-evidence of coordination is writing about r/place while the canvas was
-open. Posting about something else in those hours is not enough, and
-talking about the frozen canvas afterwards is a different act from
-organizing to place pixels on a live one.</p>
-<p><strong>Whether the text takes part in the event.</strong> A word
-screen flagged likely talk about the event but never removed a
+<h4 id="which-community-a-link-means">Which community a link means</h4>
+<p>The atlas names subreddits as annotators typed them. Each link was
+resolved by hand. Typos and folded names were assigned to the community
+the artwork belongs to: <code>hyperlightdrifer</code> to
+r/hyperlightdrifter, <code>Chelsea</code> to r/chelseafc. Links that
+name no community, such as r/all, user pages or a subreddit founded in
+2022, were set aside.</p>
+<h4 id="what-counts-as-being-there">What counts as being there</h4>
+<p>The criterion for evidence of coordination is writing about r/place
+while the canvas was open. Posting about something else in those hours
+is not enough, and talking about the frozen canvas afterwards is a
+different act from organizing to place pixels on a live one.</p>
+<h4 id="whether-the-text-takes-part-in-the-event">Whether the text takes
+part in the event</h4>
+<p>A word screen flagged likely talk about the event but never removed a
 community, because its markers are English and miss communities that
 name their artwork and not the event. A reading decided: a community
 coder's verdict that the record holds no talk about the event, or a
 recorded check of the flagged cases.</p>
-<p><strong>Who read.</strong> Two Claude sessions made 19 of the 22
-checks in <code>validations.jsonl</code>. A Cowork session read four
-flagged communities on 27 August 2026. A chat read the four names on the
-canvas and the Robin link on 26 September, and the nine makers in atlas
+<h4 id="who-read">Who read</h4>
+<p>Two Claude sessions made 19 of the 22 checks in
+<code>validations.jsonl</code>. A Cowork session read four flagged
+communities on 27 August 2026. A chat read the four names on the canvas
+and the Robin link on 26 September, and the nine makers in atlas
 descriptions and the r/TFLS redirect on 27 September, on the
 investigator's instructions in that chat. Neither records its model. The
 investigator ruled the other three, r/place, r/lehigh and r/upvote; the
@@ -162,23 +165,24 @@ verdicts in <code>MASTER-census.csv</code> come from the earlier coding
 with Claude, under contracts 16 to 29, which the final coding with
 gpt-5.6-sol later redid; that output is not shipped. 335 communities
 carry a verdict (292 full, 12 trace, 31 none). The sheet's model column,
-sonnet for 267 and opus for 68, was assumed rather than read, as its
-builder states. Read from the run transcripts, 281 of the 298
-communities with an earlier run were coded by Claude Opus 5 and 17 by
-Claude Sonnet.</p>
-<p><strong>The r/place subreddit.</strong> r/place, the subreddit the
-event was named after, is credited with one small artwork on the atlas.
-It holds more posts than any other subreddit, and many of them narrate
-what the other communities did. It is the square where the communities
-met, not a case beside them. Its coding is under way, and it will be
-used to triangulate the model against an independent record.</p>
-<p><strong>r/The_Donald.</strong> We left out one community for two
-reasons. Reddit banned it in June 2020 for repeatedly hosting content
-that broke its rules, the first of which bans promoting hate based on
-identity or vulnerability (Reddit, 2020). Its exclusion also has little
-bearing on the model: its single artwork covered 108 pixels, within the
-lowest quartile of the census, and was largely overwritten before the
-canvas froze.</p>
+sonnet for 267 and opus for 68, was assumed and not read from the
+transcripts, as its builder states. Read from the run transcripts, 281
+of the 298 communities with an earlier run were coded by Claude Opus 5
+and 17 by Claude Sonnet.</p>
+<h4 id="the-rplace-subreddit">The r/place subreddit</h4>
+<p>r/place, the subreddit the event was named after, is credited with
+one small artwork on the atlas. It holds more posts than any other
+subreddit, and many of them narrate what the other communities did. It
+is the square where the communities met, and the census does not count
+it as a case. The Field agent is reading it, and its account will be set
+against the model as an independent record.</p>
+<h4 id="rthe_donald">r/The_Donald</h4>
+<p>We left out one community for two reasons. Reddit banned it in June
+2020 for repeatedly hosting content that broke its rules, the first of
+which bans promoting hate based on identity or vulnerability (Reddit,
+2020). Its exclusion also has little bearing on the model: its single
+artwork covered 108 pixels, within the lowest quartile of the census,
+and was largely overwritten before the canvas froze.</p>
 </details><h3 id="what-the-705-hold">What the 705 hold</h3>
 <p>The 705 communities wrote 2,130,302 posts and comments from the
 opening to a day after the freeze, and account for 90% of all pixel

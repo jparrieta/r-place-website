@@ -1,6 +1,6 @@
 # Instrument
 
-The instrument turns the shared record of r/place into accounts that later studies can test and revise. It has three parts, run in order, each by its own handler: collection, community coding and aggregation. Each part takes the one before it as input and works under its own written instructions. Below is one entry for each page in this section: the three parts, then Versions and Run the study.
+The instrument turns the shared record of r/place into accounts that later studies can test and revise. It has three parts, run in order, each by its own handler: collection, community coding and aggregation. Each part takes the one before it as input and works under its own written instructions. The section has a page for each part, then Versions and Run the study.
 
 ## Collection
 

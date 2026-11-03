@@ -1,35 +1,25 @@
 # Run the study
 
-Open three handler chats in order, starting with the [Collection handler](download.html), then the existing [coding handler](communities.html) and [aggregator handler](aggregator.html). Give each its brief before asking it to obtain the working folders. Those guides include prompts to paste. The summary below describes the work, not a live agent's progress.
+Open three handler chats in order: the [collection handler](download.html), then the existing [coding handler](communities.html) and [aggregator handler](aggregator.html). Give each its brief before asking it to obtain the working folders. Those guides include prompts to paste. The summary below describes the work as designed.
 
 ## 1. Collection handler
 
-**Input:** the public pixel record, atlas and Reddit archives, plus the study's census decisions.
+This step starts from the public pixel record, the atlas, the Reddit archives and the study's census decisions. Follow the collection recipes, keep the selected time window, then build each community's record. The census rests on judgments recorded in its files, and downloading the source data does not repeat them. Move on when the recipes' checks pass and the inputs and versions are recorded.
 
-**Work:** follow the data recipes, preserve the selected time window and build each community's record. The census contains research judgments; downloading data does not recreate them.
-
-**Ready when:** the recipes' checks pass and the inputs and versions are recorded.
-
-Continue to community coding. See [data recipes](../sources/data-README.html) and [agent instructions](../agents/download.html).
+Continue to community coding. See the [data recipes](../sources/data-README.html) and the [agent instructions](../agents/download.html).
 
 ## 2. Existing coding handler
 
-**Input:** a prepared community record and the community coder contract.
+This step starts from a prepared community record and the community coder contract. The community coder codes the material, with fleet coders in communities above 500 items, and brings the codes, themes and case account together. At the close, keep the community coder's conversation, files and runtime provenance together. Move on when the community coder's checks pass and its declared outputs and resumable close are stored.
 
-**Work:** coding agents code the material; the community coder consolidates codes, themes and the case account. Keep the community coder's conversation, files and runtime provenance together at the close.
+A local model (R6), a return to the population model and a later re-check are separate milestones, each with its own record.
 
-**Ready when:** the community coder's checks pass and its declared outputs and resumable close are stored. A standalone local model, a return to the global model and a later re-check are distinct milestones. One does not prove the others exist.
-
-Continue to the aggregator's input preparation. See [community coder guide](../sources/coder-README.html) and [agent instructions](../agents/communities.html).
+Continue to the aggregator's input preparation. See the [community coder guide](../sources/coder-README.html) and the [agent instructions](../agents/communities.html).
 
 ## 3. Existing aggregator handler
 
-A stage covers one part of the analysis. Repeated legs divide larger tasks; their checkpoints preserve earlier states.
+This step starts from the checked community outputs, the census and the context the instrument requires. The handler prepares a separate run, checks the build and opens the stages in order. The aggregator reads, codes, builds a model, returns it to the cases and writes the resulting account. Keep each stage's outputs, reasoning record and declared checkpoints. Move to the next stage when its outputs and checks meet its contract and the handler records the close.
 
-**Input:** checked community outputs, the census, the required context and shelves.
+A stage is one part of the analysis, and legs divide its larger tasks; their checkpoints keep the earlier states. The aggregator owns the interpretation, and the checks record what was delivered.
 
-**Work:** the handler prepares a separate run, checks the build and opens the stages in order. The aggregator reads, codes, builds a model, returns it to cases, and writes the resulting account.
-
-**Ready to advance when:** the stage's outputs and checks meet its contract, and the handler records the close. The aggregator owns the interpretation; checks establish what was delivered.
-
-See the stage map below, the [handler protocol](../sources/handler.html), and [agent instructions](../agents/aggregator.html). These pages do not start research agents.
+See the stage map below, the [handler protocol](../sources/handler.html) and the [agent instructions](../agents/aggregator.html). Research agents start from the handler chats.

@@ -5,61 +5,59 @@
 <main id="main" class="page-instrument" data-layer="Stage guide"><nav class="parts" aria-label="Instrument"><a aria-current=location href="../instrument.html">Instrument</a><a  href="../how-collection-works.html">Collection</a><a  href="../how-coding-works.html">Community coding</a><a  href="../how-it-works.html">Aggregation</a><a  href="../versions.html">Versions</a><a  href="../run.html">Run the study</a></nav><article class="stage-explanation"><p class="kicker">B3 · Coding: independent readers</p><h1 id="read-the-material-independently-twice">Read the material
 independently, twice</h1>
 <p>B3 applies the shared scheme across the analyzed communities. Two
-independent readers examine every local theme, making differences in
-interpretation visible before the aggregator settles them.</p>
+independent readers place every second-order theme, so differences in
+interpretation are visible before the aggregator settles them.</p>
 <h2 id="where-this-stage-starts">Where this stage starts</h2>
 <p><a href="B2.html">B2</a> has frozen the categories and tested their
-instructions. B3 receives that scheme and all the local themes, with the
-concepts and participants’ words beneath them. A “reader” is a separate
-model conversation. The collection of reader jobs is called the
-fleet.</p>
+instructions. B3 receives that scheme and all the second-order themes,
+with the first-order codes and participants' words beneath them. A
+reader is a separate model conversation. The run calls the set of reader
+jobs the fleet.</p>
 <h2 id="what-the-aggregator-and-handler-do">What the aggregator and
 handler do</h2>
 <p>The aggregator prepares batches that keep each community together. A
-large community may require several files, but one reader receives all
-its parts. Its second reading goes to a different reader. The allocation
-connects communities and readers across batches, allowing the analysis
-to examine whether particular readers or batch contexts produce
-different answers.</p>
-<p>Each reader gets the scheme and its assigned evidence. It can see the
-labels of the community’s other themes for context, but not another
-reader’s answers, the aggregator’s notes or the canvas outcome. It
-assigns themes from their underlying concepts rather than relying on a
-community coder’s label alone. If one category does not capture the
-material, multiple placements need reasons.</p>
+large community may need several files, but one reader receives all its
+parts, and its second reading goes to a different reader. The allocation
+links communities and readers across batches, so the analysis can test
+whether particular readers or batch contexts give different answers.</p>
+<p>Each reader gets the scheme and its assigned evidence. It sees the
+labels of the community's other themes for context, and none of another
+reader's answers, the aggregator's notes or the canvas outcome. It
+places a theme by its first-order codes, with the community coder's
+label as one input. When one category cannot hold the material, each
+extra placement needs a reason.</p>
 <p>The handler runs the jobs separately. The aggregator then checks what
-returned: whether every required item was read twice, whether replies
-are complete, and whether all category references are valid. A missing
-or truncated reply is a delivery problem, not evidence that two readers
-disagree.</p>
-<p>Reference items measure how closely readers follow the author’s
+came back: whether every required item was read twice, whether replies
+are complete, and whether every category reference is valid. A missing
+or truncated reply is a delivery problem and is handled apart from
+disagreements between readers.</p>
+<p>Reference items measure how closely readers follow the author's
 intended distinctions. Further checks examine changes across a batch and
-variation among readers. These results reveal how consistently the
-instrument works. They cannot establish that the categories are the best
-explanation of organizing.</p>
+variation among readers. These results show how consistently the
+instrument works; whether the categories explain organizing well is a
+question for later stages.</p>
 <h2 id="what-the-next-stage-receives">What the next stage receives</h2>
 <p><a href="B4.html">B4</a> receives both readings, their reasons, and a
-record of coverage and uncertainty. B3 preserves disagreement instead of
-resolving it by majority vote. B4 must return to the evidence to decide
-what each disagreement means.</p>
-<section class="stage-outputs" aria-labelledby="stage-outputs-title"><h2 id="stage-outputs-title">What the output files contain</h2><p>Open a file group for its purpose. These are descriptions of the stage’s outputs. Markdown files hold prose; JSONL files hold one structured record per line.</p><details class="stage-output"><summary><span class="output-purpose">Who read what</span><span class="output-filenames"><code>batches-B3.jsonl</code>, <code>RETURN-B3.md</code></span></summary><div class="output-description"><p><code>batches-B3.jsonl</code> records the allocation of communities,
-items and reference examples. The packet files built from it contain the
-actual material served. <code>RETURN-B3.md</code> specifies the reply
-format, so the served task can be compared with the answer.</p>
-</div></details><details class="stage-output"><summary><span class="output-purpose">The original placements and reconsiderations</span><span class="output-filenames"><code>assign_raw.jsonl</code>, <code>assign_pass2.jsonl</code></span></summary><div class="output-description"><p><code>assign_raw.jsonl</code> preserves the first placements that B4
-will adjudicate. <code>assign_pass2.jsonl</code> records each reader’s
-reconsiderations after finishing its batch. The second pass measures
-changes within that reading context; it does not overwrite the
-first.</p>
-</div></details><details class="stage-output"><summary><span class="output-purpose">Material assigned to several categories</span><span class="output-filenames"><code>multiplacement_log.jsonl</code>, <code>multiplacement_register-B3.md</code></span></summary><div class="output-description"><p><code>multiplacement_log.jsonl</code> records why an item needs more
+record of coverage and uncertainty. B3 keeps each disagreement open,
+with no majority vote, and B4 returns to the evidence to decide what it
+means.</p>
+<section class="stage-outputs" aria-labelledby="stage-outputs-title"><h2 id="stage-outputs-title">What the output files contain</h2><p>Open a file group for its purpose. These are descriptions of the stage's outputs. Markdown files hold prose; JSONL files hold one structured record per line.</p><details class="stage-output"><summary><span class="output-purpose">Who read what</span><span class="output-filenames"><code>batches-B3.jsonl</code>, <code>RETURN-B3.md</code></span></summary><div class="output-description"><p><code>batches-B3.jsonl</code> records the allocation of communities,
+items and reference examples. The packet files built from it hold the
+material each reader was served. <code>RETURN-B3.md</code> specifies the
+reply format, so the served task can be compared with the answer.</p>
+</div></details><details class="stage-output"><summary><span class="output-purpose">The first placements and reconsiderations</span><span class="output-filenames"><code>assign_raw.jsonl</code>, <code>assign_pass2.jsonl</code></span></summary><div class="output-description"><p><code>assign_raw.jsonl</code> keeps the first placements that B4 will
+adjudicate. <code>assign_pass2.jsonl</code> records each reader's
+reconsiderations after it finished its batch. The second pass measures
+changes within that reading context and is stored beside the first.</p>
+</div></details><details class="stage-output"><summary><span class="output-purpose">Material placed in several categories</span><span class="output-filenames"><code>multiplacement_log.jsonl</code>, <code>multiplacement_register-B3.md</code></span></summary><div class="output-description"><p><code>multiplacement_log.jsonl</code> records why an item needs more
 than one placement. <code>multiplacement_register-B3.md</code>
 summarizes recurring combinations, which later stages inspect as
 possible overlaps or defects in the scheme.</p>
 </div></details><details class="stage-output"><summary><span class="output-purpose">Consistency, context and remaining problems</span><span class="output-filenames"><code>fidelity-B3.md</code>, <code>position-B3.md</code>, <code>agent_report-B3.md</code>, <code>notes-B3.md</code>, <code>run_manifest.json</code></span></summary><div class="output-description"><p><code>fidelity-B3.md</code> reports matching against reference
 answers. <code>position-B3.md</code> examines changes with position in a
-batch. <code>agent_report-B3.md</code> examines reader and context
-variation. <code>notes-B3.md</code> explains choices, reissues and
-limits; the <code>run_manifest.json</code> entry records models and
+batch. <code>agent_report-B3.md</code> examines variation by reader and
+context. <code>notes-B3.md</code> explains choices, reissues and limits;
+the <code>run_manifest.json</code> entry records models and
 settings.</p>
 </div></details></section><section class="stage-reference" aria-labelledby="stage-reference-title"><h2 id="stage-reference-title"><a href="../sources/stage-B3.html">Full stage description</a></h2><p>Read the complete technical card for exact tasks, reading boundaries, checks and closing rules. The explanation above is a guide; the card holds the instructions.</p><details><summary>Show how the stage is divided into its 2 legs</summary><ul>
 <li><code>B3a</code>: build. Repeats: no. Interview point: -.</li>

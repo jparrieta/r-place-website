@@ -28,7 +28,7 @@ A fresh gpt-5.6-sol conversation writes each community's brief, and a script wri
 
 ## After the coding: the return
 
-At the return ([D2](stages/D2.html)), an adaptation handler forks, for each community, the checkpoint of the community coder that coded it, with its conversation and files, and gives it a new task in a separate folder. This is not another coding pass. Under the return contract the coder recodes its whole community in the population model's terms. It reads its own case account, themes, codes, brief and reply trees against the model, the coding structure and the model's vocabulary of element and arrow ids. It then writes two files:
+At the return ([D2](stages/D2.html)), an adaptation handler forks, for each community, the checkpoint of the community coder that coded it, with its conversation and files, and gives it a new task in a separate folder. Under the return contract the coder recodes its whole community in the population model's terms; its first coding stays as it was. It reads its own case account, themes, codes, brief and reply trees against the model, the coding structure and the model's vocabulary of element and arrow ids. It then writes two files:
 
 - a model of the community: its case account rewritten section by section in the model's terms, each claim tied to an element id or marked as new and cited to the community's own codes, ending with its own grade and the exceptions it found;
 - one line for each change the model needs: an element instantiated, marked absent, given a condition or a finer step, linked, restricted or contradicted, or a new element proposed.
