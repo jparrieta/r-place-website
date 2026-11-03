@@ -6,19 +6,19 @@ The instrument turns the shared record of r/place into accounts that later studi
 
 Gathers the public record once and freezes it: Reddit's log of every pixel change, the Place Atlas of the finished canvas, and the posts and comments of the subreddits behind its artworks. A census then decides which communities count as cases: 705 of the 2,796 subreddits in the wider dataset. Scripts collect; the census judgments are ours.
 
-[Collection](how-collection-works.html) · [What it gave: the record](results/record.html) · [Run it](guides/download.html)
+[Collection](how-collection-works.html) · [What it gave: the record](results/population-record.html) · [Run it](guides/download.html)
 
 ## Community coding
 
 One community coder per community reads its whole record and writes codes, themes and a case account, close to its members' words. It sees no other community. A scheduler prepares, launches and checks each coder; fleet coders help with the largest communities.
 
-[Community coding](how-coding-works.html) · [What it gave: community coding](results/coding.html) · [Run it](guides/communities.html)
+[Community coding](how-coding-works.html) · [What it gave: community coding](results/population-coding.html) · [Run it](guides/communities.html)
 
 ## Aggregation
 
 The aggregator reads the coders' sealed work, never the record. Over eighteen stages it builds layers of themes and one population model, returns the model to every community coder, revises it, and groups the communities into candidate organizational forms.
 
-[Aggregation](how-it-works.html) · What it gave: [building the model](results/aggregation.html), [the return](results/return.html), [organizational forms](results/forms.html) · [Run it](guides/aggregator.html)
+[Aggregation](how-it-works.html) · What it gave: [building the model](results/population-aggregation.html), [the return](results/population-return.html), [organizational forms](results/population-forms.html) · [Run it](guides/aggregator.html)
 
 ## Versions
 

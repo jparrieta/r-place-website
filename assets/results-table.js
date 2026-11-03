@@ -17,7 +17,7 @@ function drawTable(){const f=document.getElementById('rt-f').value,r=document.ge
   document.getElementById('rt-avg').innerHTML=(f?[f,'all']:['A','B','C','D','E','F','all']).map(avgRow).join('');
   const rows=R.filter(x=>(!f||x.form==f)&&(!r||x.role==r)&&(!q||x.room.toLowerCase().includes(q))).sort((a,b)=>{const A=a[key],B=b[key];return (A>B?1:A<B?-1:a.room.localeCompare(b.room))*dir});
   document.getElementById('rt-cnt').textContent=rows.length+' communities';
-  document.getElementById('rt-tb').innerHTML=rows.map(x=>'<tr id="room-'+esc(x.room.toLowerCase())+'"><th scope="row" class="stick">'+(x.room==='PlaceNL'?'<a href="forms.html#placenl">PlaceNL</a>':esc(x.room))+'</th><td><span class="chip" style="background:'+FC[x.form]+'"></span>'+x.form+'</td><td class="role hide">'+x.role+'</td>'+
+  document.getElementById('rt-tb').innerHTML=rows.map(x=>'<tr id="room-'+esc(x.room.toLowerCase())+'"><th scope="row" class="stick">'+(x.room==='PlaceNL'?'<a href="placenl.html">PlaceNL</a>':esc(x.room))+'</th><td><span class="chip" style="background:'+FC[x.form]+'"></span>'+x.form+'</td><td class="role hide">'+x.role+'</td>'+
     '<td class="n">'+x.ch+'</td><td>'+strip(x.c)+'</td><td class="n">'+x.co.toLocaleString('en')+'</td><td>'+strip(x.k)+'</td><td class="hide addr">'+esc(x.addr)+'</td><td class="hide">'+esc(x.beside)+'</td></tr>').join('')}
 document.querySelectorAll('#rooms th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=(key==k)?-dir:(k=='ch'||k=='co'?-1:1);key=k;draw()});
 ['rt-f','rt-r','rt-q'].forEach(id=>document.getElementById(id).oninput=draw);draw();
