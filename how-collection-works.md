@@ -30,4 +30,4 @@ A recipe says what a store holds, how to build it and what was tested; "the copy
 
 The handler stops a route when access is missing, archived bytes are unavailable, a check fails or the choice of collection is unresolved. It names the missing store and the next action. It never infers a census decision and never counts an incomplete download as ready.
 
-[How it was done, with r/PlaceNL beside it](study/record.html) · [Run it](guides/download.html)
+[Run it](guides/download.html)

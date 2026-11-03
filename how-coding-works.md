@@ -61,4 +61,4 @@ The contract tells the coder that coding is closed and that no code, theme or co
 | Lineage | same session and same source checkpoint as the coding close; the return (D2) forked the coding close, not R6 |
 | Not recorded | a commit for the contract and the amendment, which reach the repository only inside each R6 checkpoint |
 
-[How it was done, with r/PlaceNL beside it](study/coding.html) · [Run it](guides/communities.html)
+[Run it](guides/communities.html)

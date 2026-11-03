@@ -400,6 +400,7 @@ footer>div{display:flex;gap:1.6rem}
 .part-strip li[aria-current]{box-shadow:none}
 p.part-of{color:var(--muted);font-size:.95rem}
 :is(#results-population) table.return-table,:is(#results-population) #census table{display:block;overflow-x:auto;max-width:100%}
+:is(#results-population) #steps table{display:block;overflow-x:auto;max-width:100%}
 /* Harmony (design review, 2 November 2026; contract 4.4, 6.1, 7.2). One type scale for every page, results artifacts included;
    one style for evidence links; one style for fold labels. Agent pages (.spec) and the stage agent key keep their own headings. */
 :root{--fs-body:17px;--fs-ui:.95rem;--fs-small:.9rem;--fs-label:.75rem;--fs-h2:1.9rem;--fs-h3:1.2rem;--fs-h4:1.05rem}
