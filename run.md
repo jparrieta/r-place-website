@@ -13,7 +13,7 @@ Each guide has a prompt to paste and explains the handoff to the next chat. Chec
 ## Other ways in
 
 - [Starting from coded communities](guides/aggregator.html#starting-from-communities-already-coded): open the aggregator handler directly with checked coded inputs.
-- [Checkpoint interviews](interviews.html): only auditing? Question the saved agents instead of running the study.
+- [Forked run](guides/continue.html#continue-or-branch-the-analysis): resume a saved agent from its checkpoint and, instead of interviewing it, give it files and stage cards to start a new run; the original run stays as it was. To ask it about its work instead, open a checkpoint interview.
 
 ## Full reference
 
