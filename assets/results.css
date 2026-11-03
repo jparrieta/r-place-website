@@ -290,6 +290,7 @@
 .results-artifact .r6-reading h3{font-size:1.2rem}
 .results-artifact .r6-reading p{margin:0 0 1rem}
 .results-artifact .r6-reading blockquote{border-left:1px solid var(--rule);padding-left:1rem;margin:1rem 0}
+.results-artifact .r6-reading table{display:block;overflow-x:auto;max-width:100%}
 .results-artifact .a1-note td:first-child{width:22%;font-weight:600}
 .results-artifact .a1-note table{min-width:0}
 .results-artifact .a1-note code{white-space:nowrap}
