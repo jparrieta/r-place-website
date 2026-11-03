@@ -13,5 +13,3 @@ The study has three parts, run in order. Each takes the one before it as input a
 1. **[Collection](how-collection-works.html)** Every pixel change, joined with the posts and comments of the communities behind the artworks. A census decides which 705 communities count as cases.
 2. **[Community coding](how-coding-works.html)** One AI agent reads each community's full record and codes how its members organized. It sees no other community.
 3. **[Aggregation](how-it-works.html)** A second agent composes the 705 coded cases into one population model. It returns the model to every community coder, revises it, and groups the communities into candidate organizational forms.
-
-Researchers judge what the model is worth. [How the instrument works](instrument.html)
