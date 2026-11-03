@@ -22,7 +22,7 @@ The instrument is a harness in which LLM agents read the record under explicit v
 
 ### The community
 
-One community coder read r/PlaceNL's full record and wrote 246 first-order codes in 21 second-order themes, each tied to its quotes. [r/PlaceNL's coding](results/placenl-coding.html)
+Two fleet coders coded r/PlaceNL's 701 posts and comments, each a batch of whole threads, into 246 first-order codes tied to their quotes; its community coder read every thread's opening and grouped the codes into 21 second-order themes. [r/PlaceNL's coding](results/placenl-coding.html)
 
 ### The population
 
