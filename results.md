@@ -24,8 +24,16 @@ All 705 communities, through the same five stages.
 
 ## Time and costs
 
-How long each part of the study took and what it consumed. From the first community coding run on 18 August to the last aggregator session on 28 October is 71 days. All the work used 51.82 billion tokens, worth $20,497 at list prices; $68 was paid in cash, to DeepSeek.
+How long each part of the study took and what it consumed: 71 days, from the first community coding run on 18 August to the last aggregator session on 28 October.
 
-[Time and costs](time.html) · [By part of the work](time.html#by-part-of-the-work) · [The aggregator](time.html#the-aggregator) · [Prices used](time.html#prices-used)
+- [The study in five numbers](time.html): all the work used 51.82 billion tokens, worth $20,497 at list prices; $68 was paid in cash, to DeepSeek.
+- [By part of the work](time.html#by-part-of-the-work): community coding used 15.74 billion tokens and the aggregator 21.45 billion; the return, the re-check, the independent readers and the r/place subreddit used the rest.
+- [The aggregator](time.html#the-aggregator): 21.5 days in 314 sessions, from 6 to 28 October; it worked 10.3 of those days, and the usage limits of the Claude subscription took 3.9.
+- [Prices used](time.html#prices-used): each model's published price per billion tokens, and the work not counted.
 
-The local model and the population model are separate analyses, each with its own labels and claims. [Checks at the coding, composition and source levels](guides/study.html#how-the-model-is-checked) separate completed work from planned comparisons. [Checkpoint interviews](interviews.html) let you question the saved agents and compare their new answers with the original work.
+## Checks and interviews
+
+The local model and the population model are separate analyses, each with its own labels and claims.
+
+- [Checks at the coding, composition and source levels](guides/study.html#how-the-model-is-checked): they separate completed work from planned comparisons.
+- [Checkpoint interviews](interviews.html): question the saved agents and compare their new answers with the original work.
