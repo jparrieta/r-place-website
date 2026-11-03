@@ -10,7 +10,7 @@ Hence, our field produces claims faster than it relates them: a problem of "diso
 
 Earlier studies used r/place to examine collaboration among users (Rappaz et al., 2018), community participation (Israeli et al., 2022), and coordination in four communities (Jemine, 2025). We provide a population model of 705 communities as a baseline against which later findings can be compared. Whether r/place becomes a model organism depends on other researchers using and extending our baseline (Kohler, 1994).
 
-We assess four characteristics of model organisms: material accessibility, representational scope, standardization, and a research community that shares its materials and results (Ankeny & Leonelli, 2011). These characteristics help address Machlup's (1967) constraints of cost, observability and composition. Public records make the event accessible, LLM agents reduce the cost of reading them, and the instrument relates coded cases in a population model. [Why LLMs can compose cases](composition.html) sets out those constraints.
+We assess four characteristics of model organisms: material accessibility, representational scope, standardization, and a research community that shares its materials and results (Ankeny & Leonelli, 2011). These characteristics help address Machlup's (1967) constraints of cost, observability and composition. Public records make the event accessible, LLM agents reduce the cost of reading them, and the instrument relates coded cases in a population model. [Why compose single cases](composition.html) sets out those constraints.
 
 ## Three examples and r/place
 

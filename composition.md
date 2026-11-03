@@ -1,4 +1,4 @@
-# Why LLMs can compose qualitative cases
+# Why compose single cases
 
 We propose a model organism, [a fruit fly](organism.html) for accumulating knowledge on the phenomenon of organizational emergence and evolution. We choose this phenomenon because it is where our failure to accumulate shows most. Although "the average organization does not exist", and "significant insights can arise from studying the best or the worst of a population" (Daft & Lewin, 1990:6), lessons drawn from the extremes alone misdescribe the population they come from (Denrell, 2003). Accumulated knowledge must cover the whole distribution and create "a deeper understanding of how organizational forms come to be different and remain different through time" (Lewin & Volberda, 1999:529), to understand how "organization form[s] emerge instead of being specified in advance" (Daft & Lewin, 1993:iv).
 
