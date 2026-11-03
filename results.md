@@ -1,6 +1,6 @@
-# Results
+# Findings
 
-What the completed run found, and the records behind each claim. The section has a page for each result: One community: r/PlaceNL, The population model, then Time and costs.
+What the completed run found, and the records behind each claim. The section has a page for each example, One community: r/PlaceNL and The population model, then Time and costs.
 
 ## One community: r/PlaceNL
 

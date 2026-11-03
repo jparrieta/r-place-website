@@ -13,3 +13,10 @@ The study has three parts, run in order. Each takes the one before it as input a
 1. **[Collection](how-collection-works.html)** Every pixel change, joined with the posts and comments of the communities behind the artworks. A census decides which 705 communities count as cases.
 2. **[Community coding](how-coding-works.html)** One AI agent reads each community's full record and codes how its members organized. It sees no other community.
 3. **[Aggregation](how-it-works.html)** A second agent composes the 705 coded cases into one population model. It returns the model to every community coder, revises it, and groups the communities into candidate organizational forms.
+
+## What we found
+
+The run followed one community closely and all 705 together.
+
+1. **[One community: r/PlaceNL](results/placenl.html)** Founded for the event to coordinate the Dutch artworks. Its coders turned 701 posts and comments into 246 codes and 21 themes. Its objection at the return, canal houses erased by its own defense script, changed the model's account of repair.
+2. **[The population model](results/population.html)** Each community coded on its own, then composed into eight aggregate dimensions and one model. Communities that asked for similar changes to the model form six candidate organizational forms.

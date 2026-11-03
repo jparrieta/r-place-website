@@ -36,7 +36,7 @@ The *ladder* is the five layers from quote to aggregate dimension. Construction 
 
 Table: The layers of coding, from quote to aggregate dimension
 
-## Results
+## Findings
 
 **Population model.** The aggregator's qualitative model of the 705 curated communities: its parts, arrows and account.
 

@@ -12,7 +12,7 @@ This repository accompanies the paper An Organizational Fruit Fly: r/place as a 
 
 [Start here](agents.md). Use [resolved source links](reading/manifest.json); exact source bytes and hashes remain in [sources/manifest.json](sources/manifest.json).
 
-## Results
+## Findings
 
 - [Read the completed study](results.md): PlaceNL and the population model.
 - [PlaceNL coding](results/data/case.md), [timeline](results/data/timeline.md), [A1 note](results/data/a1-note.md), [local R6 model](results/data/R6-model.md), and [all return decisions](results/data/return-decisions.json).
