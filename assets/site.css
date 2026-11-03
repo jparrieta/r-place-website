@@ -436,4 +436,10 @@ p.part-of{color:var(--muted);font-size:.95rem}
 #main :is(p,li,dd,td,th,figcaption){overflow-wrap:break-word}
 #main :is(code,a){overflow-wrap:anywhere}
 #main h4{margin-top:1.4em!important;margin-bottom:.45em!important}
-
+/* The Results landing's two five-stage lists, set like the examples' own five-stage index (J, 3 November 2026). */
+main.page-results .stage-list{list-style:none;padding:0;margin:1rem 0 2rem;max-width:none}
+main.page-results .stage-list li{border-top:1px solid var(--rule);padding:.9rem 0;max-width:none}
+main.page-results .stage-list .stage-name{font-weight:650;font-size:1.15rem;margin:0 0 .3rem}
+main.page-results .stage-list .stage-name a{color:var(--ink)}
+main.page-results .stage-list .n{color:var(--accent);font-weight:750;margin-right:.3rem}
+main.page-results .stage-list p{margin:0 0 .25rem}
