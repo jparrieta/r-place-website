@@ -6,7 +6,7 @@ Open the three chats in order:
 
 1. [Collection handler](guides/download.html): obtain raw24, pixels, atlas and the other required inputs.
 2. [Coding handler](guides/communities.html): use the existing handler to code communities and save their community coders.
-3. [Aggregator handler](guides/aggregator.html): use the existing handler to build and test the global model.
+3. [Aggregator handler](guides/aggregator.html): use the existing handler to build and test the population model.
 
 Each guide has a prompt to paste and explains the handoff to the next chat. You supervise decisions; handlers operate the work. Check platform requirements before starting.
 

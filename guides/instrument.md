@@ -18,7 +18,7 @@ C1 to C5 build the fourth-order themes, the dynamic model and its account. The m
 
 The Field agent reads the central r/place subreddit separately. C4 compares the account it supplies with the community-based model and records its scope and limits. In v43, the Field agent supplied an interim reading and comments before its own analysis was finished, and a comparison with its completed account is still pending. If no account is supplied, C4 records its absence. This site has no launch guide for the Field agent yet.
 
-D1 to D5 return the model to communities, assess corrections and build the taxonomy. D6 retells the whole model with the organizational forms inside it; new ideas stay unvalidated proposals. A local difference can stand in one community's account, and the global model need not explain every case the same way.
+D1 to D5 return the model to communities, assess corrections and build the taxonomy. D6 retells the whole model with the organizational forms inside it; new ideas stay unvalidated proposals. A local difference can stand in one community's account, and the population model need not explain every case the same way.
 
 E1 audits the work. E2 reviews the handling and proposes the next version of the instrument. Checks show what was read and written; the explanation rests on evidence and argument.
 

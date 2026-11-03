@@ -63,7 +63,7 @@
       const cardFor=(c,primary=false)=>{
         const card=el('article',null,primary?'checkpoint checkpoint-stage':'checkpoint');card.id='checkpoint-'+c.id;card.setAttribute('aria-label',c.milestone);
         if(!primary)card.append(el('h3',c.kind==='community'?c.title:`${c.milestone.split('.').pop()} · ${c.title}`));
-        if(c.kind==='community'){const descriptions={'coding-close':'After coding: codes, themes and the case account.','R6':'After the local model: the account, model and data structure.','D2':'After the global return: how the shared model fits this community.','D3':'After the re-check: how the revised model fits this community.'};if(descriptions[c.milestone])card.append(el('p',descriptions[c.milestone],'why'));}
+        if(c.kind==='community'){const descriptions={'coding-close':'After coding: codes, themes and the case account.','R6':'After the local model: the account, model and coding structure.','D2':'After the return: how the population model fits this community.','D3':'After the re-check: how the revised model fits this community.'};if(descriptions[c.milestone])card.append(el('p',descriptions[c.milestone],'why'));}
         const privateChoice=privateChoices.get(c.id),ready=c.availability==='ready'&&c.bundle?.url&&c.bundle?.sha256,h=historical.checkpoints[c.id];
         if(!primary&&h.saved_utc)card.append(el('p','Saved '+h.saved_utc.slice(0,10),'checkpoint-date'));
         const actions=el('div',null,'actions chat-actions'),local=el('button','Chat Locally');

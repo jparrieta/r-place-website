@@ -443,3 +443,19 @@ main.page-results .stage-list .stage-name{font-weight:650;font-size:1.15rem;marg
 main.page-results .stage-list .stage-name a{color:var(--ink)}
 main.page-results .stage-list .n{color:var(--accent);font-weight:750;margin-right:.3rem}
 main.page-results .stage-list p{margin:0 0 .25rem}
+/* From codes to forms: the population chain, one line on a wide screen (J's audit, 3 November 2026) */
+#results-population .chain{list-style:none;padding:0;margin:1rem 0 2rem;display:flex;flex-wrap:wrap;gap:.5rem 0;align-items:stretch}
+#results-population .chain li{display:flex;align-items:center;max-width:none;margin:0}
+#results-population .chain li+li::before{content:"\2192";color:var(--muted);padding:0 .45rem}
+#results-population .chain a{display:block;border:1px solid var(--rule);border-radius:6px;padding:.35rem .6rem;color:var(--ink);text-decoration:none;font-size:.92rem;line-height:1.3}
+#results-population .chain a:hover,#results-population .chain a:focus-visible{border-color:var(--accent)}
+#results-population .chain b{color:var(--accent);font-weight:750}
+/* The six forms, each with its gloss, before any unit code (J's audit, 3 November 2026) */
+#results-population .form-list{list-style:none;padding:0;margin:1rem 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr));gap:0 1.6rem}
+#results-population .form-list li{border-top:1px solid var(--rule);padding:.6rem 0;max-width:none}
+#results-population .form-list .fname{margin:0;font-weight:650}
+#results-population .form-list .fname a{color:var(--ink);text-decoration:none}
+#results-population .form-list .fname a:hover,#results-population .form-list .fname a:focus-visible{text-decoration:underline}
+#results-population .form-list .chip{display:inline-block;width:10px;height:10px;margin:0 .45rem 0 0;vertical-align:0;background:var(--fc)}
+#results-population .form-list .n{display:block;font-weight:400;color:var(--muted);font-size:.9rem}
+#results-population .form-list .gloss{margin:.2rem 0 0}
