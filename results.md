@@ -1,14 +1,6 @@
 # Results
 
-What the completed run found, and the records behind each claim. The main findings come first. The section has a page for each result: One community: r/PlaceNL, The population model, then Time and costs.
-
-## What we found
-
-1. The coding of 705 communities gathers into eight aggregate dimensions, from critical mass to contention. [The coding structure](results/population-aggregation.html#ladder)
-2. Every community coder answered the population model; the revised model holds 30 standing elements, 15 candidates and 21 arrows. [Two versions of the model](results/population-return.html#two-versions-of-the-model)
-3. Its fit rose from 201 communities fully and 489 in part to 630 fully and 56 in part, an internal check. [The return in numbers](results/population-return.html#return-numbers)
-4. The changes communities asked of the model group them into six candidate organizational forms. [Six organizational forms](results/population-forms.html#forms)
-5. One community's erased canal houses, with other communities' objections, changed the model's account of repair. [Repair and change](results/placenl-return.html#repair-and-change)
+What the completed run found, and the records behind each claim. The section has a page for each result: One community: r/PlaceNL, The population model, then Time and costs.
 
 ## One community: r/PlaceNL
 
