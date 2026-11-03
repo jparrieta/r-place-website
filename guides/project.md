@@ -16,7 +16,7 @@ The record has two parts: pixel changes and public posts and comments. The colle
 
 The current study covers 705 curated communities with evidence of coordination during the 2017 event. Each has a written record and a case account. It is a census of this curated population; many more subreddits mentioned r/place.
 
-The shared canvas is the setting; communities are the cases. Their differences are what the analysis seeks to explain. [Common conditions](../conditions.html) support comparison, and the [event record](../event.html) keeps the sequence within each case.
+The shared canvas is the setting; communities are the cases. Their differences are what the analysis seeks to explain. [Common conditions](../organism.html#standardization) support comparison, and the [event record](../organism.html#material-accessibility) keeps the sequence within each case.
 
 ## A frozen dataset and a revisable instrument
 

@@ -7,9 +7,6 @@ This repository accompanies the paper An Organizational Fruit Fly: r/place as a 
 - [Why we need model organisms](model-organisms.md).
 - [Why r/place is a model organism](organism.md).
 - [One shared research object](guides/project.md).
-- [Common conditions](conditions.md).
-- [The whole event](event.md).
-- [Shared data and tools](tools.md).
 
 > Use these reading keys to find the authoritative instrument. They do not replace it.
 

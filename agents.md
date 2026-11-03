@@ -5,7 +5,7 @@ title: "Full reference for agents"
 
 # Full reference for agents
 
-This repository accompanies the paper *An Organizational Fruit Fly: r/place as a Model Organism for Cumulative Grounded Theory*. It holds a shared event record and a revisable instrument. The [research object](guides/project.md), [common conditions](conditions.md), [whole event](event.md) and [shared data and tools](tools.md) explain the project.
+This repository accompanies the paper *An Organizational Fruit Fly: r/place as a Model Organism for Cumulative Grounded Theory*. It holds a shared event record and a revisable instrument. The [research object](guides/project.md) and [why r/place is a model organism](organism.md) explain the project.
 
 Use these reading keys to find the authoritative instrument. They do not replace it.
 
