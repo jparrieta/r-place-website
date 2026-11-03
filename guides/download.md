@@ -20,7 +20,7 @@ To use the original starting point, download the [verified starting package](htt
 
 The repository holds the instruments, scripts and recorded outputs. Large data stores and resumable checkpoint bundles are separate downloads. The interview launcher opens saved checkpoints and installs nothing of the research workflow.
 
-Research runs need a computer with a shell, Python 3.11, the dependencies the package lists, and the model access your chosen platform requires. Use the current [handler instructions](../agents/aggregator.html) for the run you build. The starting package passed all eight offline checks in a fresh Python 3.11 environment on the author's Mac, with its documented numpy, scipy and pandas dependencies; the test used a simulated model. Provider access, recollection and installation on another operating system remain untested.
+Research runs need a computer with a shell, Python 3.11, the dependencies the package lists, and the model access your chosen platform requires. Each handler's instructions name the requirements of its own part. The starting package passed all eight offline checks in a fresh Python 3.11 environment on the author's Mac, with its documented numpy, scipy and pandas dependencies; the test used a simulated model. Provider access, recollection and installation on another operating system remain untested.
 
 ## Prepare the records
 
@@ -30,12 +30,10 @@ The handler keeps the archived study inputs apart from a new collection. Some ar
 
 ## Open the next chat
 
-The collection handler leaves `HANDOFF-collection.md` with input paths, versions, checks and unresolved gaps. Open the [existing coding handler](communities.html) and give it that file. Keep this collection chat for data questions.
+The collection handler leaves `HANDOFF-collection.md` with input paths, versions, checks and unresolved gaps. Open the [coding handler](communities.html) and give it that file. Keep this collection chat for data questions.
 
-## Read further
+## Documents for this handler
 
-- [Full data recipes](../sources/data-README.html).
-- [Full collection handler brief](../agents/collection.html).
-- [Complete data reading key](../agents/download.html).
-
-Next: [code communities](communities.html).
+- [Collection handler brief](../agents/collection.html): the brief attached above, as a page.
+- [Data recipes](../sources/data-README.html): how each input is obtained and checked.
+- [Agent reading key](../agents/download.html): what the handler must read, in order.

@@ -1,18 +1,19 @@
 # Run the study
 
-Start by opening a handler chat in Codex or Claude with access to a working folder. Give it the linked instructions before downloading data. The handler obtains and prepares the folders.
+Start by opening a handler chat in Codex or Claude with access to a working folder. Give it the linked instructions before downloading data. The handler obtains and prepares the folders. You supervise decisions; handlers operate the work.
 
-Open the three chats in order:
+## Three handlers, in order
 
-1. [Collection handler](guides/download.html): obtain raw24, pixels, atlas and the other required inputs.
-2. [Coding handler](guides/communities.html): use the existing handler to code communities and save their community coders.
-3. [Aggregator handler](guides/aggregator.html): use the existing handler to build and test the population model.
+- [Open the collection handler](guides/download.html): it obtains the Reddit archives, the pixel record, the atlas and the other required inputs, and leaves a checked handoff.
+- [Open the coding handler](guides/communities.html): it uses the existing handler to code the communities and save their community coders.
+- [Open the aggregator handler](guides/aggregator.html): it uses the existing handler to build and test the population model, stage by stage.
 
-Each guide has a prompt to paste and explains the handoff to the next chat. You supervise decisions; handlers operate the work. Check platform requirements before starting.
+Each guide has a prompt to paste and explains the handoff to the next chat. Check platform requirements before starting.
 
-Already have checked coded communities? [Start with the aggregator handler](agents/aggregator.html) and its input checklist.
+## Other ways in
 
-Only auditing? Use [checkpoint interviews](interviews.html).
+- [Starting from coded communities](guides/aggregator.html#starting-from-communities-already-coded): open the aggregator handler directly with checked coded inputs.
+- [Checkpoint interviews](interviews.html): only auditing? Question the saved agents instead of running the study.
 
 ## Full reference
 

@@ -16,7 +16,7 @@ The aggregator develops the interpretation and owns it. The handler is a separat
 
 ## Starting from communities already coded
 
-You can open this handler directly with checked coded inputs; no new collection is needed. Use the [start-from-coded reading key](../agents/aggregator.html) to list the inputs and boundaries before launch. It covers the untouched starting folder, the original community coders for D2, the Field package or the recorded decision for C4, and the proposal material for E2.
+You can open this handler directly with checked coded inputs; no new collection is needed. Use the agent reading key, under Documents for this handler, to list the inputs and boundaries before launch. It covers the untouched starting folder, the original community coders for D2, the Field package or the recorded decision for C4, and the proposal material for E2.
 
 The 14 shared community checkpoint pairs do not include every original community coder of the 705-community frame. Missing community coders limit the later returns, even when the earlier aggregator stages can run. The handler requests the missing packages, records the last stage that can run, and never replaces a saved community coder with a fresh agent.
 
@@ -24,9 +24,11 @@ The 14 shared community checkpoint pairs do not include every original community
 
 At the D1 close, give `out/handoff-D/HANDLER.md` to the chat that holds the original community coders. That chat acts as the adaptation handler. At D3b, give it `out/handoff-D/recheck/HANDLER.md` so it can return to the D2 sessions. The investigator dispatches the verdict readers through `dispatch.sh`. Only the saved community coders answer the return.
 
-## Full instructions
+## Documents for this handler
 
-[Handler protocol](../sources/handler.html) · [Build and run](../sources/how-to-run.html) · [Agent reading key](../agents/aggregator.html)
+- [Handler protocol](../sources/handler.html): how the handler operates the run and brings decisions to the investigator.
+- [Build and run](../sources/how-to-run.html): building a separate run and its acceptance checks.
+- [Agent reading key](../agents/aggregator.html): what the handler must read, and the inputs and boundaries when starting from coded communities.
 
 ## Stage map
 

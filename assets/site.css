@@ -33,9 +33,9 @@ footer{max-width:none;margin:0;padding:1.6rem max(var(--gutter),calc((100% - var
 .page-index .orientation>ul{list-style:none;padding:0;margin:1.5rem 0 2rem;border-top:1px solid var(--rule)}
 .page-index .orientation>ul li{padding:1.1rem 0;margin:0;border-bottom:1px solid var(--rule);max-width:none}
 .page-index .orientation>ul li a{font-weight:500}
-.page-run .orientation>ol{list-style:none;counter-reset:workflow;padding:0;margin:1.5rem 0 2rem}
-.page-run .orientation>ol li{counter-increment:workflow;display:block;position:relative;padding:1.3rem 0 1.3rem 2.8rem;max-width:none;border-top:1px solid var(--rule)}
-.page-run .orientation>ol li::before{content:counter(workflow);position:absolute;left:0;top:1.3rem;font:400 1.6rem/1.2 var(--font);color:var(--accent)}
+.page-run .orientation>ol:not(.stage-list){list-style:none;counter-reset:workflow;padding:0;margin:1.5rem 0 2rem}
+.page-run .orientation>ol:not(.stage-list) li{counter-increment:workflow;display:block;position:relative;padding:1.3rem 0 1.3rem 2.8rem;max-width:none;border-top:1px solid var(--rule)}
+.page-run .orientation>ol:not(.stage-list) li::before{content:counter(workflow);position:absolute;left:0;top:1.3rem;font:400 1.6rem/1.2 var(--font);color:var(--accent)}
 .routes,.actions{display:flex;gap:.7rem;flex-wrap:wrap;margin:1.1rem 0}
 .actions a{align-self:center}.actions button{font-size:.9rem}
 .button{display:inline-block;padding:.75rem 1rem;border-radius:3px;background:var(--accent);color:var(--on-accent);text-decoration:none;font-weight:500}
@@ -86,7 +86,7 @@ blockquote{border-left:1px solid var(--rule);padding-left:1rem;margin-left:0;col
 /* Wayfinding: plain mixed-case menu, matching arrieta.science; the current page carries a 2px underline. */
 header nav a{font-weight:400;font-size:.95rem;color:var(--ink)}
 header nav a[aria-current]{border-bottom-width:2px}
-.page-run .orientation>ol li::before{font-weight:800;font-stretch:68%;font-size:1.9rem;top:1.05rem}
+.page-run .orientation>ol:not(.stage-list) li::before{font-weight:800;font-stretch:68%;font-size:1.9rem;top:1.05rem}
 
 /* One menu of what visitors come to see; task routes and the theme sit in a small utility row beside the name. */
 header .utility{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:.5rem 1.4rem}
