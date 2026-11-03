@@ -12,11 +12,15 @@ Gathers the public record once and freezes it: Reddit's log of every pixel chang
 
 One community coder per community reads its whole record and writes codes, themes and a case account, close to its members' words. It sees no other community. A scheduler prepares, launches and checks each coder; fleet coders help with the largest communities.
 
+Its steps: [1. The briefing](sources/coder-contract.html#4-step-1--the-briefing) · [2. Every thread](sources/coder-contract.html#5-step-2--go-through-every-thread-and-decide-what-this-case-is) · [3. First-order codes](sources/coder-contract.html#6-step-3--first-order-codes) · [4. Themes](sources/coder-contract.html#7-step-4--themes) · [5. The case account](sources/coder-contract.html#8-step-5--the-within-case-account)
+
 [Community coding](how-coding-works.html) · [What it gave: community coding](results/population-coding.html) · [Run it](guides/communities.html)
 
 ## Aggregation
 
 The aggregator reads the coders' sealed work, never the record. Over eighteen stages it builds layers of themes and one population model, returns the model to every community coder, revises it, and groups the communities into candidate organizational forms.
+
+Its stages, in six groups: [Reading, A1](how-it-works.html#group-reading) · [Coding, B1 to B4](how-it-works.html#group-coding) · [Model, C1 to C5](how-it-works.html#group-model) · [Adaptation, D1 to D3](how-it-works.html#group-adaptation) · [Forming, D4 to D6](how-it-works.html#group-forming) · [Formalizing, E1 and E2](how-it-works.html#group-formalizing)
 
 [Aggregation](how-it-works.html) · What it gave: [building the model](results/population-aggregation.html), [the return](results/population-return.html), [organizational forms](results/population-forms.html) · [Run it](guides/aggregator.html)
 
@@ -31,5 +35,3 @@ How the contracts came to their current versions, and how the population model c
 How to run the study again: open a handler chat in Codex or Claude, give it the linked instructions, and run the three parts in order. Its last item is the full reference: every document behind the run, in its original text.
 
 [Run the study](run.html)
-
-Who does what: [agents and their roles](guides/agent-roles.html).
