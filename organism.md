@@ -1,14 +1,20 @@
-# Why r/place is a model organism
+# r/place as a model organism
 
-A model organism gives researchers a common basis for comparing findings and building on prior work (Ankeny & Leonelli, 2011; Leonelli & Ankeny, 2013). It is "standardized to fit an integrative and comparative mode of research" (Ankeny & Leonelli, 2011:313): one species, raised under the same laboratory conditions, observed through its whole life, with data and tools held in common. When genome sequencing in the early 2000s produced thousands of claims about gene function (Adams et al., 2000), each claim met a ready filter: does it hold in a model organism? Databases grew around each organism (Leonelli, 2016).
+Our field struggles to build cumulative knowledge (Pfeffer, 1993; Davis, 2010). Part of the problem is ontological. As March said, "God gave all the easy problems to the physicists" (Dong et al., 2017:12), meaning that organizations are complex, change while we study them, rarely allow experiments, and confound skill with chance. Another part comes from our practices. Our promotion systems institutionalize a "general call to publish or perish" (Aguinis et al., 2020:136). Our journals urge us to "examine outliers (Lewin [1992]) rather than central tendencies" (Daft & Lewin, 1990:6). Jointly, ontology and practice promote the "search for novelty rather than truth" (Barley, 2016:5), leading our field "toward an equilibrium of more rather than better research" (Gartenberg et al., 2026a:795).
+
+## Claims faster than we relate them
+
+Hence, our field produces claims faster than it relates them: a problem of "disorganization, not amount" (Cronin et al., 2021:668). Biology faced the same problem when genome sequencing in the early 2000s produced thousands of claims about gene function (Adams et al., 2000). Each claim met a ready filter: does it hold in a model organism? Databases grew around each organism (Leonelli, 2016), and researchers judged new claims against everything already known about it. "As genetics needs its model organisms, its Drosophila and Neurospora, so [Organization Science] needs standard task environments around which knowledge and understanding can cumulate" (Simon & Chase, 1973:394). Yet we lack a model organism. A model organism is "standardized to fit an integrative and comparative mode of research" (Ankeny & Leonelli, 2011:313): one species, raised under the same laboratory conditions, observed through its whole life, with data and tools held in common, so that each new claim is checked against prior knowledge, and what is learned on it accumulates.
+
+## Four characteristics
 
 Earlier studies used r/place to examine collaboration among users (Rappaz et al., 2018), community participation (Israeli et al., 2022), and coordination in four communities (Jemine, 2025). We provide a population model of 705 communities as a baseline against which later findings can be compared. Whether r/place becomes a model organism depends on other researchers using and extending our baseline (Kohler, 1994).
 
-We assess four characteristics of model organisms: material accessibility, representational scope, standardization, and a research community that shares its materials and results (Ankeny & Leonelli, 2011). These characteristics help address Machlup's (1967) constraints of cost, observability and composition. Public records make the event accessible, LLM agents reduce the cost of reading them, and the instrument relates coded cases in a population model. [Why we need model organisms](model-organisms.html) sets out those constraints.
+We assess four characteristics of model organisms: material accessibility, representational scope, standardization, and a research community that shares its materials and results (Ankeny & Leonelli, 2011). These characteristics help address Machlup's (1967) constraints of cost, observability and composition. Public records make the event accessible, LLM agents reduce the cost of reading them, and the instrument relates coded cases in a population model. [Why LLMs can compose cases](composition.html) sets out those constraints.
 
 ## Three examples and r/place
 
-Biology is not the only field to work this way. "As genetics needs its model organisms, its Drosophila and Neurospora, so [Organization Science] needs standard task environments around which knowledge and understanding can cumulate" (Simon & Chase, 1973:394). Chess became that environment for the psychology of expertise, and ImageNet2012 a common benchmark for computer vision.
+Biology is not the only field to work this way. Chess became that environment for the psychology of expertise, and ImageNet2012 a common benchmark for computer vision.
 
 On a small screen, scroll the table sideways to compare fields.
 
@@ -41,6 +47,12 @@ A model organism depends on researchers adopting and extending it (Kohler, 1994;
 
 Start with the [data guide](guides/download.html), read the [completed model, form accounts and audits](guides/study.html), or check a claim against the [full reference](reference.html), which holds the source documents and their hashes.
 
+## An open-ended program
+
+The dataset is frozen. But the instrument can change: the model can improve by changing the literature used, broadening the census, or checking how novel mechanisms increase our understanding of r/place. This model organism is an "open-ended program of research" (Lewin & Volberda, 1999:529) in which later models are judged by what they add to the baseline.
+
+As with biology's understanding of the fruit fly, our understanding of what happened during r/place 2017 will grow over time. A model organism does not forbid outliers or novelty. It gives them a baseline to be measured against. Machlup's constraints were an economist's excuse to disregard the behavior of organizations. Organization Science has no such excuse: it "was founded as a bet on escaping the constraints of local search and incrementalism" (Gartenberg et al., 2026b:1). Whether our field "evolves toward 'more' or 'better'" is an institutional question (Gartenberg et al., 2026a:811), and a model organism is a nudge toward "better".
+
 ## Inspect the examples
 
 - Fruit fly: [Ankeny and Leonelli's analysis](https://doi.org/10.1016/j.shpsa.2010.11.039) and the [Bloomington stock center](https://bdsc.indiana.edu/about/index.html).
@@ -52,7 +64,23 @@ Start with the [data guide](guides/download.html), read the [completed model, fo
 
 Adams, M. D., et al. (2000). The genome sequence of Drosophila melanogaster. *Science*, 287(5461), 2185–2195.
 
+Aguinis, H., Cummings, C., Ramani, R. S., & Cummings, T. G. (2020). "An A is an A": The new bottom line for valuing academic research. *Academy of Management Perspectives*, 34(1), 135–154.
+
 Ankeny, R. A., & Leonelli, S. (2011). What's so special about model organisms? *Studies in History and Philosophy of Science Part A*, 42(2), 313–323.
+
+Barley, S. R. (2016). 60th anniversary essay: Ruminations on how we became a mystery house and how we might get out. *Administrative Science Quarterly*, 61(1), 1–8.
+
+Cronin, M. A., Stouten, J., & van Knippenberg, D. (2021). The theory crisis in management research: Solving the right problem. *Academy of Management Review*, 46(4), 667–683.
+
+Daft, R. L., & Lewin, A. Y. (1990). Can organization studies begin to break out of the normal science straitjacket? An editorial essay. *Organization Science*, 1(1), 1–9.
+
+Davis, G. F. (2010). Do theories of organizations progress? *Organizational Research Methods*, 13(4), 690–709.
+
+Dong, J., March, J. G., & Workiewicz, M. (2017). On organizing: An interview with James G. March. *Journal of Organization Design*, 6, 14.
+
+Gartenberg, C., Hasan, S., Murray, A., & Pierce, L. (2026a). More versus better: Artificial intelligence, incentives, and the emerging crisis in peer review. *Organization Science*, 37(3), 795–812.
+
+Gartenberg, C., Hasan, S., Pierce, L., Bail, C., Dai, H., Hauser, O., Rahman, H., & Zhang, D. (2026b). Call for science: AI-enabled frontiers in organizational science [Special issue call]. *Organization Science*.
 
 Israeli, A., Kremiansky, A., & Tsur, O. (2022). This must be the place: Predicting engagement of online communities in a large-scale distributed campaign. In *Proceedings of the ACM Web Conference 2022* (pp. 1673–1684). ACM.
 
@@ -66,9 +94,15 @@ Leonelli, S. (2016). *Data-centric biology: A philosophical study*. University o
 
 Leonelli, S., & Ankeny, R. A. (2013). What makes a model organism? *Endeavour*, 37(4), 209–212.
 
+Lewin, A. Y. (1992). On learning from outliers. In F. Y. Phillips & J. J. Rousseau (Eds.), *Systems and management science by extremal methods* (pp. 11–17). Kluwer.
+
+Lewin, A. Y., & Volberda, H. W. (1999). Prolegomena on coevolution: A framework for research on strategy and new organizational forms. *Organization Science*, 10(5), 519–534.
+
 Machlup, F. (1967). Theories of the firm: Marginalist, behavioral, managerial. *American Economic Review*, 57(1), 1–33.
 
 O'Mahony, S., & Ferraro, F. (2007). The emergence of governance in an open source community. *Academy of Management Journal*, 50(5), 1079–1106.
+
+Pfeffer, J. (1993). Barriers to the advance of organizational science: Paradigm development as a dependent variable. *Academy of Management Review*, 18(4), 599–620.
 
 Rappaz, J., Catasta, M., West, R., & Aberer, K. (2018). Latent structure in collaboration: The case of Reddit r/place. In *Proceedings of the International AAAI Conference on Web and Social Media*, 12(1).
 

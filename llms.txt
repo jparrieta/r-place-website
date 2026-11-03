@@ -4,8 +4,8 @@ This repository accompanies the paper An Organizational Fruit Fly: r/place as a 
 
 ## Research context
 
-- [Why we need model organisms](model-organisms.md).
-- [Why r/place is a model organism](organism.md).
+- [r/place as a model organism](organism.md).
+- [Why LLMs can compose qualitative cases](composition.md).
 - [One shared research object](guides/project.md).
 
 > Use these reading keys to find the authoritative instrument. They do not replace it.
