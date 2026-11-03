@@ -26,9 +26,9 @@ All 705 communities, through the same five stages.
 
 - [The record: 705 communities](results/population-record.html): of the 777 subreddits credited with an artwork, 705 stay, because their members wrote about the event while the canvas was open.
 - [Community coding: 705 communities](results/population-coding.html): each community is read by its own community coder, who sees no other community: 115,388 first-order codes and 7,844 second-order themes.
-- [Aggregation: 705 communities](results/population-aggregation.html): the aggregator composes the coders' work into 197 third-order themes, 28 fourth-order themes, eight aggregate dimensions and one model of how organizing unfolds.
-- [The return: 705 communities](results/population-return.html): every community coder answers the model, and the aggregator rules on each change and revises it.
-- [Organizational forms: 705 communities](results/population-forms.html): communities that asked for similar changes form six candidate organizational forms; the aggregator audits the run and reviews how it was handled.
+- [Aggregation: 705 communities](results/population-aggregation.html), A1 to C5: the aggregator composes the coders' work into 197 third-order themes, 28 fourth-order themes, eight aggregate dimensions and one model of how organizing unfolds.
+- [The return: 705 communities](results/population-return.html), D1 to D3: every community coder answers the model, and the aggregator rules on each change and revises it.
+- [Organizational forms: 705 communities](results/population-forms.html), D4 to E2: communities that asked for similar changes form six candidate organizational forms; the aggregator audits the run and reviews how it was handled.
 
 ## Time and costs
 
