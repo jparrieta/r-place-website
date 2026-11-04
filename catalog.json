@@ -2785,8 +2785,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "publication commit, may contain later work",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B1.B1b-32.interview.tar.gz",
         "sha256": "cc196b40bc79fc1ce3868a022bab819a4bddb9bee2183fc92730a8ab506f6330",
@@ -2863,39 +2863,7 @@
         "supplement_files": 122,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B1.B1b-32'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--B1.B1c",
@@ -3116,8 +3084,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "publication commit, may contain later work",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B1.B1d-07.interview.tar.gz",
         "sha256": "5c8cfefe27861f770d0d4a1a7b9b24966f16df89b273d81f80058d8d669957ed",
@@ -3194,39 +3162,7 @@
         "supplement_files": 136,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B1.B1d-07'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--B1.B1e",
@@ -3543,8 +3479,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "publication commit, may contain later work",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B2.B2a-r3-p2.interview.tar.gz",
         "sha256": "eabacf0c6806ebd44a23e000087400a96257daf9b15ce827f993ebc99a30a5d7",
@@ -3621,39 +3557,7 @@
         "supplement_files": 147,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B2.B2a-r3-p2'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--B2.B2b-r3",
@@ -3734,8 +3638,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "publication commit, may contain later work",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B2.B2b-r3-p3.interview.tar.gz",
         "sha256": "d85e3c6632535b9ee58e201c1f49abeef74e22d1148a6d26c545fb31bc50c352",
@@ -3812,39 +3716,7 @@
         "supplement_files": 150,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B2.B2b-r3-p3'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--B2.B2c",
@@ -4049,8 +3921,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "publication commit, may contain later work",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B3.B3a-p2.interview.tar.gz",
         "sha256": "965e373671c7b0899336643d1931470d02cb956495f8b8a5ef92ee560ec1700c",
@@ -4127,39 +3999,7 @@
         "supplement_files": 157,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B3.B3a-p2'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--B3.B3b",
@@ -4489,8 +4329,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "publication commit, may contain later work",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B4.B4a-07.interview.tar.gz",
         "sha256": "98fbcc5348e3f253c89c9e49fe8ba3d0ffab9c0f234a8e320b1b1f88f7673707",
@@ -4567,39 +4407,7 @@
         "supplement_files": 168,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B4.B4a-07'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--B4.B4b",
@@ -4708,8 +4516,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "publication commit, may contain later work",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/B4.B4b-p4.interview.tar.gz",
         "sha256": "c3e83899fa773517827249f188dc85bf24ab77c4e033f90614975269b0958fab",
@@ -4786,39 +4594,7 @@
         "supplement_files": 172,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B4.B4b-p4'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--B4.B4c",
@@ -5449,8 +5225,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "publication commit, may contain later work",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C2.C2a-03.interview.tar.gz",
         "sha256": "81bf6c606975e3850bf5936c6564137e15facfc15ac8e5fbaebd6d2ab28c5f6a",
@@ -5527,39 +5303,7 @@
         "supplement_files": 192,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--C2.C2a-03'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--C2.C2b",
@@ -6203,8 +5947,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/7bb21a3188aa339266674751e8e7829e424f268c/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C5.C5a-04.interview.tar.gz",
         "sha256": "0a219292ede2db3997a74eb7c32d4ef8d87c6f41905700856389f4eecab022a2",
@@ -6259,39 +6003,7 @@
         "supplement_files": 210,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--C5.C5a-04'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--C5.C5b",
@@ -6736,8 +6448,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/0e33f428188b1824605a5bf5b41b10ad2bdee888/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/C5.C5c-13.interview.tar.gz",
         "sha256": "b06117287a77181314f42e32c65540de320fdd4c6ed7507baa412208b00344c1",
@@ -6792,39 +6504,7 @@
         "supplement_files": 228,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--C5.C5c-13'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--C5.C5d-p2",
@@ -8756,8 +8436,8 @@
       "record_kind": "transcript",
       "outputs_url": "https://github.com/jparrieta/r-place/tree/039eddb08430027cfafef9e93a469d6d46d0d2e3/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
-      "availability": "ready",
-      "reason": "",
+      "availability": "record-only",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": {
         "url": "https://github.com/jparrieta/r-place/releases/download/aggregator-interviews-20261025/D3.D3a-57.interview.tar.gz",
         "sha256": "e705463af50e576029072b39a22ae4edca08e0d112f0a213b50941686903ed37",
@@ -8812,39 +8492,7 @@
         "supplement_files": 289,
         "primary_transcript_from_git": true
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D3.D3a-57'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": true
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--D3.D3b",
@@ -13928,7 +13576,7 @@
       "outputs_url": "https://github.com/jparrieta/r-place/tree/a3fd7295d41c4e2ebeadc79c56cbec077cf785b9/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
       "availability": "record-only",
-      "reason": "The native fork and saved files passed checks on this Mac. Release upload is pending.",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": null,
       "validation": true,
       "record_source": {
@@ -13965,39 +13613,7 @@
         },
         "source_manifest_sha256": "3b9419cdc17a22fe630350d8b99394a68275d72658b977d8aedf354cf39f27f3"
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D5.D5b'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": false
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--D4.D4a-05",
@@ -14661,7 +14277,7 @@
       "outputs_url": "https://github.com/jparrieta/r-place/tree/5677dbb06f793260f26397127088257d7535355e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
       "availability": "record-only",
-      "reason": "The native fork and saved files passed checks on this Mac. Release upload is pending.",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": null,
       "validation": true,
       "record_source": {
@@ -14698,39 +14314,7 @@
         },
         "source_manifest_sha256": "e916c3beceab3db8547c6c39418d88ba9f983c710d5803212ac90d5db7439f65"
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D6.D6b'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": false
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--D6.D6a-09",
@@ -15299,7 +14883,7 @@
       "outputs_url": "https://github.com/jparrieta/r-place/tree/0aeb7c4c0c2ea05123a0eb78bf12ce71788aee82/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
       "availability": "record-only",
-      "reason": "The native fork and saved files passed checks on this Mac. Release upload is pending.",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": null,
       "validation": true,
       "record_source": {
@@ -15336,39 +14920,7 @@
         },
         "source_manifest_sha256": "6b9e097b479b9099bb46c731a7e99b92112009055c2a8a9c0a45cf7f419d610d"
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--E1.E1b-08'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": false
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--E1.E1c",
@@ -15394,7 +14946,7 @@
       "outputs_url": "https://github.com/jparrieta/r-place/tree/3387768448a8105a92d57b82115c8a0e21cfdb14/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
       "availability": "record-only",
-      "reason": "The native fork and saved files passed checks on this Mac. Release upload is pending.",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": null,
       "validation": true,
       "record_source": {
@@ -15431,39 +14983,7 @@
         },
         "source_manifest_sha256": "9eff12461c1c1c29ccda489b435c4efc45c897ba22856ff24ca5d8d310af68f8"
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--E1.E1c'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": false
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--E1.E1d",
@@ -15489,7 +15009,7 @@
       "outputs_url": "https://github.com/jparrieta/r-place/tree/389da7bc241d9a971074b25a7112ce90baedeeb3/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
       "availability": "record-only",
-      "reason": "The native fork and saved files passed checks on this Mac. Release upload is pending.",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": null,
       "validation": true,
       "record_source": {
@@ -15526,39 +15046,7 @@
         },
         "source_manifest_sha256": "061d52ab0fad7b9d98943f56d25375d3c117920ddc7be385943af998390809ca"
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--E1.E1d'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": false
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--E1.E1e",
@@ -15679,7 +15167,7 @@
       "outputs_url": "https://github.com/jparrieta/r-place/tree/30f7471bfc24935a54e41a83b732b907a6ea6ae7/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out",
       "outputs_scope": "checkpoint commit",
       "availability": "record-only",
-      "reason": "The native fork and saved files passed checks on this Mac. Release upload is pending.",
+      "reason": "Not among the 18 selected aggregator checkpoints, one at the close of each stage. Its saved record is on this site.",
       "bundle": null,
       "validation": true,
       "record_source": {
@@ -15716,39 +15204,7 @@
         },
         "source_manifest_sha256": "b11a3e533c1f23d39bc4d0c3744d2a47abd7211ecbea99613f0811c3b5fb1add"
       },
-      "local_route": {
-        "kind": "release-launcher",
-        "command": "bash -c 'set -e; launcher=$(curl -fsSL \"$1\"); exec bash -c \"$launcher\" -- \"$2\"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--E2.E2a'",
-        "release": {
-          "name": "Original checkpoint interviews through E2",
-          "tag": "checkpoint-interviews-complete-20261104",
-          "published_utc": "2026-11-04T14:06:23Z",
-          "tag_commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
-          "url": "https://github.com/jparrieta/r-place/releases/tag/checkpoint-interviews-complete-20261104",
-          "start_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh",
-          "launcher": {
-            "url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/rplace-interviews.zip",
-            "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
-            "bytes": 102860904
-          },
-          "commands_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/ALL-COMMANDS.md",
-          "commands_sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
-          "max_free_gib": 27,
-          "supplements": [
-            "D4.D4a-08",
-            "D5.D5a-41",
-            "D5.D5b",
-            "D6.D6a-18",
-            "D6.D6b",
-            "E1.E1b-08",
-            "E1.E1c",
-            "E1.E1d",
-            "E1.E1e",
-            "E2.E2a",
-            "E2.E2b"
-          ]
-        }
-      }
+      "unselected_validated": false
     },
     {
       "id": "aggregator--claude-v43-1--C4-field--E2.E2b",

@@ -40,6 +40,6 @@ The central r/place subreddit falls outside the frame of 705 communities. At [C4
 
 ## What is shared
 
-Saved reading pages cover 35 aggregator checkpoints and 28 community checkpoints, two for each of 14 selected communities. Each opens from its command on [Launch commands](../launch-commands.html). Other entries offer a record only.
+Saved reading pages cover 35 aggregator checkpoints and 28 community checkpoints, two for each of 14 selected communities. [Launch commands](../launch-commands.html) opens 18 of the aggregator checkpoints, one at the close of each stage, and all 28 community checkpoints. Other entries offer a record only.
 
 [Read saved outputs](../records/index.html) without starting an agent. [Interview a checkpoint](interviews.html) to ask new questions about it. GitHub downloads are public; hosted interviews for reviewers are not enabled. [Run the study](../run.html) explains the separate routes to reproduce the study and their prerequisites.
