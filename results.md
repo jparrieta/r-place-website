@@ -9,7 +9,7 @@ One community followed through the five stages: r/PlaceNL, founded for the event
 - [The record: r/PlaceNL](results/placenl-record.html): the Dutch area, hour by hour. r/PlaceNL joined it on the second day, and most hands that built it left no post in the community.
 - [Community coding: r/PlaceNL](results/placenl-coding.html): one community coder and two fleet coders turn its 701 posts and comments into 246 codes, 21 themes and a case account; the same coder later builds a local model.
 - [Aggregation: r/PlaceNL](results/placenl-aggregation.html): the aggregator reads the coder's work, never the posts, writes a note on the community and places each theme in the population's coding structure.
-- [The return: r/PlaceNL](results/placenl-return.html): the model goes back to r/PlaceNL's coder. Its objection, canal houses erased by the community's own defense script, changes the model's account of repair.
+- [The return: r/PlaceNL](results/placenl-return.html): the model goes back to r/PlaceNL's coder, who reports canal houses erased by the community's own defense script. Corrections from other communities revise the model's account of repair, and r/PlaceNL's line becomes a specification of the revised claim.
 - [Organizational forms: r/PlaceNL](results/placenl-forms.html): r/PlaceNL falls in form B, Behind the thread, and departs from it in places.
 
 ## The population model

@@ -466,8 +466,9 @@ main .stage-list p{margin:0 0 .25rem}
 :root{--fs-lede:1.25rem;--fs-h4:1.1rem}
 @media(max-width:680px){:root{--fs-lede:1.1rem}}
 #main h1+p:not([class]){font-size:var(--fs-lede)!important;line-height:1.5;max-width:52ch!important}
-#main :is(.stage-list .stage-name,.stage-index .stage-name,.form-list .fname,.stage-def h4,.stage-map) a{color:var(--ink)!important;text-decoration-line:none!important;font-weight:650}
-#main :is(.stage-list .stage-name,.stage-index .stage-name,.form-list .fname,.stage-def h4,.stage-map) a:is(:hover,:focus-visible){text-decoration-line:underline!important;text-decoration-color:var(--accent)!important;text-decoration-thickness:2px}
+#main :is(.stage-list .stage-name,.stage-index .stage-name,.form-list .fname,.stage-def h4) a{color:var(--ink)!important;text-decoration-line:underline!important;text-decoration-color:var(--accent)!important;text-decoration-thickness:1px!important;text-underline-offset:.22em;font-weight:650}
+#main .stage-map a{color:var(--ink)!important;text-decoration-line:none!important;font-weight:650}
+#main :is(.stage-list .stage-name,.stage-index .stage-name,.form-list .fname,.stage-def h4,.stage-map) a:is(:hover,:focus-visible){text-decoration-line:underline!important;text-decoration-color:var(--accent)!important;text-decoration-thickness:2px!important}
 #main .chain a{color:var(--ink)!important;text-decoration-line:none!important;border-radius:0}
 #main .chain a:is(:hover,:focus-visible){border-color:var(--accent)}
 #main .stage-def .more{font-size:var(--fs-small)!important}
@@ -501,3 +502,5 @@ main .stage-list p{margin:0 0 .25rem}
 @media(max-width:680px){#results-population table.dims-table caption{display:block;max-width:none}}
 /* Wide charts (codes per hour) keep a readable size on phones and scroll inside their frame. */
 @media(max-width:680px){#main .data-figure.wide{overflow-x:auto}#main .data-figure.wide img{min-width:720px}#main .data-figure.wide figcaption{position:sticky;left:0;max-width:calc(100vw - 2rem)}}
+/* Check the papers: in the header on wide screens, in the footer everywhere; on phones the header keeps its height (contract 2.3). */
+@media(max-width:680px){header .task-nav a.check-link{display:none}}

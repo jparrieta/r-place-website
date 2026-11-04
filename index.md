@@ -18,5 +18,5 @@ The study has three parts, run in order. Each takes the one before it as input a
 
 The run followed one community closely and all 705 together.
 
-1. **[One community: r/PlaceNL](results/placenl.html)** Founded for the event to coordinate the Dutch artworks. Its coders turned 701 posts and comments into 246 codes and 21 themes. Its objection at the return, canal houses erased by its own defense script, changed the model's account of repair.
+1. **[One community: r/PlaceNL](results/placenl.html)** Founded for the event to coordinate the Dutch artworks. Its coders turned 701 posts and comments into 246 codes and 21 themes. At the return its coder reported canal houses erased by the community's own defense script; corrections from other communities revised the model's account of repair, and r/PlaceNL's line became a specification of it.
 2. **[The population model](results/population.html)** Each community coded on its own, then composed into eight aggregate dimensions and one model. Communities that asked for similar changes to the model form six candidate organizational forms.

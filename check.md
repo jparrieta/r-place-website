@@ -2,6 +2,8 @@
 
 Each claim in the proposal and its technical appendix that this site can show, with a link to its evidence. A link opens the place where the evidence is visible; a link into a folded section opens the fold. Claims the site cannot show yet are listed at the end.
 
+On this page: [The record](#the-record) · [Community coding](#community-coding) · [The population model](#the-population-model) · [The return](#the-return) · [Organizational forms](#organizational-forms) · [The instrument and its checks](#the-instrument-and-its-checks) · [Not on the site yet](#not-on-the-site-yet)
+
 ## The record
 
 - [16,559,897 pixel changes by 1,166,924 users](data.html#pixel-changes): Appendix 5.1; the proposal's abstract gives 16.6 million. Reddit's log of every pixel change, counted.
@@ -16,7 +18,7 @@ Each claim in the proposal and its technical appendix that this site can show, w
 
 - [One community coder per community, reading only its own record](how-coding-works.html): Proposal, the instrument; Appendix 5.2 and 5.4.
 - [115,388 first-order codes and 7,844 second-order themes](results/population-coding.html): Appendix 5.2.
-- [Every cited quotation resolved against the source record](how-coding-works.html#the-steps): Proposal, the three levels of checks; Appendix 5.4.
+- [Every cited quotation resolved against the source record](how-coding-works.html#the-steps): Proposal, the three levels of checks; Appendix 5.4. The link gives the procedure; no census-wide result is on the site. The E1 audit's [check of a seeded sample of 80 communities](https://github.com/jparrieta/r-place/blob/f27566528a5102d944c6ddc3d2e2e98b839cbab8/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/audit-E1/quote_check_raw.json) found all 14,587 code quotations in their items, and 1,051 of 1,599 longer quotations in the case accounts verbatim.
 - [Absent, not needed, unobserved or not testable](sources/adaptations.html#2-operations): Appendix 5.4. The coders' instructions for the return: only an observed absence or an element not needed counts against the model.
 
 ## The population model
