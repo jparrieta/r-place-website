@@ -1,6 +1,6 @@
 # Reading copy: coder-README
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-README.md), SHA-256 `4db02db5a8c7206e575f9b2a404082b1a8447b285d746876b0a35faa15762488`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-README.md), SHA-256 `4db02db5a8c7206e575f9b2a404082b1a8447b285d746876b0a35faa15762488`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

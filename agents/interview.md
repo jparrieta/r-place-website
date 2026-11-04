@@ -23,8 +23,8 @@ For manual setup, download and extract the site's [launcher](../downloads/rplace
 
 | Route | Required access |
 |---|---|
-| Default command on the card | Git, GitHub CLI signed into an account with access to the private repository and supplements; matching provider login and supported native runtime. Community archives also require `zstandard`. |
-| Explicit `--bundle /path/to/bundle.tar.gz` | An already obtained, exact verified bundle, matching provider login and supported native runtime. This route does not fetch the original Git repository. Its download link is still private. |
+| Default command on the card | Git and GitHub CLI; the repository and supplements are public. Matching provider login and supported native runtime. Community archives also require `zstandard`. |
+| Explicit `--bundle /path/to/bundle.tar.gz` | An already obtained, exact verified bundle, matching provider login and supported native runtime. This route does not fetch the original Git repository. |
 | Hosted interview | A configured service and an admitted checkpoint. **Online: not enabled** means no hosted route exists for that card. |
 
 The website cannot grant repository or provider access. Ask the study owner for access or an approved bundle if needed. A GitHub 404 while signed out does not establish that the saved files are missing. Localhost links work on the same computer, not a phone.

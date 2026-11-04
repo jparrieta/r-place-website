@@ -10,11 +10,11 @@ You are the Collection handler for my r/place study. Read the attached Collectio
 Help me choose between the archived study inputs and a fresh collection. Obtain and check the required raw24, pixel, atlas and other inputs. Ask only for missing access or research decisions. Keep your head and action log on disk. Leave a checked handoff for the existing coding handler. Do not start coding or aggregation.
 ```
 
-The handler can download the instrument and data, so the folders need no assembly first. If repository access is missing, grant it or provide the downloaded instrument. Credentials go in the provider's sign-in flow, never in the prompt.
+The handler can download the instrument and data, so the folders need no assembly first. Credentials go in the provider's sign-in flow, never in the prompt.
 
 ## Get the instrument
 
-Open the [research repository (private)](https://github.com/jparrieta/r-place), then choose **Code → Download ZIP**, or clone it if you use Git. Repository access is currently required. If GitHub shows "Page not found", request project access; the site cannot grant it.
+Open the [research repository](https://github.com/jparrieta/r-place), then choose **Code → Download ZIP**, or clone it if you use Git. The repository is public.
 
 To use the original starting point, download the [verified starting package](https://github.com/jparrieta/r-place/releases/download/checkpoint-cloud-test-20261024/pristine-start.tar.gz) and extract it in an empty folder. It holds the first instrument and the prepared run at commit `f6588ae37d807884af5fdcc9f7e27a03b4ff253a`, with no aggregator conversation. The archive SHA-256 is `1755f467ec0e2a3753a616b5eb19ccfa5b5e1af187a61ceef4ec449274a89b4c`. Give this folder to the existing aggregator handler to start from the prepared inputs. A new collection still begins with the collection handler.
 

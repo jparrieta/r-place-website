@@ -1,6 +1,6 @@
 # Reading copy: data-pixels-per-artwork
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/data-pixels-per-artwork.md), SHA-256 `f39897930625819db42b9a7112e233c6cf2cf5a0e9930868073ce16a77819c1f`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/data-pixels-per-artwork.md), SHA-256 `f39897930625819db42b9a7112e233c6cf2cf5a0e9930868073ce16a77819c1f`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

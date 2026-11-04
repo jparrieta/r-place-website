@@ -1,6 +1,6 @@
 # Reading copy: case-lead
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/case-lead.md), SHA-256 `7b84da1d4ca2a5f3375bdefbb0881a9d738e5273480eecc2cddb8b1c77e16974`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/case-lead.md), SHA-256 `7b84da1d4ca2a5f3375bdefbb0881a9d738e5273480eecc2cddb8b1c77e16974`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

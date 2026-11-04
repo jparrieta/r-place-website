@@ -1,6 +1,6 @@
 # Reading copy: census-builders
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/census-builders.md), SHA-256 `ca2eefc0509ab311117491f04cdee153a8ed2042c7eb9273841622e432d3de70`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/census-builders.md), SHA-256 `ca2eefc0509ab311117491f04cdee153a8ed2042c7eb9273841622e432d3de70`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

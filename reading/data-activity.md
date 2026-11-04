@@ -1,6 +1,6 @@
 # Reading copy: data-activity
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/data-activity.md), SHA-256 `ca95c4106c8c71c23eba51ef52be5016a6b435638a607dab7cec8ec2b230e5e8`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/data-activity.md), SHA-256 `ca95c4106c8c71c23eba51ef52be5016a6b435638a607dab7cec8ec2b230e5e8`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

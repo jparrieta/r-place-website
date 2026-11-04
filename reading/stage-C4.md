@@ -1,6 +1,6 @@
 # Reading copy: stage-C4
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/stage-C4.md), SHA-256 `dec5968155f6420e1b758384681cf0d20406c7680217e1ece452270212c43f7f`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/stage-C4.md), SHA-256 `dec5968155f6420e1b758384681cf0d20406c7680217e1ece452270212c43f7f`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

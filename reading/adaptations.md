@@ -1,6 +1,6 @@
 # Reading copy: adaptations
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/adaptations.md), SHA-256 `88aac5a1b16141f3914a3994b2d881a8274b012f050e8ccd6cc47e319c514914`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/adaptations.md), SHA-256 `88aac5a1b16141f3914a3994b2d881a8274b012f050e8ccd6cc47e319c514914`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

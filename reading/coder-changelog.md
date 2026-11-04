@@ -1,6 +1,6 @@
 # Reading copy: coder-changelog
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-changelog.md), SHA-256 `de3f6de8b2db827b2372982409f116206c88fb028c7fcfb9629bd12ce60eb933`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/coder-changelog.md), SHA-256 `de3f6de8b2db827b2372982409f116206c88fb028c7fcfb9629bd12ce60eb933`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

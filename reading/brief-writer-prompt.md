@@ -1,6 +1,6 @@
 # Reading copy: brief-writer-prompt
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/brief-writer-prompt.md), SHA-256 `d30dae43e1cb3a99973d29e579af5ad8561375a822a6ba1d2c2df7c87356393b`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/brief-writer-prompt.md), SHA-256 `d30dae43e1cb3a99973d29e579af5ad8561375a822a6ba1d2c2df7c87356393b`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

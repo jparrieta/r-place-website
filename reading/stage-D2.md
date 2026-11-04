@@ -1,6 +1,6 @@
 # Reading copy: stage-D2
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/stage-D2.md), SHA-256 `2fe159d9d0967d09e425785ecba74e0e07f9220e4d4fed63ddaa8f622c3f81de`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/stage-D2.md), SHA-256 `2fe159d9d0967d09e425785ecba74e0e07f9220e4d4fed63ddaa8f622c3f81de`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

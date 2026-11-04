@@ -1,6 +1,6 @@
 # Reading copy: how-to-run
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/how-to-run.md), SHA-256 `d505880783e8d13966e29e64d4b91fc94823f3d4135461af0d7338dfcaeabd2b`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/how-to-run.md), SHA-256 `d505880783e8d13966e29e64d4b91fc94823f3d4135461af0d7338dfcaeabd2b`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

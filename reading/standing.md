@@ -1,6 +1,6 @@
 # Reading copy: standing
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/standing.md), SHA-256 `ccd2b0839511624273133f66466c7721a361e45b69e60617a131d44a0a7c8ecb`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/standing.md), SHA-256 `ccd2b0839511624273133f66466c7721a361e45b69e60617a131d44a0a7c8ecb`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

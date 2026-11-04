@@ -1,6 +1,6 @@
 # Reading copy: data-pixels
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/data-pixels.md), SHA-256 `ee5ba42ff6f5aa8220ed0a4604327ba5c89480f691c224df35ff91a74e90f424`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/data-pixels.md), SHA-256 `ee5ba42ff6f5aa8220ed0a4604327ba5c89480f691c224df35ff91a74e90f424`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 

@@ -62,7 +62,7 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "ec8b735fdf5d8875322505466897df36e7f4d689db3b657d18b31613be4605c7"
+      "reading_sha256": "b48dc451addc1cb0c4070cc3d6c8b1a8bcafc533993bad2d6bd4461dcb1da890"
     },
     {
       "key": "coder-README",
@@ -89,7 +89,7 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "f33fed63988005ba7c487c68d87260f2b4e1aef589b05f19408ab0cde135ff90"
+      "reading_sha256": "369932900d5f75a9dfc36febc6f58e8f0eb8ac89d7dab8b7cce2438068bafb84"
     },
     {
       "key": "data-for-agents",
@@ -104,7 +104,7 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "780b8408472c1e92f6811716286a2a574cc1989e8aa2234f3f66428d6d146d56"
+      "reading_sha256": "204df45537cf35369037eedc6a95085ff4c329c07d7a39ffc569280c2259a416"
     },
     {
       "key": "data-lib",
@@ -112,7 +112,7 @@
       "sha256": "3e022e8978de1e7211705a5f189050c8d8880542a90d91c322c2ba898e2f4583",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "e0d9fa7f6a7a0645bf7dc35c1c9a3d07275c866c63ed4ae04c227abb46ede40f"
+      "reading_sha256": "9e6e927831c9e04564893a697db391a2b5d6391a6826096aceaf94571287b6d0"
     },
     {
       "key": "data-pixels",
@@ -120,7 +120,7 @@
       "sha256": "ee5ba42ff6f5aa8220ed0a4604327ba5c89480f691c224df35ff91a74e90f424",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "db6f28782d449dcf8e99402bf4719b43c92cdcd74fd4a03985d29741c1c6f7c6"
+      "reading_sha256": "387813159f66030b56a3e60698bf1d7823a566bbc5b4c8161e60b34f98d4d809"
     },
     {
       "key": "data-pixels-link",
@@ -128,7 +128,7 @@
       "sha256": "70e527ac45e26ecf506179fca156b072f5feae54b26e882db96811bcbb798da2",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "48854c4c46b2921b71cc79651696a7330f2ce6ba10e5f4d93e8a7054f7917068"
+      "reading_sha256": "c806a0f9f5462107fcb7f963c3145c47d0c026827b013987f49651dc05f8adc8"
     },
     {
       "key": "data-atlas",
@@ -136,7 +136,7 @@
       "sha256": "fcaae3b2d4fe51970795fba4b6316f52caf013e4e80f2cb1cb2609bde550939a",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "e969d3aa6cf61dfd1f3b0d367c3b336a42fbeb7338eee9fcc1ae660c4dd0fee5"
+      "reading_sha256": "5acc09f86f9c810b664fe362baff3eaad948bd2950471f169a12db9ad27cd279"
     },
     {
       "key": "data-users",
@@ -144,7 +144,7 @@
       "sha256": "539141bd7b6696e63616cb3a05bb7ea04a7727a7e68eb205ac5561c5bc41dd46",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "f680a0aa44ab61cb4fc5f2a862588b961f64d3aec50d7343e38010d02e317951"
+      "reading_sha256": "c8601d1de7b51009b8092df745e83fd1f76cc1a00d52ed962a572c48392b3bfa"
     },
     {
       "key": "data-users-link",
@@ -152,7 +152,7 @@
       "sha256": "25b8eacd0c21af4b5aa3dd86b301e953e215e72520e6e129cceb801755059b16",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "71b17812095e2d636efd0f98f8da8184cebc59a75b81d6228347d129c78c953c"
+      "reading_sha256": "fdf9acb536ef84e1bfee8d144076a1d41d3c49c13176719849bed6fc8e305174"
     },
     {
       "key": "data-venues-placers",
@@ -160,7 +160,7 @@
       "sha256": "1810bdeeb0128db206d0417a335cdc79e2ce50d894a0c76dd7712bfc0e1365e0",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "79963640de03c3f656340537becd0b3fbf7ed62b2db3ed53e19ecff88e559337"
+      "reading_sha256": "60a862527625dd92fcc58b015febf9f96db86b95d620a1bfdbedba680b349df6"
     },
     {
       "key": "data-venues-placers-link",
@@ -168,7 +168,7 @@
       "sha256": "7cbfc435775c014616841cb5fa4081ad525ca78a373814741d5075cdef55ba17",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "42a389b8d94350f1c77341405df2c369955edcf6c73d250eb5f2ee639b18e60f"
+      "reading_sha256": "8166704c72b717108266d53f9ce83e7b56fa30da6798d2babce825c501b7fd77"
     },
     {
       "key": "data-raw24",
@@ -176,7 +176,7 @@
       "sha256": "195b932e28a22a8b5089950418baaa358d463f616a90bf6cae7536fe91edc7c0",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "a6af71b4ef97a7e1689d53d389c55aa5129b92b99e1f9c461ad1fa7022ea6e36"
+      "reading_sha256": "af77c47c8560ae8496c9458ffd027c8f7b9341e989c5333d1a4255ca527a0d77"
     },
     {
       "key": "data-raw24-link",
@@ -184,7 +184,7 @@
       "sha256": "2167bae982489bbf76c27b9db0ced7c8b21c1298e281ab75c27001e0cbf18197",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "5056504f2464e91fb350a174886d4d5df8381bfedddfa958b6967263df79d7ac"
+      "reading_sha256": "8d45e1f325f537530ca9f3e461ce63168b454f75500866df28d97c6b7b62d626"
     },
     {
       "key": "data-pixels-per-artwork",
@@ -192,7 +192,7 @@
       "sha256": "f39897930625819db42b9a7112e233c6cf2cf5a0e9930868073ce16a77819c1f",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "a95562531e5b28c27bcd7c756d3aa5ffc60afab177967ce6ad911149a0fab6d0"
+      "reading_sha256": "9d11c888aea39d068516d471686ac5fe8949342c886df976c66de9cadd6e79d4"
     },
     {
       "key": "data-pixels-per-artwork-link",
@@ -200,7 +200,7 @@
       "sha256": "1ffb53b84df5af629bf64d3e43ba77012cf72a8a61b8d072cc134a2290fc332c",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "c8f7ee33f9efed2b82d767ba702cb8c39d6f083ec602232faeec317bae193cfc"
+      "reading_sha256": "2231451741fecf5300ce0c5f54915fb0766864c15260609c256df794f8021df7"
     },
     {
       "key": "data-pixels-hourly",
@@ -208,7 +208,7 @@
       "sha256": "bf1ace8f69ed7d37eb3d5ef36fe3322de65bd826bee41cfacba0199085f1c3bc",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "98346ea47b64c24a87e5621f73556d621fd73c02e0ec6e438e0d3531bab4003b"
+      "reading_sha256": "e8405a9505649c16ac396ef5c6e320ad180cbf00f0a90f95ef472e8675549812"
     },
     {
       "key": "data-pixels-hourly-link",
@@ -216,7 +216,7 @@
       "sha256": "0d53131da2b618a544c9baad8719d694d92c7a54693eb68fda5b26dae64f7a4b",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "194fc1156a86d2edc3674eede0706b944afc33dd504553c795e8044ab2afce01"
+      "reading_sha256": "4f874b82233022ddb97be9687564aa3e67027c4245e373e5d746ab302d89839e"
     },
     {
       "key": "data-activity",
@@ -224,7 +224,7 @@
       "sha256": "ca95c4106c8c71c23eba51ef52be5016a6b435638a607dab7cec8ec2b230e5e8",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "0647d47a292eedf0d735cbb553c9522135d96e205bb531d93498ea671a72a138"
+      "reading_sha256": "0e053c24b428ac559cf657923eaad7bc4e1d1599dc23582dc104464ca29e404c"
     },
     {
       "key": "census-README",
@@ -251,7 +251,7 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "0284e1b57e1b98074f209d56fcf065f49fa16e4852a58cded68e6dea29a6ddc9"
+      "reading_sha256": "bc71ac8632fb393d60fc6ebb83a41445bed271ebd09de815ebc015fdaa6c06d5"
     },
     {
       "key": "census-builders",
@@ -259,7 +259,7 @@
       "sha256": "ca2eefc0509ab311117491f04cdee153a8ed2042c7eb9273841622e432d3de70",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "9634290db56e558cd6beadab691d38ccbeb4171405ff5feb0338f59c50fccaf1"
+      "reading_sha256": "507450e3613978d12d814277352c2660ab9ad90f5b50e40c0696f517e1c5023c"
     },
     {
       "key": "coder-contract",
@@ -267,7 +267,7 @@
       "sha256": "986f8b520bce808eebe5b93c317f73e60f747b8bfab34f8ad51e600ae48218e1",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "c10ef97060463c3aa4f9c8792df90518a73420ff140209f055e55c7d2271dc8e"
+      "reading_sha256": "dca3067e26c694025182e305ee23a79a2b1dbae035f3651be8bd3afc32176e23"
     },
     {
       "key": "case-lead",
@@ -275,7 +275,7 @@
       "sha256": "7b84da1d4ca2a5f3375bdefbb0881a9d738e5273480eecc2cddb8b1c77e16974",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "d935efa98466b8459ed0fc65ea3fcf8af69179306b5dfa0484c96b663ba31e28"
+      "reading_sha256": "9ebe6b7bc12eeadf1da70a1bb0438ab2f8efd33108522fc3fef163cc0565aa0a"
     },
     {
       "key": "fleet-coder",
@@ -283,7 +283,7 @@
       "sha256": "79c8ad2f723af36a296601fe9ea63b9c5b679e20e83bd66c2387ba1e9be42af3",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "12cfccfa46dd92d2620ab5b61970281b0b0a9325d11301afcf9c69cffd7fe627"
+      "reading_sha256": "72827be24136fea9fe2a42746c2defb1f0a075d9e797bf883d800bf0418851a5"
     },
     {
       "key": "scheduler",
@@ -298,7 +298,7 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "80373b9972544b6ba76342ceb2f58899ca6f792fb8dfc8abb64d781350c3574b"
+      "reading_sha256": "cf6bd3ab4b09e14c4e86a9c6223fe5131b44ab5be594289cbe78357e7d3e1f9b"
     },
     {
       "key": "brief-writer",
@@ -306,7 +306,7 @@
       "sha256": "0b6139ce0c9d11e09e978911db1aafa3520985ecdff050d5e6f53108dcb7f122",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "b82135c4c292ba6ad7fd1e72e7707fa9406452362c3c6be6be51a9414329bb2d"
+      "reading_sha256": "edf9c95138a76a396eb3366bdd1fd0332306fdefb6a7452c97715998abbc9bd2"
     },
     {
       "key": "coder-agent",
@@ -314,7 +314,7 @@
       "sha256": "f428e33ead41ba54ae06d7001b6fb729b60e4ea6990b1d251b0521062594c82f",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "a34641b9525cb63ec546193db954a21a9a797978ec99166cdaa9b73203055279"
+      "reading_sha256": "2e35a1d91434a44d2c036609b23251e292509f5b52ae7cf59d4cdba2dbecb6e5"
     },
     {
       "key": "coder-tools",
@@ -322,7 +322,7 @@
       "sha256": "345ecc3e886596f9a537b2e1728e0647063edd0854694c53aa0538a3cf17bf70",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "c19e846e6a8932931efef997170fe206f3f4098b31b3c00d01d9f66a29dc0202"
+      "reading_sha256": "e31e5f76d757de6f906104cd86702b8095e7d66ce409911cb6a8ad0038443b77"
     },
     {
       "key": "coder-instrument",
@@ -330,7 +330,7 @@
       "sha256": "980387f6c055f495ec2804bc3e43a602b2fb9a88cbf9dd41e0d00d9a4662ed65",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "da81a2a67b8a2492fe718999c09a1193c69d2167efe60210b7ec49b577105976"
+      "reading_sha256": "354f8ad62ad22ebed6a36cff6f4f221060393f8b4f5b6c91fde19b3089d068aa"
     },
     {
       "key": "coder-changelog",
@@ -338,7 +338,7 @@
       "sha256": "de3f6de8b2db827b2372982409f116206c88fb028c7fcfb9629bd12ce60eb933",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "f8e50517ffdf39cc3274545f16a37e9ed6d9084df5f1fa7092a0bbbd2565a57e"
+      "reading_sha256": "f547873b590f6524a77df92794bb8f816af10d8fe531d97d0ebc59c06741d6b9"
     },
     {
       "key": "coder-v31-rationale",
@@ -346,7 +346,7 @@
       "sha256": "076c254784cbc43c0163ea3756dc8bb029c38f51f0b8c165280b5736554a554f",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "8ad2d39bae1313d4a1ca38333f26660cda9a8f3af71ad4b419e427be72795d13"
+      "reading_sha256": "a92d975ea0bb81b02c00cb7a2d1214716d4164f62cdcac3a9b34ce5c72808ae3"
     },
     {
       "key": "coder-v32-rationale",
@@ -354,7 +354,7 @@
       "sha256": "8fd2a2a842b0d9ecd540e38b454c4db0081cf8870a0b4afffc558968b5bcd4a2",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "c9c9422015348ad61d884583dd1c8a2983f2df818656d3e83ba2337237f10b87"
+      "reading_sha256": "3d81367ee9a8b0a9d422a2612d6d675745239c107219e99ddc08250c56b6ecf1"
     },
     {
       "key": "coding-scheduler",
@@ -362,7 +362,7 @@
       "sha256": "22eb395d7e79a10570846846d68db9ea3a85fad8a411fb1e43fa23d7e58a1952",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "8f8e8e39e86a055a043001a01ecd6ef59c146edebb9a00c5d15f754af578609a"
+      "reading_sha256": "473bacaa7a0f78a6e834fdf8a5403ca37c28854caf995aa7639a7eaefe2e4599"
     },
     {
       "key": "case-lead-prompt",
@@ -370,7 +370,7 @@
       "sha256": "72b66473307467a8cf1dadfcada45bcf164a4139f53db4c374cc249839d3858a",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "2cf491010423e662c61d1994ab3e158ef5883177f0aabe9251901f3c3a2fb19e"
+      "reading_sha256": "f1d33645e3ffae15688e41b6a57cefe33a0b0389d43feb227f1ed443ae47fd9d"
     },
     {
       "key": "coder-checkpoints",
@@ -378,7 +378,7 @@
       "sha256": "0578b05a13106bc55d8f8b27cda5701c2eb7d264acffe36927f7c8dbe3812575",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "5ee6d500b78ba32f0ac096254f0ab482920a8ae0ef944a9a46b79706bbeb4750"
+      "reading_sha256": "1bde48df8dcb86809e63b99cdfa46794b93814630d00e45199c122c3e35567dc"
     },
     {
       "key": "brief-coordinator",
@@ -386,7 +386,7 @@
       "sha256": "0276e9a00b18f373de3f949debda16e9e40b9a8f0db07d9eeaf4d32af9ca92ab",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "7c117949429624b69aae831599a9e414f67fef66363513e52d2d9c324d3e89d9"
+      "reading_sha256": "d97b8052e7d64e45ba06735f3d4f2de7ce909f2c657528a27bd74ed5b469f30b"
     },
     {
       "key": "brief-writer-prompt",
@@ -394,7 +394,7 @@
       "sha256": "d30dae43e1cb3a99973d29e579af5ad8561375a822a6ba1d2c2df7c87356393b",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "462c30f44c6453d8768b5b54f3ac5f60bfbc04108cadc36a18abdedcbacfc97a"
+      "reading_sha256": "952f5b22ef821e5d623aab1bedb9a727960339d6c2044fbfd42327b90a800cba"
     },
     {
       "key": "repair-queue",
@@ -402,7 +402,7 @@
       "sha256": "f3f3ea9ed355a050134d9540387d16353dacf376be4b7bbc2456397eacf94d46",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "ad61fbc8d4c9ccb01ce10294f04a9bfbb894e12582cbbaeb254bd4a871b45e2c"
+      "reading_sha256": "0d89a68897c2ad2d1049b05529ad8b2cdc6edad279909b121748eeead8c67e82"
     },
     {
       "key": "verified-archives",
@@ -410,7 +410,7 @@
       "sha256": "c13ef3e5fbe4bfa6d664e3d788b31f34af876e2e81c26e2bc60b206ad6158a07",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "c3e619b7c9d694d16eb00b9f00df17511943828df091434c18cf388220f58e1f"
+      "reading_sha256": "f4dab09e94c040a157b98a39c8690ef7ba7339c0a67d1cfbbc4ba49af81915e9"
     },
     {
       "key": "handler",
@@ -557,7 +557,7 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "aba95aa0e7e087bcc03b1e56feccc8752436816789fecaf291a7d263030c92d0"
+      "reading_sha256": "1734ac21752e42165d076a9a4766a8dd91098aa0236994c3cb31138f09f35171"
     },
     {
       "key": "legs",
@@ -565,7 +565,7 @@
       "sha256": "9bac7939c271749d66513149ff0b2f8b5b9c1d2d14c5fa8d237a99af041a5d10",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "db60cccaf06a1067529ea6f1fa6171655ea62ecd6aa8d889384ff0805fcf7549"
+      "reading_sha256": "c47ccbcb493adc0e956f2398f55f255e771ca4ae85778777ee65949eaefc3071"
     },
     {
       "key": "codex",
@@ -622,7 +622,7 @@
           "status": "pinned"
         }
       ],
-      "reading_sha256": "a092a54c7e70b5c7f7bedf09f3c8ab2c4ef945e52067333834bb701694faab10"
+      "reading_sha256": "3d5f4c0d919c466c52caa89f9c87d7c7cd049574f6daf1c900fdb0726d76bbc3"
     },
     {
       "key": "contract",
@@ -630,7 +630,7 @@
       "sha256": "ec92317becd24b53eecf35faa87b629893b0649a6037a59020ddea9dd9d929ef",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "391366d635e46c4f9ecd3f7d3992d9d0bf730b5bc5eea948d2c166b1bdadf01f"
+      "reading_sha256": "daa1c68062e2dea510edf742fddc7677cbe575d70087562dd9bfdb04551bc6ff"
     },
     {
       "key": "method",
@@ -638,7 +638,7 @@
       "sha256": "5daaeb2319f61a54cfa4d9acbcd077e3a1405edd470795005fb0e152e27fc415",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "22ebb300eb1f1fff42273ea6200b6e9115ee97356f642a8afa2b1097224ad0b3"
+      "reading_sha256": "4d53110cfbbeb149508316b775ba0de893b680556b9595259deaf8b3b55710f1"
     },
     {
       "key": "writing",
@@ -646,7 +646,7 @@
       "sha256": "df6718d74c3a296de39288f338541dad1126651255b573ee3e5de6681ff5026d",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "7b56b08fcd5c3ce6c674bf96d4c11df19fdfbb74a71a9719c6599fb650bc6e65"
+      "reading_sha256": "a4530bf5465e78e3eb7c0e40117ac19bec01a80deaeb4880feb811bf9880661c"
     },
     {
       "key": "standing",
@@ -654,7 +654,7 @@
       "sha256": "ccd2b0839511624273133f66466c7721a361e45b69e60617a131d44a0a7c8ecb",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "7f19bbe694c4d11563cd38943171a19f2d39cb6160da1eda7d6a5c3be70e7528"
+      "reading_sha256": "18365e33293738a1fab2946c14dd4c6750e3ec395f2b52e106bc9af7c624986c"
     },
     {
       "key": "how-to-run",
@@ -662,7 +662,7 @@
       "sha256": "d505880783e8d13966e29e64d4b91fc94823f3d4135461af0d7338dfcaeabd2b",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "685ab9b8dc6bae36c3889ffec7752e2a41ef40ce99375a76c0fda9949f713142"
+      "reading_sha256": "0cca3d2b6aed47c5873f205de4ed31e69fa3da94732807dcb462f2ffd32851c9"
     },
     {
       "key": "platform-claude",
@@ -670,7 +670,7 @@
       "sha256": "c7b542f7e4578bcf4856a852e16c5e0feb55f3dcd3cdd10e0e91a98038bb09d1",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "3ae5d2b5d4a0d02a5447c71c29024e34218e0fe52dff7afefcf3bc7fa9d9b0f0"
+      "reading_sha256": "e57aeabd4227344d6f496b37a9a934d467b5f897de214cb934f22d478beda28a"
     },
     {
       "key": "platform-codex",
@@ -678,7 +678,7 @@
       "sha256": "184d65e91d1886d9cd89403f73cba5fd9d5ef9baa09897971c4d421f3f8103ac",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "55754e2284011ed21908c939139b7932578a538488aed588c9e5b6bb97f4a1b5"
+      "reading_sha256": "f404616c7b0bdefa0d5b911f0c9ba1789664e98696a26a94a41c417150f80a02"
     },
     {
       "key": "adaptations",
@@ -686,7 +686,7 @@
       "sha256": "88aac5a1b16141f3914a3994b2d881a8274b012f050e8ccd6cc47e319c514914",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "c390f7dac65b452f313cc3ca29679a3a393959039f104e9d0ced9405c2424f2d"
+      "reading_sha256": "cf9971ac9e6880e3baf3e2b8683c19861675c98a47c9ec2610920de87adda454"
     },
     {
       "key": "stage-A1",
@@ -694,7 +694,7 @@
       "sha256": "9a8ba05c6754cf316fd0fad43bedf08701a067a872c4cfad5809d3ff01653a76",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "6ad54c628bb5194b77c7f70d5c66289719672f2a0b27ee55e82417ac13308544"
+      "reading_sha256": "1b4cd7874e0b0c1cde85970528ee0e2880baa4f0ffd89897f1b76fa68677350d"
     },
     {
       "key": "stage-B1",
@@ -702,7 +702,7 @@
       "sha256": "a2b733dded3046ba611c65e979beb597ef8ef26e8b625dea28469a254219f8a0",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "6f14ac1c1287df69abd823ac520ff4e5124f4219163248ec48e444596d215f82"
+      "reading_sha256": "857db5ec4cb88c661764b1614eaef0baa4229f97ab68ceaf10e740a7d564e1e4"
     },
     {
       "key": "stage-B2",
@@ -710,7 +710,7 @@
       "sha256": "79c92744bb7b7b26941cf7738a849cf64f121caae77e8a940af97c0e570c8808",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "e46ee92e2678be49319712428fa5e28c090bc70938893769872651b6d2f957a5"
+      "reading_sha256": "612bfe1c3e8a03ce9987782b50d1b207c5ef0f67393c60cc6e77616198dd7b80"
     },
     {
       "key": "stage-B3",
@@ -718,7 +718,7 @@
       "sha256": "31fd906762e1d2ebf478bcf621410fad82d17a1432defed958a75cb8c07adcc7",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "dfae242b95a0b2e342e6d2304000af848f5700944f6fb0859fc180c83da90a37"
+      "reading_sha256": "5a49f5cc10e6da730a140310e4913dc9549c7728358e4893b2c86ee9ea60934d"
     },
     {
       "key": "stage-B4",
@@ -726,7 +726,7 @@
       "sha256": "7fb68adfcd6a1dab15368728559d3eb3c91162c555a8a69b26a53571dfd16ebe",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "d8bda8b2726749819fa4a06db5454d1a4144e8918b34b62cbb9b0b193ea66767"
+      "reading_sha256": "f2cb3d292b5b1511d3c1f88a9a7c6c1d0453465dc3c6b1b4b11adb641831822b"
     },
     {
       "key": "stage-C1",
@@ -734,7 +734,7 @@
       "sha256": "04bfb71195594cbaa2dd500b592419c539c2ea7afdde92d2db2de7ec25183b58",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "4b9448136b70924e6853f7a03df6e06a02a5c61cf6274c6124fdf2656c30e46f"
+      "reading_sha256": "ebf0dc7a31229435b58e663a0ba75ba84f9ef32fd4eccf45ab44a41ba2766f6b"
     },
     {
       "key": "stage-C2",
@@ -742,7 +742,7 @@
       "sha256": "e9a2ee259d281a421640230c300d693a7f07d3081ec1549bfa097202269ecd17",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "e6d7224dc3e3a41ca2c45db5986d62aeb0d161ba3397076838f9e3bc69f15442"
+      "reading_sha256": "8e09392f386e202c5f60b2e34c410e8b55413e6d7f68b418c272e1a24d7eb7b7"
     },
     {
       "key": "stage-C3",
@@ -750,7 +750,7 @@
       "sha256": "9232e37ea6cda07a6eb28bef367ce7202231b37cc3121dfa051d82a5b3cf2641",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "9e441d2414b15458cf5d6c6356191523777cdddde8bdede0aa52fb8b1b1006f6"
+      "reading_sha256": "154ac8f80b9c08f28ffcac5aab04393a66ff9b7f89a7b844b75aab92cd05ff3d"
     },
     {
       "key": "stage-C4",
@@ -758,7 +758,7 @@
       "sha256": "dec5968155f6420e1b758384681cf0d20406c7680217e1ece452270212c43f7f",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "d78521862554e522e2e81891463afa0c6dd43085ab9ed11e437f3f81b869ecf6"
+      "reading_sha256": "7b3163a2d2906dbfd42f7c9862669a2a2f14b04fb881027b90f8a23ef61df76e"
     },
     {
       "key": "stage-C5",
@@ -766,7 +766,7 @@
       "sha256": "c0904fc40910da0b2d37fa801159ea39d85b84df09263c343aec2c36104756c4",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "cbc1d6c6e88f97be774a231cbca5b9ab18df142d68294dbbc65ef28f065008d9"
+      "reading_sha256": "3dfd12a96f2caf7705b27ce9e779c58f6d5ad4b2dab7c3e7d2d0fafc9c841e5c"
     },
     {
       "key": "stage-D1",
@@ -774,7 +774,7 @@
       "sha256": "e7f7a3da33a3603708b1c320337ce205f55d4ae6500807d4558c3a94853fdc4d",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "eae744351800139eb3845cf5d4fe7abc62ddcf84cf90217b5170fa98f9aa9882"
+      "reading_sha256": "87ad8f33191e19f47aaeb55a0364de9ec00fb1cf0054d822a607c6ea6751b925"
     },
     {
       "key": "stage-D2",
@@ -782,7 +782,7 @@
       "sha256": "2fe159d9d0967d09e425785ecba74e0e07f9220e4d4fed63ddaa8f622c3f81de",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "2362b7d5c0b0b5d7c4466fc4b3cb3169b127afa8dbec0dc0d2f7ad51918407cc"
+      "reading_sha256": "dc31aa2406dff9398a2e04b27eb4fb83d65dad87893127c4240b8bb0afdce0d8"
     },
     {
       "key": "stage-D3",
@@ -790,7 +790,7 @@
       "sha256": "3dc71c70120dae278ea87958a4b45f2ac02b44eacbd1a2ba2e3534884b623338",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "d5e75593e053e2056e7d6a0ecd642a1bc39b0d928d57d3b501ce0d78a67def40"
+      "reading_sha256": "d65fbc94df0d29a568bc331005bcd3031de37514ca9b13b3d4320670cb10d2e2"
     },
     {
       "key": "stage-D4",
@@ -798,7 +798,7 @@
       "sha256": "a28da602661375431d68a7fdf90920ef62bca59fddfe37fde9462a8f891cb3c9",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "d90a33c7aa542ad5c61c0be262bbef620016c2f4b40d7ac6684f47438fd1cb74"
+      "reading_sha256": "890cba049f2951c4e5d1f8697a94fa0a4a942c1b652b29be92b224522e8986bf"
     },
     {
       "key": "stage-D5",
@@ -806,7 +806,7 @@
       "sha256": "d00fff0cabc3825eb40949f2e19c0421140116c13b0b17b5fa33d3c875cf1640",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "4e3ce8dc59381dc43087cd81d8081dbb734c8eb141f5f3a46ea4422705d9c229"
+      "reading_sha256": "ce423f172dea82d5c4350d2e6ebc607ea3b431d93573a06670c020eefe9099ba"
     },
     {
       "key": "stage-D6",
@@ -814,7 +814,7 @@
       "sha256": "b82b0af634ba86053b074d7f0ddedab99830e4fe324fcd079ded914b0d0d2485",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "12bc93e5dd8b5287f397470f70bad293e8a1d7c07d4947d2376c18e999d6afac"
+      "reading_sha256": "5feb8c8916e1b59388d09fdd8565e2c44e6e09e4d144680ede285f1aaa02e83b"
     },
     {
       "key": "stage-E1",
@@ -822,7 +822,7 @@
       "sha256": "7c5d45ab13dbdde7e28373dcbc2a6c26447da0c060e1b54acee1a08460173bc3",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "6f4d0639d44bde3c600d50d7444cf5b40293523fddc8817842362efa796c9764"
+      "reading_sha256": "6ebf50074c95cf644b66dadeb4e68020485b7f0960d6667ffb288fa9bbc26245"
     },
     {
       "key": "stage-E2",
@@ -830,7 +830,7 @@
       "sha256": "19de4da8d6adc78bb837a997065744d5f3ba5ef6b8a8e10144d7a3cd051a4501",
       "commit": "7c788ae58ce0d4ae171d65e7550cf55b83a22624",
       "links": [],
-      "reading_sha256": "21af48e77f0e1cd311072f412930f6484bdd71a9b702919110feb9501bc36c7b"
+      "reading_sha256": "7f417ca158f6ac2eca8df943bf1bb56fed37447e94e12879e42f2d136b5ca013"
     }
   ]
 }

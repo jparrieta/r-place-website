@@ -11,7 +11,7 @@ Target length: under 750 words. Reading key for the existing Aggregator handler.
 
 Open one Aggregator handler chat in Codex or Claude, with shell and folder access. Give it the prompt in the [aggregator guide](../guides/aggregator.md), the instrument version and checked community-output paths. Prepare a new run outside the instrument checkout. Do not operate the shipped historical run.
 
-Obtain the [pristine prepared run](../guides/download.md#get-the-instrument), or use the chosen repository version's `aggregator/input/` with its documented paths. Both currently require repository access. The pristine archive is a starting filesystem, not a resumable conversation or a complete collection of all source data.
+Obtain the [pristine prepared run](../guides/download.md#get-the-instrument), or use the chosen repository version's `aggregator/input/` with its documented paths. Both are in the public research repository. The pristine archive is a starting filesystem, not a resumable conversation or a complete collection of all source data.
 
 ## Required inputs
 

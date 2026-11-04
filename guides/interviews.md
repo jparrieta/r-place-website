@@ -4,7 +4,7 @@ Choose a community or an aggregator checkpoint. Each card shows what was saved a
 
 **Read saved outputs** opens selected narrative files from that exact checkpoint in the browser, with provenance and hashes. It needs no model login. **Read the record** opens the original transcript or close receipt on GitHub. **Chat Locally** expands setup beneath the selected checkpoint, with one command first and a step-by-step guide below. The stage map and description stay on the page. **Chat Online** opens a new tab, asks for reviewer sign-in, and opens the selected checkpoint when its server is available. Your research page stays open. Hosted access still waits on deployment and runtime checks.
 
-Original GitHub transcripts and private downloads require repository access; the saved-output reading pages on this site do not. A GitHub "Page not found" response can mean you lack access. The local **Open the interview service on this computer** link works on this computer only. Online interviews from a phone need a separately configured HTTPS service, which is not connected yet.
+Original GitHub transcripts and downloads are in the public research repository. The local **Open the interview service on this computer** link works on this computer only. Online interviews from a phone need a separately configured HTTPS service, which is not connected yet.
 
 A complete bundle contains the conversation and the filesystem at that checkpoint, plus a manifest and runtime provenance; Git history and transcripts hold only part of it. Historical files stay separate from current research and from other interviews.
 
@@ -31,7 +31,7 @@ Activity messages are no record of which sources were read, so compare an answer
 
 Interviews depend on continued access to compatible models and software, so a saved checkpoint may not resume in the future. Outputs and transcripts stay readable without a model call. The paper proposes an open-weight rerun with archived weights to reduce this dependency; that rerun is not yet part of the shared baseline. [Long-term access and resource limits](project.html#keeping-the-baseline-usable).
 
-Reading pages use the pixel stream's participant IDs and still contain linkable Reddit text. The reading website is public; original bundles and transcripts stay private and keep usernames. [Release access](history.html#release-access) explains these boundaries. Running an interview sends text to the model provider. Credentials are never included. Original records stay intact.
+Reading pages use the pixel stream's participant IDs and still contain linkable Reddit text. The reading website and the research repository are public; original bundles and transcripts keep usernames. [Release access](history.html#release-access) explains these boundaries. Running an interview sends text to the model provider. Credentials are never included. Original records stay intact.
 
 ## Return to an online interview
 
@@ -49,6 +49,6 @@ Python 3.11 or newer, Bash, curl, Git, GitHub CLI and the checkpoint's supported
 
 Below the single command, **Or follow these steps** gives the separate download, login and launch steps. Select Chat Locally again to close the instructions. Ask your question in the local interview page. Export before ending if you want to keep the new conversation.
 
-The default route currently requires private repository access. If the investigator has already supplied the exact verified bundle, use the **Already downloaded the checkpoint?** command instead. That explicit offline route skips GitHub restoration; it still requires the provider login and supported runtime. The site cannot grant access. Expect a setup step on the computer, and the download time and disk space the launcher lists, before the interview opens. [Launcher version and SHA-256](../downloads/launcher.json). A missing login or unsupported CLI stops the interview and reports the reason.
+The default route downloads from the public research repository. If the investigator has already supplied the exact verified bundle, use the **Already downloaded the checkpoint?** command instead. That explicit offline route skips GitHub restoration; it still requires the provider login and supported runtime. The site cannot grant access. Expect a setup step on the computer, and the download time and disk space the launcher lists, before the interview opens. [Launcher version and SHA-256](../downloads/launcher.json). A missing login or unsupported CLI stops the interview and reports the reason.
 
 [Agent instructions for the three access routes](../agents/interview.html).

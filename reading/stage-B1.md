@@ -1,6 +1,6 @@
 # Reading copy: stage-B1
 
-Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/stage-B1.md), SHA-256 `a2b733dded3046ba611c65e979beb597ef8ef26e8b625dea28469a254219f8a0`. [Source and link manifest](manifest.json). Repository links require access while the repository is private. From an authorized checkout, read the named repository paths at this commit.
+Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a22624`. Source wording is unchanged; Markdown formatting may differ. [Exact source bytes](../sources/stage-B1.md), SHA-256 `a2b733dded3046ba611c65e979beb597ef8ef26e8b625dea28469a254219f8a0`. [Source and link manifest](manifest.json). Repository links open the public research repository at this commit.
 
 ---
 
