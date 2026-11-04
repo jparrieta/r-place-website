@@ -8,7 +8,7 @@ Gathers the public record once, then hashes and freezes every file. Scripts coll
 
 - [The pixel record](sources/data-pixels.html): Reddit's log of all 16,559,897 pixel changes, each with the placer's hashed name.
 - [The atlas](sources/data-atlas.html): the 1,473 artworks of the finished canvas, their outlines and the subreddits they name.
-- [What was written](how-collection-works.html#the-steps): everything the placers wrote on Reddit in the 24 days around the canvas, and everything anyone wrote in 24,093 subreddits in those days.
+- [What was written](how-collection-works.html#the-steps): everything the placers wrote on Reddit in the 24 days around the canvas, and everything anyone wrote in 24,093 subreddits in those days. The study reads a narrower window: the event and the day after.
 - [Pixels by artwork and by hour](sources/data-pixels-per-artwork.html): every pixel change inside each artwork's outline, and each community's area hour by hour.
 - [The census](results/population-record.html#census): which subreddits count as cases. For the population model we started from the 777 subreddits the atlas credits with an artwork and kept 705 communities.
 
@@ -16,7 +16,7 @@ Gathers the public record once, then hashes and freezes every file. Scripts coll
 
 ## Community coding
 
-One community coder per community reads its whole record and writes codes, themes and a case account, close to its members' words. It sees no other community. A scheduler prepares, launches and checks each coder; fleet coders help with the largest communities.
+One community coder per community reads its whole record and writes codes, themes and a case account, close to its members' words. It sees no other community. The coding handler prepares, launches and checks each coder; fleet coders help with the largest communities.
 
 - [The briefing](sources/coder-contract.html#4-step-1--the-briefing): a brief writer's account of the community's ordinary week before the event, read for orientation; a claim with no quote behind it counts as unsupported.
 - [Every thread](sources/coder-contract.html#5-step-2--go-through-every-thread-and-decide-what-this-case-is): the coder goes through the record in time order and decides, thread by thread, whether it touches the event; a thread that does is read in full.

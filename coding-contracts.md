@@ -20,8 +20,8 @@ Why the instrument moved [from v30 to v31](sources/coder-v31-rationale.html) and
 
 ## The handler
 
-- [The scheduler's contract](sources/scheduler.html): what it may read and write, the cycle for one community, the checks, failures, the record, and what is ours to decide.
-- [The coding scheduler](sources/coding-scheduler.html): how many communities run at once, and the order of the queue.
+- [The coding handler's contract](sources/scheduler.html): what it may read and write, the cycle for one community, the checks, failures, the record, and what is ours to decide.
+- [The coding handler's queue](sources/coding-scheduler.html): how many communities run at once, and the order of the queue.
 - [The case-lead prompt](sources/case-lead-prompt.html): how a community coder is launched and calibrated.
 - [Checkpoints](sources/coder-checkpoints.html): the saved session of each community coder.
 - [The brief coordinator](sources/brief-coordinator.html) and [the brief writer's prompt](sources/brief-writer-prompt.html): how the briefs were queued and written.
@@ -36,4 +36,4 @@ These reach the repository only inside the R6 checkpoints.
 - [The crosswalk](sources/room-crosswalk.html): the local model beside the aggregator, stage by stage.
 - [The file profile](sources/room-profile.html): every file the local model writes.
 - [The aggregator's contract](sources/room-contract-v43.html) and [C1 card](sources/room-stage-C1.html) as the checkpoints carry them, earlier than the copies the aggregator ran with. Its other stage cards, C2, C3, C5 and E1, are the aggregator's own.
-- The handler's [controller](sources/room-handler.html), [snapshot policy](sources/room-snapshots.html) and [amendments](sources/room-amendments.html), as they stood on 2 November 2026, after the run.
+- The [handler](sources/room-handler.html), its [snapshot policy](sources/room-snapshots.html) and [amendments](sources/room-amendments.html), as they stood on 2 November 2026, after the run.

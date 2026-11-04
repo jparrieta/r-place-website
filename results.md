@@ -24,7 +24,7 @@ All 705 communities, through the same parts.
 
 ## Time and costs
 
-How long each part of the study took and what it consumed: 71 days, from the first community coding run on 18 August to the last aggregator session on 28 October.
+How long each part of the study took and what it consumed: 71 days, from the first community coding run under an earlier contract, on 18 August, to the last aggregator session on 28 October.
 
 - [The study in five numbers](time.html): all the work used 51.82 billion tokens, worth $20,497 at list prices; $68 was paid in cash, to DeepSeek.
 - [By part of the work](time.html#by-part-of-the-work): community coding used 15.74 billion tokens and the aggregator 21.45 billion; the return, the re-check, the independent readers and the r/place subreddit used the rest.

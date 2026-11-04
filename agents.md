@@ -13,7 +13,7 @@ For a human-readable explanation of who does what, see [Agents and their roles](
 
 Choose your starting point: [raw data](agents/download.md), [checked coded communities](agents/aggregator.md), or [checkpoint interviews](agents/interview.md). Each brief lists inputs, access requirements and stopping points.
 
-For a new study, open the [Collection handler](agents/collection.md) first. Then use the existing [coding handler](agents/communities.md) and [aggregator handler](agents/aggregator.md), in separate chats. The collection brief is new; the other two retain their existing contracts. Human prompts and handoffs are in [Run the study](run.md).
+For a new study, open the [Collection handler](agents/collection.md) first. Then use the [coding handler](agents/communities.md) and [aggregator handler](agents/aggregator.md), in separate chats. The collection brief is new; the other two keep the contracts this study used. Human prompts and handoffs are in [Run the study](run.md).
 
 1. Read the scope, inputs and stopping boundary for your task.
 2. Read the linked contract and the full stage card, in the listed order.

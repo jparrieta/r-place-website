@@ -12,6 +12,6 @@ The catalog separates **Read the record**, **Download and interview** and **Inte
 
 This is a task for the authors or a handler. Use the original handler and its recorded checkpoint, platform and run identity. The handler checks the restoration and the stage boundary before any research turn begins.
 
-Follow the [leg controller](../sources/legs.html) and [handler protocol](../sources/handler.html) for Claude, or the [Codex runtime guide](../sources/codex.html) for Codex. Read the relevant [full stage card](aggregator.html#stage-map) before continuing.
+Follow the [handler protocol](../sources/handler.html) and its [leg tool](../sources/legs.html) for Claude, or the [Codex runtime guide](../sources/codex.html) for Codex. Read the relevant [full stage card](aggregator.html#stage-map) before continuing.
 
 Launching, resuming or branching research happens outside this website.

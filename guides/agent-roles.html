@@ -28,7 +28,7 @@ model and fork boundaries are recorded with each saved checkpoint.</p>
 </thead>
 <tbody>
 <tr>
-<td>Community coding</td>
+<td>Community coding, fleet coders included</td>
 <td>gpt-5.6-sol in Codex.</td>
 </tr>
 <tr>
@@ -40,7 +40,8 @@ model and fork boundaries are recorded with each saved checkpoint.</p>
 <td>Claude Opus 5.5 in Claude Code.</td>
 </tr>
 <tr>
-<td>Routine reading checks and the independent readers</td>
+<td>Routine reading checks, and the aggregator's fleet of independent
+readers</td>
 <td>DeepSeek V4.1 Flash.</td>
 </tr>
 </tbody>
@@ -75,8 +76,8 @@ href="../sources/scheduler.html">Scheduler contract</a>.</p>
 <h3 id="fleet-coder">Fleet coder</h3>
 <p>Reads an assigned slice of whole threads in a large community and
 writes first-order codes tied to participants' words. Its work passes to
-the community coder. These fleet coders are separate from the
-aggregator's independent readers. <a
+the community coder. It runs in the community coder's model; the
+aggregator's fleet, the independent readers, is a separate one. <a
 href="../sources/fleet-coder.html">Fleet coder contract</a>.</p>
 <h3 id="community-coder">Community coder</h3>
 <p>Owns the community's whole account. It codes a small community

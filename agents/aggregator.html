@@ -38,8 +38,7 @@ Use actual paths and results, not assumed readiness:</p>
 <td>Build and A1</td>
 <td>Instrument version, census, checked community outputs and startup
 context specified by the contract</td>
-<td>Do not build or open A1 until the chosen controller's checks
-pass.</td>
+<td>Do not build or open A1 until the chosen handler's checks pass.</td>
 </tr>
 <tr>
 <td>C4</td>
@@ -59,7 +58,7 @@ are confirmed.</td>
 <tr>
 <td>D2</td>
 <td>Original community sessions, matching saved files, runtime
-provenance and controller registration</td>
+provenance and handler registration</td>
 <td>Stop the affected returns. Do not replace original leads with fresh
 agents.</td>
 </tr>
@@ -75,15 +74,15 @@ local-model closes. It does not establish availability of all original
 leads for the 705-community frame. A read-only interview bundle is not
 automatic admission to a research continuation. Request any unshared
 original lead packages from the study owner and verify them through the
-controller. If they are unavailable, record the limit and the last
-runnable stage rather than claim a complete reproduction.</p>
+handler. If they are unavailable, record the limit and the last runnable
+stage rather than claim a complete reproduction.</p>
 </section><section class="spec"><h2 id="read-in-this-order">Read in this order</h2>
 <ol type="1">
 <li><a href="../reading/handler.md" target="_blank" rel="noopener">Handler contract</a>, including its
 own head and memory in the selected run.</li>
-<li>Choose one controller: <a href="../reading/legs.md" target="_blank" rel="noopener">Claude legs</a>
-or <a href="../reading/codex.md" target="_blank" rel="noopener">Codex</a>. Resolve author-specific
-example paths to this new study.</li>
+<li>Choose one handler: <a href="../reading/legs.md" target="_blank" rel="noopener">Claude legs</a> or
+<a href="../reading/codex.md" target="_blank" rel="noopener">Codex</a>. Resolve author-specific example
+paths to this new study.</li>
 <li><a href="../reading/how-to-run.md" target="_blank" rel="noopener">Build and run</a>, <a
 href="../reading/contract.md" target="_blank" rel="noopener">contract</a>, <a
 href="../reading/method.md" target="_blank" rel="noopener">method</a>, <a
@@ -96,7 +95,7 @@ map</a>, then each stage's reading key and full card.</li>
 hash identifies instructions; the historical checkpoint manifest
 separately identifies saved agent state.</p>
 </section><section class="spec"><h2 id="check-deliver-and-advance">Check, deliver and advance</h2>
-<p>Run the chosen controller's build, acceptance and lifecycle checks.
+<p>Run the chosen handler's build, acceptance and lifecycle checks.
 Record their versions and outcomes before launching A1. Verify
 original-lead availability early, even though D2 comes later. The Codex
 route provides <code>lead-status</code> and <code>register-lead</code>;

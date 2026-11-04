@@ -14,7 +14,9 @@ The words this site uses, as the paper and the instrument's contract define them
 
 ## The agents
 
-**Community coder.** The agent that reads one community's full record and codes its organizing. It writes the first two layers of coding and the community's case account. For a large community, **fleet coders** read batches of threads for it.
+**Community coder.** The agent that reads one community's full record and codes its organizing. It writes the first two layers of coding and the community's case account. For a large community, **fleet coders** read batches of threads for it, in the community coder's own model.
+
+**Fleet.** A group of agents that divides one task. The community coders' fleets ran in their coders' model, gpt-5.6-sol; the aggregator's fleet, the independent readers who placed every second-order theme in its scheme, ran on DeepSeek V4.1 Flash.
 
 **Aggregator.** The agent that composes the coded communities into the population model. It builds the last three layers of coding, the model and the organizational forms.
 

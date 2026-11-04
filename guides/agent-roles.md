@@ -12,10 +12,10 @@ The paper reports this division of work. Exact settings, changes of model and fo
 
 | Work | Model and environment |
 |---|---|
-| Community coding | gpt-5.6-sol in Codex. |
+| Community coding, fleet coders included | gpt-5.6-sol in Codex. |
 | Community returns to the population model | gpt-6.1-sol in Codex. |
 | Population analysis | Claude Opus 5.5 in Claude Code. |
-| Routine reading checks and the independent readers | DeepSeek V4.1 Flash. |
+| Routine reading checks, and the aggregator's fleet of independent readers | DeepSeek V4.1 Flash. |
 
 Table: Each kind of work, with its model and environment
 
@@ -39,7 +39,7 @@ Prepares each community's working folder, launches its agents, checks their outp
 
 ### Fleet coder
 
-Reads an assigned slice of whole threads in a large community and writes first-order codes tied to participants' words. Its work passes to the community coder. These fleet coders are separate from the aggregator's independent readers. [Fleet coder contract](../sources/fleet-coder.html).
+Reads an assigned slice of whole threads in a large community and writes first-order codes tied to participants' words. Its work passes to the community coder. It runs in the community coder's model; the aggregator's fleet, the independent readers, is a separate one. [Fleet coder contract](../sources/fleet-coder.html).
 
 ### Community coder
 

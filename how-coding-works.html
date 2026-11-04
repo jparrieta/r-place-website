@@ -4,12 +4,12 @@
 <div class="utility"><nav class="task-nav" aria-label="Use the repository"><a class="check-link" href="check.html">Check the papers</a><a data-reviewer-entry href="open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav><button id="theme" type="button" aria-label="Change color theme">Theme: light</button></div><nav class="menu" aria-label="Main"><a  href="index.html">Overview</a><a  href="organism.html">Model organism</a><a aria-current=location href="instrument.html">Instrument</a><a  href="results.html">Findings</a><a  href="interviews.html">Checkpoint interviews</a></nav></header>
 <main id="main" class="page-how-coding-works" data-layer="Overview"><nav class="parts" aria-label="Instrument"><a  href="instrument.html">Instrument</a><a  href="how-collection-works.html">Collection</a><a aria-current=page href="how-coding-works.html">Community coding</a><a  href="how-it-works.html">Aggregation</a><a  href="versions.html">Versions</a><a  href="run.html">Run the study</a></nav><h1 id="how-community-coding-works">How community coding works</h1>
 <p>Each community is read by its own community coder, a model
-conversation that sees no other community and no earlier coding. A
-scheduler prepares each community, launches its coder, checks the result
-and keeps the record. Communities with more than 500 items divide their
-threads among fleet coders, and the community coder brings their work
-together. In this study: 705 communities, coded from 7 September to 4
-October 2026, with 115,388 first-order codes and 7,844 second-order
+conversation that sees no other community and no earlier coding. The
+coding handler prepares each community, launches its coder, checks the
+result and keeps the record. Communities with more than 500 items divide
+their threads among fleet coders, and the community coder brings their
+work together. In this study: 705 communities, coded from 7 September to
+4 October 2026, with 115,388 first-order codes and 7,844 second-order
 themes.</p>
 <h2 id="its-contracts">Its contracts</h2>
 <ul>
@@ -26,8 +26,8 @@ contract</a>: the brief of the community's week before the event. Nearly
 every brief records version 30, with its revision of 7 September 2026,
 whichever version then coded the community; 17 record <a
 href="sources/brief-writer.html">version 32's</a>.</li>
-<li><a href="sources/scheduler.html">The scheduler's contract</a>: the
-cycle for one community, the checks, and what happens when one
+<li><a href="sources/scheduler.html">The coding handler's contract</a>:
+the cycle for one community, the checks, and what happens when one
 fails.</li>
 </ul>
 <p>A fresh gpt-5.6-sol conversation writes each community's brief, and a
@@ -36,8 +36,9 @@ briefs were written in three runs, from 7 to 30 September: the first two
 at high reasoning effort, the third at medium. Of the 705 briefs, 626
 come from a writer (373 at high effort, 246 at medium, 7 not recorded),
 78 are empty, and r/Dorset's records no writer.</p>
-<p><a href="coding-contracts.html">Every document, in both versions,
-with the handler's and the local model's</a>.</p>
+<p><a href="coding-contracts.html">The community coder's documents</a>
+lists every document in both versions, with the handler's and the local
+model's.</p>
 <h2 id="the-steps">The steps</h2>
 <table><caption>The steps of community coding, in order</caption>
 <thead>
@@ -98,9 +99,9 @@ contract, step 5</a></td>
 </tr>
 <tr>
 <td>Checks and close</td>
-<td>The scheduler resolves every cited quote against the record and runs
-end checks; a failed check sends the work back.</td>
-<td><a href="sources/scheduler.html#3-the-checks">scheduler, the
+<td>The coding handler resolves every cited quote against the record and
+runs end checks; a failed check sends the work back.</td>
+<td><a href="sources/scheduler.html#3-the-checks">coding handler, the
 checks</a></td>
 </tr>
 </tbody>

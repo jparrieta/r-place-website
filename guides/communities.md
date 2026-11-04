@@ -1,4 +1,4 @@
-# 2. Open the existing coding handler
+# 2. Open the coding handler
 
 Open a second Codex or Claude chat in your study's working folder. Name it **Coding handler** and attach `HANDOFF-collection.md` from the first chat. Paste:
 
@@ -16,7 +16,7 @@ A coding close, a local model (R6), a return to the population model and a later
 
 A return resumes the saved community coder, which compares the population model with its community's record. The original participants are not asked.
 
-Run the Field agent and the local models (R6) as their own workflows, under their own contracts, when your instrument requires them; the v32 scheduler does not include them. The aggregator handler names any required Field package before it starts the stage that uses it.
+Run the Field agent and the local models (R6) as their own workflows, under their own contracts, when your instrument requires them; the v32 coding handler does not include them. The aggregator handler names any required Field package before it starts the stage that uses it.
 
 ## Open the next chat
 

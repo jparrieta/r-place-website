@@ -1,4 +1,4 @@
-# 3. Open the existing aggregator handler
+# 3. Open the aggregator handler
 
 Open a third Codex or Claude chat. Name it **Aggregator handler** and give it the collection handoff and the coding handler's output locations. Paste:
 

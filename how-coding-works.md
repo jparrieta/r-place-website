@@ -1,6 +1,6 @@
 # How community coding works
 
-Each community is read by its own community coder, a model conversation that sees no other community and no earlier coding. A scheduler prepares each community, launches its coder, checks the result and keeps the record. Communities with more than 500 items divide their threads among fleet coders, and the community coder brings their work together. In this study: 705 communities, coded from 7 September to 4 October 2026, with 115,388 first-order codes and 7,844 second-order themes.
+Each community is read by its own community coder, a model conversation that sees no other community and no earlier coding. The coding handler prepares each community, launches its coder, checks the result and keeps the record. Communities with more than 500 items divide their threads among fleet coders, and the community coder brings their work together. In this study: 705 communities, coded from 7 September to 4 October 2026, with 115,388 first-order codes and 7,844 second-order themes.
 
 ## Its contracts
 
@@ -8,11 +8,11 @@ Each community is read by its own community coder, a model conversation that see
 - [The community coder's contract](sources/case-lead.html), which the run calls the case lead's: the gate between working alone and with a fleet, and the order of work in each branch.
 - [The fleet coder's contract](sources/fleet-coder.html): one slice of whole threads, coded, and nothing else.
 - [The brief writer's contract](sources/v30-brief-writer.html): the brief of the community's week before the event. Nearly every brief records version 30, with its revision of 7 September 2026, whichever version then coded the community; 17 record [version 32's](sources/brief-writer.html).
-- [The scheduler's contract](sources/scheduler.html): the cycle for one community, the checks, and what happens when one fails.
+- [The coding handler's contract](sources/scheduler.html): the cycle for one community, the checks, and what happens when one fails.
 
 A fresh gpt-5.6-sol conversation writes each community's brief, and a script writes an empty brief where the week before holds nothing. The briefs were written in three runs, from 7 to 30 September: the first two at high reasoning effort, the third at medium. Of the 705 briefs, 626 come from a writer (373 at high effort, 246 at medium, 7 not recorded), 78 are empty, and r/Dorset's records no writer.
 
-[Every document, in both versions, with the handler's and the local model's](coding-contracts.html).
+[The community coder's documents](coding-contracts.html) lists every document in both versions, with the handler's and the local model's.
 
 ## The steps
 
@@ -24,7 +24,7 @@ A fresh gpt-5.6-sol conversation writes each community's brief, and a script wri
 | 3. First-order codes | Codes stay close to how members put it. A code cites its item by reference; no coder types quotation text. | [coder contract, step 3](sources/coder-contract.html#6-step-3--first-order-codes) |
 | 4. Themes | Codes are grouped into second-order themes, named in the members' words where they have one. | [coder contract, step 4](sources/coder-contract.html#7-step-4--themes) |
 | 5. The case account | A chronology, then what set off what, with a stated reason for each relation, and a counter-reading before the verdict. | [coder contract, step 5](sources/coder-contract.html#8-step-5--the-within-case-account) |
-| Checks and close | The scheduler resolves every cited quote against the record and runs end checks; a failed check sends the work back. | [scheduler, the checks](sources/scheduler.html#3-the-checks) |
+| Checks and close | The coding handler resolves every cited quote against the record and runs end checks; a failed check sends the work back. | [coding handler, the checks](sources/scheduler.html#3-the-checks) |
 
 ## After the coding: the return
 
