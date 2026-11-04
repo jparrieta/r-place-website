@@ -460,3 +460,42 @@ main .stage-list p{margin:0 0 .25rem}
 #results-population .form-list .chip{display:inline-block;width:10px;height:10px;margin:0 .45rem 0 0;vertical-align:0;background:var(--fc)}
 #results-population .form-list .n{display:block;font-weight:400;color:var(--muted);font-size:.9rem}
 #results-population .form-list .gloss{margin:.2rem 0 0}
+/* Hierarchy and link roles restored (Impeccable critique, 4 November 2026; contract v1.13, Appendix C).
+   The harmony block above set every paragraph to body size and every link to the evidence style; these rules give back
+   the lead paragraph, the entry links (stage titles, form names, chain steps) and quiet repeated link lines. */
+:root{--fs-lede:1.25rem;--fs-h4:1.1rem}
+@media(max-width:680px){:root{--fs-lede:1.1rem}}
+#main h1+p:not([class]){font-size:var(--fs-lede)!important;line-height:1.5;max-width:52ch!important}
+#main :is(.stage-list .stage-name,.stage-index .stage-name,.form-list .fname,.stage-def h4,.stage-map) a{color:var(--ink)!important;text-decoration-line:none!important;font-weight:650}
+#main :is(.stage-list .stage-name,.stage-index .stage-name,.form-list .fname,.stage-def h4,.stage-map) a:is(:hover,:focus-visible){text-decoration-line:underline!important;text-decoration-color:var(--accent)!important;text-decoration-thickness:2px}
+#main .chain a{color:var(--ink)!important;text-decoration-line:none!important;border-radius:0}
+#main .chain a:is(:hover,:focus-visible){border-color:var(--accent)}
+#main .stage-def .more{font-size:var(--fs-small)!important}
+#main .stage-def .more a{color:var(--muted)!important;text-decoration-line:none!important}
+#main .stage-def .more a:is(:hover,:focus-visible){color:var(--ink)!important;text-decoration-line:underline!important}
+#main tbody th{border-bottom:1px solid var(--rule)}
+::placeholder{color:var(--muted);opacity:1}
+/* Essay pages (Model organism): each section's heading in a left rail on wide screens; references small, hanging. */
+@media(min-width:1024px){
+  #main .essay-sec{position:relative;min-height:6rem;padding:1.3rem 0 0 16rem;margin-top:3rem;border-top:2px solid var(--line)}
+  #main .essay-sec>h2{position:absolute;left:0;top:1.15rem;width:13.5rem;margin:0!important;font-size:1.55rem!important;line-height:1.15}
+  #main .essay-sec>:is(.model-comparison,figure,table){margin-left:-16rem}
+  #main .essay-sec>h2+*{margin-top:0}
+}
+#main .essay-sec:has(>h2#references) p{font-size:var(--fs-small)!important;padding-left:1.5em;text-indent:-1.5em;margin:.35rem 0}
+/* Findings: the two examples side by side, their five stages on shared rows. */
+#main .findings-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.5rem;margin:2rem 0 1rem}
+#main .findings-pair>.example{display:grid;grid-row:span 7;grid-template-rows:subgrid;min-width:0;align-content:start}
+#main .findings-pair>.example>h2{margin-top:0!important;align-self:end}
+#main .findings-pair .stage-list{display:contents}
+@media(max-width:860px){#main .findings-pair,#main .findings-pair>.example{display:block}#main .findings-pair .stage-list{display:block}#main .findings-pair>.example+.example{margin-top:2.5rem}}
+/* Phones: the dimensions table (Table 1) stacks, one dimension per block. */
+@media(max-width:680px){
+  #results-population table.dims-table,#results-population table.dims-table :is(tbody,tr,th,td){display:block;width:auto!important;max-width:none}
+  #results-population table.dims-table thead{display:none}
+  #results-population table.dims-table th[scope=row]{white-space:normal;border-bottom:0;padding:.6rem 0 .2rem}
+  #results-population table.dims-table td{border:0;padding:.15rem 0}
+  #results-population table.dims-table tr{border-bottom:1px solid var(--rule);padding-bottom:.5rem}
+}
+#main:is(.page-organism,.page-composition) h1+p:not([class]){font-size:var(--fs-body)!important;line-height:1.65;max-width:60ch!important}
+@media(max-width:680px){#results-population table.dims-table caption{display:block;max-width:none}}
