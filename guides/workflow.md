@@ -20,6 +20,6 @@ Continue to the aggregator's input preparation. See the [community coder guide](
 
 This step starts from the checked community outputs, the census and the context the instrument requires. The handler prepares a separate run, checks the build and opens the stages in order. The aggregator reads, codes, builds a model, returns it to the cases and writes the resulting account. Keep each stage's outputs, reasoning record and declared checkpoints. Move to the next stage when its outputs and checks meet its contract and the handler records the close.
 
-A stage is one part of the analysis, and legs divide its larger tasks; their checkpoints keep the earlier states. The aggregator owns the interpretation, and the checks record what was delivered.
+A stage is one part of the analysis, and legs divide its larger tasks; their checkpoints keep the earlier states. The aggregator composes the account and the checks record what was delivered; the interpretation stays with the researchers.
 
 See the stage map below, the [handler protocol](../sources/handler.html) and the [agent instructions](../agents/aggregator.html). Research agents start from the handler chats.

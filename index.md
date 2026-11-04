@@ -8,7 +8,7 @@ Here you find the frozen record of the event, the instrument we used to read it,
 
 ## How the study works
 
-The study has three parts, run in order. Each takes the one before it as input and works under its own written instructions.
+The study has three parts, run in order.
 
 1. **[Collection](how-collection-works.html)** Every pixel change, joined with the posts and comments of the communities behind the artworks. A census decides which 705 communities count as cases.
 2. **[Community coding](how-coding-works.html)** One AI agent reads each community's full record and codes how its members organized. It sees no other community.

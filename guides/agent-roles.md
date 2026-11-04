@@ -53,7 +53,7 @@ Builds a model of organizing within its own community from its coded evidence. T
 
 ### Aggregator handler
 
-Builds the population-level run, opens and closes its legs, supplies the permitted inputs and dispatches reader jobs. It records checks, keeps checkpoints and brings research decisions to the investigator. Its file checks show what was read and written; the explanation rests on evidence and argument. [Handler protocol](../sources/handler.html).
+Builds the population-level run, opens and closes its legs, supplies the permitted inputs and dispatches reader jobs. It records checks, keeps checkpoints and brings research decisions to the investigator. [Handler protocol](../sources/handler.html).
 
 ### Aggregator
 
@@ -69,7 +69,7 @@ Challenge a developing explanation. The [C2](../stages/C2.html) reader examines 
 
 ### Field agent
 
-Reads the central r/place subreddit, where communities recruit, negotiate and discuss the event, and gives a view across communities. It supplied an interim reading and comments at [C4](../stages/C4.html) while its own analysis was unfinished. A comparison with its completed account is still pending. This site has no launch guide for the Field agent yet.
+Reads the central r/place subreddit, where communities recruit, negotiate and discuss the event, and gives a view across communities. It supplied an interim reading and comments at [C4](../stages/C4.html) while its own analysis was unfinished. This site has no launch guide for it yet.
 
 ## Return and audit
 

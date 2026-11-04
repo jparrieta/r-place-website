@@ -340,6 +340,10 @@ main a[download]::after{content:" ↓";font-size:.85em}
 :is(#results-community,#results-population) .stage-index .stage-name a{color:var(--ink)}
 :is(#results-community,#results-population) .stage-index .n{color:var(--accent);font-weight:750;margin-right:.3rem}
 :is(#results-community,#results-population) .stage-index .secs{font-size:.92rem;margin:.25rem 0}
+:is(#results-community,#results-population) .stage-index .part-steps{margin:.3rem 0 0;padding:0;border:0;font-size:.92rem}
+:is(#results-community,#results-population) .stage-index .part-steps>summary{padding:.15rem 0}
+:is(#results-community,#results-population) .stage-index .part-steps ul{margin:.3rem 0 0;padding-left:1.2rem}
+:is(#results-community,#results-population) .stage-index .part-steps li{border-top:0;padding:.12rem 0}
 :is(#results-community,#results-population) .in-detail{border-top:6px solid var(--ink);margin:3.5rem 0 0;padding-top:.7rem}
 :is(#results-community,#results-population) .in-detail p{margin:.2rem 0}
 :is(#results-community,#results-population) .in-detail+section>h2{margin-top:1.6rem}

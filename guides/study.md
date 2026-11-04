@@ -34,7 +34,7 @@ Two further population models are planned for comparison: induction supported by
 
 ### Source: what does another view reveal?
 
-The central r/place subreddit falls outside the frame of 705 communities. Its Field agent has not finished. At [C4](../records/aggregator--claude-v43-1--C4-field--C4.C4a.html), it supplied an interim reading and comments that prompted tentative additions and qualifications to the community-based model. Finishing that analysis and comparing its full account with the population model remain future work.
+The central r/place subreddit falls outside the frame of 705 communities. At [C4](../records/aggregator--claude-v43-1--C4-field--C4.C4a.html), the Field agent's interim reading of it prompted tentative additions and qualifications to the community-based model. Finishing that analysis and comparing it with the population model remain future work.
 
 [Inspect one recorded review and correction](audit-evidence.html) for a narrower audit with file versions and explicit limits. [Agents and their roles](agent-roles.html) explains who did each part and where human judgment came in.
 

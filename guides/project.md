@@ -24,7 +24,7 @@ The dataset holds the event record. The instrument specifies how agents read, co
 
 Researchers can change the instrument, bring a different theory to the record, or extend the population, while stating which baseline they use.
 
-A population model is returned to saved community coders for comparison with their own records. Their objections can qualify an explanation that seemed to hold across cases. The check runs against the recorded evidence; the participants themselves are not asked. The contracts keep the outputs and reports behind each step.
+A population model is returned to saved community coders for comparison with their own records. Their objections can qualify an explanation that seemed to hold across cases. The check runs against the recorded evidence. The contracts keep the outputs and reports behind each step.
 
 [r/PlaceNL's defense script erased a planned addition](../results/placenl.html#repair-and-change). Evidence like this changed the model's account of repair. The example follows the objection through the revision and the later finding that bounded it.
 
@@ -40,7 +40,7 @@ The wider aim is to learn how organizations emerge and evolve. Whether an explan
 
 The paper proposes two further population models from the same record: induction supported by an algorithm from term frequencies, with no community coder, and a separate aggregator that works from tables across cases. Both are planned. The current aggregator already draws on several qualitative traditions; its [contract](../sources/contract.html) holds the rules.
 
-At [C4](../stages/C4.html), the Field agent, before it had finished, supplied an interim reading and comments from the central r/place subreddit. These prompted tentative additions and qualifications to the community-based model. A comparison with its completed account remains future work, and this site has no launch guide for the Field agent yet. [Read the checks and their limits](study.html#how-the-model-is-checked).
+At [C4](../stages/C4.html), an interim reading of the central r/place subreddit prompted tentative additions and qualifications to the community-based model. [Read the checks and their limits](study.html#how-the-model-is-checked).
 
 ## Keeping the baseline usable
 

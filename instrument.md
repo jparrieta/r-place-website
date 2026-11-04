@@ -1,6 +1,6 @@
 # Instrument
 
-The instrument turns the shared record of r/place into accounts that later studies can test and revise. It has three parts, run in order, each by its own handler: collection, community coding and aggregation. Each part takes the one before it as input and works under its own written instructions. The section has a page for each part, then Versions and Run the study.
+The instrument turns the shared record of r/place into accounts that later studies can test and revise. It has three parts, run in order, each by its own handler: collection, community coding and aggregation. Each part takes the one before it as input and works under its own written instructions.
 
 ## Collection
 
@@ -33,7 +33,7 @@ The aggregator reads the coders' sealed work, never the record. Over eighteen st
 - [Reading, A1](how-it-works.html#group-reading): a note on each community before any common scheme is named.
 - [Coding, B1 to B4](how-it-works.html#group-coding): a scheme of 197 third-order themes, tested by fresh readers, applied to all 7,844 second-order themes and settled where readers disagreed.
 - [Model, C1 to C5](how-it-works.html#group-model): 28 fourth-order themes, eight aggregate dimensions and the population model with its account.
-- [Adaptation, D1 to D3](how-it-works.html#group-adaptation): the model goes back to every community coder; the aggregator rules on each change and revises the model.
+- [Adaptation, D1 to D3](how-it-works.html#group-adaptation): the return. The model goes back to every community coder; the aggregator rules on each change and revises the model.
 - [Forming, D4 to D6](how-it-works.html#group-forming): communities that asked for similar changes form six candidate organizational forms; each form gets an account, and the model is retold with the forms inside it.
 - [Formalizing, E1 and E2](how-it-works.html#group-formalizing): an audit of what the run supports, and a review of how the run was handled and what the next instrument should change.
 
