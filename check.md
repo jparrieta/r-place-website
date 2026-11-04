@@ -47,7 +47,8 @@ On this page: [The record](#the-record) · [Community coding](#community-coding)
 - [Contracts v32 for the community coders and v43 for the aggregator](versions.html#contract-versions): Appendix 5.4. Every version and what changed.
 - [Completed checks and planned comparisons](guides/study.html#how-the-model-is-checked): Proposal, the three levels of checks; Appendix 5.4.
 - [The r/place subreddit, left out of the population model](results/population-record.html#the-rplace-subreddit): Proposal, the three levels of checks.
-- [Checkpoint interviews: Chat Locally and Chat Online](interviews.html): Proposal, the repository; Appendix 5.5. Choose a stage, then either button.
+- [Checkpoint interviews: Chat Locally and Chat Online](interviews.html): Proposal, the repository; Appendix 5.5. Choose a stage, then Chat Locally; Chat Online is not connected yet.
+- [35 aggregator checkpoints, and two for each of the 14 communities that built in the Dutch area](launch-commands.html): Appendix 5.5. One launch command for each of the 63.
 
 ## Not on the site yet
 
