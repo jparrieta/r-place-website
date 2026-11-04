@@ -211,3 +211,8 @@ bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$sc
 # bundle https://github.com/jparrieta/r-place/releases/download/community-checkpoint-cloud-test-20261025/community--Goodboye--R6.tar.gz sha256 dcd31ebc3c4de2613046240191b002749a3b27be3d484cc6b2a6c4f4dca23bea
 bash -c 'set -e; script=$(curl -fsSL "$1/start-interview.sh"); exec bash -c "$script" -- "$2" "$1"' _ 'https://rplace.arrieta.science/downloads' 'community--Goodboye--R6'
 
+## From the published r-place workspace
+# E2.E2b, next instrument (aggregator--claude-v43-1--C4-field--E2.E2b), published r-place workspace, opens Claude Code
+# launcher https://raw.githubusercontent.com/jparrieta/r-place-website/413f79f164d4da088cc969aec8fed1fc291f9e64/archive/checkpoints-20261104/launchers/e2b-git-launcher.zip sha256 a69ca259600deda9a1d87d971797c2065245ebca48e86de4479617d6b080198f
+bash -c 'set -e; script=$(curl -fsSL "$1/start-e2b-from-rplace.sh"); exec bash -c "$script" -- "$1"' -- 'https://raw.githubusercontent.com/jparrieta/r-place-website/413f79f164d4da088cc969aec8fed1fc291f9e64/archive/checkpoints-20261104'
+

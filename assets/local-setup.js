@@ -13,6 +13,7 @@
     const heading=node('h3',c.kind==='aggregator'?'Run '+c.stage+' locally':'Run r/'+c.entity+' locally');
     heading.id=panel.id+'-title';panel.setAttribute('aria-labelledby',heading.id);panel.append(heading);
     panel.append(node('p','Checkpoint '+c.milestone+': '+c.title+'.'));
+    if(c.local_route?.kind==='published-git'){renderGit(panel,c,c.local_route);return;}
     if(c.availability!=='ready'||!c.bundle?.url||!c.bundle?.sha256){panel.append(node('p',c.reason||'This checkpoint is not yet available for local interviews.'));return;}
     if(!/^[A-Za-z0-9][A-Za-z0-9_.-]*$/.test(c.id)||!['codex','claude'].includes(c.backend))throw Error('This checkpoint needs a manually checked launch command.');
     panel.append(node('p','Paste this command into Terminal on your Mac or Linux computer. It downloads and verifies the launcher and checkpoint, asks you to sign in if needed, and opens the selected interview.'));
@@ -30,6 +31,23 @@
     const launch=node('li');launch.append(node('p','Open checkpoint '+c.milestone+'.'));command(launch,'python3 -m website.interview launch '+c.id,'Copy launch command');
     steps.append(download,login,launch);panel.append(steps);
     const offline=node('details');offline.append(node('summary','Already downloaded the checkpoint?'),link('Verified checkpoint bundle',c.bundle.url));command(offline,'python3 -m website.interview launch '+c.id+' --bundle /path/to/bundle.tar.gz','Copy offline command');panel.append(offline);
+    panel.append(link('Full setup instructions','guides/interviews.html#open-an-interview-on-your-computer'));
+  }
+  /* A checkpoint opened from the published r-place workspace (handoff checkpoints-20261104): no bundle, Claude Code in the terminal. */
+  function renderGit(panel,c,r){
+    if(c.backend!=='claude'||r.opens!=='claude-cli'||!/^https:\/\/raw\.githubusercontent\.com\/jparrieta\/r-place-website\/[0-9a-f]{40}\//.test(r.starter_url)||!r.command.includes(r.starter_url.replace(/\/start-e2b-from-rplace\.sh$/,'')))throw Error('This checkpoint needs a manually checked launch command.');
+    const leg=c.milestone.split('.').pop(),gib=Math.round(r.minimum_free_bytes/1024**3),cli=r.cli_version.split(' ')[0];
+    panel.append(node('p','Paste this command into Terminal on your Mac or Linux computer. It restores the published r-place workspace at commit '+r.commit.slice(0,7)+' and the unchanged '+leg+' conversation from GitHub, checks every file, asks you to sign in to Claude if needed, and opens a separate interview in Claude Code, in your terminal.'));
+    command(panel,r.command);
+    panel.append(node('p','This is the published workspace, not every file of the original local snapshot: '+r.snapshot_files_not_restored+' local files, such as older conversations, local settings and bookkeeping, are not in it. The saved conversation stays unchanged; your interview runs as a fork with its own session.'));
+    panel.append(node('p','Use Python 3.11 or newer, Git, Claude Code '+cli+' and '+gib+' GiB of free disk space. If the Claude Code version or the sign-in check fails, the command stops; it never starts a new analyst.'));
+    panel.append(node('p','No model turn begins until you ask a question. Questions use your own account.'));
+    panel.append(node('h4','Or follow these steps'));
+    const steps=node('ol');steps.className='local-setup-steps';
+    const get=node('li');get.append(link('Download the '+leg+' launcher',r.launcher.url),node('p','About '+Math.round(r.launcher.bytes/1024)+' KB of code and metadata, no research data. Its SHA-256 must be '+r.launcher.sha256+'.'));command(get,'shasum -a 256 e2b-git-launcher.zip','Copy check command');
+    const prep=node('li');prep.append(node('p','Extract it and check the files without signing in. This downloads the published workspace from GitHub, about 7 GB.'));command(prep,'unzip e2b-git-launcher.zip && python3 -B rplace-e2b-git/tools/e2b_from_rplace.py --prepare-only','Copy check command');
+    const open=node('li');open.append(node('p','Open the interview in Claude Code.'));command(open,'python3 -B rplace-e2b-git/tools/e2b_from_rplace.py','Copy launch command');
+    steps.append(get,prep,open);panel.append(steps);
     panel.append(link('Full setup instructions','guides/interviews.html#open-an-interview-on-your-computer'));
   }
   let catalogue;
