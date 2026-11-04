@@ -14,6 +14,7 @@
     heading.id=panel.id+'-title';panel.setAttribute('aria-labelledby',heading.id);panel.append(heading);
     panel.append(node('p','Checkpoint '+c.milestone+': '+c.title+'.'));
     if(c.local_route?.kind==='published-git'){renderGit(panel,c,c.local_route);return;}
+    if(c.local_route?.kind==='release-launcher'){renderRelease(panel,c,c.local_route);return;}
     if(c.availability!=='ready'||!c.bundle?.url||!c.bundle?.sha256){panel.append(node('p',c.reason||'This checkpoint is not yet available for local interviews.'));return;}
     if(!/^[A-Za-z0-9][A-Za-z0-9_.-]*$/.test(c.id)||!['codex','claude'].includes(c.backend))throw Error('This checkpoint needs a manually checked launch command.');
     panel.append(node('p','Paste this command into Terminal on your Mac or Linux computer. It downloads and verifies the launcher and checkpoint, asks you to sign in if needed, and opens the selected interview.'));
@@ -31,6 +32,24 @@
     const launch=node('li');launch.append(node('p','Open checkpoint '+c.milestone+'.'));command(launch,'python3 -m website.interview launch '+c.id,'Copy launch command');
     steps.append(download,login,launch);panel.append(steps);
     const offline=node('details');offline.append(node('summary','Already downloaded the checkpoint?'),link('Verified checkpoint bundle',c.bundle.url));command(offline,'python3 -m website.interview launch '+c.id+' --bundle /path/to/bundle.tar.gz','Copy offline command');panel.append(offline);
+    panel.append(link('Full setup instructions','guides/interviews.html#open-an-interview-on-your-computer'));
+  }
+  /* A checkpoint opened with the release launcher of 4 November 2026: the exact command from the release's ALL-COMMANDS.md. */
+  function renderRelease(panel,c,r){
+    const rel=r.release;
+    if(!rel||!['codex','claude'].includes(c.backend)||!r.command.includes(rel.start_url)||!r.command.trimEnd().endsWith("'"+c.id+"'"))throw Error('This checkpoint needs a manually checked launch command.');
+    const cli=c.backend==='claude'?'Claude Code':'Codex';
+    panel.append(node('p','Paste this command into Terminal on your Mac or Linux computer. It downloads and verifies the interview launcher from the release of 4 November 2026, checks your tools, asks you to sign in if needed, and opens a private interview page on your computer.'));
+    command(panel,r.command);
+    panel.append(node('p',c.bundle?.url?'It restores the checkpoint from its verified bundle; every restored file must match the tested manifest.':'It restores the checkpoint from the original files in the research repository and a hashed supplement of saved files; every restored file must match the tested manifest.'));
+    panel.append(node('p','Use Python 3.11 or newer, Git, GitHub CLI and the supported '+cli+' version, and allow up to about '+rel.max_free_gib+' GiB of free disk space. An unsupported version or a failed sign-in stops the command; it never starts a new agent.'));
+    panel.append(node('p','No model turn begins until you ask a question. Questions use your own account. Run one interview at a time.'));
+    panel.append(node('h4','Or follow these steps'));
+    const steps=node('ol');steps.className='local-setup-steps';
+    const get=node('li');get.append(link('Download the interview launcher',rel.launcher.url),node('p','About '+Math.round(rel.launcher.bytes/1024**2)+' MB. Its SHA-256 must be '+rel.launcher.sha256+'.'));command(get,'shasum -a 256 rplace-interviews.zip','Copy check command');
+    const open=node('li');open.append(node('p','Extract it, open Terminal in its rplace-interviews folder and open checkpoint '+c.milestone+'. The command signs you in if needed.'));command(open,'python3 -m website.quickstart '+c.id,'Copy launch command');
+    steps.append(get,open);panel.append(steps);
+    if(c.bundle?.url){const offline=node('details');offline.append(node('summary','Already downloaded the checkpoint?'),link('Verified checkpoint bundle',c.bundle.url));command(offline,'python3 -m website.interview launch '+c.id+' --bundle /path/to/bundle.tar.gz','Copy offline command');panel.append(offline);}
     panel.append(link('Full setup instructions','guides/interviews.html#open-an-interview-on-your-computer'));
   }
   /* A checkpoint opened from the published r-place workspace (handoff checkpoints-20261104): no bundle, Claude Code in the terminal. */
