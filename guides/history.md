@@ -14,7 +14,7 @@ The [C5d-p2 account](../records/aggregator--claude-v43-1--C4-field--C5.C5d-p2.ht
 
 ## C4 and the Field agent's unfinished analysis
 
-The Field agent had not finished its analysis when it supplied its reading and comments to C4. The investigator clarified this on 29 October 2026. The saved C4 account calls the supplied material a field model; it was an interim reading, and the Field agent's full account was not complete. C4's close records how the aggregator handled the interim material.
+The Field agent had not finished its analysis when it supplied its reading and comments to C4. We clarified this on 29 October 2026. The saved C4 account calls the supplied material a field model; it was an interim reading, and the Field agent's full account was not complete. C4's close records how the aggregator handled the interim material.
 
 [Read what that comparison changed](../stages/C4.html#what-v43-received). The saved files and their wording are intact. A comparison with the completed Field account is still pending.
 

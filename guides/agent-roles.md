@@ -1,6 +1,6 @@
 # Agents and their roles
 
-The work is divided so that preparing evidence, interpreting it and checking an interpretation are separate jobs. A handler manages the process. A community coder or the aggregator owns an account. A reader answers a bounded question from specified evidence. The investigator sets the study's scope and answers for its claims.
+The work is divided so that preparing evidence, interpreting it and checking an interpretation are separate jobs. A handler manages the process. A community coder or the aggregator owns an account. A reader answers a bounded question from specified evidence. The authors set the study's scope and answer for its claims.
 
 An agent is a model conversation with a task and the files it may use. The names below are roles; checkpoint records name the model and saved state used at each point.
 
@@ -53,7 +53,7 @@ Builds a model of organizing within its own community from its coded evidence. T
 
 ### Aggregator handler
 
-Builds the population-level run, opens and closes its legs, supplies the permitted inputs and dispatches reader jobs. It records checks, keeps checkpoints and brings research decisions to the investigator. [Handler protocol](../sources/handler.html).
+Builds the population-level run, opens and closes its legs, supplies the permitted inputs and dispatches reader jobs. It records checks, keeps checkpoints and brings research decisions to the authors. [Handler protocol](../sources/handler.html).
 
 ### Aggregator
 

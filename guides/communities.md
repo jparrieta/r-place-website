@@ -10,7 +10,7 @@ Read HANDOFF-collection.md. Obtain any missing instrument folders, record their 
 
 The coding handler already exists, and this prompt opens it under its own protocol. A Claude chat can coordinate it, but the shipped launcher for persistent community coders requires Codex.
 
-This step starts from a prepared community record and the community coder contract. The community coder codes the material, with fleet coders in communities above 500 items, and brings the codes, themes and case account together under the investigator's supervision. At the close, keep the community coder's conversation, files and runtime provenance together, with the declared coding outputs and the evidence trail. Move on when the community coder's checks pass and its outputs and close are stored.
+This step starts from a prepared community record and the community coder contract. The community coder codes the material, with fleet coders in communities above 500 items, and brings the codes, themes and case account together under the authors' supervision. At the close, keep the community coder's conversation, files and runtime provenance together, with the declared coding outputs and the evidence trail. Move on when the community coder's checks pass and its outputs and close are stored.
 
 A coding close, a local model (R6), a return to the population model and a later re-check are separate milestones. The checkpoint catalog records which of them are saved.
 

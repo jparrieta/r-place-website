@@ -20,7 +20,7 @@ Why the instrument moved [from v30 to v31](sources/coder-v31-rationale.html) and
 
 ## The handler
 
-- [The scheduler's contract](sources/scheduler.html): what it may read and write, the cycle for one community, the checks, failures, the record, and what is the investigator's to decide.
+- [The scheduler's contract](sources/scheduler.html): what it may read and write, the cycle for one community, the checks, failures, the record, and what is ours to decide.
 - [The coding scheduler](sources/coding-scheduler.html): how many communities run at once, and the order of the queue.
 - [The case-lead prompt](sources/case-lead-prompt.html): how a community coder is launched and calibrated.
 - [Checkpoints](sources/coder-checkpoints.html): the saved session of each community coder.

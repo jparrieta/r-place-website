@@ -20,7 +20,7 @@ The reviewer saw selected sections. A favorable review and valid file shapes say
 
 ## A. Accept independently: who could decide?
 
-[QC2-001](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-001.md) records a handler ruling under J's delegation, including what the reviewer may see. [The handler protocol](../sources/handler.html) separates the duties of the aggregator, the handler and the principal investigator.
+[QC2-001](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-001.md) records a handler ruling under J's delegation, including what the reviewer may see. [The handler protocol](../sources/handler.html) separates the duties of the aggregator, the handler and the authors.
 
 This is a delegated decision on scope. The aggregator answers the critic's objections, and no separate, version-bound acceptance decision has been found for every output. A critique, a close and a scientific acceptance are three different things.
 

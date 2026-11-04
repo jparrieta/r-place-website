@@ -10,7 +10,7 @@ Gathers the public record once, then hashes and freezes every file. Scripts coll
 - [The atlas](sources/data-atlas.html): the 1,473 artworks of the finished canvas, their outlines and the subreddits they name.
 - [What was written](how-collection-works.html#the-steps): everything the placers wrote on Reddit in the 24 days around the canvas, and everything anyone wrote in 24,093 subreddits in those days.
 - [Pixels by artwork and by hour](sources/data-pixels-per-artwork.html): every pixel change inside each artwork's outline, and each community's area hour by hour.
-- [The census](results/population-record.html#census): which of the 2,796 subreddits in the wider dataset count as cases: 705 communities.
+- [The census](results/population-record.html#census): which subreddits count as cases. For the population model we started from the 777 subreddits the atlas credits with an artwork and kept 705 communities.
 
 [Collection](how-collection-works.html) · [What it gave: the record](results/population-record.html)
 

@@ -1,6 +1,6 @@
 # What this publication contains
 
-Updated 29 October 2026. This page describes the recorded run and keeps its checks apart from the work proposed next.
+Updated 4 November 2026. This page describes the recorded run and keeps its checks apart from the work proposed next.
 
 The study's frame contains 705 communities. Community coding produces codes, second-order themes and case accounts. The aggregator compares this material, builds an account of organizing and returns the model to the community coders. The census decisions are recorded with the data, and downloading the data does not repeat them.
 
@@ -40,6 +40,6 @@ The central r/place subreddit falls outside the frame of 705 communities. At [C4
 
 ## What is shared
 
-Saved reading pages cover 35 aggregator checkpoints and 28 community checkpoints, two for each of 14 selected communities. The earlier 52 have published interview packages. The 11 final-run additions have separate file and native checks, and their cards show test results apart from release availability. Other entries offer a record only.
+Saved reading pages cover 35 aggregator checkpoints and 28 community checkpoints, two for each of 14 selected communities. Each opens from its command on [Launch commands](../launch-commands.html). Other entries offer a record only.
 
 [Read saved outputs](../records/index.html) without starting an agent. [Interview a checkpoint](interviews.html) to ask new questions about it. GitHub downloads are public; hosted interviews for reviewers are not enabled. [Run the study](../run.html) explains the separate routes to reproduce the study and their prerequisites.

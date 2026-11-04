@@ -12,7 +12,7 @@ The aggregator handler already exists. Choose its Claude or Codex route and conf
 
 This step starts from the checked community outputs, the census and the context the instrument requires. The handler prepares a separate run, checks the build and opens the stages in order. The aggregator reads, codes, builds a model, returns it to the cases and writes the resulting account. Keep each stage's outputs, reasoning record and declared checkpoints. Move to the next stage when its outputs and checks meet its contract and the handler records the close.
 
-The aggregator develops the interpretation and owns it. The handler is a separate agent that operates the run and brings decisions to the investigator. A stage card gives the full instructions for one stage; an agent reading key lists what the agent must read. A stage is one part of the analysis, and legs divide its larger tasks.
+The aggregator develops the account, and the authors remain responsible for its interpretation. The handler is a separate agent that operates the run and brings decisions to them. A stage card gives the full instructions for one stage; an agent reading key lists what the agent must read. A stage is one part of the analysis, and legs divide its larger tasks.
 
 ## Starting from communities already coded
 
@@ -22,11 +22,11 @@ The 14 shared community checkpoint pairs do not include every original community
 
 ## Return the model to communities
 
-At the D1 close, give `out/handoff-D/HANDLER.md` to the chat that holds the original community coders. That chat acts as the adaptation handler. At D3b, give it `out/handoff-D/recheck/HANDLER.md` so it can return to the D2 sessions. The investigator dispatches the verdict readers through `dispatch.sh`. Only the saved community coders answer the return.
+At the D1 close, give `out/handoff-D/HANDLER.md` to the chat that holds the original community coders. That chat acts as the adaptation handler. At D3b, give it `out/handoff-D/recheck/HANDLER.md` so it can return to the D2 sessions. The authors dispatch the verdict readers through `dispatch.sh`. Only the saved community coders answer the return.
 
 ## Documents for this handler
 
-- [Handler protocol](../sources/handler.html): how the handler operates the run and brings decisions to the investigator.
+- [Handler protocol](../sources/handler.html): how the handler operates the run and brings decisions to the authors.
 - [Build and run](../sources/how-to-run.html): building a separate run and its acceptance checks.
 - [Agent reading key](../agents/aggregator.html): what the handler must read, and the inputs and boundaries when starting from coded communities.
 
