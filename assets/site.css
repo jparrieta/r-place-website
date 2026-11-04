@@ -499,3 +499,5 @@ main .stage-list p{margin:0 0 .25rem}
 }
 #main:is(.page-organism,.page-composition) h1+p:not([class]){font-size:var(--fs-body)!important;line-height:1.65;max-width:60ch!important}
 @media(max-width:680px){#results-population table.dims-table caption{display:block;max-width:none}}
+/* Wide charts (codes per hour) keep a readable size on phones and scroll inside their frame. */
+@media(max-width:680px){#main .data-figure.wide{overflow-x:auto}#main .data-figure.wide img{min-width:720px}#main .data-figure.wide figcaption{position:sticky;left:0;max-width:calc(100vw - 2rem)}}
