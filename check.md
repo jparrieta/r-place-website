@@ -48,7 +48,7 @@ On this page: [The record](#the-record) · [Community coding](#community-coding)
 - [Completed checks and planned comparisons](guides/study.html#how-the-model-is-checked): Proposal, the three levels of checks; Appendix 5.4.
 - [The r/place subreddit, left out of the population model](results/population-record.html#the-rplace-subreddit): Proposal, the three levels of checks.
 - [Checkpoint interviews: Chat Locally and Chat Online](interviews.html): Proposal, the repository; Appendix 5.5. Choose a stage, then Chat Locally; Chat Online is not connected yet.
-- [35 aggregator checkpoints, and two for each of the 14 communities that built in the Dutch area](launch-commands.html): Appendix 5.5. One launch command for each of the 63. The Appendix gives 24 aggregator checkpoints, a miscount: all 35 were pushed on time, but a GitHub bug kept 11 of them from showing as live.
+- [35 aggregator checkpoints, and two for each of the 14 communities that built in the Dutch area](launch-commands.html): Appendix 5.5. One launch command for each of the 63. The Appendix gives 24 aggregator checkpoints, a miscount: all 35 were pushed on time, but a GitHub bug kept 11 of them from showing as live. The 63 are the selected boundaries; the repository holds hundreds of saved checkpoints, 370 in [the full list](checkpoint-index.html), among them intermediate pauses and the communities' D2 and D3 returns.
 
 ## Not on the site yet
 
