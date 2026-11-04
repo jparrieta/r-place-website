@@ -33,7 +33,7 @@ The record has limits. Each community's life is longer than the event: groups ex
 
 ## Representational scope
 
-The model provides a basis for comparison with open-source communities and self-managing firms (O'Mahony & Ferraro, 2007; Lee & Edmondson, 2017). Only 46 of the 705 coded communities show a leader, a vote, an oath, a sanction or an explicit division of work. These indicators describe different arrangements and do not form a single measure of formal authority. Extending the model to hierarchical firms requires further evidence. Within this scope, eight dimensions relate aspects of organizing in the same communities ([the population model](results/population.html)), and six candidate organizational forms describe recurring differences among them ([the forms](results/population-forms.html)).
+The model provides a basis for comparison with open-source communities and self-managing firms (O'Mahony & Ferraro, 2007; Lee & Edmondson, 2017). A decided element of order (a leader, a vote, an oath, a sanction or a division of work) appears in a minority of communities: 44 have a coded theme of it, and about 119 when the coders checked the model against their records ([how each count is made](results/population-aggregation.html#decided-order)). These indicators describe different arrangements and do not form a single measure of formal authority. Extending the model to hierarchical firms requires further evidence. Within this scope, eight dimensions relate aspects of organizing in the same communities ([the population model](results/population.html)), and six candidate organizational forms describe recurring differences among them ([the forms](results/population-forms.html)).
 
 ## Standardization
 
