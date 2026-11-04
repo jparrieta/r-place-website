@@ -1,0 +1,83 @@
+[
+  {
+    "name": "ALL-COMMANDS.md",
+    "status": "pass",
+    "sha256": "f2fd026dc6b43e3cf1f9317d774a8d5ba61e4fc1f04c586d9b5360192a0159c8",
+    "bytes": 17223,
+    "asset_id": 708871407,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/ALL-COMMANDS.md",
+    "readback_utc": "2026-11-04T08:56:30.943202+00:00"
+  },
+  {
+    "name": "SOURCES.json",
+    "status": "pass",
+    "sha256": "024b007d685f11c1b2f71c5c3b77eb446a05a94123e09387214732123c20314f",
+    "bytes": 22985,
+    "asset_id": 708871405,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/SOURCES.json",
+    "readback_utc": "2026-11-04T08:56:31.615765+00:00"
+  },
+  {
+    "name": "catalog.json",
+    "status": "pass",
+    "sha256": "27fb9f2b4fc271d3fe6d64071dd398209d6a257bfd0a60acb0f51d6c8c19af51",
+    "bytes": 252659,
+    "asset_id": 708871556,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/catalog.json",
+    "readback_utc": "2026-11-04T08:56:32.487756+00:00"
+  },
+  {
+    "name": "rplace-interviews.zip",
+    "status": "pass",
+    "sha256": "1ac51f8ec770f43e0a29e65fe34e22de6e66443b423987691308f594cb71ad2c",
+    "bytes": 102860904,
+    "asset_id": 708917792,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/rplace-interviews.zip",
+    "readback_utc": "2026-11-04T09:14:33.858998+00:00"
+  },
+  {
+    "name": "start-interview.sh",
+    "status": "pass",
+    "sha256": "3ca3b8d3ce0254860d21d6ca51e63342487fa5f7310d3110328e6d4b90096f75",
+    "bytes": 7086,
+    "asset_id": 708917796,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/start-interview.sh",
+    "readback_utc": "2026-11-04T09:14:35.789902+00:00"
+  },
+  {
+    "name": "README.md",
+    "status": "pass",
+    "sha256": "9581204fe6af34ae4f87e4eadf2342d7ee87f63929d8ce1d1514f087ffc23045",
+    "bytes": 2608,
+    "asset_id": 708917789,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/README.md",
+    "readback_utc": "2026-11-04T09:14:37.571400+00:00"
+  },
+  {
+    "name": "PACKAGE.json",
+    "status": "pass",
+    "sha256": "8c91a73d3dd6ef9b728aaf887d26ffedf7efff24117dce68155fb0ee0a2d22c4",
+    "bytes": 344,
+    "asset_id": 708917795,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/PACKAGE.json",
+    "readback_utc": "2026-11-04T09:14:39.434965+00:00"
+  },
+  {
+    "name": "VALIDATION.json",
+    "status": "pass",
+    "sha256": "935c3fc7788aab1aa5d1882574a0667472df7312dffaf5d67212883893a62e62",
+    "bytes": 2737,
+    "asset_id": 708949718,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/VALIDATION.json",
+    "readback_utc": "2026-11-04T09:22:45.299268+00:00"
+  },
+  {
+    "name": "SHA256SUMS",
+    "status": "pass",
+    "sha256": "3b7147cace712b63e90798d194ce03559eeb7a718856070f805c7c2b13f1a26e",
+    "bytes": 1663,
+    "asset_id": 708949717,
+    "url": "https://github.com/jparrieta/r-place/releases/download/untagged-a2f4d923dd5ea9b52b19/SHA256SUMS",
+    "readback_utc": "2026-11-04T09:22:46.041577+00:00"
+  }
+]

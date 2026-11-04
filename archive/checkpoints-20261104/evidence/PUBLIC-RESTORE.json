@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "checkpoint": "aggregator--claude-v43-1--C4-field--E2.E2b",
+  "files": 68737,
+  "source_session": "39345b17-c37d-4deb-841c-3de94e3f99c9",
+  "new_model_calls": 0,
+  "source_recipe_sha256": "53b472a4847cefca5e69748d5278aff47d5ea6820a6fe350274b3be6ba2dd9da",
+  "restoration": {
+    "repository": "jparrieta/r-place",
+    "commit": "f27566528a5102d944c6ddc3d2e2e98b839cbab8",
+    "checkpoint_id": "aggregator--claude-v43-1--C4-field--E2.E2b",
+    "tested_bundle_sha256": "6bb4c5c76fec8c31eaafd98bc7514e21e8e97e61dfd79c135e1f7732491c3688",
+    "git_files": 68347,
+    "supplemental_files": 390,
+    "primary_transcript_source": "git",
+    "supplement_url": "https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/E2.E2b.supplement.tar.gz",
+    "supplement_sha256": "50f2d06dcfcec4f03bc117cd84e0e6f2bad4d1ecd16d68d336ed072ca5bf4153",
+    "original_files_url": "https://github.com/jparrieta/r-place/tree/f27566528a5102d944c6ddc3d2e2e98b839cbab8/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT",
+    "all_saved_files_hashes_and_modes_match": true,
+    "no_archive_fallback": true,
+    "route": "original-github"
+  },
+  "finished_utc": "2026-11-04T09:21:36.785316+00:00",
+  "owned_restored_world_removed": true
+}
