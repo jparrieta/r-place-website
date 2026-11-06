@@ -1,145 +1,131 @@
-# r/place checkpoint launch commands
-# Paste one into Terminal on macOS or Linux. The launcher and the eleven newer supplements are assets of the public release checkpoint-interviews-complete-20261104.
+# r/place checkpoint commands, review copy
+# Paste one into Terminal on macOS or Linux. Each downloads one archive from https://github.com/os-fruit-fly/rplace/releases/tag/checkpoints-review-20261104, checks it and runs its resume.sh.
 
 ## The aggregator
 # A1.A1b-55, reading block (aggregator--claude-v43-1--C4-field--A1.A1b-55)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--A1.A1b-55'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-A1b-55
 
 # B1.B1e, scheme standing (aggregator--claude-v43-1--C4-field--B1.B1e)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B1.B1e'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-B1e
 
 # B2.B2d, gold and stability check (aggregator--claude-v43-1--C4-field--B2.B2d)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B2.B2d'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-B2d
 
 # B3.B3b, check (aggregator--claude-v43-1--C4-field--B3.B3b)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B3.B3b'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-B3b
 
 # B4.B4c, check and final placements (aggregator--claude-v43-1--C4-field--B4.B4c)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--B4.B4c'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-B4c
 
 # C1.C1a-11, pass (aggregator--claude-v43-1--C4-field--C1.C1a-11)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--C1.C1a-11'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-C1a-11
 
 # C2.C2d-02, closing pass (aggregator--claude-v43-1--C4-field--C2.C2d-02)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--C2.C2d-02'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-C2d-02
 
 # C3.C3c, the four problems (aggregator--claude-v43-1--C4-field--C3.C3c)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--C3.C3c'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-C3c
 
 # C4.C4a, the field (aggregator--claude-v43-1--C4-field--C4.C4a)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--C4.C4a'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-C4a
 
 # C5.C5d-p2, table, model and figure (aggregator--claude-v43-1--C4-field--C5.C5d-p2)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--C5.C5d-p2'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-C5d-p2
 
 # D1.D1a, build (aggregator--claude-v43-1--C4-field--D1.D1a)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D1.D1a'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-D1a
 
 # D2.D2a, check (aggregator--claude-v43-1--C4-field--D2.D2a)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D2.D2a'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-D2a
 
 # D3.D3c, D3c (aggregator--claude-v43-1--C4-field--D3.D3c)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D3.D3c'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-D3c
 
 # D4.D4a-08, cut (aggregator--claude-v43-1--C4-field--D4.D4a-08)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D4.D4a-08'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-D4a-08
 
 # D5.D5a-41, branch (aggregator--claude-v43-1--C4-field--D5.D5a-41)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D5.D5a-41'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-D5a-41
 
 # D6.D6a-18, dimension (aggregator--claude-v43-1--C4-field--D6.D6a-18)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--D6.D6a-18'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-D6a-18
 
 # E1.E1e, experience (aggregator--claude-v43-1--C4-field--E1.E1e)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'aggregator--claude-v43-1--C4-field--E1.E1e'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-E1e
+
+# E2.E2b, next instrument (aggregator--claude-v43-1--C4-field--E2.E2b)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh aggregator-E2b
 
 ## Community coders
 # r/PlaceNL, 5.6 case-lead close (community--PlaceNL--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--PlaceNL--coding-close'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-PlaceNL-coding-close
 
 # r/PlaceNL, 6.1 local model, R6 (community--PlaceNL--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--PlaceNL--R6'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-PlaceNL-R6
 
 # r/thenetherlands, 5.6 case-lead close (community--thenetherlands--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--thenetherlands--coding-close'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-thenetherlands-coding-close
 
 # r/thenetherlands, 6.1 local model, R6 (community--thenetherlands--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--thenetherlands--R6'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-thenetherlands-R6
 
 # r/cirkeltrek, 5.6 case-lead close (community--cirkeltrek--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--cirkeltrek--coding-close'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-cirkeltrek-coding-close
 
 # r/cirkeltrek, 6.1 local model, R6 (community--cirkeltrek--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--cirkeltrek--R6'
-
-# r/norge, 5.6 case-lead close (community--norge--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--norge--coding-close'
-
-# r/norge, 6.1 local model, R6 (community--norge--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--norge--R6'
-
-# r/norway, 5.6 case-lead close (community--norway--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--norway--coding-close'
-
-# r/norway, 6.1 local model, R6 (community--norway--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--norway--R6'
-
-# r/sweden, 5.6 case-lead close (community--sweden--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--sweden--coding-close'
-
-# r/sweden, 6.1 local model, R6 (community--sweden--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--sweden--R6'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-cirkeltrek-R6
 
 # r/greece, 5.6 case-lead close (community--greece--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--greece--coding-close'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-greece-coding-close
 
 # r/greece, 6.1 local model, R6 (community--greece--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--greece--R6'
-
-# r/czech, 5.6 case-lead close (community--czech--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--czech--coding-close'
-
-# r/czech, 6.1 local model, R6 (community--czech--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--czech--R6'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-greece-R6
 
 # r/armenia, 5.6 case-lead close (community--armenia--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--armenia--coding-close'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-armenia-coding-close
 
 # r/armenia, 6.1 local model, R6 (community--armenia--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--armenia--R6'
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-armenia-R6
 
-# r/indonesia, 5.6 case-lead close (community--indonesia--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--indonesia--coding-close'
+# r/FloydVsVoid, 5.6 case-lead close (community--FloydVsVoid--coding-close)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-FloydVsVoid-coding-close
 
-# r/indonesia, 6.1 local model, R6 (community--indonesia--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--indonesia--R6'
+# r/FloydVsVoid, 6.1 local model, R6 (community--FloydVsVoid--R6)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-FloydVsVoid-R6
 
-# r/placehearts, 5.6 case-lead close (community--placehearts--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--placehearts--coding-close'
+# r/cubers, 5.6 case-lead close (community--cubers--coding-close)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-cubers-coding-close
 
-# r/placehearts, 6.1 local model, R6 (community--placehearts--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--placehearts--R6'
+# r/cubers, 6.1 local model, R6 (community--cubers--R6)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-cubers-R6
 
-# r/mindcrack, 5.6 case-lead close (community--mindcrack--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--mindcrack--coding-close'
+# r/gorillaz, 5.6 case-lead close (community--gorillaz--coding-close)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-gorillaz-coding-close
 
-# r/mindcrack, 6.1 local model, R6 (community--mindcrack--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--mindcrack--R6'
+# r/gorillaz, 6.1 local model, R6 (community--gorillaz--R6)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-gorillaz-R6
 
-# r/blackmirror, 5.6 case-lead close (community--blackmirror--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--blackmirror--coding-close'
+# r/warframe, 5.6 case-lead close (community--warframe--coding-close)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-warframe-coding-close
 
-# r/blackmirror, 6.1 local model, R6 (community--blackmirror--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--blackmirror--R6'
+# r/warframe, 6.1 local model, R6 (community--warframe--R6)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-warframe-R6
 
-# r/Goodboye, 5.6 case-lead close (community--Goodboye--coding-close)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--Goodboye--coding-close'
+# r/dallasstars, 5.6 case-lead close (community--dallasstars--coding-close)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-dallasstars-coding-close
 
-# r/Goodboye, 6.1 local model, R6 (community--Goodboye--R6)
-bash -c 'set -e; launcher=$(curl -fsSL "$1"); exec bash -c "$launcher" -- "$2"' -- 'https://github.com/jparrieta/r-place/releases/download/checkpoint-interviews-complete-20261104/start-interview.sh' 'community--Goodboye--R6'
+# r/dallasstars, 6.1 local model, R6 (community--dallasstars--R6)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-dallasstars-R6
 
-## From the published r-place workspace
-# E2.E2b, next instrument (aggregator--claude-v43-1--C4-field--E2.E2b), published r-place workspace, opens Claude Code
-# launcher https://raw.githubusercontent.com/jparrieta/r-place-website/413f79f164d4da088cc969aec8fed1fc291f9e64/archive/checkpoints-20261104/launchers/e2b-git-launcher.zip sha256 a69ca259600deda9a1d87d971797c2065245ebca48e86de4479617d6b080198f
-bash -c 'set -e; script=$(curl -fsSL "$1/start-e2b-from-rplace.sh"); exec bash -c "$script" -- "$1"' -- 'https://raw.githubusercontent.com/jparrieta/r-place-website/413f79f164d4da088cc969aec8fed1fc291f9e64/archive/checkpoints-20261104'
+# r/ik_ihe, 5.6 case-lead close (community--ik_ihe--coding-close)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-ik_ihe-coding-close
+
+# r/ik_ihe, 6.1 local model, R6 (community--ik_ihe--R6)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-ik_ihe-R6
+
+# r/GreyBlob, 5.6 case-lead close (community--GreyBlob--coding-close)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-GreyBlob-coding-close
+
+# r/GreyBlob, 6.1 local model, R6 (community--GreyBlob--R6)
+curl -fL https://github.com/os-fruit-fly/rplace/releases/download/checkpoints-review-20261104/get-checkpoint.sh -o get-checkpoint.sh && bash get-checkpoint.sh community-GreyBlob-R6
 

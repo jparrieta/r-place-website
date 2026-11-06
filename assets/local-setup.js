@@ -13,6 +13,7 @@
     const heading=node('h3',c.kind==='aggregator'?'Run '+c.stage+' locally':'Run r/'+c.entity+' locally');
     heading.id=panel.id+'-title';panel.setAttribute('aria-labelledby',heading.id);panel.append(heading);
     panel.append(node('p','Checkpoint '+c.milestone+': '+c.title+'.'));
+    if(c.local_route?.kind==='review-archive'){renderArchive(panel,c,c.local_route);return;}
     if(c.local_route?.kind==='published-git'){renderGit(panel,c,c.local_route);return;}
     if(c.local_route?.kind==='release-launcher'){renderRelease(panel,c,c.local_route);return;}
     if(c.availability!=='ready'||!c.bundle?.url||!c.bundle?.sha256){panel.append(node('p',c.reason||'This checkpoint is not yet available for local interviews.'));return;}
@@ -32,6 +33,21 @@
     const launch=node('li');launch.append(node('p','Open checkpoint '+c.milestone+'.'));command(launch,'python3 -m website.interview launch '+c.id,'Copy launch command');
     steps.append(download,login,launch);panel.append(steps);
     const offline=node('details');offline.append(node('summary','Already downloaded the checkpoint?'),link('Verified checkpoint bundle',c.bundle.url));command(offline,'python3 -m website.interview launch '+c.id+' --bundle /path/to/bundle.tar.gz','Copy offline command');panel.append(offline);
+    panel.append(link('Full setup instructions','guides/interviews.html#open-an-interview-on-your-computer'));
+  }
+  /* The review copy: one archive per checkpoint, downloaded, checked, unpacked and resumed by get-checkpoint.sh. */
+  function renderArchive(panel,c,r){
+    if(!/^[A-Za-z0-9][A-Za-z0-9_.-]*$/.test(r.archive)||!['codex','claude'].includes(c.backend)||r.command!=='curl -fL '+r.script_url+' -o get-checkpoint.sh && bash get-checkpoint.sh '+r.archive)throw Error('This checkpoint needs a manually checked launch command.');
+    const cli=c.backend==='claude'?'Claude Code':'Codex';
+    panel.append(node('p','Paste this command into Terminal on your Mac or Linux computer. It downloads the release helper, then this checkpoint\'s archive, which it checks, unpacks in ~/rplace-checkpoints and opens as a private interview page on your computer. Large archives come in parts, joined automatically.'));
+    command(panel,r.command);
+    const version=(c.cli_version||'').replace(/\s*\(Claude Code\)/,'').replace(/^codex-cli\s+/,'');
+    panel.append(node('p','Use Python 3.11 or newer and '+cli+(version?' '+version:'')+'. Allow about three times the archive\'s size in free disk space. No model turn begins until you ask a question; questions use your own account.'));
+    panel.append(node('h4','Or follow these steps'));
+    const steps=node('ol');steps.className='local-setup-steps';
+    const get=node('li');const rel=node('a','Download get-checkpoint.sh');rel.href=r.script_url;get.append(rel,node('p','The release helper; read it before running it if you like. The release also lists every archive and its checksum.'));
+    const open=node('li');open.append(node('p','Run it with this checkpoint\'s archive name.'));command(open,'bash get-checkpoint.sh '+r.archive,'Copy the step');
+    steps.append(get,open);panel.append(steps);
     panel.append(link('Full setup instructions','guides/interviews.html#open-an-interview-on-your-computer'));
   }
   /* A checkpoint opened with the release launcher of 4 November 2026: the exact command from the release's ALL-COMMANDS.md. */
@@ -54,7 +70,7 @@
   }
   /* A checkpoint opened from the published r-place workspace (handoff checkpoints-20261104): no bundle, Claude Code in the terminal. */
   function renderGit(panel,c,r){
-    if(c.backend!=='claude'||r.opens!=='claude-cli'||!/^https:\/\/raw\.githubusercontent\.com\/jparrieta\/r-place-website\/[0-9a-f]{40}\//.test(r.starter_url)||!r.command.includes(r.starter_url.replace(/\/start-e2b-from-rplace\.sh$/,'')))throw Error('This checkpoint needs a manually checked launch command.');
+    if(c.backend!=='claude'||r.opens!=='claude-cli'||!/^https:\/\/raw\.githubusercontent\.com\/os-fruit-fly\/os-fruit-fly\.github\.io\/[0-9a-f]{40}\//.test(r.starter_url)||!r.command.includes(r.starter_url.replace(/\/start-e2b-from-rplace\.sh$/,'')))throw Error('This checkpoint needs a manually checked launch command.');
     const leg=c.milestone.split('.').pop(),gib=Math.round(r.minimum_free_bytes/1024**3),cli=r.cli_version.split(' ')[0];
     panel.append(node('p','Paste this command into Terminal on your Mac or Linux computer. It restores the published r-place workspace at commit '+r.commit.slice(0,7)+' and the unchanged '+leg+' conversation from GitHub, checks every file, asks you to sign in to Claude if needed, and opens a separate interview in Claude Code, in your terminal.'));
     command(panel,r.command);

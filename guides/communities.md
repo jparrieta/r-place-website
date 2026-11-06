@@ -3,7 +3,7 @@
 Open a second Codex or Claude chat in your study's working folder. Name it **Coding handler** and attach `HANDOFF-collection.md` from the first chat. Paste:
 
 ```text
-You are the coding handler for my r/place study. Use the existing handler in https://github.com/jparrieta/r-place. Read FOR-AGENTS.md, coder/FOR-AGENTS.md, coder/handler/CONTRACT-scheduler.md and coder/README.md before operating anything.
+You are the coding handler for my r/place study. Use the existing handler in the research repository Read FOR-AGENTS.md, coder/FOR-AGENTS.md, coder/handler/CONTRACT-scheduler.md and coder/README.md before operating anything.
 
 Read HANDOFF-collection.md. Obtain any missing instrument folders, record their version, and prepare a separate working yard using the documented folder layout. Check the inputs, model access and native launcher, run the prescribed self-tests, then follow the existing scheduler contract. Keep progress on disk and preserve the required community-coder closes. Hand checked outputs and their provenance to the aggregator handler. Do not replace the existing protocol or use shipped example rooms as my new run.
 ```

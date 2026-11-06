@@ -8,31 +8,31 @@ The [evidence register](../evidence.json) lists exact file versions, hashes, che
 
 ## T. Track records: what happened and why?
 
-The [model history](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model/history.jsonl) ties each model change to a leg, its reasons and its source communities. The [C2 close receipt](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/CONTROL/close-status-C2.C2d-02.json) names a completed turn, its validator and the report hashes. The report hash was checked against its saved file for this guide on 24 October 2026.
+The model history ties each model change to a leg, its reasons and its source communities. The C2 close receipt names a completed turn, its validator and the report hashes. The report hash was checked against its saved file for this guide on 24 October 2026.
 
 A close receipt records completion and checks. Each inference is in the saved conversation and files, and resuming the agent needs its checkpoint bundle.
 
 ## R. Review against sources: what was tested?
 
-[The C2 review](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/review-C2.md) keeps nine objections and names the ten model sections left out of the review packet. The [reviewer metadata](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_fleet_raw/C2/C2-reviewer/r1.meta.json) binds the reviewer to a packet hash; that hash and the returned model hash match their saved files.
+The C2 review keeps nine objections and names the ten model sections left out of the review packet. The reviewer metadata binds the reviewer to a packet hash; that hash and the returned model hash match their saved files.
 
 The reviewer saw selected sections. A favorable review and valid file shapes say nothing about whether the model is true. [C2's full instructions](../sources/stage-C2.html) explain the review criterion.
 
 ## A. Accept independently: who could decide?
 
-[QC2-001](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-001.md) records a handler ruling under J's delegation, including what the reviewer may see. [The handler protocol](../sources/handler.html) separates the duties of the aggregator, the handler and the authors.
+QC2-001 records a handler ruling under J's delegation, including what the reviewer may see. [The handler protocol](../sources/handler.html) separates the duties of the aggregator, the handler and the authors.
 
 This is a delegated decision on scope. The aggregator answers the critic's objections, and no separate, version-bound acceptance decision has been found for every output. A critique, a close and a scientific acceptance are three different things.
 
 ## C. Control transitions: what may advance?
 
-[QC2-002](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_answers/QC2-002.md) states J's direction for the final C2 pass and how to treat the stopping criterion. The [close report](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/CONTROL/validation-C2.C2d-02.txt) keeps a warning although the mechanical check passed. Read the ruling and the warning together; each covers its own point.
+QC2-002 states J's direction for the final C2 pass and how to treat the stopping criterion. The close report keeps a warning although the mechanical check passed. Read the ruling and the warning together; each covers its own point.
 
 A stage gate and the decision to publish a checkpoint are separate decisions. A readable record may have no downloadable bundle or live interview. [See available routes](../interviews.html).
 
 ## E. Evaluate corrections: did the repair work?
 
-[The C2c response](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-C2.md#L504-L516) accepts the reviewer's objection to the label "Present" and specifies a correction. [Pass 4](https://github.com/jparrieta/r-place/blob/c070d990be88234ccd74101d4104160e71a28c5e/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/model-p4.md#L11) records the replacement as "order fails in". The earlier version is kept. This audit checked the revised wording, and the counts beneath it were not checked.
+The C2c response accepts the reviewer's objection to the label "Present" and specifies a correction. Pass 4 records the replacement as "order fails in". The earlier version is kept. This audit checked the revised wording, and the counts beneath it were not checked.
 
 The later close report shows no independent, targeted re-check of every correction, so that wider claim is unverified.
 

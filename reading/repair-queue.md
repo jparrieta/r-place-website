@@ -42,9 +42,9 @@ After every ended attempt, keep only the compressed forkable case-lead store whe
 
 The live yard is:
 
-`/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30`
+`~/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30`
 
-Repair scripts must derive the yard root from their own `_tools` location. Do not reintroduce absolute references to `/Users/arrieta/Documents/Codex/rplace/atlas_yard` in repair-control code.
+Repair scripts must derive the yard root from their own `_tools` location. Do not reintroduce absolute references to `~/Documents/Codex/rplace/atlas_yard` in repair-control code.
 
 Old archived case-lead stores may contain runtime descriptors and checkpoint manifests with the old path. On restore, update `STORE.json`, `state/runtime.json`, and saved runtime evidence to the new store and source-room paths. If the native case-lead history cannot fork because a source rollout is missing after the move, preserve the old archive and start a fresh case lead from the contract. Do not repeatedly try the broken fork lineage.
 

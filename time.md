@@ -1,6 +1,6 @@
 # Time and costs
 
-How long each part of the study took and what it consumed, where it was recorded. All dates are 2026 and all times UTC; money is in US dollars. From the first recorded community coding run on 18 August to the last aggregator session on 28 October is 71 days. The figures come from the cost and time dataset that the run's handler, the conversation that ran the aggregator's stages, built on 29 October, built from the session transcripts, the Codex receipts and the OpenRouter export, unless a line says otherwise. The records are in the [research repository](https://github.com/jparrieta/r-place).
+How long each part of the study took and what it consumed, where it was recorded. All dates are 2026 and all times UTC; money is in US dollars. From the first recorded community coding run on 18 August to the last aggregator session on 28 October is 71 days. The figures come from the cost and time dataset that the run's handler, the conversation that ran the aggregator's stages, built on 29 October, built from the session transcripts, the Codex receipts and the OpenRouter export, unless a line says otherwise. The records are in the research repository.
 
 | | |
 |---|---|

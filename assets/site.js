@@ -64,7 +64,7 @@
         const card=el('article',null,primary?'checkpoint checkpoint-stage':'checkpoint');card.id='checkpoint-'+c.id;card.setAttribute('aria-label',c.milestone);
         if(!primary)card.append(el('h3',c.kind==='community'?c.title:`${c.milestone.split('.').pop()} · ${c.title}`));
         if(c.kind==='community'){const descriptions={'coding-close':'After coding: codes, themes and the case account.','R6':'After the local model: the account, model and coding structure.','D2':'After the return: how the population model fits this community.','D3':'After the re-check: how the revised model fits this community.'};if(descriptions[c.milestone])card.append(el('p',descriptions[c.milestone],'why'));}
-        const privateChoice=privateChoices.get(c.id),ready=c.availability==='ready'&&c.bundle?.url&&c.bundle?.sha256,h=historical.checkpoints[c.id];
+        const privateChoice=privateChoices.get(c.id),ready=(c.availability==='ready'&&c.bundle?.url&&c.bundle?.sha256)||c.local_route?.kind==='review-archive',h=historical.checkpoints[c.id];
         if(!primary&&h.saved_utc)card.append(el('p','Saved '+h.saved_utc.slice(0,10),'checkpoint-date'));
         const actions=el('div',null,'actions chat-actions'),local=el('button','Chat Locally');
         let onlineURL='online-chat.html?checkpoint='+encodeURIComponent(c.id);
@@ -84,13 +84,13 @@
         if(c.outputs_url)links.append(link('Browse published outputs',c.outputs_url));if(c.original_source)links.append(link('Original GitHub files',c.original_source.url));evidence.append(links);
         const state=privateChoice||ready?'ready':c.candidate?'pending':c.availability==='record-only'?'record':'none';evidence.append(el('span',privateChoice?'Ready for a private interview':c.availability==='ready'?'Verified bundle':c.candidate?'Restore checked, release pending':c.availability==='record-only'?'Record only':'Not available','badge badge-'+state));
         evidence.append(el('p',h.saved_utc?`Saved-state date: ${h.saved_utc}. ${h.saved_date_basis}`:'Saved-state date: not recorded.'));
-        const source=el('p');source.append('Source commit: ',link(h.source_commit.slice(0,12),`https://github.com/jparrieta/r-place/tree/${h.source_commit}`),`, ${h.source_commit_date}. This is the commit date, not the close date.`);evidence.append(source);
+        const source=el('p');if(!h.source_commit)source.append('Source commit: not recorded on this site.');else source.append('Source commit: ',h.source_commit.slice(0,12),`, ${h.source_commit_date}. This is the commit date, not the close date.`);evidence.append(source);
         for(const note of h.notes){const p=el('p',note.text+' ','notice');p.append(link(note.label,note.url));evidence.append(p);}
         if(c.outputs_url)evidence.append(el('p','Published outputs may include later work. Read saved outputs for the selected files at this checkpoint. The launcher verifies the full saved state.','why'));
         const d=el('details');d.append(el('summary','Provenance and restore details'));const dl=el('dl');for(const k of ['backend','model','effort','cli_version','restored_cli_version','session_id','parent_checkpoint','origin_run','outputs_scope'])dl.append(el('dt',k.replaceAll('_',' ')),el('dd',c[k]||'Not recorded'));d.append(dl);
         if(h.lineage){d.append(el('p',`Verified D2 fork parent: ${h.lineage.fork_parent}. Original session: ${h.lineage.forked_from_session}. Fork boundary ordinal: ${h.lineage.forked_from_ordinal_exclusive}. D3 retains D2 session ${h.lineage.d2_session} in run.json.`),link('Selected native identity evidence',`history-evidence/${c.entity}-D2-lineage.json`));}
         if(c.original_source)d.append(link('File-by-file source recipe',c.original_source.recipe),el('p',`${c.original_source.git_files} files from the original GitHub commit; ${c.original_source.supplement_files} saved files from the declared supplement. The main conversation comes from ${c.original_source.primary_transcript_from_git?'the original GitHub transcript':'the saved-session archive, not a Git-tracked transcript'}.`),link('How original-source restoration works','ORIGINAL-SOURCES.md'));
-        if(ready)d.append(el('p',`Bundle SHA-256: ${c.bundle.sha256}`));evidence.append(d,link('Link to this checkpoint',`interviews.html?checkpoint=${encodeURIComponent(c.id)}`));card.append(evidence);return card;
+        if(ready&&c.bundle?.sha256)d.append(el('p',`Bundle SHA-256: ${c.bundle.sha256}`));evidence.append(d,link('Link to this checkpoint',`interviews.html?checkpoint=${encodeURIComponent(c.id)}`));card.append(evidence);return card;
       };
       if(kind==='aggregator'){
         list.append(cardFor(rows[0],true));

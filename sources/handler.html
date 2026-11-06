@@ -9,17 +9,14 @@ the principal investigator only what is theirs to decide. It is written
 for any handler, on any account: the one that built v38 was Claude in
 Cowork, with the whole repository mounted; the v43 run's handler is a
 Claude Code session on the PI's Mac (or Cowork), driving the legs
-through the leg handler, <a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/claude-adapter/LEGS.md">legs.py</a>.
+through the leg handler, legs.py.
 Every path below is from the repository root unless it starts in this
 folder. The analyst's rules are in the contract and the standing
-instructions; the person's lines are in <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/claude/READ-ME-FIRST.md">harness/READ-ME-FIRST.md</a>. This file
+instructions; the person's lines are in harness/READ-ME-FIRST.md. This file
 is the handler's. The coder side has its own handler, the yard's
-scheduler, under <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/coder/handler/CONTRACT-scheduler.md">coder/handler/CONTRACT-scheduler.md</a>;
-the Manual maps its files in <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/Manual/files/coder/yard-structure.md">the yard, file by
-file</a>.</p>
+scheduler, under coder/handler/CONTRACT-scheduler.md;
+the Manual maps its files in the yard, file by
+file.</p>
 <h2 id="two-platforms">Two platforms</h2>
 <p>The instrument in <code>../instrument/</code> is shared by Claude and
 Codex. What differs is held in four places only: the schedules
@@ -127,8 +124,7 @@ result</td>
 <tr>
 <td>git</td>
 <td>every version of every file, with the reason in the commit message;
-outside git, <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/instrument/tools/version_log.py">version_log.py</a> keeps
+outside git, version_log.py keeps
 copies</td>
 <td>at every change</td>
 </tr>
@@ -165,14 +161,13 @@ doing anything.</p>
 <tbody>
 <tr>
 <td>1. Paths</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/paths.py">paths.py</a></td>
+<td>paths.py</td>
 <td><code>python3 aggregator/handler/paths.py</code> shows every source
 it will read and whether it exists</td>
 </tr>
 <tr>
 <td>2. Rooms</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/import_rooms.py">import_rooms.py</a>, <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/extract_legacy.py">extract_legacy.py</a></td>
+<td>import_rooms.py, extract_legacy.py</td>
 <td>brings each coded room into
 <code>aggregator/input/coders/rooms/</code> in the one layout every room
 has: <code>import_rooms.py verified</code> takes every verified yard
@@ -183,36 +178,32 @@ yard</td>
 </tr>
 <tr>
 <td>3. Canvas</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/build_outcome.py">build_outcome.py</a>
-(<code>ATLAS ROOMS.tsv OUT</code>), <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/build_canvas.py">build_canvas.py</a></td>
+<td>build_outcome.py
+(<code>ATLAS ROOMS.tsv OUT</code>), build_canvas.py</td>
 <td>the six canvas fields per room from the atlas, and the artworks and
 hourly pixel series into <code>aggregator/input/canvas/</code></td>
 </tr>
 <tr>
 <td>4. Shelves</td>
-<td><a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/instrument/tools/build_shelves.py">aggregator/instrument/tools/build_shelves.py</a>,
-<a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/instrument/shelves/make_meta.py">aggregator/instrument/shelves/make_meta.py</a></td>
+<td>aggregator/instrument/tools/build_shelves.py,
+aggregator/instrument/shelves/make_meta.py</td>
 <td>the literature per stage, and one metadata page per work</td>
 </tr>
 <tr>
 <td>5. Build</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/claude/build.sh">harness/build.sh</a></td>
+<td>harness/build.sh</td>
 <td>lays out the run, builds the store, joins the canvas, writes the
 stage cards and the Manual</td>
 </tr>
 <tr>
 <td>6. Accept</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/claude/acceptance.sh">harness/acceptance.sh</a></td>
+<td>harness/acceptance.sh</td>
 <td>run by the PI after logging in the run's Claude once; must end ALL
 CLEAR (with <code>acceptance_v41.sh</code>, the second set)</td>
 </tr>
 <tr>
 <td>7. Leg handler</td>
-<td><a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/claude-adapter/probe_lifecycle.py">claude-adapter/probe_lifecycle.py</a></td>
+<td>claude-adapter/probe_lifecycle.py</td>
 <td>the live check of <code>legs.py</code>'s actor in a synthetic run
 outside the repository, once per CLI version; must pass every check</td>
 </tr>
@@ -244,7 +235,7 @@ closes legs with <code>legs.py open</code>, <code>run</code> and
 <code>wait</code>, and passes the PI's words with <code>say</code> and
 <code>answer</code> only when the PI asks. Each turn is one headless
 Claude process; the analyst's session, settings, guards and close are
-the harness's. <a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/claude-adapter/LEGS.md">LEGS.md</a> is the
+the harness's. LEGS.md is the
 reference; the skill <code>rplace-legs</code> gives the handler the same
 commands.</li>
 <li><strong>By hand.</strong> The PI types
@@ -355,10 +346,9 @@ that file, commit and push.</p>
 <p><strong>Before E1.</strong> The record it checks against is in the
 run:
 <code>aggregator/input/raw/&lt;sub&gt;/coder_corpus.jsonl.gz</code>,
-every frame room's coder corpus, built by <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/build_raw_record.py">build_raw_record.py</a> from the yard and
+every frame room's coder corpus, built by build_raw_record.py from the yard and
 Layer A, read only (<code>aggregator/input/raw/MANIFEST.tsv</code>). Run
-<a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/check_quotes.py">check_quotes.py</a>: it samples rooms and
+check_quotes.py: it samples rooms and
 checks every code's quote and every long quote in the case accounts
 against the record the coder read, and writes
 <code>aggregator/runs/claude-v43-1/DROPS/E1/quote-check-E1.json</code>,
@@ -433,12 +423,10 @@ interview points and finished stages.</li>
 <li><strong>Size.</strong> GitHub refuses a file over 100 MB. Split
 anything larger (<code>split -b 90m</code>) or keep it off git and link
 it.</li>
-<li><strong>Collection code.</strong> <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/gather_collection.py">gather_collection.py</a> copies the code
+<li><strong>Collection code.</strong> gather_collection.py copies the code
 that collected and built the data into a folder you name, skipping every
 data store, and lists which scripts touch which store.</li>
-<li><strong>Earlier versions.</strong> <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/bundle_history.py">bundle_history.py</a> packs earlier instrument
+<li><strong>Earlier versions.</strong> bundle_history.py packs earlier instrument
 versions into one archive in <code>archive/</code>, instruments only.
 Build it once and freeze it; git keeps every rebuild.</li>
 <li><strong>The data</strong> stays outside the repository; the Manual's
@@ -447,8 +435,7 @@ data page links it and states the terms.</li>
 commit, every interview point and finished stage a tag.</li>
 <li><strong>Analysis branches.</strong> A fork of the run from one
 verified close, with a new stage card or data, is made with
-<code>legs.py branch</code> (<a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/claude-adapter/LEGS.md">LEGS.md</a>, "An analysis branch"). Its
+<code>legs.py branch</code> (LEGS.md, "An analysis branch"). Its
 folder, <code>aggregator/runs/&lt;run&gt;--&lt;name&gt;/</code>, never
 reaches main; it is committed to its own Git branch,
 <code>analysis/&lt;run&gt;--&lt;name&gt;</code>.</li>
@@ -466,7 +453,7 @@ saw, where it got lost, and what is wrong against the code. Fix what is
 the Manual's; list what is the scripts' for the PI; record both in
 <code>DESIGN/</code>.</p>
 <h2 id="paths">Paths</h2>
-<p><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/paths.py">paths.py</a> resolves every location the scripts
+<p>paths.py resolves every location the scripts
 read. The instrument's own folders are found from where the scripts sit.
 The sources outside the repository (the coding yard, Layer A's records,
 the previous run's package; the pixel flow per artwork and the hourly
@@ -482,8 +469,8 @@ is made at run time: before each step <code>protocol_guard.py</code>
 renders the analyst's <code>.claude/settings.json</code> from
 <code>CONTROL/settings.template.json</code> with this machine's full
 paths, because the sandbox needs them, and that file is not committed.
-Copy <a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/aggregator/handler/paths.example.json">paths.example.json</a> to
+Copy paths.example.json to
 <code>paths.json</code> and set yours;
 <code>python3 aggregator/handler/paths.py</code> shows what each
 resolves to and whether it exists.</p>
-</main><footer><div><a href="../check.html">Check the papers</a><a href="../agents.html">For agents</a><a href="../reference.html">Full reference</a><a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>
+</main><footer><div><a href="../check.html">Check the papers</a><a href="../agents.html">For agents</a><a href="../reference.html">Full reference</a><a href="https://github.com/os-fruit-fly/rplace">Repository</a></div></footer></body></html>

@@ -24,7 +24,7 @@ An account can read well and still misread the record. The paper groups its chec
 
 ### Coding: does the account fit its evidence?
 
-Scripts check cited quotations against source items. A resolved quotation shows that the text exists; whether the reading of it is sound is a separate question. The paper also reports paired coding of 300 communities with two models. This site does not yet present a scored comparison of those codings, and the count is no estimate of reliability.
+Scripts check cited quotations against source items. A resolved quotation shows that the text exists; whether the reading of it is sound is a separate question. The paper also reports paired coding of 298 communities with two models. This site does not yet present a scored comparison of those codings, and the count is no estimate of reliability.
 
 ### Composition: do claims hold across cases?
 
@@ -40,6 +40,6 @@ The central r/place subreddit falls outside the frame of 705 communities. At [C4
 
 ## What is shared
 
-Saved reading pages cover 35 aggregator checkpoints and 28 community checkpoints, two for each of 14 selected communities. [Launch commands](../launch-commands.html) opens 18 of the aggregator checkpoints, one at the close of each stage, and all 28 community checkpoints. Other entries offer a record only.
+Saved reading pages cover 35 aggregator checkpoints and 28 community checkpoints, two for each of 14 selected communities. [Launch commands](../launch-commands.html) opens 18 of the aggregator checkpoints, one at the close of each stage, and 24 community checkpoints from 12 communities: the coding close and the local model (R6) of each. Other entries offer a record only.
 
 [Read saved outputs](../records/index.html) without starting an agent. [Interview a checkpoint](interviews.html) to ask new questions about it. GitHub downloads are public; hosted interviews for reviewers are not enabled. [Run the study](../run.html) explains the separate routes to reproduce the study and their prerequisites.

@@ -1,11 +1,13 @@
 # 1. Open the collection handler
 
+The data scripts and their READMEs: [data/](https://github.com/os-fruit-fly/rplace/tree/main/data) in this site's repository.
+
 Open a new Codex or Claude chat that can work with files and a shell. Name it **Collection handler**. Use an empty working folder for this study. A chat without file or shell access cannot run the collection scripts.
 
 [Download the collection handler brief](../agents/collection.md), attach it to the chat, then paste this prompt:
 
 ```text
-You are the Collection handler for my r/place study. Read the attached Collection handler brief first. Obtain the instrument from https://github.com/jparrieta/r-place into a separate working folder, record its version, and follow that brief and the repository's data recipes.
+You are the Collection handler for my r/place study. Read the attached Collection handler brief first. Obtain the instrument from the research repository into a separate working folder, record its version, and follow that brief and the repository's data recipes.
 
 Help me choose between the archived study inputs and a fresh collection. Obtain and check the required raw24, pixel, atlas and other inputs. Ask only for missing access or research decisions. Keep your head and action log on disk. Leave a checked handoff for the existing coding handler. Do not start coding or aggregation.
 ```
@@ -14,9 +16,9 @@ The handler can download the instrument and data, so the folders need no assembl
 
 ## Get the instrument
 
-Open the [research repository](https://github.com/jparrieta/r-place), then choose **Code → Download ZIP**, or clone it if you use Git. The repository is public.
+Open the research repository, then choose **Code → Download ZIP**, or clone it if you use Git. The repository is public.
 
-To use the original starting point, download the [verified starting package](https://github.com/jparrieta/r-place/releases/download/checkpoint-cloud-test-20261024/pristine-start.tar.gz) and extract it in an empty folder. It holds the first instrument and the prepared run at commit `f6588ae37d807884af5fdcc9f7e27a03b4ff253a`, with no aggregator conversation. The archive SHA-256 is `1755f467ec0e2a3753a616b5eb19ccfa5b5e1af187a61ceef4ec449274a89b4c`. Give this folder to the existing aggregator handler to start from the prepared inputs. A new collection still begins with the collection handler.
+To use the original starting point, download the verified starting package and extract it in an empty folder. It holds the first instrument and the prepared run at commit `f6588ae37d807884af5fdcc9f7e27a03b4ff253a`, with no aggregator conversation. The archive SHA-256 is `1755f467ec0e2a3753a616b5eb19ccfa5b5e1af187a61ceef4ec449274a89b4c`. Give this folder to the existing aggregator handler to start from the prepared inputs. A new collection still begins with the collection handler.
 
 The repository holds the instruments, scripts and recorded outputs. Large data stores and resumable checkpoint bundles are separate downloads. The interview launcher opens saved checkpoints and installs nothing of the research workflow.
 

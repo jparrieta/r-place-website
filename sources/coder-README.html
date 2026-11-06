@@ -62,9 +62,7 @@ on its own and runs from any machine with <code>python3</code>.</p>
     snapshots/after-fleet.tgz      the fork point
     forks/&lt;name&gt;/run/        a fresh lead&#39;s copy of the snapshot</code></pre>
 <p><strong>Which rooms.</strong> The population is the 706 communities
-with <code>handable = 1</code> in <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/coder/census/README.md">census/MASTER-census.csv</a>; <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/Manual/census.md">the census page</a> explains the judgements
+with <code>handable = 1</code> in census/MASTER-census.csv; the census page explains the judgements
 that made that list. The scheduler codes the rooms listed in
 <code>STATUS.tsv</code> (rebuilt by <code>_tools/status.py</code>) from
 the bottom up, smallest first. The study's yard held 741 rooms on 27
@@ -77,8 +75,7 @@ open), so 35 of the yard's 741 are outside the 706.</p>
 continuation</h2>
 <p>For a snapshot of both the <strong>case lead's native conversation
 and the whole room's filesystem</strong>, use
-<code>_tools/codex_lead.py</code> as described in <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/coder/handler/CHECKPOINTS.md">CHECKPOINTS.md</a>. Only the case lead
+<code>_tools/codex_lead.py</code> as described in CHECKPOINTS.md. Only the case lead
 needs a saved native session; brief writers and fleet coders do not. The
 adapter works in an isolated managed copy and checkpoints each completed
 lead reply.</p>
@@ -188,4 +185,4 @@ dispatch.</p>
 <code>room.py brief</code> unpack them beside their <code>.gz</code>
 when a room starts. The four rooms above 50,000 items unpack to hundreds
 of megabytes and cut into 100 to 400 slices each.</p>
-</main><footer><div><a href="../check.html">Check the papers</a><a href="../agents.html">For agents</a><a href="../reference.html">Full reference</a><a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>
+</main><footer><div><a href="../check.html">Check the papers</a><a href="../agents.html">For agents</a><a href="../reference.html">Full reference</a><a href="https://github.com/os-fruit-fly/rplace">Repository</a></div></footer></body></html>

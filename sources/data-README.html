@@ -2,7 +2,7 @@
 <title>Data | r/place</title><link rel="stylesheet" href="../assets/site.css"><script defer src="../assets/local-setup.js"></script><script defer src="../assets/site.js"></script><script defer src="../assets/reviewer.js"></script></head>
 <body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../index.html">r/place<span>An organizational fruit fly</span></a>
 <div class="utility"><nav class="task-nav" aria-label="Use the repository"><a class="check-link" href="../check.html">Check the papers</a><a data-reviewer-entry href="../open-interviews.html" target="_blank" rel="noopener">Reviewer sign in</a></nav><button id="theme" type="button" aria-label="Change color theme">Theme: light</button></div><nav class="menu" aria-label="Main"><a  href="../index.html">Overview</a><a  href="../organism.html">Model organism</a><a aria-current=location href="../instrument.html">Instrument</a><a  href="../results.html">Findings</a><a  href="../interviews.html">Checkpoint interviews</a></nav></header>
-<main id="main" class="page-reference" data-layer="Full reference"><nav class="parts" aria-label="Instrument"><a  href="../instrument.html">Instrument</a><a  href="../how-collection-works.html">Collection</a><a  href="../how-coding-works.html">Community coding</a><a  href="../how-it-works.html">Aggregation</a><a  href="../versions.html">Versions</a><a aria-current=location href="../run.html">Run the study</a></nav><h1 id="data">Data</h1><p class="notice">Authoritative source, reproduced unchanged. <a href="data-README.md" target="_blank" rel="noopener">Exact Markdown</a> · <a href="../reading/data-README.md" target="_blank" rel="noopener">Agent copy with resolved links</a>. These instructions govern research runs, not checkpoint interviews. They keep the run's own words: a <em>room</em> is a community, a <em>mark</em> an artwork, the <em>analyst</em> the aggregator, the <em>case lead</em> the community coder and the <em>global model</em> the population model.</p>
+<main id="main" class="page-reference" data-layer="Full reference"><nav class="parts" aria-label="Instrument"><a  href="../instrument.html">Instrument</a><a  href="../how-collection-works.html">Collection</a><a  href="../how-coding-works.html">Community coding</a><a  href="../how-it-works.html">Aggregation</a><a  href="../versions.html">Versions</a><a aria-current=location href="../run.html">Run the study</a></nav><h1 id="data">Data</h1><p class="notice">Authoritative source, reproduced unchanged. <a href="data-README.md" target="_blank" rel="noopener">Exact Markdown</a> · <a href="../reading/data-README.md" target="_blank" rel="noopener">Agent copy with resolved links</a> · <a href="https://github.com/os-fruit-fly/rplace/tree/main/data">The files: data/</a>. These instructions govern research runs, not checkpoint interviews. They keep the run's own words: a <em>room</em> is a community, a <em>mark</em> an artwork, the <em>analyst</em> the aggregator, the <em>case lead</em> the community coder and the <em>global model</em> the population model.</p>
 <p>How to get every piece of data the study used, and the scripts that
 made each. Seven stores, one folder each. A folder holds its README
 (what the store is, how big, how it was built, what was tested), the
@@ -21,7 +21,7 @@ where the study's own copy is.</p>
 <tbody>
 <tr>
 <td>the pixel record</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels/README.md">pixels/</a></td>
+<td>pixels/</td>
 <td>Reddit's 2017 tile dump: every placement, with the placer's hashed
 name</td>
 <td>16,559,897 placements</td>
@@ -29,7 +29,7 @@ name</td>
 </tr>
 <tr>
 <td>the atlas</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/atlas/README.md">atlas/</a></td>
+<td>atlas/</td>
 <td>the 2017 atlas: 1,473 artworks, their outlines and the subreddits
 they name</td>
 <td>675 KB</td>
@@ -38,7 +38,7 @@ they name</td>
 </tr>
 <tr>
 <td>the placer accounts</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/users/README.md">users/</a></td>
+<td>users/</td>
 <td>one account: everything it wrote on Reddit in 24 days around the
 canvas</td>
 <td>1,101,801 accounts, about 14 GB</td>
@@ -46,22 +46,21 @@ canvas</td>
 </tr>
 <tr>
 <td>venues, placers only</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/venues-placers/README.md">venues-placers/</a></td>
+<td>venues-placers/</td>
 <td>one subreddit: only what placers wrote there</td>
 <td>50,936 venues, 13.6 GB</td>
 <td>Drive</td>
 </tr>
 <tr>
 <td>venues in full (raw24)</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/raw24/README.md">raw24/</a></td>
+<td>raw24/</td>
 <td>one subreddit: everything anyone wrote there in the 24 days</td>
 <td>24,093 venues, about 51 GB</td>
-<td>Drive (the atlas venues: <a
-href="https://drive.google.com/drive/folders/1itd-IZsAhBq9lMzCnrQERlO2vfxdT9g6">folder</a>)</td>
+<td>not public</td>
 </tr>
 <tr>
 <td>hourly pixels per community</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels-hourly/README.md">pixels-hourly/</a></td>
+<td>pixels-hourly/</td>
 <td>one row per community and hour: placements in its region, by anyone
 and by its own members</td>
 <td>67,907 rows, 1.4 MB</td>
@@ -69,7 +68,7 @@ and by its own members</td>
 </tr>
 <tr>
 <td>pixels per artwork</td>
-<td><a href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/pixels-per-artwork/README.md">pixels-per-artwork/</a></td>
+<td>pixels-per-artwork/</td>
 <td>one artwork: every placement inside its outline; and a 30-minute
 panel per artwork</td>
 <td>23,058,857 rows, 1.1 GB</td>
@@ -117,8 +116,7 @@ serves Reddit's record as it was ingested at the time, before later
 deletions. No key is needed. The pixel record is Reddit's own release,
 on archive.org (the study took the same rows from static.aperiodic.net);
 the usernames behind its hashes are from opl's table on archive.org; the
-atlas is the 2017 place-atlas. The event window is fixed in one file, <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/data/_lib/rplace_window.py">_lib/rplace_window.py</a>: the canvas
+atlas is the 2017 place-atlas. The event window is fixed in one file, _lib/rplace_window.py: the canvas
 opened 2017-03-31 16:00 UTC and froze 2017-04-03 17:00 UTC; the 24 days
 run from a week before to two weeks after.</p>
 <h2 id="tested">Tested</h2>
@@ -163,7 +161,6 @@ for the 740 atlas venues (its script has not been found);
 and the study's copy is on the Drive (<code>raw24/LINK.md</code>).</p>
 <h2 id="terms">Terms</h2>
 <p>The data is public Reddit posting under real account names, and a
-pixel record whose hashes resolve to those names. See <a
-href="https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/Manual/data-and-collection.md#terms-of-use">the Manual's data
-page</a> before publishing anything drawn from it.</p>
-</main><footer><div><a href="../check.html">Check the papers</a><a href="../agents.html">For agents</a><a href="../reference.html">Full reference</a><a href="https://github.com/jparrieta/r-place">Repository</a></div></footer></body></html>
+pixel record whose hashes resolve to those names. See the Manual's data
+page before publishing anything drawn from it.</p>
+</main><footer><div><a href="../check.html">Check the papers</a><a href="../agents.html">For agents</a><a href="../reference.html">Full reference</a><a href="https://github.com/os-fruit-fly/rplace">Repository</a></div></footer></body></html>

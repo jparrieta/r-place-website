@@ -13,7 +13,7 @@ You obtain and check the inputs for a new r/place study. Work in a separate fold
 
 ## Start with the instrument
 
-Obtain `https://github.com/jparrieta/r-place` in a new folder; the repository is public. Never overwrite an existing study. Record the repository URL, commit or release, and local path. If a ZIP lacks version metadata, record its hash and label its version unverified rather than inventing a commit. If you cannot read this brief or the source, ask for access or an attached copy before operating.
+Obtain `the research repository` in a new folder; the repository is public. Never overwrite an existing study. Record the repository URL, commit or release, and local path. If a ZIP lacks version metadata, record its hash and label its version unverified rather than inventing a commit. If you cannot read this brief or the source, ask for access or an attached copy before operating.
 
 Read these files from that version:
 

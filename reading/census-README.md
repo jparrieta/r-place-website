@@ -6,7 +6,7 @@ Links below are resolved against commit `7c788ae58ce0d4ae171d65e7550cf55b83a2262
 
 # The census
 
-The files that decide which communities are rooms. They record judgements, so they cannot be regenerated from downloads; [the census page](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/Manual/census.md) explains each step from 1,473 atlas artworks to 706 communities.
+The files that decide which communities are rooms. They record judgements, so they cannot be regenerated from downloads; the census page explains each step from 1,473 atlas artworks to 706 communities.
 
 | File | What it holds | Kind |
 |----|----|----|
@@ -18,7 +18,7 @@ The files that decide which communities are rooms. They record judgements, so th
 | `validations.jsonl` | rooms whose membership a reading decided, with the evidence: four the screen flagged (27 August 2026), four named on the canvas and the Robin room behind a truncated link (26 September 2026) | judgement |
 | `ROOM-RULES.md` | what counts as a room, rule by rule, for this yard and for venues_yard; the 706 rooms and the 71 discarded rows by Reddit's own name and id, and the links and makers that name no community (2026-10-04) | the rules stated; names from each venue's record |
 | `ROOM-LIST.tsv` | the same lists, one line per name: reddit_name, subreddit_id, census_sub, status, coded, in_yard, disposition, why, name_source | data |
-| `artworks_outside_population.csv` | the atlas artworks that credited none of the population on 26 September 2026 (312; three have since moved to r/TheFarLeftSide, and two more left on 4 October 2026 with r/lehigh and r/upvote, \#1725 and \#1250, not added as rows): why each is outside, its size, overlap with credited artworks, surviving-pixel authors, and a `kind` read from its description ([the report](https://github.com/jparrieta/r-place/blob/7c788ae58ce0d4ae171d65e7550cf55b83a22624/Manual/artworks-outside-the-population.md)) | counts from the atlas and the placement record, plus a judgement (`kind`) |
+| `artworks_outside_population.csv` | the atlas artworks that credited none of the population on 26 September 2026 (312; three have since moved to r/TheFarLeftSide, and two more left on 4 October 2026 with r/lehigh and r/upvote, \#1725 and \#1250, not added as rows): why each is outside, its size, overlap with credited artworks, surviving-pixel authors, and a `kind` read from its description (the report) | counts from the atlas and the placement record, plus a judgement (`kind`) |
 
 Built 27 August 2026 and rebuilt 26 September 2026 (two records collected again, three links resolved, four communities from the canvas) by `build_master_census.py` and its three companions, in [builders/](census-builders.md) with the run order and what a rerun needs. A handler starting a yard takes the rooms with `handable = 1`.
 

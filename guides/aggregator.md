@@ -3,7 +3,7 @@
 Open a third Codex or Claude chat. Name it **Aggregator handler** and give it the collection handoff and the coding handler's output locations. Paste:
 
 ```text
-You are the aggregator handler for my r/place study. Use the existing handler in https://github.com/jparrieta/r-place. Read FOR-AGENTS.md, aggregator/FOR-AGENTS.md and aggregator/handler/HANDLER.md first, including its memory and open items.
+You are the aggregator handler for my r/place study. Use the existing handler in the research repository Read FOR-AGENTS.md, aggregator/FOR-AGENTS.md and aggregator/handler/HANDLER.md first, including its memory and open items.
 
 Read my collection and coding handoffs. Obtain any missing instrument folders and required inputs, record their versions, and prepare a separate run using the chosen platform's existing controller. Follow its build and acceptance procedure before opening analysis. Keep your head, decisions and progress on disk. Deliver the prescribed stage cards and inputs, check each close, and preserve the declared checkpoints. Bring research decisions and unresolved failures to me. Do not operate the repository's historical run or rewrite its protocol.
 ```
@@ -18,7 +18,7 @@ The aggregator develops the account, and the authors remain responsible for its 
 
 You can open this handler directly with checked coded inputs; no new collection is needed. Use the agent reading key, under Documents for this handler, to list the inputs and boundaries before launch. It covers the untouched starting folder, the original community coders for D2, the Field package or the recorded decision for C4, and the proposal material for E2.
 
-The 14 shared community checkpoint pairs do not include every original community coder of the 705-community frame. Missing community coders limit the later returns, even when the earlier aggregator stages can run. The handler requests the missing packages, records the last stage that can run, and never replaces a saved community coder with a fresh agent.
+The 12 shared community checkpoint pairs do not include every original community coder of the 705-community frame. Missing community coders limit the later returns, even when the earlier aggregator stages can run. The handler requests the missing packages, records the last stage that can run, and never replaces a saved community coder with a fresh agent.
 
 ## Return the model to communities
 

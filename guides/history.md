@@ -72,7 +72,7 @@ B1b-32, B1d-07 and B1e predate the 11 October amendment. B1e closed at 14:49Z; d
 
 Decision row 96 introduced B4's three-placement rule on 12 October. The 21:19Z handler delivery explicitly opens B4a-01 under that amendment. The saved notes record its use. A further ruling changed packet 4 from item 401 and sent earlier affected rulings back at B4a-05. So the B4a-07, B4b-p4 and B4c checkpoints follow those changes, and the delivered amendments are recorded in the handler's deliveries; the original stage-file hash does not include them. This review did not reconstruct every tool read of every intermediate leg.
 
-Evidence: [exact selected decision rows](../history-evidence/handler-decisions.tsv), [dated handler deliveries](../history-evidence/amendment-deliveries.jsonl), and [notes-B4 at the B4c source commit](https://github.com/jparrieta/r-place/blob/3bbef7ebf1a23d8ea0d051c18d0ef83dab9037f0/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-B4.md). The delivery's label can name the outgoing leg; its text names the incoming leg.
+Evidence: [exact selected decision rows](../history-evidence/handler-decisions.tsv), [dated handler deliveries](../history-evidence/amendment-deliveries.jsonl), and notes-B4 at the B4c source commit. The delivery's label can name the outgoing leg; its text names the incoming leg.
 
 ## Release access
 

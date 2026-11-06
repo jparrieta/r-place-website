@@ -6,7 +6,7 @@ The default launch command uses the original GitHub record wherever a checkpoint
 
 ## Two sources, one saved state
 
-1. **Original GitHub files.** Git fetches the recorded commit from `jparrieta/r-place`. For aggregator checkpoints, this includes the main conversation and the matching research files. Community coding files come from the unchanged `materials.tar.zst` and `run.tar.zst` archives at their original repository paths, or from the regular files beside them.
+1. **Original GitHub files.** Git fetches the recorded commit from `the research repository`. For aggregator checkpoints, this includes the main conversation and the matching research files. Community coding files come from the unchanged `materials.tar.zst` and `run.tar.zst` archives at their original repository paths, or from the regular files beside them.
 2. **Declared supplements.** Files absent from that commit, or saved before their published version changed, come from an existing verified checkpoint archive. These include runtime state, unpublished conversation history and community R6 outputs. Community native conversations come from their saved-session archives, not Git-tracked transcripts. The recipe names each exception and its reason.
 
 The supplement cannot replace a failed Git fetch or a mismatched original file. Restoration stops instead. Every restored file must match the accepted checkpoint's SHA-256, size and permissions. Directory modes, internal links and native session identity are checked too. The existing native interview proof applies to that exact saved state. Restoration makes no model call.

@@ -50,10 +50,10 @@ Never delete an uncompressed store for a genuinely live worker.
 
 The live yard is:
 
-`/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30`
+`~/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30`
 
 Repair scripts must derive the yard root from their own `_tools` location. Do not reintroduce
-absolute references to `/Users/arrieta/Documents/Codex/rplace/atlas_yard` in repair-control code.
+absolute references to `~/Documents/Codex/rplace/atlas_yard` in repair-control code.
 
 Old archived case-lead stores may contain runtime descriptors and checkpoint manifests with the
 old path. On restore, update `STORE.json`, `state/runtime.json`, and saved runtime evidence to the
