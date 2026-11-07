@@ -1,9 +1,0 @@
-{
-  "event": "Interactive test CLI auto-updated its default symlink",
-  "previous_selection": "2.1.300",
-  "unrequested_update": "2.1.318",
-  "default_selection_restored": "2.1.300",
-  "new_binary_preserved": true,
-  "launcher_fix": "DISABLE_AUTOUPDATER=1 for login and interview subprocesses",
-  "utc": "2026-11-04T10:07:17.287338+00:00"
-}
